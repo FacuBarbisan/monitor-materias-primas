@@ -1,0 +1,4435 @@
+{
+ "generado": "2026-10-24T21:35:34.685Z",
+ "diasRetencion": 10,
+ "modoPrueba": false,
+ "catalogo": {
+  "regiones": {
+   "na": "América del Norte",
+   "latam": "América Latina y el Caribe",
+   "eu": "Europa",
+   "me": "Medio Oriente y Norte de África",
+   "af": "África subsahariana",
+   "as": "Asia-Pacífico",
+   "eurasia": "Rusia y Asia Central",
+   "global": "Global / multilateral"
+  },
+  "paises": [
+   {
+    "id": "us",
+    "nombre": "Estados Unidos",
+    "region": "na"
+   },
+   {
+    "id": "ca",
+    "nombre": "Canadá",
+    "region": "na"
+   },
+   {
+    "id": "mx",
+    "nombre": "México",
+    "region": "latam"
+   },
+   {
+    "id": "ar",
+    "nombre": "Argentina",
+    "region": "latam"
+   },
+   {
+    "id": "br",
+    "nombre": "Brasil",
+    "region": "latam"
+   },
+   {
+    "id": "cl",
+    "nombre": "Chile",
+    "region": "latam"
+   },
+   {
+    "id": "pe",
+    "nombre": "Perú",
+    "region": "latam"
+   },
+   {
+    "id": "co",
+    "nombre": "Colombia",
+    "region": "latam"
+   },
+   {
+    "id": "ve",
+    "nombre": "Venezuela",
+    "region": "latam"
+   },
+   {
+    "id": "ec",
+    "nombre": "Ecuador",
+    "region": "latam"
+   },
+   {
+    "id": "bo",
+    "nombre": "Bolivia",
+    "region": "latam"
+   },
+   {
+    "id": "uy",
+    "nombre": "Uruguay",
+    "region": "latam"
+   },
+   {
+    "id": "py",
+    "nombre": "Paraguay",
+    "region": "latam"
+   },
+   {
+    "id": "cu",
+    "nombre": "Cuba",
+    "region": "latam"
+   },
+   {
+    "id": "pa",
+    "nombre": "Panamá",
+    "region": "latam"
+   },
+   {
+    "id": "gy",
+    "nombre": "Guyana",
+    "region": "latam"
+   },
+   {
+    "id": "fk",
+    "nombre": "Islas Malvinas / Falklands",
+    "region": "latam"
+   },
+   {
+    "id": "gb",
+    "nombre": "Reino Unido",
+    "region": "eu"
+   },
+   {
+    "id": "eu",
+    "nombre": "Unión Europea / zona euro",
+    "region": "eu"
+   },
+   {
+    "id": "de",
+    "nombre": "Alemania",
+    "region": "eu"
+   },
+   {
+    "id": "fr",
+    "nombre": "Francia",
+    "region": "eu"
+   },
+   {
+    "id": "it",
+    "nombre": "Italia",
+    "region": "eu"
+   },
+   {
+    "id": "es",
+    "nombre": "España",
+    "region": "eu"
+   },
+   {
+    "id": "nl",
+    "nombre": "Países Bajos",
+    "region": "eu"
+   },
+   {
+    "id": "no",
+    "nombre": "Noruega",
+    "region": "eu"
+   },
+   {
+    "id": "pl",
+    "nombre": "Polonia",
+    "region": "eu"
+   },
+   {
+    "id": "ua",
+    "nombre": "Ucrania",
+    "region": "eu"
+   },
+   {
+    "id": "tr",
+    "nombre": "Turquía",
+    "region": "me"
+   },
+   {
+    "id": "ru",
+    "nombre": "Rusia",
+    "region": "eurasia"
+   },
+   {
+    "id": "kz",
+    "nombre": "Kazajistán",
+    "region": "eurasia"
+   },
+   {
+    "id": "sa",
+    "nombre": "Arabia Saudita",
+    "region": "me"
+   },
+   {
+    "id": "ae",
+    "nombre": "Emiratos Árabes Unidos",
+    "region": "me"
+   },
+   {
+    "id": "qa",
+    "nombre": "Qatar",
+    "region": "me"
+   },
+   {
+    "id": "ir",
+    "nombre": "Irán",
+    "region": "me"
+   },
+   {
+    "id": "iq",
+    "nombre": "Irak",
+    "region": "me"
+   },
+   {
+    "id": "il",
+    "nombre": "Israel",
+    "region": "me"
+   },
+   {
+    "id": "ps",
+    "nombre": "Palestina",
+    "region": "me"
+   },
+   {
+    "id": "sy",
+    "nombre": "Siria",
+    "region": "me"
+   },
+   {
+    "id": "lb",
+    "nombre": "Líbano",
+    "region": "me"
+   },
+   {
+    "id": "ye",
+    "nombre": "Yemen",
+    "region": "me"
+   },
+   {
+    "id": "eg",
+    "nombre": "Egipto",
+    "region": "me"
+   },
+   {
+    "id": "ly",
+    "nombre": "Libia",
+    "region": "me"
+   },
+   {
+    "id": "dz",
+    "nombre": "Argelia",
+    "region": "me"
+   },
+   {
+    "id": "ng",
+    "nombre": "Nigeria",
+    "region": "af"
+   },
+   {
+    "id": "ao",
+    "nombre": "Angola",
+    "region": "af"
+   },
+   {
+    "id": "za",
+    "nombre": "Sudáfrica",
+    "region": "af"
+   },
+   {
+    "id": "gh",
+    "nombre": "Ghana",
+    "region": "af"
+   },
+   {
+    "id": "cd",
+    "nombre": "R. D. del Congo",
+    "region": "af"
+   },
+   {
+    "id": "et",
+    "nombre": "Etiopía",
+    "region": "af"
+   },
+   {
+    "id": "ke",
+    "nombre": "Kenia",
+    "region": "af"
+   },
+   {
+    "id": "mg",
+    "nombre": "Madagascar",
+    "region": "af"
+   },
+   {
+    "id": "cn",
+    "nombre": "China",
+    "region": "as"
+   },
+   {
+    "id": "hk",
+    "nombre": "Hong Kong",
+    "region": "as"
+   },
+   {
+    "id": "tw",
+    "nombre": "Taiwán",
+    "region": "as"
+   },
+   {
+    "id": "jp",
+    "nombre": "Japón",
+    "region": "as"
+   },
+   {
+    "id": "kr",
+    "nombre": "Corea del Sur",
+    "region": "as"
+   },
+   {
+    "id": "kp",
+    "nombre": "Corea del Norte",
+    "region": "as"
+   },
+   {
+    "id": "in",
+    "nombre": "India",
+    "region": "as"
+   },
+   {
+    "id": "pk",
+    "nombre": "Pakistán",
+    "region": "as"
+   },
+   {
+    "id": "id",
+    "nombre": "Indonesia",
+    "region": "as"
+   },
+   {
+    "id": "my",
+    "nombre": "Malasia",
+    "region": "as"
+   },
+   {
+    "id": "ph",
+    "nombre": "Filipinas",
+    "region": "as"
+   },
+   {
+    "id": "vn",
+    "nombre": "Vietnam",
+    "region": "as"
+   },
+   {
+    "id": "th",
+    "nombre": "Tailandia",
+    "region": "as"
+   },
+   {
+    "id": "sg",
+    "nombre": "Singapur",
+    "region": "as"
+   },
+   {
+    "id": "tl",
+    "nombre": "Timor-Leste",
+    "region": "as"
+   },
+   {
+    "id": "au",
+    "nombre": "Australia",
+    "region": "as"
+   }
+  ],
+  "materias": [
+   {
+    "id": "oro",
+    "nombre": "Oro"
+   },
+   {
+    "id": "plata",
+    "nombre": "Plata"
+   },
+   {
+    "id": "petroleo",
+    "nombre": "Petróleo (WTI / Brent)"
+   },
+   {
+    "id": "gas",
+    "nombre": "Gas natural"
+   },
+   {
+    "id": "cobre",
+    "nombre": "Cobre"
+   },
+   {
+    "id": "litio",
+    "nombre": "Litio"
+   },
+   {
+    "id": "granos",
+    "nombre": "Granos y alimentos"
+   }
+  ],
+  "temas": [
+   {
+    "id": "inflacion",
+    "nombre": "Inflación"
+   },
+   {
+    "id": "politica_monetaria",
+    "nombre": "Tasas y bancos centrales"
+   },
+   {
+    "id": "empleo",
+    "nombre": "Empleo"
+   },
+   {
+    "id": "actividad",
+    "nombre": "Actividad económica"
+   },
+   {
+    "id": "politica_fiscal",
+    "nombre": "Gobierno y política fiscal"
+   },
+   {
+    "id": "conflicto",
+    "nombre": "Conflictos y seguridad"
+   },
+   {
+    "id": "sanciones",
+    "nombre": "Sanciones"
+   },
+   {
+    "id": "aranceles",
+    "nombre": "Aranceles y medidas comerciales"
+   },
+   {
+    "id": "comercio",
+    "nombre": "Comercio y acuerdos"
+   },
+   {
+    "id": "energia",
+    "nombre": "Energía (producción y demanda)"
+   },
+   {
+    "id": "mineria",
+    "nombre": "Minería y metales"
+   },
+   {
+    "id": "inventarios",
+    "nombre": "Inventarios y reservas"
+   },
+   {
+    "id": "transporte",
+    "nombre": "Transporte marítimo y rutas"
+   },
+   {
+    "id": "clima",
+    "nombre": "Clima y desastres"
+   }
+  ],
+  "fuentes": [
+   {
+    "id": "bbc_business",
+    "nombre": "BBC News – Business",
+    "tipo": "periodistica"
+   },
+   {
+    "id": "bbc_mundo",
+    "nombre": "BBC News Mundo",
+    "tipo": "periodistica"
+   },
+   {
+    "id": "dw_es",
+    "nombre": "DW Español",
+    "tipo": "periodistica"
+   },
+   {
+    "id": "f24_economia",
+    "nombre": "France 24 Español – Economía",
+    "tipo": "periodistica"
+   },
+   {
+    "id": "f24_latam",
+    "nombre": "France 24 Español – América Latina",
+    "tipo": "periodistica"
+   },
+   {
+    "id": "aljazeera",
+    "nombre": "Al Jazeera English",
+    "tipo": "periodistica"
+   },
+   {
+    "id": "scmp_business",
+    "nombre": "South China Morning Post – Business",
+    "tipo": "periodistica"
+   },
+   {
+    "id": "scmp_china",
+    "nombre": "South China Morning Post – China",
+    "tipo": "periodistica"
+   },
+   {
+    "id": "mercopress",
+    "nombre": "MercoPress – Economy",
+    "tipo": "periodistica"
+   },
+   {
+    "id": "eia_tie",
+    "nombre": "EIA – Today in Energy",
+    "tipo": "oficial"
+   },
+   {
+    "id": "eia_press",
+    "nombre": "EIA – Comunicados de prensa",
+    "tipo": "oficial"
+   },
+   {
+    "id": "fed",
+    "nombre": "Reserva Federal de EE. UU. – Comunicados",
+    "tipo": "oficial"
+   },
+   {
+    "id": "ecb",
+    "nombre": "Banco Central Europeo – Prensa y discursos",
+    "tipo": "oficial"
+   },
+   {
+    "id": "wto",
+    "nombre": "OMC (WTO) – Noticias",
+    "tipo": "oficial"
+   },
+   {
+    "id": "onu_economia",
+    "nombre": "Noticias ONU – Desarrollo económico",
+    "tipo": "oficial"
+   }
+  ]
+ },
+ "items": [
+  {
+   "id": "6e0345fb0a82",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
+   "link": "https://www.aljazeera.com/news/2026/10/24/houthis-launch-attacks-on-saudi-arabia-and-yemens-aden?traffic_source=rss",
+   "fecha": "2026-10-24T21:08:51.000Z",
+   "obtenido": "2026-10-24T21:35:32.636Z",
+   "fechaEstimada": false,
+   "extracto": "Houthi missiles reportedly struck a number of targets in Yemen, including Aden's airport and a coastguard base.",
+   "paises": [
+    "sa",
+    "ye"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g6e0345fb0a82"
+  },
+  {
+   "id": "8c8987787069",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Could Israel’s military crackdown influence Tuesday’s election?",
+   "link": "https://www.aljazeera.com/video/inside-story/2026/10/24/could-israels-military-crackdown-influence-tuesdays-election?traffic_source=rss",
+   "fecha": "2026-10-24T20:37:02.000Z",
+   "obtenido": "2026-10-24T21:35:32.637Z",
+   "fechaEstimada": false,
+   "extracto": "Israel preparing a full lockdown of occupied West Bank after Hebron gunfight.",
+   "paises": [
+    "il",
+    "ps"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g8c8987787069"
+  },
+  {
+   "id": "801037282c5a",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "About 25,000 rally in Madrid in support of Spain’s state pension scheme",
+   "link": "https://www.aljazeera.com/news/2026/10/24/about-25000-rally-in-madrid-in-support-of-spains-state-pension-scheme?traffic_source=rss",
+   "fecha": "2026-10-24T16:48:36.000Z",
+   "obtenido": "2026-10-24T21:35:32.638Z",
+   "fechaEstimada": false,
+   "extracto": "Demonstrators want pensions to remain indexed to inflation and the gender pension gap to be eliminated.",
+   "paises": [
+    "es"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "temas": [
+    "inflacion"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g801037282c5a"
+  },
+  {
+   "id": "901635416ac3",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Full lockdown of occupied West Bank begins",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/24/full-lockdown-of-occupied-west-bank-begins-2?traffic_source=rss",
+   "fecha": "2026-10-24T14:24:19.000Z",
+   "obtenido": "2026-10-24T21:35:32.640Z",
+   "fechaEstimada": false,
+   "extracto": "The Israeli army begins its lockdown and military operations across the West Bank.",
+   "paises": [
+    "il",
+    "ps"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g901635416ac3"
+  },
+  {
+   "id": "845e130d11b8",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Ukraine says Starlink restored as attacks continue in Russia and Ukraine",
+   "link": "https://www.aljazeera.com/news/2026/10/24/ukraine-says-starlink-restored-as-attacks-continue-in-russia-and-ukraine?traffic_source=rss",
+   "fecha": "2026-10-24T14:23:40.000Z",
+   "obtenido": "2026-10-24T21:35:32.640Z",
+   "fechaEstimada": false,
+   "extracto": "Negotiators from Ukraine, Russia and the US are expected to meet in Abu Dhabi next month.",
+   "paises": [
+    "ua",
+    "ru",
+    "ae",
+    "us"
+   ],
+   "regiones": [
+    "eu",
+    "eurasia",
+    "me",
+    "na"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g845e130d11b8"
+  },
+  {
+   "id": "4a0662007168",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Sudan’s soaring fuel prices make getting by harder for workers",
+   "link": "https://www.aljazeera.com/economy/2026/10/24/sudans-soaring-fuel-prices-makes-getting-by-harder-for-workers?traffic_source=rss",
+   "fecha": "2026-10-24T13:51:08.000Z",
+   "obtenido": "2026-10-24T21:35:32.641Z",
+   "fechaEstimada": false,
+   "extracto": "Sudan is suffering from a cost-of-living crisis affecting millions across the country.",
+   "paises": [],
+   "regiones": [],
+   "materias": [
+    "petroleo"
+   ],
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "g4a0662007168"
+  },
+  {
+   "id": "6cf54f9a7d74",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Israel cierra accesos a Hebrón y desplaza familias en represalia por el ataque palestino de ayer",
+   "link": "https://www.dw.com/es/israel-cierra-accesos-a-hebrón-y-desplaza-familias-en-represalia-por-el-ataque-palestino-de-ayer/a-79750727?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-24T13:15:00.000Z",
+   "obtenido": "2026-10-24T21:35:32.829Z",
+   "fechaEstimada": false,
+   "extracto": "Las fuerzas israelíes responden a la muerte ayer de dos soldados con una operación que el propio Benjamín Netanyahu comparó a la ocupación de Cisjordania durante la Guerra de los Seis Días.",
+   "paises": [
+    "il",
+    "ps"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g6cf54f9a7d74"
+  },
+  {
+   "id": "43d3564b0a69",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Ukraine’s Starlink woes should be a wake-up call for Taiwan, analysts say",
+   "link": "https://www.scmp.com/news/china/military/article/3372016/ukraines-starlink-woes-should-be-wake-call-taiwan-analysts-say",
+   "fecha": "2026-10-24T12:00:14.000Z",
+   "obtenido": "2026-10-24T21:35:33.186Z",
+   "fechaEstimada": false,
+   "extracto": "Taiwan should not rely on a single foreign satellite provider for critical wartime communications, analysts have warned, after sudden restrictions on the use of Elon Musk’s Starlink disrupted Ukrainian drone operations. The episode has renewed debate in Taiwan over the risks of entrusting essential communications to…",
+   "paises": [
+    "ua",
+    "tw"
+   ],
+   "regiones": [
+    "eu",
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g43d3564b0a69"
+  },
+  {
+   "id": "7fcc33e2ae8e",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Thousands evacuated and flights grounded as Typhoon Champi hits eastern China",
+   "link": "https://www.scmp.com/news/china/politics/article/3372015/thousands-evacuated-and-flights-grounded-typhoon-champi-hits-eastern-china",
+   "fecha": "2026-10-24T09:00:14.000Z",
+   "obtenido": "2026-10-24T21:35:33.187Z",
+   "fechaEstimada": false,
+   "extracto": "Typhoon Champi continued to batter China’s eastern coast on Saturday, grounding over a hundred flights and prompting the authorities to relocate tens of thousands of people, while weakening as it moved towards Japan. Flights from airports in Shanghai as well as Fujian and Zhejiang provinces were grounded. China…",
+   "paises": [
+    "cn",
+    "jp"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g7fcc33e2ae8e"
+  },
+  {
+   "id": "bb9c66460354",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Kim Jong-un viaja a China por un puente recién inaugurado, según Seúl",
+   "link": "https://www.dw.com/es/kim-jong-un-viaja-a-china-por-un-puente-recién-inaugurado-según-seúl/a-79749031?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-24T08:09:00.000Z",
+   "obtenido": "2026-10-24T21:35:32.830Z",
+   "fechaEstimada": false,
+   "extracto": "El líder norcoreano habría viajado, según fuentes surcoreanas, en una visita sorpresa a la ciudad fronteriza de Dandong coincidiendo con el aniversario de la Guerra de Corea.",
+   "paises": [
+    "cn",
+    "kr",
+    "kp"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gbb9c66460354"
+  },
+  {
+   "id": "8503803128cb",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Maven: la herramienta de IA que Estados Unidos comparte con Arabia Saudita",
+   "link": "https://www.dw.com/es/maven-la-herramienta-de-ia-que-estados-unidos-comparte-con-arabia-saudita/a-79747682?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-24T06:27:00.000Z",
+   "obtenido": "2026-10-24T21:35:32.831Z",
+   "fechaEstimada": false,
+   "extracto": "EE. UU. proporciona a Arabia Saudita tecnología de inteligencia artificial para identificar objetivos militares en Yemen. Sin embargo, su eficacia contra los hutíes y el riesgo para la población civil generan dudas.",
+   "paises": [
+    "us",
+    "sa",
+    "ye"
+   ],
+   "regiones": [
+    "na",
+    "me"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto",
+    "sanciones"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g8503803128cb"
+  },
+  {
+   "id": "10e869134844",
+   "fuente": "scmp_business",
+   "fuenteNombre": "South China Morning Post – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "HSBC to open new wealth centre in Abu Dhabi despite regional conflict",
+   "link": "https://www.scmp.com/business/article/3371958/hsbc-open-new-wealth-centre-abu-dhabi-despite-regional-conflict",
+   "fecha": "2026-10-24T06:00:21.000Z",
+   "obtenido": "2026-10-24T21:35:33.213Z",
+   "fechaEstimada": false,
+   "extracto": "HSBC, the biggest lender in Hong Kong and Europe, will open a new wealth management centre in Abu Dhabi in December, as the lender has not found the conflicts in the Middle East have dampened demand for its wealth business in the region, according to a senior executive. Mohamed Al Marzooqi, CEO of HSBC in the United…",
+   "paises": [
+    "ae",
+    "hk"
+   ],
+   "regiones": [
+    "me",
+    "as",
+    "eu"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g10e869134844"
+  },
+  {
+   "id": "23d46987719e",
+   "fuente": "ecb",
+   "fuenteNombre": "Banco Central Europeo – Prensa y discursos",
+   "tipoFuente": "oficial",
+   "idioma": "en",
+   "titulo": "Piero Cipollone: Interview with Milano Finanza",
+   "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html",
+   "fecha": "2026-10-24T06:00:00.000Z",
+   "obtenido": "2026-10-24T21:35:34.019Z",
+   "fechaEstimada": false,
+   "extracto": "",
+   "paises": [
+    "eu"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "temas": [
+    "politica_monetaria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g23d46987719e"
+  },
+  {
+   "id": "124186f9595d",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "El tifón Champi deja a miles sin electricidad en Taiwán mientras se aleja y se enfila hacia Japón",
+   "link": "https://www.dw.com/es/el-tifón-champi-deja-a-miles-sin-electricidad-en-taiwán-mientras-se-aleja-y-se-enfila-hacia-japón/a-79748259?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-24T05:51:00.000Z",
+   "obtenido": "2026-10-24T21:35:32.831Z",
+   "fechaEstimada": false,
+   "extracto": "Tras causar un muerto y más de 500 heridos en la isla, el ciclón se dirige hacia el sureste de Japón.",
+   "paises": [
+    "tw",
+    "jp"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "energia",
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g124186f9595d"
+  },
+  {
+   "id": "bb18fe6c1ab8",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Dos explosiones sacuden Riad tras una alerta de ataque",
+   "link": "https://www.dw.com/es/dos-explosiones-sacuden-riad-tras-una-alerta-de-ataque/a-79747889?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-24T03:03:00.000Z",
+   "obtenido": "2026-10-24T21:35:32.831Z",
+   "fechaEstimada": false,
+   "extracto": "La coalición liderada por Arabia Saudita dijo que interceptó un misil lanzado por los hutíes de Yemen.",
+   "paises": [
+    "sa",
+    "ye"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gbb18fe6c1ab8"
+  },
+  {
+   "id": "a732864d1bbe",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "White House lifts tariffs on some Canadian goods as midterm elections loom",
+   "link": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-24T00:36:47.000Z",
+   "obtenido": "2026-10-24T21:35:32.480Z",
+   "fechaEstimada": false,
+   "extracto": "From 30 October, tariffs will be eased on some products, including certain machinery, and placed on others, such as carpets.",
+   "paises": [
+    "ca"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [],
+   "temas": [
+    "aranceles"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "ga732864d1bbe"
+  },
+  {
+   "id": "cd687f2c9b89",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Zelensky hopes Beijing can use ‘influence’ over Moscow to help stop Ukraine war",
+   "link": "https://www.scmp.com/news/china/diplomacy/article/3371987/zelensky-hopes-beijing-can-use-influence-over-moscow-help-stop-ukraine-war",
+   "fecha": "2026-10-23T20:51:17.000Z",
+   "obtenido": "2026-10-24T21:35:33.190Z",
+   "fechaEstimada": false,
+   "extracto": "Ukrainian President Volodymyr Zelensky said on Friday that Beijing has “influence” over Moscow it should use to stop the war in Ukraine, and that a proposed summit meeting of the US, Chinese and Russian leaders must not lead to the division of his war-torn country. Speaking virtually at an event hosted by…",
+   "paises": [
+    "ua",
+    "ru",
+    "cn",
+    "us"
+   ],
+   "regiones": [
+    "eu",
+    "eurasia",
+    "as",
+    "na"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gcd687f2c9b89"
+  },
+  {
+   "id": "00e84614ccd6",
+   "fuente": "f24_economia",
+   "fuenteNombre": "France 24 Español – Economía",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Brasil llega a la transición presidencial: crisis de endeudamiento y una economía que pierde impulso",
+   "link": "https://www.france24.com/es/programas/econom%C3%ADa/20261023-brasil-llega-a-la-transici%C3%B3n-presidencial-crisis-de-endeudamiento-y-una-econom%C3%ADa-que-pierde-impulso",
+   "fecha": "2026-10-23T17:25:41.000Z",
+   "obtenido": "2026-10-24T21:35:33.397Z",
+   "fechaEstimada": false,
+   "extracto": "El próximo Gobierno brasileño heredará una economía marcada por un déficit fiscal cercano al 9,5% y una deuda pública que ronda el 83% del PIB y una inflación anual del 4,58%. Con las tasas de interés alrededor del 14% y el crecimiento económico desacelerándose, el saneamiento de las cuentas públicas será uno de los…",
+   "paises": [
+    "br"
+   ],
+   "regiones": [
+    "latam"
+   ],
+   "materias": [],
+   "temas": [
+    "inflacion",
+    "politica_monetaria",
+    "actividad",
+    "politica_fiscal"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g00e84614ccd6"
+  },
+  {
+   "id": "0e77d63cd38b",
+   "fuente": "f24_latam",
+   "fuenteNombre": "France 24 Español – América Latina",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "México: científicos y pescadores protegen un bosque submarino frente al fenómeno de El Niño",
+   "link": "https://www.france24.com/es/video/20261023-m%C3%A9xico-cient%C3%ADficos-y-pescadores-protegen-un-bosque-submarino-frente-al-fen%C3%B3meno-de-el-ni%C3%B1o",
+   "fecha": "2026-10-23T17:09:52.000Z",
+   "obtenido": "2026-10-24T21:35:32.559Z",
+   "fechaEstimada": false,
+   "extracto": "Este equipo de buceadores se sumerge en el Pacífico mexicano y sigue a nado el tallo de un alga gigante. Se trata de científicos y pescadores que intentan ampliar un bosque submarino para salvarlo de los efectos devastadores del fenómeno de El Niño.",
+   "paises": [
+    "mx"
+   ],
+   "regiones": [
+    "latam",
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g0e77d63cd38b"
+  },
+  {
+   "id": "7148f32e30ed",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Sri Lanka: la muerte de un elefante emblemático reaviva la preocupación por la pérdida de hábitat",
+   "link": "https://www.dw.com/es/sri-lanka-la-muerte-de-un-elefante-emblemático-reaviva-la-preocupación-por-la-pérdida-de-hábitat/a-79746520?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-23T16:48:00.000Z",
+   "obtenido": "2026-10-24T21:35:32.833Z",
+   "fechaEstimada": false,
+   "extracto": "La muerte del elefante más grande de Sri Lanka ha puesto de relieve el conflicto entre humanos y elefantes en las comunidades rurales. El país registra un elevado número de encuentros mortales para ambas partes cada año.",
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g7148f32e30ed"
+  },
+  {
+   "id": "5a6860b10290",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Harry Kane, favorito al Balón de Oro con el Bayern de Múnich",
+   "link": "https://www.dw.com/es/harry-kane-favorito-al-balón-de-oro-con-el-bayern-de-múnich/a-79746530?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-23T16:46:00.000Z",
+   "obtenido": "2026-10-24T21:35:32.833Z",
+   "fechaEstimada": false,
+   "extracto": "Harry Kane es el favorito al Balón de Oro tras marcar 73 goles con el Bayern de Múnich e Inglaterra la pasada temporada. Si gana, pondrá fin a décadas de sequía para el club y la Bundesliga.",
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "temas": [
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g5a6860b10290"
+  },
+  {
+   "id": "578cd4bb58f0",
+   "fuente": "bbc_mundo",
+   "fuenteNombre": "BBC News Mundo",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "\"Me avergüenza trabajar en Google\": los empleados que renuncian por el desarrollo de la IA con fines militares",
+   "link": "https://www.bbc.com/mundo/articles/cxg5j1d93993o?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-23T16:03:16.000Z",
+   "obtenido": "2026-10-24T21:35:32.622Z",
+   "fechaEstimada": false,
+   "extracto": "La BBC entrevistó a varios empleados actuales y antiguos de Google DeepMind que han dejado sus puestos por su rechazo a cómo la compañía impulsa el uso de sus productos de IA en contextos bélicos.",
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g578cd4bb58f0"
+  },
+  {
+   "id": "ec8832f93c4f",
+   "fuente": "bbc_mundo",
+   "fuenteNombre": "BBC News Mundo",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Francia investiga como \"terrorismo\" un tiroteo mortal cerca de París",
+   "link": "https://www.bbc.com/mundo/articles/c6pwgkqq8p75o?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-23T15:59:31.000Z",
+   "obtenido": "2026-10-24T21:35:32.627Z",
+   "fechaEstimada": false,
+   "extracto": "Una persona murió y cinco resultaron heridas, tres de ellas graves, en una serie de ataques, y el presunto autor de los disparos fue detenido.",
+   "paises": [
+    "fr"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gec8832f93c4f"
+  },
+  {
+   "id": "289a60c343c3",
+   "fuente": "bbc_mundo",
+   "fuenteNombre": "BBC News Mundo",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "\"Solo piel y huesos\": los gemelos recién nacidos que tratan de sobrevivir a la guerra y el hambre en Yemen",
+   "link": "https://www.bbc.com/mundo/articles/crz658114vvqo?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-23T15:21:10.000Z",
+   "obtenido": "2026-10-24T21:35:32.620Z",
+   "fechaEstimada": false,
+   "extracto": "La familia de los hermanos Raghad y Raad tuvo que huir de su casa a pie debido a los combates entre las fuerzas progubernamentales y los hutíes.",
+   "paises": [
+    "ye"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g289a60c343c3"
+  },
+  {
+   "id": "4892ae6e7913",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Civil servant who juggled five jobs says he was 'surprised' to be charged with fraud",
+   "link": "https://www.bbc.co.uk/news/articles/c6lykzwjkj1eo?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-23T15:15:13.000Z",
+   "obtenido": "2026-10-24T21:35:32.480Z",
+   "fechaEstimada": false,
+   "extracto": "Kashim Chowdhury denied being dishonest when not telling employers he had other jobs.",
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "temas": [
+    "empleo"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g4892ae6e7913"
+  },
+  {
+   "id": "d5ce60bdd6f9",
+   "fuente": "scmp_business",
+   "fuenteNombre": "South China Morning Post – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Hong Kong burnishes gold hub credentials with local refineries deal",
+   "link": "https://www.scmp.com/business/banking-finance/article/3371968/hong-kong-burnishes-gold-hub-credentials-local-refineries-deal",
+   "fecha": "2026-10-23T13:36:12.000Z",
+   "obtenido": "2026-10-24T21:35:33.214Z",
+   "fechaEstimada": false,
+   "extracto": "Hong Kong has taken another step towards building itself into an international gold trading hub, after confirming deals that will see gold refineries localise production in the city. The addition of the local refineries will allow Hong Kong to form a complete gold trading ecosystem, boosting belief in the city’s…",
+   "paises": [
+    "hk"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [
+    "oro",
+    "petroleo"
+   ],
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "gd5ce60bdd6f9"
+  },
+  {
+   "id": "aa38aa612f55",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Europe considers new quotas and tariffs to stem Chinese imports",
+   "link": "https://www.scmp.com/news/china/diplomacy/article/3371962/france-certain-united-front-germany-pushed-china-hybrid-car-deal",
+   "fecha": "2026-10-23T13:00:20.000Z",
+   "obtenido": "2026-10-24T21:35:33.192Z",
+   "fechaEstimada": false,
+   "extracto": "The European Union may hit more Chinese industries with quotas or tariffs before further negotiations with Beijing, the bloc’s trade chief said on Friday, naming plastics as a sector in which investigations are advanced. Maros Sefcovic said that when the bloc needs to move quickly to protect its industries, it will…",
+   "paises": [
+    "eu",
+    "cn"
+   ],
+   "regiones": [
+    "eu",
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "aranceles",
+    "comercio"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gaa38aa612f55"
+  },
+  {
+   "id": "bf152d7d641b",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "What Beijing’s 2-to-1 shipbuilding lead means for the US in war over Taiwan",
+   "link": "https://www.scmp.com/news/china/military/article/3371951/what-beijings-two-one-shipbuilding-lead-means-us-war-over-taiwan",
+   "fecha": "2026-10-23T12:00:06.000Z",
+   "obtenido": "2026-10-24T21:35:33.193Z",
+   "fechaEstimada": false,
+   "extracto": "Mainland Chinese shipyards delivered more than twice as much naval tonnage as their US counterparts in 2024 and 2025, according to a new survey, exposing a growing production gap that analysts say could weigh heavily in a prolonged conflict over Taiwan. Tonnage alone is an imperfect measure of naval power, specialists…",
+   "paises": [
+    "cn",
+    "tw",
+    "us"
+   ],
+   "regiones": [
+    "as",
+    "na"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gbf152d7d641b"
+  },
+  {
+   "id": "5580b3e486b7",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Island inflation rate rises to 3%, figures show",
+   "link": "https://www.bbc.co.uk/news/articles/cmz6581p1ee8o?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-23T11:58:19.000Z",
+   "obtenido": "2026-10-24T21:35:32.524Z",
+   "fechaEstimada": false,
+   "extracto": "The rising cost of food and alcohol drives an increase in the inflation rate, figures show.",
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "temas": [
+    "inflacion"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g5580b3e486b7"
+  },
+  {
+   "id": "dd38e45cbf9f",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Japan’s university defence bids surge as post-war taboo fades amid China concerns",
+   "link": "https://www.scmp.com/news/china/military/article/3371931/japans-university-defence-bids-surge-post-war-taboo-fades-amid-china-concerns",
+   "fecha": "2026-10-23T09:31:50.000Z",
+   "obtenido": "2026-10-24T21:35:33.194Z",
+   "fechaEstimada": false,
+   "extracto": "Japanese universities and other educational institutions more than doubled their applications for defence ministry research funding this year to a record 291, up from 123 last year, as Tokyo moves to strengthen its defences. The increase is the clearest sign yet that academia’s decades-long resistance to…",
+   "paises": [
+    "cn",
+    "jp"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gdd38e45cbf9f"
+  },
+  {
+   "id": "dc2a64a01685",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan",
+   "link": "https://www.scmp.com/news/china/politics/article/3371901/typhoon-champi-grounds-hundreds-flights-taiwan-threatens-eastern-mainland-china",
+   "fecha": "2026-10-23T08:00:39.000Z",
+   "obtenido": "2026-10-24T21:35:33.195Z",
+   "fechaEstimada": false,
+   "extracto": "Flight disruptions and cancellations surged across East Asia as Typhoon Champi approached Taiwan on Friday, prompting emergency precautions in eastern mainland China, including Shanghai, and in Japan during a large-scale joint military drill with the US. Taiwan’s transport ministry said 262 local flights and 715…",
+   "paises": [
+    "cn",
+    "tw",
+    "jp",
+    "us"
+   ],
+   "regiones": [
+    "as",
+    "na"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto",
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gdc2a64a01685"
+  },
+  {
+   "id": "da039c1481be",
+   "fuente": "ecb",
+   "fuenteNombre": "Banco Central Europeo – Prensa y discursos",
+   "tipoFuente": "oficial",
+   "idioma": "en",
+   "titulo": "ECB Consumer Expectations Survey results – September 2026",
+   "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html",
+   "fecha": "2026-10-23T08:00:00.000Z",
+   "obtenido": "2026-10-24T21:35:34.019Z",
+   "fechaEstimada": false,
+   "extracto": "",
+   "paises": [
+    "eu"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "temas": [
+    "politica_monetaria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gda039c1481be"
+  },
+  {
+   "id": "00149156879d",
+   "fuente": "scmp_business",
+   "fuenteNombre": "South China Morning Post – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Market sell-off, tax scrutiny and growth: key figures shaping investor sentiment",
+   "link": "https://www.scmp.com/business/markets/article/3371870/market-sell-tax-scrutiny-and-growth-key-figures-shaping-investor-sentiment",
+   "fecha": "2026-10-23T07:00:07.000Z",
+   "obtenido": "2026-10-24T21:35:33.216Z",
+   "fechaEstimada": false,
+   "extracto": "As regional equities tumbled and hopes for investor stimulus faded, the Hang Seng Index fell to a seven-month low. Attention also remained focused on Beijing’s intensified scrutiny of offshore wealth and tax compliance. Macroeconomic data pointed to steady, if uneven, domestic momentum. Here are the core figures…",
+   "paises": [
+    "cn"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "actividad",
+    "politica_fiscal"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g00149156879d"
+  },
+  {
+   "id": "d5a669c63923",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Lights will stay on this winter, grid operator says after concerns",
+   "link": "https://www.bbc.co.uk/news/articles/cmy56q2n1veqo?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-23T06:47:10.000Z",
+   "obtenido": "2026-10-24T21:35:32.517Z",
+   "fechaEstimada": false,
+   "extracto": "The assurance from the National Energy System Operator comes amid concern from its engineers about their ability to ensure adequate supply.",
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gd5a669c63923"
+  },
+  {
+   "id": "e95144e34e71",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Honduras squeezes Chinese firms; Super Typhoon Champi nears Taiwan: SCMP’s 7 highlights",
+   "link": "https://www.scmp.com/news/china/article/3371851/honduras-squeezes-chinese-firms-super-typhoon-champi-nears-taiwan-scmps-7-highlights",
+   "fecha": "2026-10-23T04:15:11.000Z",
+   "obtenido": "2026-10-24T21:35:33.195Z",
+   "fechaEstimada": false,
+   "extracto": "We have selected seven stories from this week’s news across Hong Kong, mainland China, the wider Asia region and beyond that resonated with our readers and shed light on topical issues. If you would like to see more of our reporting, please consider subscribing. 1. Honduras targets Chinese shops, state builder as…",
+   "paises": [
+    "cn",
+    "hk",
+    "tw"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "ge95144e34e71"
+  },
+  {
+   "id": "21075bc7ca8b",
+   "fuente": "bbc_mundo",
+   "fuenteNombre": "BBC News Mundo",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Quiénes son los \"ciudadanos palestinos de Israel\" y por qué pueden tener la llave para desbancar a Netanyahu",
+   "link": "https://www.bbc.com/mundo/articles/crz9812qjxd2o?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-23T04:00:39.000Z",
+   "obtenido": "2026-10-24T21:35:32.623Z",
+   "fechaEstimada": false,
+   "extracto": "El descontento ha sido tradicionalmente un factor que ha mermado la participación electoral de los árabes israelíes. Sin embargo, en estas elecciones existe un fuerte deseo de derrotar a la actual coalición gobernante de derecha.",
+   "paises": [
+    "il"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "temas": [
+    "sanciones"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g21075bc7ca8b"
+  },
+  {
+   "id": "b962011418c9",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Chinese state media takes aim at Japanese firm KDDI over Mongolia wildfire",
+   "link": "https://www.scmp.com/news/china/diplomacy/article/3371856/chinese-state-media-takes-aim-japanese-firm-kddi-over-mongolia-wildfire",
+   "fecha": "2026-10-23T02:57:23.000Z",
+   "obtenido": "2026-10-24T21:35:33.196Z",
+   "fechaEstimada": false,
+   "extracto": "Chinese state media has called for a Japanese telecoms firm to apologise to China over a huge wildfire in neighbouring Mongolia, as diplomatic tensions run high between Beijing and Tokyo. The grassland fire broke out on October 8 and burned about 80 per cent of a nature reserve on the Mongolia-China border. According…",
+   "paises": [
+    "cn",
+    "jp"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gb962011418c9"
+  },
+  {
+   "id": "24f54e914fcb",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "China’s Xi Jinping orders urgent relief after Tibet earthquake leaves 16 dead",
+   "link": "https://www.scmp.com/news/china/politics/article/3371850/chinas-xi-jinping-orders-urgent-relief-after-tibet-earthquake-leaves-16-dead",
+   "fecha": "2026-10-23T02:31:49.000Z",
+   "obtenido": "2026-10-24T21:35:33.197Z",
+   "fechaEstimada": false,
+   "extracto": "All efforts need to be focused on search and rescue for survivors and treating the injured, President Xi Jinping instructed on Friday morning, after a 7.0-magnitude earthquake killed 16 and injured 65 in China’s Tibet autonomous region overnight. “The disaster-hit area is located in a high-altitude region with cold…",
+   "paises": [
+    "cn"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g24f54e914fcb"
+  },
+  {
+   "id": "f11e1427fb3d",
+   "fuente": "scmp_business",
+   "fuenteNombre": "South China Morning Post – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Even as Beijing boosts oversight, Chinese investors continue pivot to offshore assets",
+   "link": "https://www.scmp.com/economy/china-economy/article/3371785/even-beijing-boosts-oversight-chinese-investors-continue-pivot-offshore-assets",
+   "fecha": "2026-10-23T01:00:09.000Z",
+   "obtenido": "2026-10-24T21:35:33.218Z",
+   "fechaEstimada": false,
+   "extracto": "Chinese households are increasingly shifting assets from real estate and bank deposits into more lucrative investments at home and abroad, despite growing oversight, Moody’s Ratings said. A multi-year downturn in the Chinese property market and low interest rates are fuelling the demand for alternative investments,…",
+   "paises": [
+    "cn"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "politica_monetaria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gf11e1427fb3d"
+  },
+  {
+   "id": "d3c2182f8871",
+   "fuente": "scmp_business",
+   "fuenteNombre": "South China Morning Post – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Embracing the Experience Economy",
+   "link": "https://www.scmp.com/presented/business/topics/c-suite-content-hub/article/3371715/embracing-experience-economy",
+   "fecha": "2026-10-22T21:00:10.000Z",
+   "obtenido": "2026-10-24T21:35:33.219Z",
+   "fechaEstimada": false,
+   "extracto": "When Abel Zhao thinks about the future of travel and live experience, he begins with a memory. As a high school student during the 1998 FIFA World Cup, Zhao was too young to enter the stadium. Instead, he stood outside with friends, listening to the roar of the crowd and absorbing the energy of thousands of people…",
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "temas": [
+    "actividad",
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gd3c2182f8871"
+  },
+  {
+   "id": "80068a49c2d6",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "EU mulls sanctions reprieve for Chinese fabric-maker accused of aiding Russia",
+   "link": "https://www.scmp.com/news/china/article/3371832/eu-mulls-sanctions-reprieve-chinese-fabric-maker-accused-aiding-russia",
+   "fecha": "2026-10-22T20:32:36.000Z",
+   "obtenido": "2026-10-24T21:35:33.199Z",
+   "fechaEstimada": false,
+   "extracto": "Diplomats from the EU’s 27 member states were pressured this week to lift sanctions on Yusha Group, a Chinese textiles manufacturer accused of selling sensitive European technology to Russian buyers. In exchange, Beijing has pledged that the company will refrain from shipping banned items to Russian military-linked…",
+   "paises": [
+    "eu",
+    "ru",
+    "cn"
+   ],
+   "regiones": [
+    "eu",
+    "eurasia",
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto",
+    "sanciones",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g80068a49c2d6"
+  },
+  {
+   "id": "a18f8f093b68",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "16 killed, 32 hurt after magnitude 7 earthquake strikes China’s Tibet",
+   "link": "https://www.scmp.com/news/china/article/3371831/casualties-reported-after-70-quake-strikes-chinas-tibet",
+   "fecha": "2026-10-22T20:26:03.000Z",
+   "obtenido": "2026-10-24T21:35:33.200Z",
+   "fechaEstimada": false,
+   "extracto": "At least 16 people were killed and 32 more injured when a strong 7.0-magnitude earthquake struck China’s western Tibet autonomous region late on Thursday, state news agency Xinhua said, citing local authorities. More than 300 houses collapsed in the earthquake, which struck on Thursday at 10.33pm. Officials were still…",
+   "paises": [
+    "cn"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "ga18f8f093b68"
+  },
+  {
+   "id": "562b510695d8",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "'I wasn't thinking straight' says five jobs civil servant",
+   "link": "https://www.bbc.co.uk/news/articles/cmx23dwp3qzro?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-22T15:05:47.000Z",
+   "obtenido": "2026-10-24T21:35:32.518Z",
+   "fechaEstimada": false,
+   "extracto": "Kashim Chowdhury is accused of fraudulently juggling multiple public sector jobs.",
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "temas": [
+    "empleo"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g562b510695d8"
+  },
+  {
+   "id": "52e8775d890c",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Barclays cutting 5,000 jobs as it increases reliance on AI",
+   "link": "https://www.bbc.co.uk/news/articles/cm4g1p347qgxo?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-22T14:28:59.000Z",
+   "obtenido": "2026-10-24T21:35:32.519Z",
+   "fechaEstimada": false,
+   "extracto": "The bank says it is using more AI leading to a 5% reduction in its workforce.",
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "temas": [
+    "empleo"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g52e8775d890c"
+  },
+  {
+   "id": "f69a9f960098",
+   "fuente": "eia_tie",
+   "fuenteNombre": "EIA – Today in Energy",
+   "tipoFuente": "oficial",
+   "idioma": "en",
+   "titulo": "U.S. refineries have been running at very high rates in 2026",
+   "link": "https://www.eia.gov/todayinenergy/detail.php?id=68344",
+   "fecha": "2026-10-22T14:00:00.000Z",
+   "obtenido": "2026-10-24T21:35:33.361Z",
+   "fechaEstimada": false,
+   "extracto": "The U.S. refinery fleet has run at higher-than-normal rates this year, with refinery utilization averaging more than 95% of capacity between May and September, the highest for those months since 1998. Tight global product supplies this year have boosted margins for petroleum products, particularly for diesel,…",
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na",
+    "global"
+   ],
+   "materias": [
+    "petroleo"
+   ],
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gf69a9f960098"
+  },
+  {
+   "id": "374498ab6635",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Tank barrel production returns to UK after 20 years",
+   "link": "https://www.bbc.co.uk/news/articles/cm70pj51zdk4o?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-22T13:45:19.000Z",
+   "obtenido": "2026-10-24T21:35:32.519Z",
+   "fechaEstimada": false,
+   "extracto": "The defence secretary says the UK is \"back in the business of making weapons\" for its armed forces.",
+   "paises": [
+    "gb"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [
+    "petroleo"
+   ],
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "g374498ab6635"
+  },
+  {
+   "id": "b63679711722",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Who blinked first? Fragile EU-China trade peace sparks new war of words",
+   "link": "https://www.scmp.com/news/china/diplomacy/article/3371807/who-blinked-first-fragile-eu-china-trade-peace-sparks-new-war-words",
+   "fecha": "2026-10-22T12:00:18.000Z",
+   "obtenido": "2026-10-24T21:35:33.200Z",
+   "fechaEstimada": false,
+   "extracto": "Less than two weeks after Brussels and Beijing struck a surprise deal to avert an escalating trade dispute, their fragile rapprochement has descended into a battle over who blinked first. In Brussels and Berlin, officials are emboldened by what they consider proof that collective EU pressure can force Chinese…",
+   "paises": [
+    "eu",
+    "de",
+    "cn"
+   ],
+   "regiones": [
+    "eu",
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto",
+    "comercio"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gb63679711722"
+  },
+  {
+   "id": "9fe341225b27",
+   "fuente": "onu_economia",
+   "fuenteNombre": "Noticias ONU – Desarrollo económico",
+   "tipoFuente": "oficial",
+   "idioma": "es",
+   "titulo": "La CEPAL rebaja al 2,0 % el crecimiento de América Latina en 2026 por las tensiones geopolíticas",
+   "link": "https://news.un.org/feed/view/es/story/2026/10/1542093",
+   "fecha": "2026-10-22T12:00:00.000Z",
+   "obtenido": "2026-10-24T21:35:33.667Z",
+   "fechaEstimada": false,
+   "extracto": "Además, la menor creación de empleo limita los ingresos y el consumo, y dificulta reducir la informalidad. advierte el organismo, que ve un panorama desigual: América del Sur crecerá un 2,1 % y el Caribe un 7,4 %, pero sin Guyana se quedaría en un 1,2 %.",
+   "paises": [
+    "gy"
+   ],
+   "regiones": [
+    "latam"
+   ],
+   "materias": [],
+   "temas": [
+    "empleo",
+    "actividad"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g9fe341225b27"
+  },
+  {
+   "id": "c2e4d0e648e0",
+   "fuente": "onu_economia",
+   "fuenteNombre": "Noticias ONU – Desarrollo económico",
+   "tipoFuente": "oficial",
+   "idioma": "es",
+   "titulo": "\"Unan los puntos\" entre las protestas callejeras y la agitación global, pide Guterres",
+   "link": "https://news.un.org/feed/view/es/story/2026/10/1542092",
+   "fecha": "2026-10-22T12:00:00.000Z",
+   "obtenido": "2026-10-24T21:35:33.667Z",
+   "fechaEstimada": false,
+   "extracto": "La desigualdad es el combustible de las protestas y de la guerra. \"En todas partes aumentan las presiones por el precio de los alimentos, el combustible y otros básicos. Los tipos de interés han subido, para las personas y los países. Y para los jóvenes, la promesa de un futuro mejor se aleja cada vez más\", advierte…",
+   "paises": [],
+   "regiones": [
+    "global"
+   ],
+   "materias": [
+    "petroleo",
+    "granos"
+   ],
+   "temas": [
+    "politica_monetaria",
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     },
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gc2e4d0e648e0"
+  },
+  {
+   "id": "aa55ec25dc8b",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "China urges opening Bab al-Mandeb in first joint statement with regional nation",
+   "link": "https://www.scmp.com/news/china/diplomacy/article/3371811/china-urges-opening-bab-al-mandeb-first-joint-statement-regional-nation",
+   "fecha": "2026-10-22T11:39:20.000Z",
+   "obtenido": "2026-10-24T21:35:33.201Z",
+   "fechaEstimada": false,
+   "extracto": "In its first formal statement with a Red Sea nation on the fallout from the US-Iran war, China said in a joint communique with Djibouti that it backs “constructive efforts” to ensure international shipping lanes are safe and open. The statement on Thursday was released a day after Chinese Foreign Minister Wang Yi and…",
+   "paises": [
+    "ir",
+    "ye",
+    "cn",
+    "us"
+   ],
+   "regiones": [
+    "me",
+    "as",
+    "na"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gaa55ec25dc8b"
+  },
+  {
+   "id": "ab26c20fcddc",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Could US advances in drone command give it an edge over the PLA in a Taiwan conflict?",
+   "link": "https://www.scmp.com/news/china/military/article/3371799/could-us-advances-drone-command-give-it-edge-over-pla-taiwan-conflict",
+   "fecha": "2026-10-22T11:00:16.000Z",
+   "obtenido": "2026-10-24T21:35:33.201Z",
+   "fechaEstimada": false,
+   "extracto": "From the cockpit of an F-22 fighter to an aircraft carrier sailing in the Pacific, the US military is showing new ways to command uncrewed aircraft over vast distances. The United States disclosed two tests this month as Washington seeks to outpace Beijing in a technology contest that could redefine air and naval…",
+   "paises": [
+    "us",
+    "cn",
+    "tw"
+   ],
+   "regiones": [
+    "na",
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gab26c20fcddc"
+  },
+  {
+   "id": "295b0bec669f",
+   "fuente": "bbc_mundo",
+   "fuenteNombre": "BBC News Mundo",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "5 maneras en las que el \"Súper Niño\" ya está afectando el clima en América Latina y otras partes del mundo",
+   "link": "https://www.bbc.com/mundo/articles/cj5ynq730px4o?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-22T10:59:11.000Z",
+   "obtenido": "2026-10-24T21:35:32.628Z",
+   "fechaEstimada": false,
+   "extracto": "América Latina es una de las regiones del mundo en las que los efectos del fenómeno de El Niño están siendo más evidentes y, en algunos casos, más severos.",
+   "paises": [],
+   "regiones": [
+    "latam"
+   ],
+   "materias": [],
+   "temas": [
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g295b0bec669f"
+  },
+  {
+   "id": "9206885a1d17",
+   "fuente": "scmp_business",
+   "fuenteNombre": "South China Morning Post – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "China expands tax workforce as tougher enforcement moves into spotlight",
+   "link": "https://www.scmp.com/business/china-business/article/3371791/china-expands-tax-workforce-tougher-enforcement-moves-spotlight",
+   "fecha": "2026-10-22T09:51:04.000Z",
+   "obtenido": "2026-10-24T21:35:33.220Z",
+   "fechaEstimada": false,
+   "extracto": "Beijing’s plan to recruit more tax officers next year is drawing attention from businesses and wealthy families as tax compliance rises up the policy agenda and authorities intensify enforcement efforts. China’s 2027 national civil service recruitment plan includes 24,013 tax-related positions, accounting for more…",
+   "paises": [
+    "cn"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "empleo",
+    "politica_fiscal"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g9206885a1d17"
+  },
+  {
+   "id": "c92de67b3f7d",
+   "fuente": "bbc_mundo",
+   "fuenteNombre": "BBC News Mundo",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "\"Me olvidé secretos de Estado en un tren: soy la prueba de que es posible recuperarse del mayor error de tu vida\"",
+   "link": "https://www.bbc.com/mundo/articles/c6wyd5wx4xq1o?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-22T09:46:00.000Z",
+   "obtenido": "2026-10-24T21:35:32.630Z",
+   "fechaEstimada": false,
+   "extracto": "El alto funcionario Richard Jackson relata aquel fatídico día en el que olvidó importantes documentos y cómo se recuperó tras lo sucedido.",
+   "paises": [],
+   "regiones": [],
+   "materias": [
+    "granos"
+   ],
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "gc92de67b3f7d"
+  },
+  {
+   "id": "54dac5078b9b",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Chinese students stand by France study plans despite widespread civil unrest",
+   "link": "https://www.scmp.com/news/china/diplomacy/article/3371783/chinese-students-stand-france-study-plans-despite-widespread-civil-unrest",
+   "fecha": "2026-10-22T09:21:10.000Z",
+   "obtenido": "2026-10-24T21:35:33.202Z",
+   "fechaEstimada": false,
+   "extracto": "Social unrest in France is not deterring some Chinese students from pursuing studies there – at least for now. Despite nationwide demonstrations over the rising cost of living and declining public services escalating into violence over the weekend, prospective applicants said they remained committed to their academic…",
+   "paises": [
+    "fr",
+    "cn"
+   ],
+   "regiones": [
+    "eu",
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "inflacion"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g54dac5078b9b"
+  },
+  {
+   "id": "ff2d0a722c54",
+   "fuente": "scmp_business",
+   "fuenteNombre": "South China Morning Post – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "France’s borrowing costs reach 24-year high as riots deepen budget worries",
+   "link": "https://www.scmp.com/economy/global-economy/article/3371724/frances-borrowing-costs-reach-24-year-high-riots-deepen-budget-worries",
+   "fecha": "2026-10-22T08:00:10.000Z",
+   "obtenido": "2026-10-24T21:35:33.221Z",
+   "fechaEstimada": false,
+   "extracto": "France’s 10-year borrowing cost topped 5 per cent again in early Paris trading on Thursday, a day after touching that level for the first time since 2002, as the country recovers from its worst urban riots in years and braces for more clashes to come. Analysts expected market pressure to persist in the near term amid…",
+   "paises": [
+    "fr"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "temas": [
+    "politica_monetaria",
+    "politica_fiscal"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gff2d0a722c54"
+  },
+  {
+   "id": "c907a956fe08",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Is an 'AI war' complicating your job search?",
+   "link": "https://www.bbc.co.uk/news/articles/cm9qzgg5z89no?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-22T05:01:31.000Z",
+   "obtenido": "2026-10-24T21:35:32.520Z",
+   "fechaEstimada": false,
+   "extracto": "How fair are AI recruitment tools that help decide our future, and what happens when we click \"apply\"?",
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gc907a956fe08"
+  },
+  {
+   "id": "f5e12e97aca3",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Beijing hits out after Taipei bans mainland travel for Sun Yat-sen anniversary",
+   "link": "https://www.scmp.com/news/china/politics/article/3371695/beijing-hits-out-after-taipei-bans-mainland-travel-sun-yat-sen-anniversary",
+   "fecha": "2026-10-22T01:00:10.000Z",
+   "obtenido": "2026-10-24T21:35:33.203Z",
+   "fechaEstimada": false,
+   "extracto": "A fresh dispute has erupted between Beijing and Taipei over commemorations for Sun Yat-sen, a Chinese revolutionary hero who is revered on both sides of the Taiwan Strait. Beijing on Wednesday lashed out at Taipei’s move to ban Taiwanese officials from attending events in the mainland Chinese capital marking the 160th…",
+   "paises": [
+    "cn",
+    "tw"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gf5e12e97aca3"
+  },
+  {
+   "id": "871671182ad8",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "The 'trillion pound' oil fund the government believes Britain could have built",
+   "link": "https://www.bbc.co.uk/news/articles/cm4g1zrl2nrqo?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-21T23:27:05.000Z",
+   "obtenido": "2026-10-24T21:35:32.519Z",
+   "fechaEstimada": false,
+   "extracto": "For the first time, the Treasury calculates how much the UK could have raised by investing North Sea proceeds.",
+   "paises": [
+    "gb"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [
+    "petroleo"
+   ],
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "g871671182ad8"
+  },
+  {
+   "id": "0254576c8f2b",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "The grads ditching the UK for a fresh start abroad",
+   "link": "https://www.bbc.co.uk/news/articles/cmzxj4e8w44vo?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-21T23:12:06.000Z",
+   "obtenido": "2026-10-24T21:35:32.522Z",
+   "fechaEstimada": false,
+   "extracto": "With graduate jobs hard to come by, more young adults are reported to be considering emigrating.",
+   "paises": [
+    "gb"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "temas": [
+    "empleo"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g0254576c8f2b"
+  },
+  {
+   "id": "598fdccac7d2",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Civil servant admits he 'made mistakes' juggling five government jobs",
+   "link": "https://www.bbc.co.uk/news/articles/cmze4w63ly42o?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-21T15:58:05.000Z",
+   "obtenido": "2026-10-24T21:35:32.521Z",
+   "fechaEstimada": false,
+   "extracto": "Kashim Chowdhury was contracted for 183 hours a week, more than the number of hours in seven days.",
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "temas": [
+    "empleo"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g598fdccac7d2"
+  },
+  {
+   "id": "f010f966a831",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Taiwan’s Iran-style attack drone could swamp PLA air defences: analysts",
+   "link": "https://www.scmp.com/news/china/military/article/3371648/taiwans-iran-style-attack-drone-could-swamp-pla-air-defences-analysts",
+   "fecha": "2026-10-21T14:00:09.000Z",
+   "obtenido": "2026-10-24T21:35:33.206Z",
+   "fechaEstimada": false,
+   "extracto": "A flight-tested attack drone similar to Iran’s Shahed model that its Taiwanese maker says could reach military targets in mainland China is meant to swamp PLA air defences, analysts said. Drawing on battlefield lessons from Ukraine and the Middle East, military experts broadly agree on the utility of such low-cost…",
+   "paises": [
+    "ua",
+    "ir",
+    "cn",
+    "tw"
+   ],
+   "regiones": [
+    "eu",
+    "me",
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gf010f966a831"
+  },
+  {
+   "id": "739131a48428",
+   "fuente": "scmp_business",
+   "fuenteNombre": "South China Morning Post – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "China’s offshore tax crackdown could inadvertently fuel a digital dollar boom",
+   "link": "https://www.scmp.com/opinion/china-opinion/article/3371259/chinas-offshore-tax-crackdown-could-inadvertently-fuel-digital-dollar-boom",
+   "fecha": "2026-10-21T12:30:07.000Z",
+   "obtenido": "2026-10-24T21:35:33.225Z",
+   "fechaEstimada": false,
+   "extracto": "From October 22, China’s grace period for the disclosure and settlement of certain offshore-trust tax liabilities ends. For the Chinese government, this deadline highlights its desire to affirm control over capital outflows, while for Chinese high-net-worth families, it serves as a reminder that it is now harder to…",
+   "paises": [
+    "cn"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [
+    "petroleo"
+   ],
+   "temas": [
+    "politica_fiscal"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g739131a48428"
+  },
+  {
+   "id": "604e563177f2",
+   "fuente": "onu_economia",
+   "fuenteNombre": "Noticias ONU – Desarrollo económico",
+   "tipoFuente": "oficial",
+   "idioma": "es",
+   "titulo": "Las agencias de la ONU piden ayuda para proteger a los más vulnerables de un El Niño sin precedentes",
+   "link": "https://news.un.org/feed/view/es/story/2026/10/1542091",
+   "fecha": "2026-10-21T12:00:00.000Z",
+   "obtenido": "2026-10-24T21:35:33.668Z",
+   "fechaEstimada": false,
+   "extracto": "El Pacífico tropical podría alcanzar los 3,8 °C por encima de la media entre noviembre y enero, un nivel fuera de los registros. Unos 50 millones de personas podrían enfrentar más hambre, y la ONU ha liberado más de 50 millones de dólares para 11 países en primera línea. \"Sería un fracaso extraordinario ver venir la…",
+   "paises": [],
+   "regiones": [
+    "as",
+    "global"
+   ],
+   "materias": [],
+   "temas": [
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g604e563177f2"
+  },
+  {
+   "id": "fd023d2557de",
+   "fuente": "bbc_mundo",
+   "fuenteNombre": "BBC News Mundo",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "\"Todavía no sabemos la magnitud real del daño\": el joven que diseñó un software para buscar a desaparecidos en los terremotos en Venezuela",
+   "link": "https://www.bbc.com/mundo/articles/crx23yejwe1do?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-21T11:26:12.000Z",
+   "obtenido": "2026-10-24T21:35:32.627Z",
+   "fechaEstimada": false,
+   "extracto": "Jorge Bastidas creó el portal Desaparecidos Terremoto Venezuela, una iniciativa ciudadana para reportar a los desaparecidos en los sismos, a falta de cifras del gobierno venezolano.",
+   "paises": [
+    "ve"
+   ],
+   "regiones": [
+    "latam"
+   ],
+   "materias": [],
+   "temas": [
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gfd023d2557de"
+  },
+  {
+   "id": "4b678de376dc",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Faisal Islam: Inflation and borrowing figures illustrate chancellor's Budget challenge",
+   "link": "https://www.bbc.co.uk/news/articles/cm3wv9pn22e5o?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-21T10:20:15.000Z",
+   "obtenido": "2026-10-24T21:35:32.521Z",
+   "fechaEstimada": false,
+   "extracto": "The economic figures released on Wednesday show the constraints for John Healey as he puts the finishing touches to his Budget.",
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "temas": [
+    "inflacion",
+    "actividad",
+    "politica_fiscal"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g4b678de376dc"
+  },
+  {
+   "id": "34f3b1766052",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Inflation and government borrowing highest for a year ahead of next week's Budget",
+   "link": "https://www.bbc.co.uk/news/articles/c6gel2xv4493o?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-21T10:16:17.000Z",
+   "obtenido": "2026-10-24T21:35:32.521Z",
+   "fechaEstimada": false,
+   "extracto": "Inflation accelerated to 3.5% from 3.1% in the year to September, according to the Office for National Statistics (ONS).",
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "temas": [
+    "inflacion",
+    "politica_fiscal"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g34f3b1766052"
+  },
+  {
+   "id": "00b7a05b92bb",
+   "fuente": "scmp_business",
+   "fuenteNombre": "South China Morning Post – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Hong Kong’s SHKP sells 128 Sierra Sea flats ahead of possible US rate increase",
+   "link": "https://www.scmp.com/business/article/3371657/hong-kongs-shkp-sells-128-sierra-sea-flats-ahead-possible-us-rate-increase",
+   "fecha": "2026-10-21T10:00:41.000Z",
+   "obtenido": "2026-10-24T21:35:33.226Z",
+   "fechaEstimada": false,
+   "extracto": "Sun Hung Kai Properties (SHKP), one of Hong Kong’s largest developers, has sold out the latest batch of flats at its Sierra Sea project in the New Territories, where units were offered at discounted prices ahead of a possible US Federal Reserve interest-rate increase by year-end. By 5.40pm on Wednesday, SHKP had found…",
+   "paises": [
+    "us",
+    "hk"
+   ],
+   "regiones": [
+    "na",
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "politica_monetaria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g00b7a05b92bb"
+  },
+  {
+   "id": "c89c45c47763",
+   "fuente": "ecb",
+   "fuenteNombre": "Banco Central Europeo – Prensa y discursos",
+   "tipoFuente": "oficial",
+   "idioma": "en",
+   "titulo": "Piero Cipollone: Pontes and Appia: unlocking opportunities for banks",
+   "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf",
+   "fecha": "2026-10-21T08:00:00.000Z",
+   "obtenido": "2026-10-24T21:35:34.020Z",
+   "fechaEstimada": false,
+   "extracto": "",
+   "paises": [
+    "eu"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "temas": [
+    "politica_monetaria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gc89c45c47763"
+  },
+  {
+   "id": "c66aeb50a0f6",
+   "fuente": "ecb",
+   "fuenteNombre": "Banco Central Europeo – Prensa y discursos",
+   "tipoFuente": "oficial",
+   "idioma": "en",
+   "titulo": "Philip R. Lane: Euro liquidity lines and the international monetary system",
+   "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html",
+   "fecha": "2026-10-21T04:15:00.000Z",
+   "obtenido": "2026-10-24T21:35:34.020Z",
+   "fechaEstimada": false,
+   "extracto": "",
+   "paises": [
+    "eu"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "temas": [
+    "politica_monetaria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gc66aeb50a0f6"
+  },
+  {
+   "id": "111d92bf9e1d",
+   "fuente": "bbc_mundo",
+   "fuenteNombre": "BBC News Mundo",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Qué es el \"efecto bola de nieve\" de la deuda y qué papel tiene en la crítica situación económica que alimenta las protestas en Francia",
+   "link": "https://www.bbc.com/mundo/articles/c65ynve23xj7o?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-21T03:57:54.000Z",
+   "obtenido": "2026-10-24T21:35:32.626Z",
+   "fechaEstimada": false,
+   "extracto": "Mientras siguen las protestas en Francia, las cuentas del país empiezan a generar preocupación.",
+   "paises": [
+    "fr"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "temas": [
+    "actividad",
+    "politica_fiscal"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g111d92bf9e1d"
+  },
+  {
+   "id": "33f850636054",
+   "fuente": "f24_economia",
+   "fuenteNombre": "France 24 Español – Economía",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "El petróleo sube su precio mientras Trump apunta a India para refinar crudo venezolano",
+   "link": "https://www.france24.com/es/programas/econom%C3%ADa/20261021-economia-petroleo-precio-guerra-golfo",
+   "fecha": "2026-10-21T02:54:02.000Z",
+   "obtenido": "2026-10-24T21:35:33.398Z",
+   "fechaEstimada": false,
+   "extracto": "El barril del crudo Brent, de referencia internacional, rozó los 112 dólares este 20 de octubre. El valor más alto desde el pasado mayo. Por otro lado, Estados Unidos sigue buscando alternativas para ampliar la oferta dentro del mercado energético y consulta sobre la capacidad de India para refinar el petróleo…",
+   "paises": [
+    "us",
+    "ve",
+    "in"
+   ],
+   "regiones": [
+    "na",
+    "latam",
+    "as"
+   ],
+   "materias": [
+    "petroleo"
+   ],
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "g33f850636054"
+  },
+  {
+   "id": "57b0cacc7836",
+   "fuente": "scmp_business",
+   "fuenteNombre": "South China Morning Post – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Shipping giant Cosco launches new routes to ride out Iran war, climate risks",
+   "link": "https://www.scmp.com/business/china-business/article/3371550/shipping-giant-cosco-launches-new-routes-ride-out-iran-war-climate-risks",
+   "fecha": "2026-10-21T02:00:09.000Z",
+   "obtenido": "2026-10-24T21:35:33.229Z",
+   "fechaEstimada": false,
+   "extracto": "China Cosco Shipping Holdings, the country’s largest ocean carrier, has prioritised resilience as it rolls out an emergency response system to cope with rising geopolitical conflicts, infrastructure bottlenecks and climate-related disruptions. The company is launching fresh capacity and new trade routes as part of the…",
+   "paises": [
+    "ir",
+    "cn"
+   ],
+   "regiones": [
+    "me",
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g57b0cacc7836"
+  },
+  {
+   "id": "9cc6be4280f4",
+   "fuente": "wto",
+   "fuenteNombre": "OMC (WTO) – Noticias",
+   "tipoFuente": "oficial",
+   "idioma": "en",
+   "titulo": "The Philippines launches safeguard investigation on pork",
+   "link": "https://www.wto.org/english/news_e/news26_e/safe_phl_21oct26_520_e.htm",
+   "fecha": "2026-10-21T00:00:00.000Z",
+   "obtenido": "2026-10-24T21:35:34.078Z",
+   "fechaEstimada": false,
+   "extracto": "On 21 October 2026, the Philippines notified the WTO’s Committee on Safeguards that it had initiated on 9 October 2026 a safeguard investigation on imports of pork.",
+   "paises": [
+    "ph"
+   ],
+   "regiones": [
+    "as",
+    "global"
+   ],
+   "materias": [],
+   "temas": [
+    "comercio",
+    "aranceles"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g9cc6be4280f4"
+  },
+  {
+   "id": "cc8114cd1a0b",
+   "fuente": "wto",
+   "fuenteNombre": "OMC (WTO) – Noticias",
+   "tipoFuente": "oficial",
+   "idioma": "en",
+   "titulo": "Trade Facilitation Committee advances TFA review and discusses implementation support",
+   "link": "https://www.wto.org/english/news_e/news26_e/fac_21oct26_522_e.htm",
+   "fecha": "2026-10-21T00:00:00.000Z",
+   "obtenido": "2026-10-24T21:35:34.079Z",
+   "fechaEstimada": false,
+   "extracto": "WTO members meeting in the Committee on Trade Facilitation on 21-22 October advanced work on the second review of the Trade Facilitation Agreement (TFA) and reaffirmed their commitment to completing the review by the end of the year. They also exchanged experiences on key implementation issues, reviewed specific trade…",
+   "paises": [],
+   "regiones": [
+    "global"
+   ],
+   "materias": [],
+   "temas": [
+    "comercio"
+   ],
+   "relevante": false,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gcc8114cd1a0b"
+  },
+  {
+   "id": "1de2f415df0a",
+   "fuente": "f24_latam",
+   "fuenteNombre": "France 24 Español – América Latina",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Derrumbe de mina en Colombia: 12 de las 14 víctimas mortales eran mujeres",
+   "link": "https://www.france24.com/es/am%C3%A9rica-latina/20261020-derrumbe-de-mina-en-colombia-12-de-las-14-v%C3%ADctimas-mortales-eran-mujeres",
+   "fecha": "2026-10-20T22:00:42.000Z",
+   "obtenido": "2026-10-24T21:35:32.565Z",
+   "fechaEstimada": false,
+   "extracto": "Al menos 14 personas murieron en un deslizamiento en una mina de oro que operaba de forma irregular en el municipio de Santa Bárbara de Iscuandé, en el departamento de Nariño (suroeste). Las autoridades regionales confirmaron este martes 20 de octubre que 12 de las víctimas eran mujeres.",
+   "paises": [
+    "co"
+   ],
+   "regiones": [
+    "latam"
+   ],
+   "materias": [
+    "oro"
+   ],
+   "temas": [
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g1de2f415df0a"
+  },
+  {
+   "id": "66ba26d08253",
+   "fuente": "onu_economia",
+   "fuenteNombre": "Noticias ONU – Desarrollo económico",
+   "tipoFuente": "oficial",
+   "idioma": "es",
+   "titulo": "Protestas en Europa: la ONU denuncia la violencia y advierte contra la represión",
+   "link": "https://news.un.org/feed/view/es/story/2026/10/1542085",
+   "fecha": "2026-10-20T12:00:00.000Z",
+   "obtenido": "2026-10-24T21:35:33.668Z",
+   "fechaEstimada": false,
+   "extracto": "Las protestas por el coste de la vida, la vivienda y el deterioro de los servicios públicos se extienden por Francia, Bélgica, Italia, Albania y Portugal, con más de 2400 detenidos en Francia, cerca de 200 en Bélgica y 55 en Portugal. El alto comisionado para los derechos humanos condena los actos de violencia y…",
+   "paises": [
+    "fr",
+    "it"
+   ],
+   "regiones": [
+    "eu",
+    "global"
+   ],
+   "materias": [],
+   "temas": [
+    "inflacion"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g66ba26d08253"
+  },
+  {
+   "id": "3902bf586689",
+   "fuente": "bbc_mundo",
+   "fuenteNombre": "BBC News Mundo",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Por qué Chile enfrenta una crisis económica con récord de desempleo en medio de las políticas de austeridad de Kast",
+   "link": "https://www.bbc.com/mundo/articles/c6gr8x40xvz7o?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-20T10:58:28.000Z",
+   "obtenido": "2026-10-24T21:35:32.625Z",
+   "fechaEstimada": false,
+   "extracto": "El desempleo marcó un récord de 9,6%, el mayor en más de cinco años. La inversión está estancada y la confianza de los consumidores ha caído, en medio del plan de austeridad fiscal del gobierno.",
+   "paises": [
+    "cl"
+   ],
+   "regiones": [
+    "latam"
+   ],
+   "materias": [],
+   "temas": [
+    "empleo",
+    "actividad",
+    "politica_fiscal"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g3902bf586689"
+  },
+  {
+   "id": "3e64630612d1",
+   "fuente": "scmp_business",
+   "fuenteNombre": "South China Morning Post – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "HKMA to swap jobs of 2 deputy heads as part of succession planning: sources",
+   "link": "https://www.scmp.com/business/banking-finance/article/3371524/hkma-swap-jobs-2-deputy-heads-part-succession-planning-sources",
+   "fecha": "2026-10-20T10:25:36.000Z",
+   "obtenido": "2026-10-24T21:35:33.230Z",
+   "fechaEstimada": false,
+   "extracto": "The Hong Kong Monetary Authority (HKMA) will reshuffle the roles of two deputy chief executives next month as part of the de facto central bank’s succession planning strategy, two sources with knowledge of the matter told the South China Morning Post. Darryl Chan Wai-man will take over as CEO of HKMA’s Exchange Fund…",
+   "paises": [
+    "cn",
+    "hk"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "politica_monetaria",
+    "empleo"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g3e64630612d1"
+  },
+  {
+   "id": "28905f8e469b",
+   "fuente": "scmp_business",
+   "fuenteNombre": "South China Morning Post – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Chinese carmakers gear up European production to sidestep tariffs, import quota",
+   "link": "https://www.scmp.com/business/china-evs/article/3371460/chinese-carmakers-gear-european-production-sidestep-tariffs-import-quota",
+   "fecha": "2026-10-20T08:00:06.000Z",
+   "obtenido": "2026-10-24T21:35:33.231Z",
+   "fechaEstimada": false,
+   "extracto": "Chinese carmakers, facing a European Union import quota targeting their hybrid electric vehicles (EVs), are gearing up for more local production to reinforce their go-global drive. They plan to either splash out billions of yuan to set up their own factories or tap international marques’ idle plants to build their…",
+   "paises": [
+    "eu",
+    "cn"
+   ],
+   "regiones": [
+    "eu",
+    "as",
+    "global"
+   ],
+   "materias": [],
+   "temas": [
+    "aranceles"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g28905f8e469b"
+  },
+  {
+   "id": "18ada448671f",
+   "fuente": "ecb",
+   "fuenteNombre": "Banco Central Europeo – Prensa y discursos",
+   "tipoFuente": "oficial",
+   "idioma": "en",
+   "titulo": "Frank Elderson: Interview with Die Presse",
+   "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261020~97e2e4bc38.en.html",
+   "fecha": "2026-10-20T07:00:00.000Z",
+   "obtenido": "2026-10-24T21:35:34.020Z",
+   "fechaEstimada": false,
+   "extracto": "",
+   "paises": [
+    "eu"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "temas": [
+    "politica_monetaria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g18ada448671f"
+  },
+  {
+   "id": "ffe26705e836",
+   "fuente": "f24_economia",
+   "fuenteNombre": "France 24 Español – Economía",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Las protestas en Francia generan preocupación económica e impactan la prima de riesgo",
+   "link": "https://www.france24.com/es/programas/econom%C3%ADa/20261020-econmia-protestas-comercios-francia-saqueos",
+   "fecha": "2026-10-20T03:47:48.000Z",
+   "obtenido": "2026-10-24T21:35:33.399Z",
+   "fechaEstimada": false,
+   "extracto": "La prima de riesgo en Francia se elevó hasta los 146 puntos básicos este lunes 19 de octubre, dos días después de la jornada de protestas masivas en el país que derivaron en enfrentamientos y alrededor de 3.000 comercios afectados, de acuerdo con el balance de la Federación del Comercio y la Distribución. El…",
+   "paises": [
+    "fr"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "temas": [
+    "politica_monetaria",
+    "actividad"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gffe26705e836"
+  },
+  {
+   "id": "24aa6e4278d8",
+   "fuente": "f24_latam",
+   "fuenteNombre": "France 24 Español – América Latina",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "La Fiscalía de Florida emite una orden de arresto contra Raúl Castro por su presunta implicación en el derribo de dos avionetas en 1996",
+   "link": "https://www.france24.com/es/am%C3%A9rica-latina/20261019-florida-emite-una-orden-de-arresto-contra-ra%C3%BAl-castro-por-el-derribo-de-dos-avionetas-en-1996",
+   "fecha": "2026-10-19T16:54:14.000Z",
+   "obtenido": "2026-10-24T21:35:32.567Z",
+   "fechaEstimada": false,
+   "extracto": "La Fiscalía de Florida obtuvo una orden de arresto estatal contra el expresidente cubano Raúl Castro por su presunta participación en el derribo de dos avionetas de la organización humanitaria Hermanos al Rescate en 1996, un ataque en el que murieron cuatro personas.",
+   "paises": [
+    "cu"
+   ],
+   "regiones": [
+    "latam"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g24aa6e4278d8"
+  },
+  {
+   "id": "2f7fabc62d4e",
+   "fuente": "f24_economia",
+   "fuenteNombre": "France 24 Español – Economía",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "China crece con fuerza y se acerca a su meta económica anual pese a las presiones deflacionarias",
+   "link": "https://www.france24.com/es/programas/econom%C3%ADa/20261019-china-crece-con-fuerza-y-se-acerca-a-su-meta-econ%C3%B3mica-anual-pese-a-las-presiones-deflacionarias",
+   "fecha": "2026-10-19T15:13:25.000Z",
+   "obtenido": "2026-10-24T21:35:33.399Z",
+   "fechaEstimada": false,
+   "extracto": "La economía china aceleró su crecimiento interanual al 4,5% entre julio y septiembre, una décima por encima de las previsiones de los analistas. El PIB acumula un alza del 4,6% en lo que va de año, lo que acerca a Beijing a su objetivo de crecimiento de entre el 4,5% y el 5%, en un contexto marcado por las presiones…",
+   "paises": [
+    "cn"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "temas": [
+    "inflacion",
+    "actividad"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g2f7fabc62d4e"
+  },
+  {
+   "id": "c4dd2da5785c",
+   "fuente": "eia_tie",
+   "fuenteNombre": "EIA – Today in Energy",
+   "tipoFuente": "oficial",
+   "idioma": "en",
+   "titulo": "Hybrid sales rise while battery electric sales remain lower after tax credit expiration",
+   "link": "https://www.eia.gov/todayinenergy/detail.php?id=68325",
+   "fecha": "2026-10-19T14:00:00.000Z",
+   "obtenido": "2026-10-24T21:35:33.361Z",
+   "fechaEstimada": false,
+   "extracto": "In the third quarter of 2026 (3Q26), 23% of new light-duty vehicles sold in the United States were hybrid electric, battery electric, or plug-in hybrid electric vehicles, down slightly from 24% in 3Q25. Between 3Q25 and 3Q26, hybrid electric vehicles continued to gain market share, reaching 16% of light-duty vehicle…",
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [],
+   "temas": [
+    "energia",
+    "politica_fiscal"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gc4dd2da5785c"
+  },
+  {
+   "id": "69afe8bb3edd",
+   "fuente": "ecb",
+   "fuenteNombre": "Banco Central Europeo – Prensa y discursos",
+   "tipoFuente": "oficial",
+   "idioma": "en",
+   "titulo": "Frank Elderson: From climate and nature risks to economic resilience and competitiveness",
+   "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261019~f0a3e053de.en.html",
+   "fecha": "2026-10-19T06:00:00.000Z",
+   "obtenido": "2026-10-24T21:35:34.020Z",
+   "fechaEstimada": false,
+   "extracto": "",
+   "paises": [
+    "eu"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "temas": [
+    "politica_monetaria",
+    "actividad"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g69afe8bb3edd"
+  },
+  {
+   "id": "18494916fa7e",
+   "fuente": "mercopress",
+   "fuenteNombre": "MercoPress – Economy",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "US fears Falklands-related sanctions could hit American companies",
+   "link": "https://en.mercopress.com/2026/10/18/us-fears-falklands-related-sanctions-could-hit-american-companies?utm_source=feed&utm_medium=rss&utm_content=economy&utm_campaign=rss",
+   "fecha": "2026-10-18T21:56:00.000Z",
+   "obtenido": "2026-10-24T21:35:33.270Z",
+   "fechaEstimada": false,
+   "extracto": "The US government has conveyed to Javier Milei’s administration its concern that the National Sovereignty Defence bill, which toughens sanctions against those involved in exploiting resources in the Falklands, could reach American companies, the Argentine newspaper Clarín reported, citing unnamed officials in…",
+   "paises": [
+    "ar",
+    "fk",
+    "us"
+   ],
+   "regiones": [
+    "latam",
+    "na"
+   ],
+   "materias": [],
+   "temas": [
+    "sanciones"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g18494916fa7e"
+  },
+  {
+   "id": "a10b60db9666",
+   "fuente": "mercopress",
+   "fuenteNombre": "MercoPress – Economy",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Pressure mounts on Paraguay’s Central Bank over doubts about some lenders’ solvency",
+   "link": "https://en.mercopress.com/2026/10/18/pressure-mounts-on-paraguay-s-central-bank-over-doubts-about-some-lenders-solvency?utm_source=feed&utm_medium=rss&utm_content=economy&utm_campaign=rss",
+   "fecha": "2026-10-18T17:51:00.000Z",
+   "obtenido": "2026-10-24T21:35:33.271Z",
+   "fechaEstimada": false,
+   "extracto": "The Association of Banks of Paraguay, which groups 14 private lenders, on Sunday asked the Central Bank of Paraguay to report on the solvency of institutions that received facilities in merger processes, days after senators from the ruling party and the opposition called on President Santiago Peña to remove the…",
+   "paises": [
+    "py"
+   ],
+   "regiones": [
+    "latam"
+   ],
+   "materias": [],
+   "temas": [
+    "politica_monetaria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "ga10b60db9666"
+  },
+  {
+   "id": "46606509397c",
+   "fuente": "onu_economia",
+   "fuenteNombre": "Noticias ONU – Desarrollo económico",
+   "tipoFuente": "oficial",
+   "idioma": "es",
+   "titulo": "¿Por qué tu avión da vueltas antes de aterrizar? El plan de la ONU para reducir las esperas en el aire",
+   "link": "https://news.un.org/feed/view/es/story/2026/10/1542074",
+   "fecha": "2026-10-18T12:00:00.000Z",
+   "obtenido": "2026-10-24T21:35:33.669Z",
+   "fechaEstimada": false,
+   "extracto": "Los retrasos del tráfico aéreo cuestan miles de millones de dólares y pueden convertirse en una pesadilla para los pasajeros. Sin embargo, algunos países ya están demostrando que una mejor coordinación permite ahorrar miles de horas de vuelo y reducir las emisiones. La agencia de aviación de Naciones Unidas quiere…",
+   "paises": [],
+   "regiones": [
+    "global"
+   ],
+   "materias": [],
+   "temas": [
+    "sanciones"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g46606509397c"
+  },
+  {
+   "id": "e545c030814a",
+   "fuente": "ecb",
+   "fuenteNombre": "Banco Central Europeo – Prensa y discursos",
+   "tipoFuente": "oficial",
+   "idioma": "en",
+   "titulo": "Christine Lagarde: IMFC Statement",
+   "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html",
+   "fecha": "2026-10-17T05:00:00.000Z",
+   "obtenido": "2026-10-24T21:35:34.020Z",
+   "fechaEstimada": false,
+   "extracto": "",
+   "paises": [
+    "eu"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "temas": [
+    "politica_monetaria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "ge545c030814a"
+  },
+  {
+   "id": "2c9d8102d897",
+   "fuente": "f24_economia",
+   "fuenteNombre": "France 24 Español – Economía",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Francia y Alemania pactan flexibilizar para proteger a la industria automovilística europea",
+   "link": "https://www.france24.com/es/programas/econom%C3%ADa/20261016-francia-y-alemania-pactan-flexibilizar-para-proteger-a-la-industria-automovil%C3%ADstica-europea",
+   "fecha": "2026-10-16T16:19:10.000Z",
+   "obtenido": "2026-10-24T21:35:33.399Z",
+   "fechaEstimada": false,
+   "extracto": "París y Berlín acercan posiciones para reactivar un sector que representa el 7% del PIB de la Unión Europea y genera 13 millones de empleos. El acuerdo contempla flexibilizar los objetivos de emisiones de CO₂ e impulsar la contratación pública de vehículos fabricados en Europa, en medio de los recortes de empleo y…",
+   "paises": [
+    "eu",
+    "de",
+    "fr"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "temas": [
+    "empleo",
+    "actividad"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g2c9d8102d897"
+  },
+  {
+   "id": "70363c9b200b",
+   "fuente": "fed",
+   "fuenteNombre": "Reserva Federal de EE. UU. – Comunicados",
+   "tipoFuente": "oficial",
+   "idioma": "en",
+   "titulo": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
+   "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
+   "fecha": "2026-10-16T15:00:00.000Z",
+   "obtenido": "2026-10-24T21:35:33.308Z",
+   "fechaEstimada": false,
+   "extracto": "",
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [],
+   "temas": [
+    "politica_monetaria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g70363c9b200b"
+  },
+  {
+   "id": "a8e5eddab8a3",
+   "fuente": "eia_tie",
+   "fuenteNombre": "EIA – Today in Energy",
+   "tipoFuente": "oficial",
+   "idioma": "en",
+   "titulo": "U.S. small-scale solar generation has quadrupled in the last decade",
+   "link": "https://www.eia.gov/todayinenergy/detail.php?id=68324",
+   "fecha": "2026-10-16T14:00:00.000Z",
+   "obtenido": "2026-10-24T21:35:33.361Z",
+   "fechaEstimada": false,
+   "extracto": "We estimate that U.S. generation from small-scale or rooftop solar photovoltaic systems (smaller than 1 megawatt of capacity) has increased from 18,812 gigawatthours (GWh) to 92,979 GWh over the last decade. The four states with the highest generation of small-scale solar in the country-California, Arizona, Texas, and…",
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [],
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "ga8e5eddab8a3"
+  },
+  {
+   "id": "f2ab5728bd31",
+   "fuente": "mercopress",
+   "fuenteNombre": "MercoPress – Economy",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "The Falklands dispute threatens Argentina’s bid to join the trans-Pacific trade pact",
+   "link": "https://en.mercopress.com/2026/10/16/the-falklands-dispute-threatens-argentina-s-bid-to-join-the-trans-pacific-trade-pact?utm_source=feed&utm_medium=rss&utm_content=economy&utm_campaign=rss",
+   "fecha": "2026-10-16T10:07:00.000Z",
+   "obtenido": "2026-10-24T21:35:33.271Z",
+   "fechaEstimada": false,
+   "extracto": "The escalating dispute between Argentina and the United Kingdom over the Sea Lion oil project north of the Falklands has spilled into trade: London, a member of the Comprehensive and Progressive Agreement for Trans-Pacific Partnership, has not ruled out using its position to stall Argentina’s bid to join the pact,…",
+   "paises": [
+    "ar",
+    "fk",
+    "gb"
+   ],
+   "regiones": [
+    "latam",
+    "eu",
+    "as"
+   ],
+   "materias": [
+    "petroleo"
+   ],
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "gf2ab5728bd31"
+  },
+  {
+   "id": "5c275fbe96cf",
+   "fuente": "f24_economia",
+   "fuenteNombre": "France 24 Español – Economía",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Más allá del precio en la estación de gasolina: ¿qué sube a la par del diésel?",
+   "link": "https://www.france24.com/es/programas/econom%C3%ADa/20261016-m%C3%A1s-all%C3%A1-del-precio-en-la-estaci%C3%B3n-de-gasolina-qu%C3%A9-sube-a-la-par-del-di%C3%A9sel",
+   "fecha": "2026-10-16T02:12:43.000Z",
+   "obtenido": "2026-10-24T21:35:33.400Z",
+   "fechaEstimada": false,
+   "extracto": "El precio del galón de diésel en Estados Unidos tocó máximos este verano y se ha convertido en una de las cartas de juego de los demócratas para arrebatarles votos a los republicanos en las elecciones de medio término del 3 de noviembre. Con una inflación al alza y lejos de la meta, muchos se cuestionan de la eficacia…",
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [
+    "petroleo"
+   ],
+   "temas": [
+    "inflacion"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g5c275fbe96cf"
+  },
+  {
+   "id": "77ae42826876",
+   "fuente": "wto",
+   "fuenteNombre": "OMC (WTO) – Noticias",
+   "tipoFuente": "oficial",
+   "idioma": "en",
+   "titulo": "WTO and multilateral partners review progress on supply chain finance initiative",
+   "link": "https://www.wto.org/english/news_e/news26_e/trfin_16oct26_517_e.htm",
+   "fecha": "2026-10-16T00:00:00.000Z",
+   "obtenido": "2026-10-24T21:35:34.079Z",
+   "fechaEstimada": false,
+   "extracto": "Director-General Ngozi Okonjo-Iweala joined leaders of multilateral development banks and other international organizations at a high-level roundtable held on the sidelines of the 2026 World Bank – International Monetary Fund (IMF) Annual Meetings in Bangkok, Thailand, on 16 October to review progress in expanding…",
+   "paises": [
+    "th"
+   ],
+   "regiones": [
+    "as",
+    "global"
+   ],
+   "materias": [],
+   "temas": [
+    "comercio",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g77ae42826876"
+  },
+  {
+   "id": "030aff8850d7",
+   "fuente": "f24_economia",
+   "fuenteNombre": "France 24 Español – Economía",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Francia registra su mayor inflación en dos años, impulsada por el encarecimiento de la energía",
+   "link": "https://www.france24.com/es/programas/econom%C3%ADa/20261015-francia-registra-su-mayor-inflaci%C3%B3n-en-dos-a%C3%B1os-impulsada-por-el-encarecimiento-de-la-energ%C3%ADa",
+   "fecha": "2026-10-15T16:16:08.000Z",
+   "obtenido": "2026-10-24T21:35:33.400Z",
+   "fechaEstimada": false,
+   "extracto": "La inflación interanual en Francia alcanzó el 3,1% en septiembre, muy por encima del objetivo del 2% del Banco Central Europeo. El repunte estuvo impulsado por el aumento de más del 21% en los precios de la energía y del 36,2% en los productos petrolíferos, en un contexto de descontento social por el costo de vida que…",
+   "paises": [
+    "eu",
+    "fr"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "temas": [
+    "inflacion",
+    "politica_monetaria",
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g030aff8850d7"
+  },
+  {
+   "id": "6330895cad68",
+   "fuente": "eia_tie",
+   "fuenteNombre": "EIA – Today in Energy",
+   "tipoFuente": "oficial",
+   "idioma": "en",
+   "titulo": "PJM, ERCOT, and SWPP all set peak load records this summer",
+   "link": "https://www.eia.gov/todayinenergy/detail.php?id=68305",
+   "fecha": "2026-10-15T14:00:00.000Z",
+   "obtenido": "2026-10-24T21:35:33.362Z",
+   "fechaEstimada": false,
+   "extracto": "Three regional transmission organizations (RTOs) set records for peak hourly load this past summer, according to data reported on Form EIA-930 and presented in the Hourly Electric Grid Monitor.",
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g6330895cad68"
+  },
+  {
+   "id": "186af93f7e1d",
+   "fuente": "f24_economia",
+   "fuenteNombre": "France 24 Español – Economía",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "ONU: 130 millones de personas podrían caer en la pobreza por el alza de la energía y los alimentos",
+   "link": "https://www.france24.com/es/econom%C3%ADa-y-tecnolog%C3%ADa/20261015-onu-130-millones-de-personas-podr%C3%ADan-caer-en-la-pobreza-por-el-alza-de-la-energ%C3%ADa-y-los-alimentos",
+   "fecha": "2026-10-15T05:51:24.000Z",
+   "obtenido": "2026-10-24T21:35:33.401Z",
+   "fechaEstimada": false,
+   "extracto": "Unos 130 millones de personas podrían caer en la pobreza en 2026 debido al encarecimiento de la energía y los alimentos, advirtió el Programa de Naciones Unidas para el Desarrollo (PNUD). Su director, Alexander de Croo, señaló que el elevado endeudamiento y los altos tipos de interés agravan la situación de los países…",
+   "paises": [],
+   "regiones": [
+    "global"
+   ],
+   "materias": [
+    "granos"
+   ],
+   "temas": [
+    "politica_monetaria",
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría modificar la producción o los saldos exportables de granos y alimentos."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar las compras de importadores o el consumo de alimentos."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g186af93f7e1d"
+  },
+  {
+   "id": "8798422a4e4b",
+   "fuente": "f24_economia",
+   "fuenteNombre": "France 24 Español – Economía",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "EE. UU.: una inflación al rojo vivo pone presión sobre los republicanos de cara a las midterms",
+   "link": "https://www.france24.com/es/programas/econom%C3%ADa/20261015-ee-uu-una-inflaci%C3%B3n-al-rojo-vivo-pone-presi%C3%B3n-sobre-los-republicanos-de-cara-a-las-midterms",
+   "fecha": "2026-10-15T02:20:24.000Z",
+   "obtenido": "2026-10-24T21:35:33.401Z",
+   "fechaEstimada": false,
+   "extracto": "La variación de precios al consumidor en septiembre en Estados Unidos no solo fue más alta que la de agosto, sino que se alejó más aún de la meta de la Reserva Federal, que podría tener que verse obligada a seguir subiendo -impopularmente- las tasas de interés.",
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [],
+   "temas": [
+    "inflacion",
+    "politica_monetaria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g8798422a4e4b"
+  },
+  {
+   "id": "e4fbc6191b8b",
+   "fuente": "wto",
+   "fuenteNombre": "OMC (WTO) – Noticias",
+   "tipoFuente": "oficial",
+   "idioma": "en",
+   "titulo": "Import Licensing Committee addresses notifications, trade concerns, transparency efforts",
+   "link": "https://www.wto.org/english/news_e/news26_e/impl_15oct26_518_e.htm",
+   "fecha": "2026-10-15T00:00:00.000Z",
+   "obtenido": "2026-10-24T21:35:34.080Z",
+   "fechaEstimada": false,
+   "extracto": "At its 15 October meeting, the WTO Committee on Import Licensing examined challenges for WTO members in preparing notifications, including findings from a recent WTO workshop for government officials. It also reviewed the latest information on members' notification practices. In addition, the Committee considered a…",
+   "paises": [],
+   "regiones": [
+    "global"
+   ],
+   "materias": [],
+   "temas": [
+    "comercio",
+    "aranceles"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "ge4fbc6191b8b"
+  }
+ ]
+}
