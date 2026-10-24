@@ -1,0 +1,15 @@
+{
+  "name": "monitor-materias-primas",
+  "version": "1.0.0",
+  "description": "Monitor educativo de materias primas, noticias económicas internacionales y geopolítica (en español).",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.js",
+    "actualizar": "node scripts/update.js",
+    "actualizar:forzar": "node scripts/update.js --forzar",
+    "test": "node --test test/pruebas.test.js",
+    "datos-prueba": "node test/preparar-fixtures.js && FUENTES_LOCALES=test/fixtures/xml node scripts/update.js && cp test/fixtures/eia-prueba.json public/data/eia.json"
+  }
+}

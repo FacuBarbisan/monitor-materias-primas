@@ -1,0 +1,55 @@
+// Catálogo de fuentes de noticias.
+// Cada fuente fue verificada manualmente el 22/10/2026 (RSS público y gratuito).
+// tipo: "oficial" (organismos, bancos centrales) o "periodistica" (medios).
+// filtrar: true = solo se guardan las notas que mencionan algún tema o materia prima
+//          relevante (evita llenar la app con noticias ajenas al comercio internacional).
+// paisesFijos: países que se agregan siempre (p. ej., la Fed es de Estados Unidos).
+
+export const SOURCES = [
+  // ---------- Medios periodísticos ----------
+  { id: 'bbc_business', nombre: 'BBC News – Business', tipo: 'periodistica', idioma: 'en', region: 'Europa (Reino Unido)',
+    url: 'https://feeds.bbci.co.uk/news/business/rss.xml', cadaMin: 30, filtrar: true },
+  { id: 'bbc_mundo', nombre: 'BBC News Mundo', tipo: 'periodistica', idioma: 'es', region: 'Global (en español)',
+    url: 'https://feeds.bbci.co.uk/mundo/rss.xml', cadaMin: 30, filtrar: true },
+  { id: 'dw_es', nombre: 'DW Español', tipo: 'periodistica', idioma: 'es', region: 'Europa (Alemania)',
+    url: 'https://rss.dw.com/xml/rss-sp-all', cadaMin: 30, filtrar: true },
+  { id: 'f24_economia', nombre: 'France 24 Español – Economía', tipo: 'periodistica', idioma: 'es', region: 'Europa (Francia)',
+    url: 'https://www.france24.com/es/econom%C3%ADa/rss', cadaMin: 30, filtrar: true },
+  { id: 'f24_latam', nombre: 'France 24 Español – América Latina', tipo: 'periodistica', idioma: 'es', region: 'América Latina',
+    url: 'https://www.france24.com/es/am%C3%A9rica-latina/rss', cadaMin: 30, filtrar: true },
+  { id: 'aljazeera', nombre: 'Al Jazeera English', tipo: 'periodistica', idioma: 'en', region: 'Medio Oriente (Qatar)',
+    url: 'https://www.aljazeera.com/xml/rss/all.xml', cadaMin: 30, filtrar: true },
+  { id: 'scmp_business', nombre: 'South China Morning Post – Business', tipo: 'periodistica', idioma: 'en', region: 'Asia (Hong Kong)',
+    url: 'https://www.scmp.com/rss/92/feed', cadaMin: 30, filtrar: true },
+  { id: 'scmp_china', nombre: 'South China Morning Post – China', tipo: 'periodistica', idioma: 'en', region: 'Asia (Hong Kong)',
+    url: 'https://www.scmp.com/rss/4/feed', cadaMin: 30, filtrar: true },
+  { id: 'mercopress', nombre: 'MercoPress – Economy', tipo: 'periodistica', idioma: 'en', region: 'América del Sur (Uruguay)',
+    url: 'https://en.mercopress.com/rss/economy', cadaMin: 60, filtrar: true },
+
+  // ---------- Fuentes oficiales ----------
+  { id: 'eia_tie', nombre: 'EIA – Today in Energy', tipo: 'oficial', idioma: 'en', region: 'Estados Unidos (energía global)',
+    url: 'https://www.eia.gov/rss/todayinenergy.xml', cadaMin: 120, filtrar: false, materiasFijas: [], temasFijos: ['energia'] },
+  { id: 'eia_press', nombre: 'EIA – Comunicados de prensa', tipo: 'oficial', idioma: 'en', region: 'Estados Unidos',
+    url: 'https://www.eia.gov/rss/press_rss.xml', cadaMin: 120, filtrar: false, temasFijos: ['energia'] },
+  { id: 'fed', nombre: 'Reserva Federal de EE. UU. – Comunicados', tipo: 'oficial', idioma: 'en', region: 'Estados Unidos',
+    url: 'https://www.federalreserve.gov/feeds/press_all.xml', cadaMin: 60, filtrar: false, paisesFijos: ['us'], temasFijos: ['politica_monetaria'] },
+  { id: 'ecb', nombre: 'Banco Central Europeo – Prensa y discursos', tipo: 'oficial', idioma: 'en', region: 'Zona euro',
+    url: 'https://www.ecb.europa.eu/rss/press.html', cadaMin: 60, filtrar: false, paisesFijos: ['eu'], temasFijos: ['politica_monetaria'] },
+  { id: 'wto', nombre: 'OMC (WTO) – Noticias', tipo: 'oficial', idioma: 'en', region: 'Global',
+    url: 'https://www.wto.org/library/rss/latest_news_e.xml', cadaMin: 120, filtrar: false, temasFijos: ['comercio'] },
+  { id: 'onu_economia', nombre: 'Noticias ONU – Desarrollo económico', tipo: 'oficial', idioma: 'es', region: 'Global',
+    url: 'https://news.un.org/feed/subscribe/es/news/topic/economic-development/feed/rss.xml', cadaMin: 120, filtrar: true },
+];
+
+// Integraciones evaluadas que NO están conectadas, con el motivo y lo que haría falta.
+export const PENDING = [
+  { nombre: 'Reuters', motivo: 'No ofrece RSS público desde 2020. Requiere licencia comercial (Reuters Connect / LSEG).', requisito: 'Contrato pago con Reuters.' },
+  { nombre: 'Associated Press (AP)', motivo: 'No ofrece RSS público oficial. Requiere licencia (AP Media API).', requisito: 'Contrato pago con AP.' },
+  { nombre: 'OPEP (OPEC)', motivo: 'El sitio bloquea accesos automáticos con una verificación anti-bots (comprobado 22/10/2026).', requisito: 'Sin mecanismo autorizado disponible; revisar más adelante.' },
+  { nombre: 'FMI (IMF)', motivo: 'No se encontró un feed RSS funcional (la página de RSS no devuelve enlaces).', requisito: 'Revisar la API de datos del FMI (SDMX) para indicadores en la etapa 2.' },
+  { nombre: 'Agencia Internacional de Energía (AIE / IEA)', motivo: 'No se verificó un RSS público; sus datos detallados son pagos.', requisito: 'Suscripción a datos de la AIE para estadísticas.' },
+  { nombre: 'Banco Mundial', motivo: 'Tiene API de indicadores gratuita (no de noticias).', requisito: 'Se integrará en la etapa 2 (indicadores y precios mensuales "Pink Sheet").' },
+  { nombre: 'Precios oficiales LBMA (oro y plata)', motivo: 'Los precios de referencia LBMA requieren licencia de datos.', requisito: 'Licencia LBMA/ICE Benchmark Administration (paga).' },
+  { nombre: 'Futuros CME (COMEX/NYMEX) e ICE (Brent) en widgets', motivo: 'TradingView no los habilita en widgets gratuitos ("solo disponible en TradingView"), comprobado 22/10/2026.', requisito: 'Licencia de datos de bolsa o un proveedor pago de cotizaciones.' },
+  { nombre: 'GDELT (agregador global de noticias)', motivo: 'API gratuita sin clave, pero respondió con límite de consultas durante la prueba.', requisito: 'Puede activarse más adelante como fuente experimental.' },
+];
