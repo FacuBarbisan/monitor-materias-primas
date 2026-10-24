@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-24T21:43:21.827Z",
+ "generado": "2026-10-24T23:46:12.017Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -518,6 +518,277 @@
  },
  "items": [
   {
+   "id": "f06838f075fd",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Rosebank: Life on the oil field at the centre of a political storm",
+   "link": "https://www.bbc.co.uk/news/articles/cqy8ljkle97ro?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-24T23:15:18.000Z",
+   "obtenido": "2026-10-24T23:46:10.437Z",
+   "fechaEstimada": false,
+   "extracto": "Scotland editor James Cook finds out what life is like on board a ship in an untapped oil field awaiting its fate.",
+   "paises": [],
+   "regiones": [],
+   "materias": [
+    "petroleo"
+   ],
+   "temas": [
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gf06838f075fd"
+  },
+  {
+   "id": "19fdabe9cb63",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Trump lauds Melania over Russia-Ukraine localised ceasefire deal",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/24/trump-lauds-melania-over-russia-ukraine-localised-ceasefire-deal?traffic_source=rss",
+   "fecha": "2026-10-24T23:08:16.000Z",
+   "obtenido": "2026-10-24T23:46:10.542Z",
+   "fechaEstimada": false,
+   "extracto": "Donald Trump praised First Lady as 'better than professionals' after a localised Russia-Ukraine ceasefire in Oleshky.",
+   "paises": [
+    "us",
+    "ua",
+    "ru"
+   ],
+   "regiones": [
+    "na",
+    "eu",
+    "eurasia"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g19fdabe9cb63"
+  },
+  {
+   "id": "afce2e6ccf04",
+   "fuente": "bbc_mundo",
+   "fuenteNombre": "BBC News Mundo",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "\"Es nuestra última oportunidad de frenarlo\": Obama ataca a Trump mientras hace campaña para los demócratas",
+   "link": "https://www.bbc.com/mundo/articles/cwnv0gjnp0p9o?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-24T23:04:47.000Z",
+   "obtenido": "2026-10-24T23:46:10.399Z",
+   "fechaEstimada": false,
+   "extracto": "El expresidente Barack Obama se lanzó contra el gobierno de Donald Trump, a quien criticó por la guerra de Irán y la inflación de precios que viven los estadounidenses.",
+   "paises": [
+    "us",
+    "ir"
+   ],
+   "regiones": [
+    "na",
+    "me"
+   ],
+   "materias": [],
+   "temas": [
+    "inflacion",
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     },
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gafce2e6ccf04"
+  },
+  {
+   "id": "115edf62c0a5",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Gunmen kill at least 10 people in eastern Nigeria, police say",
+   "link": "https://www.aljazeera.com/news/2026/10/24/gunmen-kill-at-least-10-people-in-eastern-nigeria-police-say?traffic_source=rss",
+   "fecha": "2026-10-24T22:35:45.000Z",
+   "obtenido": "2026-10-24T23:46:10.542Z",
+   "fechaEstimada": false,
+   "extracto": "Nigerian police say a large group carried out the attack on Binnari village in Taraba State.",
+   "paises": [
+    "ng"
+   ],
+   "regiones": [
+    "af"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g115edf62c0a5"
+  },
+  {
+   "id": "2f3197510c0b",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "How have Democrats’ policies shifted since the last major US election?",
+   "link": "https://www.aljazeera.com/economy/2026/10/24/how-have-democrats-policies-shifted-since-the-last-major-us-election?traffic_source=rss",
+   "fecha": "2026-10-24T22:28:37.000Z",
+   "obtenido": "2026-10-24T23:46:10.543Z",
+   "fechaEstimada": false,
+   "extracto": "From trans rights to Israel's war on Gaza, the party's candidates have responded to voter shifts on a slew of issues.",
+   "paises": [
+    "il",
+    "ps",
+    "us"
+   ],
+   "regiones": [
+    "me",
+    "na"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g2f3197510c0b"
+  },
+  {
+   "id": "4a8f1f6bf119",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Israel desplaza a miles de palestinos de Hebrón tras mortal ataque",
+   "link": "https://www.dw.com/es/israel-desplaza-a-miles-de-palestinos-de-hebrón-tras-mortal-ataque/a-79752970?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-24T21:44:00.000Z",
+   "obtenido": "2026-10-24T23:46:10.515Z",
+   "fechaEstimada": false,
+   "extracto": "Tras el ataque ocurrido este viernes cerca de Hebrón, en el que murieron dos militares israelíes, el primer ministro israelí Benjamín Netanyahu anunció una operación militar de gran escala en Cisjordania.",
+   "paises": [
+    "il",
+    "ps"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g6cf54f9a7d74"
+  },
+  {
+   "id": "33d886ed4bab",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Iran blames US for deal failure, urges new try amid fear of new attacks",
+   "link": "https://www.aljazeera.com/news/2026/10/24/iran-blames-us-for-deal-failure-urges-new-try-amid-fear-of-new-attacks?traffic_source=rss",
+   "fecha": "2026-10-24T21:30:11.000Z",
+   "obtenido": "2026-10-24T23:46:10.543Z",
+   "fechaEstimada": false,
+   "extracto": "Tehran warns that even limited strikes would trigger a response 'several times greater'.",
+   "paises": [
+    "ir",
+    "us"
+   ],
+   "regiones": [
+    "me",
+    "na"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g33d886ed4bab"
+  },
+  {
    "id": "6e0345fb0a82",
    "fuente": "aljazeera",
    "fuenteNombre": "Al Jazeera English",
@@ -554,6 +825,33 @@
    "grupo": "g6e0345fb0a82"
   },
   {
+   "id": "9e910adcde51",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Hutíes de Yemen atacan Arabia Saudita y la ciudad yemení de Adén",
+   "link": "https://www.dw.com/es/hutíes-de-yemen-atacan-arabia-saudita-y-la-ciudad-yemení-de-adén/a-79752963?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-24T21:01:00.000Z",
+   "obtenido": "2026-10-24T23:46:10.515Z",
+   "fechaEstimada": false,
+   "extracto": "Los combatientes hutíes aseguraron haber atacado tres aeropuertos sauditas, estaciones de petróleo y una base aérea en las últimas 24 horas.",
+   "paises": [
+    "sa",
+    "ye"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [
+    "petroleo"
+   ],
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "g9e910adcde51"
+  },
+  {
    "id": "8c8987787069",
    "fuente": "aljazeera",
    "fuenteNombre": "Al Jazeera English",
@@ -588,6 +886,39 @@
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
    "grupo": "g8c8987787069"
+  },
+  {
+   "id": "a3268894cc08",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Aumenta a nueve el número de muertos por ataque contra iglesia en Jordania",
+   "link": "https://www.dw.com/es/aumenta-a-nueve-el-número-de-muertos-por-ataque-contra-iglesia-en-jordania/a-79752201?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-24T18:29:00.000Z",
+   "obtenido": "2026-10-24T23:46:10.516Z",
+   "fechaEstimada": false,
+   "extracto": "Estos ataques son sumamente inusuales en Jordania, un Estado relativamente estable en Medio Oriente. \"El atentado terrorista contra Karak recibirá la respuesta más dura\", aseguró el rey jordano Abdalá II.",
+   "paises": [],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "ga3268894cc08"
   },
   {
    "id": "801037282c5a",
