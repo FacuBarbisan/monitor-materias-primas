@@ -1,95 +1,66 @@
-# Monitor de Materias Primas — versión 1
+# Monitor de Materias Primas (v4)
 
-Aplicación web personal, en español, para seguir **oro, plata, WTI y Brent**, noticias económicas internacionales y acontecimientos geopolíticos, con filtros por país, región, materia prima, tema, fuente y fecha.
+Página web personal y educativa: catálogo de materias primas con precios de referencia verificables, ficha por producto con gráfico y noticias relacionadas, y noticias internacionales con imágenes de sus fuentes.
 
-> Proyecto educativo. No es asesoramiento financiero.
+Todo lo externo lo consulta el **actualizador de GitHub Actions** (sin problemas de CORS). La página publicada en GitHub Pages solo lee los archivos que ese actualizador genera. La única excepción son los widgets oficiales de TradingView, que se cargan al abrir una ficha.
 
----
+## Qué hay de nuevo
 
-## 1. Qué está conectado de verdad (verificado el 22/10/2026)
+- **Catálogo** de 55 materias primas en 8 categorías: energía, metales preciosos, metales industriales, granos, aceites y derivados, ganadería y pesca, otros agrícolas y fertilizantes. Tiene buscador y filtros por categoría. Al abrir la página se muestra **solo la tabla**; la historia de precios y el widget se descargan recién al abrir una ficha.
+- **Ficha** de cada materia prima:
+  - Precio de referencia con variación, moneda, unidad, proveedor, fecha del dato, tipo de precio y demora.
+  - Gráfico interactivo con elección de período.
+  - Widget de TradingView cuando existe.
+  - Noticias que mencionan específicamente ese producto, con la palabra que las vinculó y una interpretación rotulada como tal.
+- **Noticias con imagen:** foto que publica la propia fuente en su RSS, con crédito. Si la fuente no publica imagen, o si la imagen no carga, se muestra un bloque visual con el nombre del medio, sin inventar una foto.
 
-| Parte | Fuente | Tipo de dato | Costo |
+## De dónde salen los precios (sin costo)
+
+| Proveedor | Qué aporta | Tipo de dato | Demora |
 |---|---|---|---|
-| Oro y plata | Widget oficial de TradingView, símbolos `OANDA:XAUUSD` y `OANDA:XAGUSD` | Spot OTC (contado extrabursátil), USD por onza troy | Gratis |
-| WTI y Brent | Widget oficial de TradingView, símbolos `TVC:USOIL` y `TVC:UKOIL` | **CFD** (TradingView los rotula así). No son el futuro oficial y no tienen vencimiento. USD por barril | Gratis |
-| Petróleo oficial | API v2 de la EIA, series `RWTC` (WTI Cushing) y `RBRTE` (Brent Europa) | Spot FOB diario oficial, 1–2 días hábiles de rezago | Gratis (clave gratuita recomendada) |
-| Noticias | 15 feeds RSS públicos: BBC Business, BBC Mundo, DW Español, France 24 Español (Economía y América Latina), Al Jazeera, SCMP (Business y China), MercoPress, EIA (2), Reserva Federal, BCE, OMC y Noticias ONU | Título, fecha, extracto y enlace al original | Gratis |
-| Traducción/resumen con IA | API de Anthropic (Claude Haiku 4.5) | Opcional. Siempre aparece rotulado “Traducido con IA” | Pago por uso (ver sección 6) |
+| **EIA** (API v2) | WTI y Brent | Spot diario oficial | 1 a 2 días hábiles |
+| **FRED** (Fed de St. Louis) | Gas Henry Hub, gasolina, gasóleo, jet fuel y propano | Spot diario | Algunos días |
+| **FRED** (series del FMI) | La mayoría de los metales, granos, aceites, carnes y agrícolas | Promedio mensual | 1 a 3 meses |
+| **Banco Mundial** (Pink Sheet, CC BY 4.0) | Oro, plata, platino, sorgo y fertilizantes (urea, DAP, TSP, cloruro de potasio, roca fosfórica) | Promedio mensual | Aproximadamente 1 mes |
+| **TradingView** (widget) | Gráfico en vivo para 12 productos | Contado OTC o CFD; nunca futuros oficiales | La indica el propio widget |
 
-**Futuros de bolsa:** COMEX, NYMEX e ICE **no** están disponibles en los widgets gratuitos de TradingView. Al probarlos, el widget muestra “Este símbolo solo está disponible en TradingView”. Para usarlos hace falta una licencia de datos de bolsa.
+**No son cotizaciones en tiempo real**, salvo los widgets. Cada precio muestra la fecha del dato. En cada corrida el actualizador comprueba cada serie: si una fuente no responde o un código no existe, la ficha lo dice y no muestra ningún precio. Todo queda en **Fuentes → Verificación de cada serie de precios**.
 
-**No conectado:** Reuters y AP (requieren licencia paga), OPEP (bloquea el acceso automático), FMI (no se encontró un RSS que funcione), AIE, LBMA y GDELT. El detalle está en la sección *Fuentes y estado* de la app.
+**Sin precio gratuito verificable:** paladio (tiene widget), litio y tierras raras. Esas fichas muestran solo noticias.
 
-### Cómo se protegen los datos
+## Archivos que tenés que reemplazar o agregar en GitHub
 
-- Las cotizaciones de TradingView se **muestran** dentro de su widget. La app no las lee ni las guarda.
-- De cada medio se usan solo el título, el extracto que publica en su RSS y el enlace. No se copian artículos ni se eluden suscripciones.
-- Las etiquetas (país, materia prima, tema) y los “canales de impacto” son **interpretaciones automáticas por palabras clave**. La app las rotula así y advierte que no prueban que una noticia haya movido un precio.
-- Si una fuente falla, se conservan sus noticias anteriores y la app muestra una advertencia con la hora del último dato válido.
+Subí el contenido de la carpeta `actualizar-en-github` del ZIP (en el repositorio: **Add file → Upload files**, arrastrá las carpetas y tocá **Commit changes**). Los archivos con la misma ruta se reemplazan.
 
-## 2. Arquitectura (y por qué)
+| Archivo | Acción |
+|---|---|
+| `public/index.html`, `public/app.js`, `public/styles.css` | Reemplazar |
+| `scripts/update.js` | Reemplazar |
+| `scripts/precios.js` | **Nuevo** |
+| `config/commodities.js` | **Nuevo** |
+| `config/taxonomy.js` | Reemplazar |
+| `lib/classify.js`, `lib/rss.js`, `lib/eia.js` | Reemplazar |
+| `lib/fred.js`, `lib/xlsx.js`, `lib/worldbank.js` | **Nuevos** |
+| `test/pruebas.test.js` | Reemplazar |
+| `test/fixtures/pinksheet-prueba.xlsx` | **Nuevo** (datos sintéticos, solo para las pruebas) |
+| `package.json`, `README.md` | Reemplazar |
+| `.github/workflows/actualizar.yml` | Reemplazar (agrega la clave opcional de FRED) |
 
-- **`scripts/update.js`** descarga los feeds y la EIA, etiqueta, agrupa las coberturas del mismo hecho y guarda JSON en `public/data/`. Es el “backend”: corre en un servidor, nunca en tu navegador, y es el único que usa las claves.
-- **`public/`** es la web (HTML, CSS y JS sin librerías). Lee esos JSON y muestra los widgets de TradingView.
-- **GitHub Actions** ejecuta la actualización **cada 30 minutos aunque la página esté cerrada**, y **GitHub Pages** publica la web. Para un repositorio público, las dos cosas son gratis.
-- No usa dependencias externas, así que no hay nada que instalar ni actualizar.
+**No toques** `public/data/` ni `state/`: los mantiene el actualizador. Después de subir, en **Actions** ejecutá **Run workflow** una vez. La primera corrida tarda 1 o 2 minutos más porque descarga la historia de precios.
 
-Elegí esta arquitectura porque es la más simple y gratuita que cumple todo lo pedido: actualización programada, claves protegidas (quedan en *Secrets* de GitHub), caché (ETag/Last-Modified), límite de consultas por fuente, reintentos y registro de errores.
+## Claves opcionales (gratuitas)
 
-**Dónde se guardan tus favoritos, noticias guardadas y notas:** en el almacenamiento local de tu navegador. No se envían a ningún servidor. Si cambiás de navegador o borrás sus datos, se pierden. Por eso la app tiene **Exportar / Importar copia**. Una base de datos en la nube, para sincronizar entre dispositivos, queda para la etapa 2.
+No son obligatorias. Mejoran la estabilidad:
 
-## 3. Publicarla gratis con GitHub (paso a paso, sin programar)
+- **`EIA_API_KEY`**: se pide en <https://www.eia.gov/opendata/register.php>.
+- **`FRED_API_KEY`**: se pide en <https://fredaccount.stlouisfed.org/apikeys>. Sin esta clave se usa la descarga pública de FRED, que a veces está en mantenimiento.
 
-1. Creá una cuenta gratuita en <https://github.com>.
-2. Arriba a la derecha: **+ → New repository**. Nombre: `monitor-materias-primas`. Elegí **Public** (en el plan gratuito, Pages y Actions son gratis solo en repositorios públicos). Tocá **Create repository**.
-3. En el repositorio vacío: **uploading an existing file**. Descomprimí el ZIP en tu computadora y arrastrá **todo el contenido** de la carpeta `monitor` (no la carpeta en sí). Tocá **Commit changes**.
-4. **Importante:** las carpetas que empiezan con punto (`.github`) a veces no se suben al arrastrar. Revisá si aparece la carpeta `.github`. Si no aparece: **Add file → Create new file**, escribí como nombre `.github/workflows/actualizar.yml`, pegá el contenido de ese archivo del ZIP y tocá **Commit changes**.
-5. **Settings → Pages →** en *Build and deployment / Source* elegí **GitHub Actions**.
-6. (Recomendado) Pedí tu clave gratuita de la EIA en <https://www.eia.gov/opendata/register.php>. Llega por correo. Después: **Settings → Secrets and variables → Actions → New repository secret**, nombre `EIA_API_KEY`, valor: tu clave.
-7. Pestaña **Actions → “Actualizar datos y publicar” → Run workflow**. En 1 o 2 minutos debería quedar en verde.
-8. La dirección de tu app aparece en **Settings → Pages** (algo como `https://TU-USUARIO.github.io/monitor-materias-primas/`). Abrila en la compu o en el celular.
+Para cargarlas: **Settings → Secrets and variables → Actions → New repository secret**, con exactamente esos nombres.
 
-A partir de ahí se actualiza sola cada 30 minutos. GitHub puede demorar algunos minutos los procesos programados. En repositorios públicos, GitHub desactiva los procesos programados si el repositorio pasa 60 días sin actividad. Si eso ocurre, la app avisa que los datos están viejos; se reactiva desde la pestaña **Actions**.
+## Costo
 
-**Privacidad:** al ser público, el código y las noticias recolectadas son visibles para cualquiera. Tus notas y favoritos **no**, porque quedan en tu navegador.
+Nada. GitHub Actions y GitHub Pages son gratuitos en repositorios públicos. Las fuentes de precios y noticias son públicas. No hay servicios pagos.
 
-## 4. Conservar el código
+## Lo que se conserva
 
-- Guardá el ZIP en tu computadora o en tu nube (Drive, OneDrive, etc.).
-- Una vez subido a GitHub, el repositorio es tu copia principal, con historial de cambios. Desde **Code → Download ZIP** podés bajarlo cuando quieras.
-
-## 5. Usarla en tu computadora (opcional)
-
-1. Instalá Node.js 20 o superior desde <https://nodejs.org> (versión LTS).
-2. Abrí una terminal en la carpeta del proyecto.
-3. Copiá `.env.example` como `.env` y completá las claves que tengas.
-4. Ejecutá `npm start` y abrí <http://localhost:3000>. Mientras esté encendido, actualiza cada 10 minutos (cada fuente respeta su propia frecuencia).
-
-Otros comandos: `npm run actualizar` (una actualización), `npm test` (pruebas) y `npm run datos-prueba` (carga datos de prueba rotulados como tales; no lo uses en el repositorio publicado).
-
-## 6. Servicios pagos (no contratados; pedime confirmación antes)
-
-| Servicio | Para qué | Costo aproximado (oct. 2026) |
-|---|---|---|
-| API de Anthropic (Claude Haiku 4.5) | Traducir títulos y resumir extractos | USD 1 por millón de tokens de entrada y USD 5 por millón de salida. Con ~150 noticias nuevas por día: **unos USD 4–5 por mes**. Se limita con `AI_MAX_POR_CORRIDA`. |
-| Railway (u otro hosting con servidor siempre encendido) | Alternativa a GitHub si querés un servidor propio | Plan Hobby: USD 5 por mes, con USD 5 de uso incluido. No tiene plan gratuito permanente. |
-| Licencia de datos de bolsa / Reuters / AP / LBMA | Futuros oficiales con vencimiento, agencias de noticias y precios de referencia oficiales | Contratos comerciales: cotización a pedido |
-
-Para activar la IA: creá una clave en <https://console.anthropic.com>, cargale crédito y agregala como secret `ANTHROPIC_API_KEY`. Si no la configurás, la app funciona igual con los títulos originales y un botón “Traducir (Google)” que abre la traducción en otra pestaña.
-
-## 7. Estructura
-
-```
-config/sources.js      fuentes conectadas y pendientes
-config/taxonomy.js     países, regiones, materias primas, temas y canales de impacto
-lib/                   lector RSS/Atom, clasificador, agrupador, EIA, IA
-scripts/update.js      actualización (la que corre GitHub Actions)
-server.js              servidor opcional para uso local
-public/                la web
-test/                  pruebas automáticas y datos reales capturados para pruebas
-.github/workflows/     actualización programada y publicación
-```
-
-## 8. Próxima etapa
-
-Calendario económico, hipótesis con seguimiento, simulador de operaciones (Incoterms, flete, seguro, financiamiento), indicadores del Banco Mundial y del FMI, y base de datos para sincronizar notas entre dispositivos.
+Favoritos, notas y noticias guardadas (mismo almacenamiento del navegador; los favoritos de materias primas genéricas se convierten solos, por ejemplo “petróleo” pasa a WTI y Brent), filtros, modo claro/oscuro, zona horaria y la actualización automática cada 30 minutos.

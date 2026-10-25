@@ -5,12 +5,12 @@ import { readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { join, dirname } from 'node:path';
 import { SOURCES, PENDING } from '../config/sources.js';
-import { PAISES, REGIONES, MATERIAS, TEMAS } from '../config/taxonomy.js';
+import { PAISES, REGIONES, MATERIAS, TEMAS, CATEGORIAS, VERSION_TAXONOMIA } from '../config/taxonomy.js';
+import { actualizarPrecios } from './precios.js';
 import { parsearFeed } from '../lib/rss.js';
 import { clasificar } from '../lib/classify.js';
 import { agrupar } from '../lib/cluster.js';
 import { iaConfigurada, traducirLote } from '../lib/ai.js';
-import { obtenerEIA } from '../lib/eia.js';
 import { hash, recortar, leerJSON, escribirJSON } from '../lib/util.js';
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -99,7 +99,7 @@ export async function actualizar({ forzar = false } = {}) {
           mapa.set(id, {
             id, fuente: fuente.id, fuenteNombre: fuente.nombre, tipoFuente: fuente.tipo, idioma: fuente.idioma,
             titulo: c.titulo, link: c.link, fecha: c.fecha, obtenido: ahora(), fechaEstimada: !c.fecha,
-            extracto, ...etiquetas, ...(FUENTES_LOCALES ? { prueba: true } : {}),
+            extracto, imagen: c.imagen || null, tax: VERSION_TAXONOMIA, ...etiquetas, ...(FUENTES_LOCALES ? { prueba: true } : {}),
           });
         }
         est.itemsEnFeed = crudos.length;
@@ -117,6 +117,15 @@ export async function actualizar({ forzar = false } = {}) {
     }
     estadoFuentes[fuente.id] = est;
   });
+
+  // Si cambió el catálogo de materias primas, se vuelven a etiquetar las noticias guardadas.
+  for (const [id, it] of mapa) {
+    if (it.tax === VERSION_TAXONOMIA) continue;
+    const fuente = SOURCES.find((f) => f.id === it.fuente) || {};
+    const etq = clasificar({ titulo: it.titulo, descripcion: it.extracto }, fuente);
+    if (fuente.filtrar && !etq.relevante) { mapa.delete(id); continue; }
+    mapa.set(id, { ...it, ...etq, tax: VERSION_TAXONOMIA });
+  }
 
   // Retención: se descartan noticias viejas.
   const limite = Date.now() - DIAS_RETENCION * 864e5;
@@ -155,28 +164,19 @@ export async function actualizar({ forzar = false } = {}) {
 
   agrupar(items);
 
-  // Precios oficiales EIA.
-  const eiaPrevio = await leerJSON(join(DATOS, 'eia.json'), null);
-  const eiaEstado = { ...(estadoPrevio.eia || {}) };
-  if (!FUENTES_LOCALES && (forzar || vencida(eiaEstado.ultimoIntento, EIA_CADA_MIN))) {
-    eiaEstado.ultimoIntento = ahora();
-    try {
-      const eia = await obtenerEIA();
-      await escribirJSON(join(DATOS, 'eia.json'), { obtenido: ahora(), ...eia });
-      Object.assign(eiaEstado, { ultimoExito: ahora(), ultimoError: null, fallosSeguidos: 0, usaClaveDemo: eia.usaClaveDemo });
-    } catch (e) {
-      Object.assign(eiaEstado, { ultimoError: mensajeError(e), fallosSeguidos: (eiaEstado.fallosSeguidos || 0) + 1 });
-      console.error('[EIA]', eiaEstado.ultimoError);
-      if (!eiaPrevio) await escribirJSON(join(DATOS, 'eia.json'), null);
-    }
-  }
+  // Precios de referencia del catálogo (FRED, EIA, Banco Mundial).
+  let precios = null;
+  try { precios = FUENTES_LOCALES ? null : await actualizarPrecios({ raiz: RAIZ, forzar }); }
+  catch (e) { console.error('[Precios]', e); }
+  const eiaEstado = precios?.proveedores?.eia || estadoPrevio.eia || {};
 
   const generado = ahora();
   const hayPrueba = Boolean(FUENTES_LOCALES) || items.some((i) => i.prueba);
   const catalogo = {
     regiones: REGIONES,
     paises: PAISES.map(([id, nombre, region]) => ({ id, nombre, region })),
-    materias: MATERIAS.map(([id, nombre]) => ({ id, nombre })),
+    materias: MATERIAS.map(([id, nombre, , , categoria]) => ({ id, nombre, categoria })),
+    categorias: CATEGORIAS,
     temas: TEMAS.map(([id, nombre]) => ({ id, nombre })),
     fuentes: SOURCES.map((f) => ({ id: f.id, nombre: f.nombre, tipo: f.tipo })),
   };

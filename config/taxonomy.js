@@ -1,3 +1,4 @@
+import { COMMODITIES, CATEGORIAS, CLAVES_CATEGORIA } from './commodities.js';
 // Diccionarios para etiquetar noticias por reglas (sin IA).
 // Las palabras clave se comparan sin acentos y en minúsculas, por palabra completa.
 
@@ -93,16 +94,11 @@ export const REGION_KEYWORDS = {
   global: ['wto', 'omc', 'imf', 'fmi', 'world bank', 'banco mundial', 'g20', 'g7', 'opec', 'opep', 'onu', 'united nations', 'naciones unidas', 'global', 'mundial', 'worldwide'],
 };
 
-// Materias primas: [id, nombre, palabras clave, exclusiones (frases que anulan el término)]
-export const MATERIAS = [
-  ['oro', 'Oro', ['gold', 'oro', 'bullion', 'xau', 'precious metal', 'precious metals', 'metales preciosos', 'metal precioso', 'lingotes'], ['golden', 'gold medal', 'medalla de oro', 'goldman', 'siglo de oro', 'balon de oro', 'gold card']],
-  ['plata', 'Plata', ['silver', 'plata', 'xag'], ['rio de la plata', 'mar del plata', 'silver lining', 'medalla de plata', 'silver medal']],
-  ['petroleo', 'Petróleo (WTI / Brent)', ['oil', 'crude', 'petroleo', 'crudo', 'brent', 'wti', 'barrel', 'barrels', 'barril', 'barriles', 'opec', 'opep', 'opec+', 'refinery', 'refineries', 'refineria', 'refinerias', 'gasoline', 'gasolina', 'diesel', 'combustible', 'combustibles', 'fuel', 'fuels', 'tanker', 'tankers', 'petrolero', 'petroleros', 'shale', 'aramco', 'petrobras', 'pdvsa', 'pemex', 'vaca muerta', 'oilfield', 'oilfields'], ['palm oil', 'olive oil', 'aceite de palma', 'aceite de oliva', 'cooking oil']],
-  ['gas', 'Gas natural', ['natural gas', 'gas natural', 'lng', 'gnl', 'gas natural licuado', 'gasoducto', 'gas pipeline', 'gas prices', 'precio del gas', 'gazprom', 'ttf', 'henry hub'], []],
-  ['cobre', 'Cobre', ['copper', 'cobre', 'codelco'], []],
-  ['litio', 'Litio', ['lithium', 'litio'], []],
-  ['granos', 'Granos y alimentos', ['wheat', 'trigo', 'corn', 'maiz', 'soy', 'soja', 'soybean', 'soybeans', 'grain', 'grains', 'granos', 'cereal', 'cereales', 'harvest', 'cosecha', 'rice', 'arroz', 'fertilizer', 'fertilizers', 'fertilizante', 'fertilizantes', 'food prices', 'precios de los alimentos', 'alimentos'], []],
-];
+// Materias primas: se generan desde el catálogo (config/commodities.js).
+// [id, nombre, palabras clave, exclusiones, categoría]
+export const MATERIAS = COMMODITIES.map((c) => [c.id, c.nombre, c.claves, c.excluir || [], c.categoria]);
+export { CATEGORIAS, CLAVES_CATEGORIA };
+export const VERSION_TAXONOMIA = 5;
 
 // Temas: [id, nombre, palabras clave, canales de impacto]
 // Canales: oferta, demanda, transporte, dolar, tasas, riesgo
@@ -120,7 +116,7 @@ export const TEMAS = [
   ['mineria', 'Minería y metales', ['mining', 'mineria', 'mines', 'mina', 'minas', 'miner', 'miners', 'minera', 'mineras', 'smelter', 'fundicion', 'metals', 'metales', 'rare earths', 'tierras raras', 'critical minerals', 'minerales criticos'], ['oferta']],
   ['inventarios', 'Inventarios y reservas', ['inventories', 'inventory', 'inventarios', 'stockpile', 'stockpiles', 'reservas estrategicas', 'strategic petroleum reserve', 'spr', 'crude stocks', 'existencias', 'storage', 'almacenamiento'], ['oferta', 'demanda']],
   ['transporte', 'Transporte marítimo y rutas', ['shipping', 'freight', 'flete', 'fletes', 'port', 'ports', 'puerto', 'puertos', 'strait', 'estrecho', 'suez', 'panama canal', 'canal de panama', 'hormuz', 'ormuz', 'bab al-mandeb', 'bab el-mandeb', 'red sea', 'mar rojo', 'container', 'containers', 'contenedor', 'contenedores', 'vessel', 'vessels', 'buque', 'buques', 'tanker', 'tankers', 'maritime', 'maritimo', 'maritima', 'logistics', 'logistica', 'supply chain', 'supply chains', 'cadena de suministro', 'cadenas de suministro', 'sea border', 'frontera maritima'], ['transporte']],
-  ['clima', 'Clima y desastres', ['hurricane', 'huracan', 'typhoon', 'tifon', 'cyclone', 'ciclon', 'drought', 'sequia', 'flood', 'floods', 'flooding', 'inundacion', 'inundaciones', 'earthquake', 'terremoto', 'sismo', 'el nino', 'la nina', 'storm', 'tormenta', 'wildfire', 'wildfires', 'incendio forestal', 'incendios forestales', 'heatwave', 'ola de calor', 'frost', 'helada', 'heladas', 'haze'], ['oferta', 'transporte']],
+  ['clima', 'Clima y desastres', ['hurricane', 'huracan', 'typhoon', 'tifon', 'cyclone', 'ciclon', 'drought', 'sequia', 'flood', 'floods', 'flooding', 'inundacion', 'inundaciones', 'earthquake', 'terremoto', 'sismo', 'el nino', 'la nina', 'tropical storm', 'winter storm', 'storm surge', 'tormenta tropical', 'tormenta', 'wildfire', 'wildfires', 'incendio forestal', 'incendios forestales', 'heatwave', 'ola de calor', 'frost', 'helada', 'heladas', 'haze'], ['oferta', 'transporte']],
 ];
 
 // Textos explicativos por canal. Se combinan según la materia prima detectada.

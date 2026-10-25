@@ -9,7 +9,7 @@
     "start": "node server.js",
     "actualizar": "node scripts/update.js",
     "actualizar:forzar": "node scripts/update.js --forzar",
-    "test": "node --test test/pruebas.test.js",
+    "test": "node --check scripts/update.js && node --check scripts/precios.js && node --check public/app.js && node --test test/pruebas.test.js",
     "datos-prueba": "node test/preparar-fixtures.js && FUENTES_LOCALES=test/fixtures/xml node scripts/update.js && cp test/fixtures/eia-prueba.json public/data/eia.json"
   }
 }
