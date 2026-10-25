@@ -1,4 +1,4 @@
-// Monitor de Materias Primas – interfaz v5 (sin dependencias).
+// Monitor de Materias Primas – interfaz v6 (sin dependencias).
 // Lee los datos que publica el actualizador (GitHub Actions) en data/*.json. No consulta fuentes externas
 // desde el navegador, salvo los widgets oficiales de TradingView, que se cargan de a cuatro en el catálogo o al abrir una ficha.
 'use strict';
@@ -374,7 +374,7 @@ function pintarNoticiasFicha(c) {
     <div class="panel__cab"><div><h3>Noticias relacionadas con ${esc(c.nombre)}</h3><p class="ayuda">Solo notas que mencionan esta materia prima de forma específica (últimos ${E.noticias?.diasRetencion ?? 10} días).</p></div>
       ${todas.length ? `<a class="btn btn--chico" href="#noticias" data-ver-materia="${esc(c.id)}">Ver en Noticias</a>` : ''}</div>
     ${temasDisp.length ? `<div class="chips-filtro" role="group" aria-label="Filtrar por tipo de evento" style="margin:0 0 12px"><button type="button" class="chip-btn" data-ficha-tema="" aria-pressed="${!E.fichaTema}">Todos</button>${temasDisp.map((t) => `<button type="button" class="chip-btn" data-ficha-tema="${esc(t)}" aria-pressed="${E.fichaTema === t}">${esc(nTema(t))}</button>`).join('')}</div>` : ''}
-    <div class="grilla-fotos">${grupos.length ? grupos.map((g) => tarjetaFoto(g, { relacion: c })).join('') : `<p class="vacio" style="grid-column:1/-1">No hay noticias recientes que mencionen específicamente ${esc(c.nombre.toLowerCase())}.</p>`}</div>
+    <div class="grilla-fotos">${grupos.length ? grupos.map((g) => tarjetaFoto(g, { relacion: c })).join('') : `<p class="vacio" style="grid-column:1/-1">No encontramos noticias sobre ${esc(c.nombre.toLowerCase())} en las fuentes consultadas durante los últimos ${E.noticias?.diasRetencion ?? 10} días. Esto no significa que no existan noticias sobre este producto.</p>`}</div>
     ${generales.length ? `<details class="explica" style="margin-top:14px"><summary>Menciones generales de ${esc(nCat(c.categoria).toLowerCase())} (${generales.length})</summary><p class="ayuda">Estas notas hablan de la categoría en general, sin nombrar ${esc(c.nombre.toLowerCase())}: pueden no afectarla.</p><div class="grilla-fotos" style="margin-top:10px">${generales.map((g) => tarjetaFoto(g)).join('')}</div></details>` : ''}`;
 }
 
@@ -438,9 +438,10 @@ const maxF = (g) => g.reduce((m, i) => (i.fecha > m ? i.fecha : m), '');
 
 const ICO_DIARIO = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="15" rx="2"/><path d="M7 9h10M7 13h6M7 17h8"/></svg>';
 function media(i) {
-  const src = imgSegura(i.imagen);
+  const fotos = [...new Set([i.imagen, ...(i.imagenes || [])].map(imgSegura).filter(Boolean))].slice(0, 5);
+  const src = fotos.shift();
   if (!src) return '';
-  return `<div class="nota-foto__media"><img src="${esc(src)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"><span class="nota-foto__credito">Imagen: ${esc(i.imagenCredito || i.fuenteNombre)}</span></div>`;
+  return `<div class="nota-foto__media"><img src="${esc(src)}" data-alternativas="${esc(JSON.stringify(fotos))}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"><span class="nota-foto__credito">Imagen: ${esc(i.imagenCredito || i.fuenteNombre)}</span></div>`;
 }
 
 function relacionHTML(i, c) {
@@ -652,7 +653,14 @@ function iniciar() {
     const img = ev.target;
     if (img.tagName !== 'IMG') return;
     const m = img.closest('.nota-foto__media');
-    if (m) m.remove();
+    if (!m) return;
+    let alternativas = [];
+    try { alternativas = JSON.parse(img.dataset.alternativas || '[]'); } catch { /* sin alternativas */ }
+    const siguiente = alternativas.shift();
+    if (siguiente && imgSegura(siguiente)) {
+      img.dataset.alternativas = JSON.stringify(alternativas);
+      img.src = siguiente;
+    } else m.remove();
   }, true);
 
   let tn;
