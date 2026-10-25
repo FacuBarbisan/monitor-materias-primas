@@ -1,0 +1,2134 @@
+{
+ "generado": "2026-10-25T15:51:47.633Z",
+ "ultimoCiclo": "2026-10-25T15:51:47.633Z",
+ "cadaMin": 360,
+ "categorias": {
+  "energia": "Energía",
+  "preciosos": "Metales preciosos",
+  "industriales": "Metales industriales",
+  "granos": "Granos",
+  "aceites": "Aceites y derivados",
+  "ganaderia": "Ganadería y pesca",
+  "agricolas": "Otros agrícolas",
+  "fertilizantes": "Fertilizantes"
+ },
+ "proveedores": {
+  "fred": {
+   "nombre": "FRED (Fed de St. Louis)",
+   "url": "https://fred.stlouisfed.org/",
+   "licencia": "Datos públicos; las series P…USDM provienen del FMI (Primary Commodity Prices).",
+   "ultimoIntento": "2026-10-25T15:51:08.556Z",
+   "ultimoExito": "2026-10-25T15:51:47.617Z",
+   "ultimoError": "1 serie(s) con error. Último: FRED respondió HTTP 404 (la serie no existe)",
+   "seriesOk": 43,
+   "seriesError": 1
+  },
+  "eia": {
+   "nombre": "EIA (Administración de Información Energética de EE. UU.)",
+   "url": "https://www.eia.gov/opendata/",
+   "licencia": "Datos públicos del gobierno de EE. UU.",
+   "ultimoIntento": "2026-10-25T15:51:07.433Z",
+   "ultimoExito": "2026-10-25T15:51:08.179Z",
+   "ultimoError": null,
+   "usaClaveDemo": true
+  },
+  "wb": {
+   "nombre": "Banco Mundial – Pink Sheet",
+   "url": "https://www.worldbank.org/en/research/commodity-markets",
+   "licencia": "CC BY 4.0. Fuente: World Bank Commodity Price Data (The Pink Sheet).",
+   "ultimoIntento": "2026-10-25T15:51:08.180Z",
+   "ultimoExito": "2026-10-25T15:51:08.556Z",
+   "ultimoError": null,
+   "archivo": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx"
+  }
+ },
+ "items": [
+  {
+   "id": "wti",
+   "nombre": "Petróleo WTI",
+   "categoria": "energia",
+   "moneda": "USD",
+   "unidad": "barril",
+   "widget": {
+    "simbolo": "TVC:USOIL",
+    "tipo": "CFD",
+    "proveedor": "TVC (TradingView)",
+    "verificado": true,
+    "nota": "CFD que sigue al futuro NYMEX; no es el contrato oficial ni indica vencimiento."
+   },
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "eia",
+     "id": "RWTC",
+     "frecuencia": "diaria",
+     "unidad": "USD por barril",
+     "nombre": "WTI – Cushing, Oklahoma (spot FOB, EIA)",
+     "nota": "Cierre diario oficial, 1 a 2 días hábiles de rezago.",
+     "clave": "eia-RWTC",
+     "fuenteUrl": "https://www.eia.gov/dnav/pet/pet_pri_spt_s1_d.htm",
+     "ultimo": [
+      "2026-10-20",
+      107.89
+     ],
+     "anterior": [
+      "2026-10-19",
+      110.01
+     ],
+     "n": 1243,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.617Z",
+      "ultimoExito": "2026-10-25T15:51:47.619Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "brent",
+   "nombre": "Petróleo Brent",
+   "categoria": "energia",
+   "moneda": "USD",
+   "unidad": "barril",
+   "widget": {
+    "simbolo": "TVC:UKOIL",
+    "tipo": "CFD",
+    "proveedor": "TVC (TradingView)",
+    "verificado": true,
+    "nota": "CFD que sigue al futuro ICE; no es el contrato oficial ni indica vencimiento."
+   },
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "eia",
+     "id": "RBRTE",
+     "frecuencia": "diaria",
+     "unidad": "USD por barril",
+     "nombre": "Brent – Europa (spot FOB, EIA)",
+     "nota": "Cierre diario oficial, 1 a 2 días hábiles de rezago.",
+     "clave": "eia-RBRTE",
+     "fuenteUrl": "https://www.eia.gov/dnav/pet/pet_pri_spt_s1_d.htm",
+     "ultimo": [
+      "2026-10-20",
+      115.22
+     ],
+     "anterior": [
+      "2026-10-19",
+      118.82
+     ],
+     "n": 1256,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.619Z",
+      "ultimoExito": "2026-10-25T15:51:47.619Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "gas_natural",
+   "nombre": "Gas natural",
+   "categoria": "energia",
+   "moneda": "USD",
+   "unidad": "millón de BTU",
+   "widget": {
+    "simbolo": "OANDA:NATGASUSD",
+    "tipo": "CFD",
+    "proveedor": "OANDA vía TradingView",
+    "verificado": false,
+    "nota": "CFD sobre gas natural estadounidense."
+   },
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "DHHNGSP",
+     "frecuencia": "diaria",
+     "unidad": "USD por millón de BTU",
+     "nombre": "Henry Hub (EE. UU.), spot diario",
+     "nota": "Dato diario de la EIA vía FRED, con algunos días de rezago.",
+     "clave": "fred-DHHNGSP",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/DHHNGSP",
+     "ultimo": [
+      "2026-10-20",
+      3.1
+     ],
+     "anterior": [
+      "2026-10-19",
+      3.28
+     ],
+     "n": 1245,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.619Z",
+      "ultimoExito": "2026-10-25T15:51:47.620Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    },
+    {
+     "proveedor": "fred",
+     "id": "PNGASEUUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por millón de BTU",
+     "nombre": "Gas natural en Europa (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PNGASEUUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PNGASEUUSDM",
+     "ultimo": [
+      "2026-09-01",
+      25.494
+     ],
+     "anterior": [
+      "2026-08-01",
+      20.922
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.620Z",
+      "ultimoExito": "2026-10-25T15:51:47.621Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    },
+    {
+     "proveedor": "fred",
+     "id": "PNGASJPUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por millón de BTU",
+     "nombre": "Gas natural licuado en Japón (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PNGASJPUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PNGASJPUSDM",
+     "ultimo": [
+      "2026-09-01",
+      26.637
+     ],
+     "anterior": [
+      "2026-08-01",
+      22.038
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.621Z",
+      "ultimoExito": "2026-10-25T15:51:47.621Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "carbon",
+   "nombre": "Carbón",
+   "categoria": "energia",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PCOALAUUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Carbón térmico de Australia (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PCOALAUUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PCOALAUUSDM",
+     "ultimo": [
+      "2026-09-01",
+      153.84
+     ],
+     "anterior": [
+      "2026-08-01",
+      140.5082143
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.621Z",
+      "ultimoExito": "2026-10-25T15:51:47.621Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "gasolina",
+   "nombre": "Gasolina",
+   "categoria": "energia",
+   "moneda": "USD",
+   "unidad": "galón",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "DGASNYH",
+     "frecuencia": "diaria",
+     "unidad": "USD por galón",
+     "nombre": "Gasolina convencional, puerto de Nueva York (spot)",
+     "nota": "Dato diario de la EIA vía FRED.",
+     "clave": "fred-DGASNYH",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/DGASNYH",
+     "ultimo": [
+      "2026-10-20",
+      2.897
+     ],
+     "anterior": [
+      "2026-10-19",
+      2.915
+     ],
+     "n": 1244,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.621Z",
+      "ultimoExito": "2026-10-25T15:51:47.622Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "diesel",
+   "nombre": "Gasóleo / calefacción",
+   "categoria": "energia",
+   "moneda": "USD",
+   "unidad": "galón",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "DHOILNYH",
+     "frecuencia": "diaria",
+     "unidad": "USD por galón",
+     "nombre": "Fuel oil N.° 2 para calefacción, puerto de Nueva York (spot)",
+     "nota": "Dato diario de la EIA vía FRED.",
+     "clave": "fred-DHOILNYH",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/DHOILNYH",
+     "ultimo": [
+      "2026-10-20",
+      4.832
+     ],
+     "anterior": [
+      "2026-10-19",
+      4.84
+     ],
+     "n": 1244,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.622Z",
+      "ultimoExito": "2026-10-25T15:51:47.622Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "jet_fuel",
+   "nombre": "Combustible de aviación",
+   "categoria": "energia",
+   "moneda": "USD",
+   "unidad": "galón",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "DJFUELUSGULF",
+     "frecuencia": "diaria",
+     "unidad": "USD por galón",
+     "nombre": "Jet fuel tipo queroseno, Costa del Golfo de EE. UU. (spot)",
+     "nota": "Dato diario de la EIA vía FRED.",
+     "clave": "fred-DJFUELUSGULF",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/DJFUELUSGULF",
+     "ultimo": [
+      "2026-10-20",
+      4.632
+     ],
+     "anterior": [
+      "2026-10-19",
+      4.567
+     ],
+     "n": 1244,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.622Z",
+      "ultimoExito": "2026-10-25T15:51:47.623Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "propano",
+   "nombre": "Propano",
+   "categoria": "energia",
+   "moneda": "USD",
+   "unidad": "galón",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "DPROPANEMBTX",
+     "frecuencia": "diaria",
+     "unidad": "USD por galón",
+     "nombre": "Propano, Mont Belvieu, Texas (spot)",
+     "nota": "Dato diario de la EIA vía FRED.",
+     "clave": "fred-DPROPANEMBTX",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/DPROPANEMBTX",
+     "ultimo": [
+      "2026-10-20",
+      1.133
+     ],
+     "anterior": [
+      "2026-10-19",
+      1.13
+     ],
+     "n": 1243,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.623Z",
+      "ultimoExito": "2026-10-25T15:51:47.623Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "uranio",
+   "nombre": "Uranio",
+   "categoria": "energia",
+   "moneda": "USD",
+   "unidad": "libra",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PURANUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por libra",
+     "nombre": "Uranio (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PURANUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PURANUSDM",
+     "ultimo": [
+      "2026-09-01",
+      72.47442565545455
+     ],
+     "anterior": [
+      "2026-08-01",
+      71.09474744380952
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.623Z",
+      "ultimoExito": "2026-10-25T15:51:47.623Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "oro",
+   "nombre": "Oro",
+   "categoria": "preciosos",
+   "moneda": "USD",
+   "unidad": "onza troy",
+   "widget": {
+    "simbolo": "OANDA:XAUUSD",
+    "tipo": "Contado OTC",
+    "proveedor": "OANDA vía TradingView",
+    "verificado": true,
+    "nota": "Precio al contado extrabursátil; no es la referencia oficial LBMA."
+   },
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "wb",
+     "id": "Gold",
+     "frecuencia": "mensual",
+     "unidad": "USD por onza troy",
+     "nombre": "Oro, promedio mensual (Banco Mundial)",
+     "clave": "wb-Gold",
+     "fuenteUrl": "https://www.worldbank.org/en/research/commodity-markets",
+     "ultimo": [
+      "2026-09-01",
+      4319
+     ],
+     "anterior": [
+      "2026-08-01",
+      4411
+     ],
+     "n": 359,
+     "unidadFuente": "($/troy oz)",
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.623Z",
+      "ultimoExito": "2026-10-25T15:51:47.623Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "plata",
+   "nombre": "Plata",
+   "categoria": "preciosos",
+   "moneda": "USD",
+   "unidad": "onza troy",
+   "widget": {
+    "simbolo": "OANDA:XAGUSD",
+    "tipo": "Contado OTC",
+    "proveedor": "OANDA vía TradingView",
+    "verificado": true,
+    "nota": "Precio al contado extrabursátil; no es la referencia oficial LBMA."
+   },
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "wb",
+     "id": "Silver",
+     "frecuencia": "mensual",
+     "unidad": "USD por onza troy",
+     "nombre": "Plata, promedio mensual (Banco Mundial)",
+     "clave": "wb-Silver",
+     "fuenteUrl": "https://www.worldbank.org/en/research/commodity-markets",
+     "ultimo": [
+      "2026-09-01",
+      64.6
+     ],
+     "anterior": [
+      "2026-08-01",
+      65.4
+     ],
+     "n": 359,
+     "unidadFuente": "($/troy oz)",
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.623Z",
+      "ultimoExito": "2026-10-25T15:51:47.624Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "platino",
+   "nombre": "Platino",
+   "categoria": "preciosos",
+   "moneda": "USD",
+   "unidad": "onza troy",
+   "widget": {
+    "simbolo": "OANDA:XPTUSD",
+    "tipo": "CFD",
+    "proveedor": "OANDA vía TradingView",
+    "verificado": false,
+    "nota": "CFD sobre platino al contado."
+   },
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "wb",
+     "id": "Platinum",
+     "frecuencia": "mensual",
+     "unidad": "USD por onza troy",
+     "nombre": "Platino, promedio mensual (Banco Mundial)",
+     "clave": "wb-Platinum",
+     "fuenteUrl": "https://www.worldbank.org/en/research/commodity-markets",
+     "ultimo": [
+      "2026-09-01",
+      1784
+     ],
+     "anterior": [
+      "2026-08-01",
+      1780
+     ],
+     "n": 359,
+     "unidadFuente": "($/troy oz)",
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.624Z",
+      "ultimoExito": "2026-10-25T15:51:47.624Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "paladio",
+   "nombre": "Paladio",
+   "categoria": "preciosos",
+   "moneda": "USD",
+   "unidad": "onza troy",
+   "widget": {
+    "simbolo": "OANDA:XPDUSD",
+    "tipo": "CFD",
+    "proveedor": "OANDA vía TradingView",
+    "verificado": false,
+    "nota": "CFD sobre paladio al contado."
+   },
+   "sinSerieMotivo": "No se encontró una serie oficial gratuita de paladio (la referencia LBMA requiere licencia).",
+   "series": []
+  },
+  {
+   "id": "cobre",
+   "nombre": "Cobre",
+   "categoria": "industriales",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": {
+    "simbolo": "OANDA:XCUUSD",
+    "tipo": "CFD",
+    "proveedor": "OANDA vía TradingView",
+    "verificado": false,
+    "nota": "CFD sobre cobre, cotizado en USD por libra (otra unidad que la serie del FMI)."
+   },
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PCOPPUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Cobre (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PCOPPUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PCOPPUSDM",
+     "ultimo": [
+      "2026-09-01",
+      14473.05590909091
+     ],
+     "anterior": [
+      "2026-08-01",
+      14331.26476190476
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.624Z",
+      "ultimoExito": "2026-10-25T15:51:47.624Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "aluminio",
+   "nombre": "Aluminio",
+   "categoria": "industriales",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PALUMUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Aluminio (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PALUMUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PALUMUSDM",
+     "ultimo": [
+      "2026-09-01",
+      3283.054285714286
+     ],
+     "anterior": [
+      "2026-08-01",
+      3250.121428571429
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.624Z",
+      "ultimoExito": "2026-10-25T15:51:47.624Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "niquel",
+   "nombre": "Níquel",
+   "categoria": "industriales",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PNICKUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Níquel (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PNICKUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PNICKUSDM",
+     "ultimo": [
+      "2026-09-01",
+      16323.8219047619
+     ],
+     "anterior": [
+      "2026-08-01",
+      16748.1819047619
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.624Z",
+      "ultimoExito": "2026-10-25T15:51:47.625Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "zinc",
+   "nombre": "Zinc",
+   "categoria": "industriales",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PZINCUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Zinc (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PZINCUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PZINCUSDM",
+     "ultimo": [
+      "2026-09-01",
+      4020.549047619048
+     ],
+     "anterior": [
+      "2026-08-01",
+      3884.5261904761905
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.625Z",
+      "ultimoExito": "2026-10-25T15:51:47.625Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "plomo",
+   "nombre": "Plomo",
+   "categoria": "industriales",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PLEADUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Plomo (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PLEADUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PLEADUSDM",
+     "ultimo": [
+      "2026-09-01",
+      1872.874761904762
+     ],
+     "anterior": [
+      "2026-08-01",
+      1855.725238095238
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.625Z",
+      "ultimoExito": "2026-10-25T15:51:47.625Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "estano",
+   "nombre": "Estaño",
+   "categoria": "industriales",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PTINUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Estaño (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PTINUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PTINUSDM",
+     "ultimo": [
+      "2026-09-01",
+      53711.67666666667
+     ],
+     "anterior": [
+      "2026-08-01",
+      55360.30952380952
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.625Z",
+      "ultimoExito": "2026-10-25T15:51:47.626Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "hierro",
+   "nombre": "Mineral de hierro",
+   "categoria": "industriales",
+   "moneda": "USD",
+   "unidad": "tonelada métrica seca",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PIORECRUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica seca",
+     "nombre": "Mineral de hierro (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PIORECRUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PIORECRUSDM",
+     "ultimo": [
+      "2026-09-01",
+      100.4409090909091
+     ],
+     "anterior": [
+      "2026-08-01",
+      99.61904761904762
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.626Z",
+      "ultimoExito": "2026-10-25T15:51:47.626Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "cobalto",
+   "nombre": "Cobalto",
+   "categoria": "industriales",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PCOBAUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Cobalto (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PCOBAUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PCOBAUSDM",
+     "ultimo": null,
+     "anterior": null,
+     "n": 0,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.626Z",
+      "ultimoError": "FRED respondió HTTP 404 (la serie no existe)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "litio",
+   "nombre": "Litio",
+   "categoria": "industriales",
+   "moneda": "USD",
+   "unidad": "—",
+   "widget": null,
+   "sinSerieMotivo": "No se encontró una cotización gratuita y verificable de litio; solo se muestran noticias.",
+   "series": []
+  },
+  {
+   "id": "tierras_raras",
+   "nombre": "Tierras raras y minerales críticos",
+   "categoria": "industriales",
+   "moneda": "—",
+   "unidad": "—",
+   "widget": null,
+   "sinSerieMotivo": "No hay cotización pública gratuita; solo se muestran noticias.",
+   "series": []
+  },
+  {
+   "id": "trigo",
+   "nombre": "Trigo",
+   "categoria": "granos",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": {
+    "simbolo": "OANDA:WHEATUSD",
+    "tipo": "CFD",
+    "proveedor": "OANDA vía TradingView",
+    "verificado": false,
+    "nota": "CFD sobre trigo, cotizado en USD por bushel."
+   },
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PWHEAMTUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Trigo (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PWHEAMTUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PWHEAMTUSDM",
+     "ultimo": [
+      "2026-09-01",
+      246.85180245
+     ],
+     "anterior": [
+      "2026-08-01",
+      237.8554019809524
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.626Z",
+      "ultimoExito": "2026-10-25T15:51:47.626Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "maiz",
+   "nombre": "Maíz",
+   "categoria": "granos",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": {
+    "simbolo": "OANDA:CORNUSD",
+    "tipo": "CFD",
+    "proveedor": "OANDA vía TradingView",
+    "verificado": false,
+    "nota": "CFD sobre maíz, cotizado en USD por bushel."
+   },
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PMAIZMTUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Maíz (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PMAIZMTUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PMAIZMTUSDM",
+     "ultimo": [
+      "2026-09-01",
+      236.91612410714288
+     ],
+     "anterior": [
+      "2026-08-01",
+      221.3034955803572
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.626Z",
+      "ultimoExito": "2026-10-25T15:51:47.626Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "soja",
+   "nombre": "Soja",
+   "categoria": "granos",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": {
+    "simbolo": "OANDA:SOYBNUSD",
+    "tipo": "CFD",
+    "proveedor": "OANDA vía TradingView",
+    "verificado": false,
+    "nota": "CFD sobre soja, cotizado en USD por bushel."
+   },
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PSOYBUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Soja en grano (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PSOYBUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PSOYBUSDM",
+     "ultimo": [
+      "2026-09-01",
+      481.7223363582059
+     ],
+     "anterior": [
+      "2026-08-01",
+      449.043925962608
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.626Z",
+      "ultimoExito": "2026-10-25T15:51:47.627Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "arroz",
+   "nombre": "Arroz",
+   "categoria": "granos",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PRICENPQUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Arroz tailandés (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PRICENPQUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PRICENPQUSDM",
+     "ultimo": [
+      "2026-09-01",
+      466.4545454545454
+     ],
+     "anterior": [
+      "2026-08-01",
+      440.4285714285714
+     ],
+     "n": 197,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.627Z",
+      "ultimoExito": "2026-10-25T15:51:47.627Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "cebada",
+   "nombre": "Cebada",
+   "categoria": "granos",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PBARLUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Cebada (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PBARLUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PBARLUSDM",
+     "ultimo": [
+      "2026-09-01",
+      125.1051854735405
+     ],
+     "anterior": [
+      "2026-08-01",
+      124.1710257387747
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.627Z",
+      "ultimoExito": "2026-10-25T15:51:47.627Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "sorgo",
+   "nombre": "Sorgo",
+   "categoria": "granos",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "wb",
+     "id": "Sorghum",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Sorgo, promedio mensual (Banco Mundial)",
+     "clave": "wb-Sorghum",
+     "fuenteUrl": "https://www.worldbank.org/en/research/commodity-markets",
+     "ultimo": [
+      "2020-08-01",
+      189.5
+     ],
+     "anterior": [
+      "2020-07-01",
+      174.9
+     ],
+     "n": 286,
+     "unidadFuente": "($/mt)",
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.627Z",
+      "ultimoExito": "2026-10-25T15:51:47.627Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "aceite_palma",
+   "nombre": "Aceite de palma",
+   "categoria": "aceites",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PPOILUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Aceite de palma (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PPOILUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PPOILUSDM",
+     "ultimo": [
+      "2026-09-01",
+      1133.128854318491
+     ],
+     "anterior": [
+      "2026-08-01",
+      1131.585213143737
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.627Z",
+      "ultimoExito": "2026-10-25T15:51:47.628Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "aceite_soja",
+   "nombre": "Aceite de soja",
+   "categoria": "aceites",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PSOILUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Aceite de soja (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PSOILUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PSOILUSDM",
+     "ultimo": [
+      "2026-09-01",
+      1596.491412653566
+     ],
+     "anterior": [
+      "2026-08-01",
+      1577.085584494794
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.628Z",
+      "ultimoExito": "2026-10-25T15:51:47.628Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "harina_soja",
+   "nombre": "Harina de soja",
+   "categoria": "aceites",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PSMEAUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Harina de soja (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PSMEAUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PSMEAUSDM",
+     "ultimo": [
+      "2026-09-01",
+      488.2656993089945
+     ],
+     "anterior": [
+      "2026-08-01",
+      367.665544124595
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.628Z",
+      "ultimoExito": "2026-10-25T15:51:47.628Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "aceite_girasol",
+   "nombre": "Aceite de girasol",
+   "categoria": "aceites",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PSUNOUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Aceite de girasol (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PSUNOUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PSUNOUSDM",
+     "ultimo": [
+      "2026-09-01",
+      1676.527083272727
+     ],
+     "anterior": [
+      "2026-08-01",
+      1794.674008
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.628Z",
+      "ultimoExito": "2026-10-25T15:51:47.628Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "aceite_oliva",
+   "nombre": "Aceite de oliva",
+   "categoria": "aceites",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "POLVOILUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Aceite de oliva (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-POLVOILUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/POLVOILUSDM",
+     "ultimo": [
+      "2026-09-01",
+      6205.01161125
+     ],
+     "anterior": [
+      "2026-08-01",
+      6261.785875714286
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.628Z",
+      "ultimoExito": "2026-10-25T15:51:47.629Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "aceite_colza",
+   "nombre": "Aceite de colza",
+   "categoria": "aceites",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PROILUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Aceite de colza (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PROILUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PROILUSDM",
+     "ultimo": [
+      "2026-09-01",
+      1430.015013636364
+     ],
+     "anterior": [
+      "2026-08-01",
+      1449.449233333333
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.629Z",
+      "ultimoExito": "2026-10-25T15:51:47.629Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "carne_vacuna",
+   "nombre": "Carne vacuna",
+   "categoria": "ganaderia",
+   "moneda": "USD",
+   "unidad": "libra",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PBEEFUSDM",
+     "frecuencia": "mensual",
+     "unidad": "Centavos de USD por libra",
+     "nombre": "Carne vacuna (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PBEEFUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PBEEFUSDM",
+     "ultimo": [
+      "2026-09-01",
+      300.6136363636364
+     ],
+     "anterior": [
+      "2026-08-01",
+      314.2380952380952
+     ],
+     "n": 197,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.629Z",
+      "ultimoExito": "2026-10-25T15:51:47.629Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "cerdo",
+   "nombre": "Cerdo",
+   "categoria": "ganaderia",
+   "moneda": "USD",
+   "unidad": "libra",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PPORKUSDM",
+     "frecuencia": "mensual",
+     "unidad": "Centavos de USD por libra",
+     "nombre": "Cerdo (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PPORKUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PPORKUSDM",
+     "ultimo": [
+      "2026-09-01",
+      83.29203768136364
+     ],
+     "anterior": [
+      "2026-08-01",
+      91.7002405652381
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.629Z",
+      "ultimoExito": "2026-10-25T15:51:47.629Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "pollo",
+   "nombre": "Pollo",
+   "categoria": "ganaderia",
+   "moneda": "USD",
+   "unidad": "libra",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PPOULTUSDM",
+     "frecuencia": "mensual",
+     "unidad": "Centavos de USD por libra",
+     "nombre": "Pollo (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PPOULTUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PPOULTUSDM",
+     "ultimo": [
+      "2026-09-01",
+      163.1823029951616
+     ],
+     "anterior": [
+      "2026-08-01",
+      164.8704383486793
+     ],
+     "n": 285,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.629Z",
+      "ultimoExito": "2026-10-25T15:51:47.630Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "cordero",
+   "nombre": "Cordero",
+   "categoria": "ganaderia",
+   "moneda": "USD",
+   "unidad": "libra",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PLAMBUSDM",
+     "frecuencia": "mensual",
+     "unidad": "Centavos de USD por libra",
+     "nombre": "Cordero (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PLAMBUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PLAMBUSDM",
+     "ultimo": [
+      "2026-09-01",
+      166.0264192060991
+     ],
+     "anterior": [
+      "2026-08-01",
+      168.1244724818638
+     ],
+     "n": 197,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.630Z",
+      "ultimoExito": "2026-10-25T15:51:47.630Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "salmon",
+   "nombre": "Salmón",
+   "categoria": "ganaderia",
+   "moneda": "USD",
+   "unidad": "kilogramo",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PSALMUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por kilogramo",
+     "nombre": "Salmón noruego (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PSALMUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PSALMUSDM",
+     "ultimo": [
+      "2026-09-01",
+      7.577719818462025
+     ],
+     "anterior": [
+      "2026-08-01",
+      7.806495938982282
+     ],
+     "n": 197,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.630Z",
+      "ultimoExito": "2026-10-25T15:51:47.630Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "camaron",
+   "nombre": "Camarón",
+   "categoria": "ganaderia",
+   "moneda": "USD",
+   "unidad": "kilogramo",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PSHRIUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por kilogramo",
+     "nombre": "Camarón (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PSHRIUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PSHRIUSDM",
+     "ultimo": [
+      "2026-09-01",
+      6.998634183
+     ],
+     "anterior": [
+      "2026-08-01",
+      6.710866913
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.630Z",
+      "ultimoExito": "2026-10-25T15:51:47.630Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "cafe",
+   "nombre": "Café",
+   "categoria": "agricolas",
+   "moneda": "USD",
+   "unidad": "libra",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PCOFFOTMUSDM",
+     "frecuencia": "mensual",
+     "unidad": "Centavos de USD por libra",
+     "nombre": "Café arábica, otros suaves (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PCOFFOTMUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PCOFFOTMUSDM",
+     "ultimo": [
+      "2026-09-01",
+      330.1219047619048
+     ],
+     "anterior": [
+      "2026-08-01",
+      360.6319047619048
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.630Z",
+      "ultimoExito": "2026-10-25T15:51:47.630Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    },
+    {
+     "proveedor": "fred",
+     "id": "PCOFFROBUSDM",
+     "frecuencia": "mensual",
+     "unidad": "Centavos de USD por libra",
+     "nombre": "Café robusta (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PCOFFROBUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PCOFFROBUSDM",
+     "ultimo": [
+      "2026-09-01",
+      167.5071428571429
+     ],
+     "anterior": [
+      "2026-08-01",
+      180.53619047619048
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.630Z",
+      "ultimoExito": "2026-10-25T15:51:47.631Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "cacao",
+   "nombre": "Cacao",
+   "categoria": "agricolas",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PCOCOUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Cacao (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PCOCOUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PCOCOUSDM",
+     "ultimo": [
+      "2026-09-01",
+      5918.981427980948
+     ],
+     "anterior": [
+      "2026-08-01",
+      5990.497009722438
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.631Z",
+      "ultimoExito": "2026-10-25T15:51:47.631Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "azucar",
+   "nombre": "Azúcar",
+   "categoria": "agricolas",
+   "moneda": "USD",
+   "unidad": "libra",
+   "widget": {
+    "simbolo": "OANDA:SUGARUSD",
+    "tipo": "CFD",
+    "proveedor": "OANDA vía TradingView",
+    "verificado": false,
+    "nota": "CFD sobre azúcar."
+   },
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PSUGAISAUSDM",
+     "frecuencia": "mensual",
+     "unidad": "Centavos de USD por libra",
+     "nombre": "Azúcar, contrato internacional (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PSUGAISAUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PSUGAISAUSDM",
+     "ultimo": [
+      "2026-09-01",
+      17.93714285714286
+     ],
+     "anterior": [
+      "2026-08-01",
+      16.82619047619048
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.631Z",
+      "ultimoExito": "2026-10-25T15:51:47.631Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "algodon",
+   "nombre": "Algodón",
+   "categoria": "agricolas",
+   "moneda": "USD",
+   "unidad": "libra",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PCOTTINDUSDM",
+     "frecuencia": "mensual",
+     "unidad": "Centavos de USD por libra",
+     "nombre": "Algodón (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PCOTTINDUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PCOTTINDUSDM",
+     "ultimo": [
+      "2026-09-01",
+      95.8404761904762
+     ],
+     "anterior": [
+      "2026-08-01",
+      95.61428571428571
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.631Z",
+      "ultimoExito": "2026-10-25T15:51:47.631Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "caucho",
+   "nombre": "Caucho",
+   "categoria": "agricolas",
+   "moneda": "USD",
+   "unidad": "libra",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PRUBBUSDM",
+     "frecuencia": "mensual",
+     "unidad": "Centavos de USD por libra",
+     "nombre": "Caucho (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PRUBBUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PRUBBUSDM",
+     "ultimo": [
+      "2026-09-01",
+      125.0750048275246
+     ],
+     "anterior": [
+      "2026-08-01",
+      124.8762879338671
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.631Z",
+      "ultimoExito": "2026-10-25T15:51:47.632Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "te",
+   "nombre": "Té",
+   "categoria": "agricolas",
+   "moneda": "USD",
+   "unidad": "kilogramo",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PTEAUSDM",
+     "frecuencia": "mensual",
+     "unidad": "Centavos de USD por kilogramo",
+     "nombre": "Té (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PTEAUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PTEAUSDM",
+     "ultimo": [
+      "2026-09-01",
+      310.2137725909091
+     ],
+     "anterior": [
+      "2026-08-01",
+      294.0864149428571
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.632Z",
+      "ultimoExito": "2026-10-25T15:51:47.632Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "naranja",
+   "nombre": "Naranja",
+   "categoria": "agricolas",
+   "moneda": "USD",
+   "unidad": "kilogramo",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PORANGUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por kilogramo",
+     "nombre": "Naranja (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PORANGUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PORANGUSDM",
+     "ultimo": [
+      "2026-09-01",
+      1.424333333333333
+     ],
+     "anterior": [
+      "2026-08-01",
+      1.454452380952381
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.632Z",
+      "ultimoExito": "2026-10-25T15:51:47.632Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "banana",
+   "nombre": "Banana",
+   "categoria": "agricolas",
+   "moneda": "USD",
+   "unidad": "kilogramo",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PBANSOPUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por kilogramo",
+     "nombre": "Banana (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PBANSOPUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PBANSOPUSDM",
+     "ultimo": [
+      "2026-09-01",
+      1135.108021129261
+     ],
+     "anterior": [
+      "2026-08-01",
+      1104.972383045015
+     ],
+     "n": 197,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.632Z",
+      "ultimoExito": "2026-10-25T15:51:47.632Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "madera",
+   "nombre": "Madera",
+   "categoria": "agricolas",
+   "moneda": "USD",
+   "unidad": "metro cúbico",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "fred",
+     "id": "PLOGOREUSDM",
+     "frecuencia": "mensual",
+     "unidad": "USD por metro cúbico",
+     "nombre": "Troncos de madera blanda (FMI)",
+     "nota": "Precio de referencia mensual del FMI (promedio del mes), publicado con 1 a 3 meses de rezago.",
+     "clave": "fred-PLOGOREUSDM",
+     "fuenteUrl": "https://fred.stlouisfed.org/series/PLOGOREUSDM",
+     "ultimo": [
+      "2026-09-01",
+      242.2117066
+     ],
+     "anterior": [
+      "2026-08-01",
+      242.2117066
+     ],
+     "n": 359,
+     "unidadFuente": null,
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.632Z",
+      "ultimoExito": "2026-10-25T15:51:47.632Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "urea",
+   "nombre": "Urea",
+   "categoria": "fertilizantes",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "wb",
+     "id": "Urea",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Urea, promedio mensual (Banco Mundial)",
+     "clave": "wb-Urea",
+     "fuenteUrl": "https://www.worldbank.org/en/research/commodity-markets",
+     "ultimo": [
+      "2026-09-01",
+      407.5
+     ],
+     "anterior": [
+      "2026-08-01",
+      390
+     ],
+     "n": 359,
+     "unidadFuente": "($/mt)",
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.632Z",
+      "ultimoExito": "2026-10-25T15:51:47.633Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "dap",
+   "nombre": "Fosfato diamónico (DAP)",
+   "categoria": "fertilizantes",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "wb",
+     "id": "DAP",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "DAP, promedio mensual (Banco Mundial)",
+     "clave": "wb-DAP",
+     "fuenteUrl": "https://www.worldbank.org/en/research/commodity-markets",
+     "ultimo": [
+      "2026-09-01",
+      800.6
+     ],
+     "anterior": [
+      "2026-08-01",
+      793.5
+     ],
+     "n": 359,
+     "unidadFuente": "($/mt)",
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.633Z",
+      "ultimoExito": "2026-10-25T15:51:47.633Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "tsp",
+   "nombre": "Superfosfato triple (TSP)",
+   "categoria": "fertilizantes",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "wb",
+     "id": "TSP",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "TSP, promedio mensual (Banco Mundial)",
+     "clave": "wb-TSP",
+     "fuenteUrl": "https://www.worldbank.org/en/research/commodity-markets",
+     "ultimo": [
+      "2026-09-01",
+      690
+     ],
+     "anterior": [
+      "2026-08-01",
+      704.4
+     ],
+     "n": 359,
+     "unidadFuente": "($/mt)",
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.633Z",
+      "ultimoExito": "2026-10-25T15:51:47.633Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "potasio",
+   "nombre": "Cloruro de potasio",
+   "categoria": "fertilizantes",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "wb",
+     "id": "Potassium chloride",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Cloruro de potasio, promedio mensual (Banco Mundial)",
+     "clave": "wb-Potassium_chloride",
+     "fuenteUrl": "https://www.worldbank.org/en/research/commodity-markets",
+     "ultimo": [
+      "2026-09-01",
+      367.5
+     ],
+     "anterior": [
+      "2026-08-01",
+      386.9
+     ],
+     "n": 359,
+     "unidadFuente": "($/mt)",
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.633Z",
+      "ultimoExito": "2026-10-25T15:51:47.633Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "roca_fosforica",
+   "nombre": "Roca fosfórica",
+   "categoria": "fertilizantes",
+   "moneda": "USD",
+   "unidad": "tonelada métrica",
+   "widget": null,
+   "sinSerieMotivo": null,
+   "series": [
+    {
+     "proveedor": "wb",
+     "id": "Phosphate rock",
+     "frecuencia": "mensual",
+     "unidad": "USD por tonelada métrica",
+     "nombre": "Roca fosfórica, promedio mensual (Banco Mundial)",
+     "clave": "wb-Phosphate_rock",
+     "fuenteUrl": "https://www.worldbank.org/en/research/commodity-markets",
+     "ultimo": [
+      "2026-09-01",
+      170
+     ],
+     "anterior": [
+      "2026-08-01",
+      170
+     ],
+     "n": 359,
+     "unidadFuente": "($/mt)",
+     "estado": {
+      "ultimoIntento": "2026-10-25T15:51:47.633Z",
+      "ultimoExito": "2026-10-25T15:51:47.633Z",
+      "ultimoError": null,
+      "verificada": true
+     }
+    }
+   ]
+  }
+ ]
+}

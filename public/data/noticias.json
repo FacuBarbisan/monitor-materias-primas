@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-25T12:36:26.388Z",
+ "generado": "2026-10-25T15:51:47.634Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -352,34 +352,291 @@
   ],
   "materias": [
    {
+    "id": "wti",
+    "nombre": "Petróleo WTI",
+    "categoria": "energia"
+   },
+   {
+    "id": "brent",
+    "nombre": "Petróleo Brent",
+    "categoria": "energia"
+   },
+   {
+    "id": "gas_natural",
+    "nombre": "Gas natural",
+    "categoria": "energia"
+   },
+   {
+    "id": "carbon",
+    "nombre": "Carbón",
+    "categoria": "energia"
+   },
+   {
+    "id": "gasolina",
+    "nombre": "Gasolina",
+    "categoria": "energia"
+   },
+   {
+    "id": "diesel",
+    "nombre": "Gasóleo / calefacción",
+    "categoria": "energia"
+   },
+   {
+    "id": "jet_fuel",
+    "nombre": "Combustible de aviación",
+    "categoria": "energia"
+   },
+   {
+    "id": "propano",
+    "nombre": "Propano",
+    "categoria": "energia"
+   },
+   {
+    "id": "uranio",
+    "nombre": "Uranio",
+    "categoria": "energia"
+   },
+   {
     "id": "oro",
-    "nombre": "Oro"
+    "nombre": "Oro",
+    "categoria": "preciosos"
    },
    {
     "id": "plata",
-    "nombre": "Plata"
+    "nombre": "Plata",
+    "categoria": "preciosos"
    },
    {
-    "id": "petroleo",
-    "nombre": "Petróleo (WTI / Brent)"
+    "id": "platino",
+    "nombre": "Platino",
+    "categoria": "preciosos"
    },
    {
-    "id": "gas",
-    "nombre": "Gas natural"
+    "id": "paladio",
+    "nombre": "Paladio",
+    "categoria": "preciosos"
    },
    {
     "id": "cobre",
-    "nombre": "Cobre"
+    "nombre": "Cobre",
+    "categoria": "industriales"
+   },
+   {
+    "id": "aluminio",
+    "nombre": "Aluminio",
+    "categoria": "industriales"
+   },
+   {
+    "id": "niquel",
+    "nombre": "Níquel",
+    "categoria": "industriales"
+   },
+   {
+    "id": "zinc",
+    "nombre": "Zinc",
+    "categoria": "industriales"
+   },
+   {
+    "id": "plomo",
+    "nombre": "Plomo",
+    "categoria": "industriales"
+   },
+   {
+    "id": "estano",
+    "nombre": "Estaño",
+    "categoria": "industriales"
+   },
+   {
+    "id": "hierro",
+    "nombre": "Mineral de hierro",
+    "categoria": "industriales"
+   },
+   {
+    "id": "cobalto",
+    "nombre": "Cobalto",
+    "categoria": "industriales"
    },
    {
     "id": "litio",
-    "nombre": "Litio"
+    "nombre": "Litio",
+    "categoria": "industriales"
    },
    {
-    "id": "granos",
-    "nombre": "Granos y alimentos"
+    "id": "tierras_raras",
+    "nombre": "Tierras raras y minerales críticos",
+    "categoria": "industriales"
+   },
+   {
+    "id": "trigo",
+    "nombre": "Trigo",
+    "categoria": "granos"
+   },
+   {
+    "id": "maiz",
+    "nombre": "Maíz",
+    "categoria": "granos"
+   },
+   {
+    "id": "soja",
+    "nombre": "Soja",
+    "categoria": "granos"
+   },
+   {
+    "id": "arroz",
+    "nombre": "Arroz",
+    "categoria": "granos"
+   },
+   {
+    "id": "cebada",
+    "nombre": "Cebada",
+    "categoria": "granos"
+   },
+   {
+    "id": "sorgo",
+    "nombre": "Sorgo",
+    "categoria": "granos"
+   },
+   {
+    "id": "aceite_palma",
+    "nombre": "Aceite de palma",
+    "categoria": "aceites"
+   },
+   {
+    "id": "aceite_soja",
+    "nombre": "Aceite de soja",
+    "categoria": "aceites"
+   },
+   {
+    "id": "harina_soja",
+    "nombre": "Harina de soja",
+    "categoria": "aceites"
+   },
+   {
+    "id": "aceite_girasol",
+    "nombre": "Aceite de girasol",
+    "categoria": "aceites"
+   },
+   {
+    "id": "aceite_oliva",
+    "nombre": "Aceite de oliva",
+    "categoria": "aceites"
+   },
+   {
+    "id": "aceite_colza",
+    "nombre": "Aceite de colza",
+    "categoria": "aceites"
+   },
+   {
+    "id": "carne_vacuna",
+    "nombre": "Carne vacuna",
+    "categoria": "ganaderia"
+   },
+   {
+    "id": "cerdo",
+    "nombre": "Cerdo",
+    "categoria": "ganaderia"
+   },
+   {
+    "id": "pollo",
+    "nombre": "Pollo",
+    "categoria": "ganaderia"
+   },
+   {
+    "id": "cordero",
+    "nombre": "Cordero",
+    "categoria": "ganaderia"
+   },
+   {
+    "id": "salmon",
+    "nombre": "Salmón",
+    "categoria": "ganaderia"
+   },
+   {
+    "id": "camaron",
+    "nombre": "Camarón",
+    "categoria": "ganaderia"
+   },
+   {
+    "id": "cafe",
+    "nombre": "Café",
+    "categoria": "agricolas"
+   },
+   {
+    "id": "cacao",
+    "nombre": "Cacao",
+    "categoria": "agricolas"
+   },
+   {
+    "id": "azucar",
+    "nombre": "Azúcar",
+    "categoria": "agricolas"
+   },
+   {
+    "id": "algodon",
+    "nombre": "Algodón",
+    "categoria": "agricolas"
+   },
+   {
+    "id": "caucho",
+    "nombre": "Caucho",
+    "categoria": "agricolas"
+   },
+   {
+    "id": "te",
+    "nombre": "Té",
+    "categoria": "agricolas"
+   },
+   {
+    "id": "naranja",
+    "nombre": "Naranja",
+    "categoria": "agricolas"
+   },
+   {
+    "id": "banana",
+    "nombre": "Banana",
+    "categoria": "agricolas"
+   },
+   {
+    "id": "madera",
+    "nombre": "Madera",
+    "categoria": "agricolas"
+   },
+   {
+    "id": "urea",
+    "nombre": "Urea",
+    "categoria": "fertilizantes"
+   },
+   {
+    "id": "dap",
+    "nombre": "Fosfato diamónico (DAP)",
+    "categoria": "fertilizantes"
+   },
+   {
+    "id": "tsp",
+    "nombre": "Superfosfato triple (TSP)",
+    "categoria": "fertilizantes"
+   },
+   {
+    "id": "potasio",
+    "nombre": "Cloruro de potasio",
+    "categoria": "fertilizantes"
+   },
+   {
+    "id": "roca_fosforica",
+    "nombre": "Roca fosfórica",
+    "categoria": "fertilizantes"
    }
   ],
+  "categorias": {
+   "energia": "Energía",
+   "preciosos": "Metales preciosos",
+   "industriales": "Metales industriales",
+   "granos": "Granos",
+   "aceites": "Aceites y derivados",
+   "ganaderia": "Ganadería y pesca",
+   "agricolas": "Otros agrícolas",
+   "fertilizantes": "Fertilizantes"
+  },
   "temas": [
    {
     "id": "inflacion",
@@ -518,6 +775,441 @@
  },
  "items": [
   {
+   "id": "ef590b51a3bf",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Thousands mourn victims of deadly Jordan church attack",
+   "link": "https://www.aljazeera.com/news/2026/10/25/thousands-mourn-victims-of-deadly-jordan-church-attack?traffic_source=rss",
+   "fecha": "2026-10-25T15:21:26.000Z",
+   "obtenido": "2026-10-25T15:51:06.587Z",
+   "fechaEstimada": false,
+   "extracto": "Jordan's prime minister represents king at funeral for eight of the church attack victims as hunt for gunmen continues.",
+   "imagen": null,
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gef590b51a3bf"
+  },
+  {
+   "id": "d8e74984c0a2",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "How is the US-Israeli war on Iran causing havoc in Europe?",
+   "link": "https://www.aljazeera.com/news/2026/10/25/how-is-the-us-israeli-war-on-iran-causing-havoc-in-europe?traffic_source=rss",
+   "fecha": "2026-10-25T14:47:55.000Z",
+   "obtenido": "2026-10-25T15:51:06.588Z",
+   "fechaEstimada": false,
+   "extracto": "Rising energy costs and protests are sharpening European opposition to renewed US-Israeli attacks on Iran.",
+   "imagen": null,
+   "tax": 5,
+   "paises": [
+    "ir",
+    "il",
+    "us"
+   ],
+   "regiones": [
+    "me",
+    "na",
+    "eu"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto",
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gd8e74984c0a2"
+  },
+  {
+   "id": "056e8797dbdf",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Netanyahu’s pitch: Can Israel use crypto to evade economic sanctions?",
+   "link": "https://www.aljazeera.com/news/2026/10/25/netanyahus-pitch-can-israel-use-crypto-to-evade-economic-sanctions?traffic_source=rss",
+   "fecha": "2026-10-25T14:46:38.000Z",
+   "obtenido": "2026-10-25T15:51:06.588Z",
+   "fechaEstimada": false,
+   "extracto": "Prime Minister Netanyahu mulls cryptocurrency as answer to economic sanctions on Israel, but there are few buyers.",
+   "imagen": null,
+   "tax": 5,
+   "paises": [
+    "il"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "actividad",
+    "sanciones"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g056e8797dbdf"
+  },
+  {
+   "id": "9de4fe7f189c",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Irán ataca con drones una base de rebeldes kurdos iraníes en Irak",
+   "link": "https://www.dw.com/es/irán-ataca-con-drones-una-base-de-rebeldes-kurdos-iraníes-en-irak/a-79755780?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-25T14:20:00.000Z",
+   "obtenido": "2026-10-25T15:51:06.466Z",
+   "fechaEstimada": false,
+   "extracto": "Irán atacó con drones una base del grupo opositor kurdo iraní Komala en el Kurdistán iraquí. Teherán acusa a estos grupos de terrorismo y de recibir apoyo de Israel.",
+   "imagen": null,
+   "tax": 5,
+   "paises": [
+    "ir",
+    "iq",
+    "il"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g9de4fe7f189c"
+  },
+  {
+   "id": "ae0bfdf4222b",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "The search for gold is a dangerous and laborious gamble for Sudan’s miners",
+   "link": "https://www.aljazeera.com/features/2026/10/25/the-search-for-gold-is-a-dangerous-and-laborious-gamble-for-sudans-miners?traffic_source=rss",
+   "fecha": "2026-10-25T14:03:17.000Z",
+   "obtenido": "2026-10-25T15:51:06.589Z",
+   "fechaEstimada": false,
+   "extracto": "As Sudan’s war destroys livelihoods, the death of 16-year-old Altayeb Alhadi highlights dangers of artisanal mining.",
+   "imagen": null,
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [
+    "oro"
+   ],
+   "categorias": [
+    "preciosos",
+    "industriales"
+   ],
+   "coincidencias": {
+    "oro": "gold"
+   },
+   "temas": [
+    "conflicto",
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gae0bfdf4222b"
+  },
+  {
+   "id": "1b3aad9a1abe",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Eye on China: Japan reopens taboo debate over nuclear-powered submarines",
+   "link": "https://www.scmp.com/news/china/military/article/3372066/eye-china-japan-reopens-taboo-debate-over-nuclear-powered-submarines",
+   "fecha": "2026-10-25T14:00:10.000Z",
+   "obtenido": "2026-10-25T15:51:07.225Z",
+   "fechaEstimada": false,
+   "extracto": "With China flexing its naval power across the Pacific and bilateral tensions running high, Japanese Prime Minister Sanae Takaichi is weighing a move long viewed as taboo – nuclear-powered submarines for the Maritime Self-Defence Force fleet. “We will seriously consider [the possibility] in a concrete and realistic…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/25/8226507c-78cc-4ef9-9c20-f1b2b5d6900a_85131ab8.jpg?itok=w2MM8A0P&v=1792915874",
+   "tax": 5,
+   "paises": [
+    "cn",
+    "jp"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "energia",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g1b3aad9a1abe"
+  },
+  {
+   "id": "d18fce22c053",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Saudi air defences intercept Houthi barrage near Mecca",
+   "link": "https://www.aljazeera.com/news/2026/10/25/saudi-air-defences-intercept-houthi-barrage-near-mecca?traffic_source=rss",
+   "fecha": "2026-10-25T13:49:33.000Z",
+   "obtenido": "2026-10-25T15:51:06.589Z",
+   "fechaEstimada": false,
+   "extracto": "Houthi attacks on Saudi Arabia escalate as fierce ground battles and a devastating siege strangle Yemen's Taiz.",
+   "imagen": null,
+   "tax": 5,
+   "paises": [
+    "sa",
+    "ye"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gd18fce22c053"
+  },
+  {
+   "id": "29ee57845b46",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Gaza’s visually and hearing-impaired children miss school due to Israel war",
+   "link": "https://www.aljazeera.com/features/2026/10/25/gazas-visually-and-hearing-impaired-children-miss-school-due-to-israel-war?traffic_source=rss",
+   "fecha": "2026-10-25T13:46:51.000Z",
+   "obtenido": "2026-10-25T15:51:06.589Z",
+   "fechaEstimada": false,
+   "extracto": "Children in Gaza with auditory and visual challenges often have no access to specialist education.",
+   "imagen": null,
+   "tax": 5,
+   "paises": [
+    "il",
+    "ps"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g29ee57845b46"
+  },
+  {
+   "id": "e003a1cf364d",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Putin dice que Europa recurre a Rusia para GNL y rechaza implicación en protestas",
+   "link": "https://www.dw.com/es/putin-dice-que-europa-recurre-a-rusia-para-gnl-y-rechaza-implicación-en-protestas/a-79755379?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-25T13:16:00.000Z",
+   "obtenido": "2026-10-25T15:51:06.467Z",
+   "fechaEstimada": false,
+   "extracto": "El presidente ruso asegura que el GNL de su país representa el 20 % del mercado europeo y atribuye las protestas en varias ciudades a errores económicos y políticos de los gobiernos europeos.",
+   "imagen": null,
+   "tax": 5,
+   "paises": [
+    "ru"
+   ],
+   "regiones": [
+    "eurasia",
+    "eu"
+   ],
+   "materias": [
+    "gas_natural"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "gas_natural": "gnl"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "ge003a1cf364d"
+  },
+  {
+   "id": "d02b90eebbc2",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "War of words over Xinjiang erupts between Chinese and Turkish social media users",
+   "link": "https://www.scmp.com/news/china/diplomacy/article/3372077/war-words-over-xinjiang-erupts-between-chinese-and-turkish-social-media-users",
+   "fecha": "2026-10-25T13:00:09.000Z",
+   "obtenido": "2026-10-25T15:51:07.225Z",
+   "fechaEstimada": false,
+   "extracto": "The debate over ethnic identity in Xinjiang has triggered an online clash between Chinese and Turkish social media users. The row began earlier this month when a Turkish social media user recalled an encounter with a Uygur from Xinjiang, the region in China that is home to nearly 12 million mainly Muslim Turkic…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/25/db4f42d0-d982-4a3a-b704-1396b1bb4207_82e12e03.jpg?itok=VT2GCoJK&v=1792929082",
+   "tax": 5,
+   "paises": [
+    "tr",
+    "cn"
+   ],
+   "regiones": [
+    "me",
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gd02b90eebbc2"
+  },
+  {
    "id": "ffb4fb923715",
    "fuente": "aljazeera",
    "fuenteNombre": "Al Jazeera English",
@@ -536,9 +1228,7 @@
    "regiones": [
     "me"
    ],
-   "materias": [
-    "petroleo"
-   ],
+   "materias": [],
    "temas": [
     "transporte"
    ],
@@ -553,7 +1243,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "gffb4fb923715"
+   "grupo": "gffb4fb923715",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "0d52b0741214",
@@ -589,7 +1282,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g0d52b0741214"
+   "grupo": "g0d52b0741214",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "380a017ea5c2",
@@ -626,29 +1322,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g380a017ea5c2"
-  },
-  {
-   "id": "14599585a09c",
-   "fuente": "bbc_mundo",
-   "fuenteNombre": "BBC News Mundo",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "Qué comer para que tu piel se vea más joven y sana",
-   "link": "https://www.bbc.com/mundo/articles/c3ewe42k1k0qo?at_medium=RSS&at_campaign=rss",
-   "fecha": "2026-10-25T10:01:25.000Z",
-   "obtenido": "2026-10-25T12:36:25.053Z",
-   "fechaEstimada": false,
-   "extracto": "Los alimentos de origen vegetal, las grasas y los productos fermentados pueden reducir las arrugas, aumentar la producción de colágeno y mejorar la textura de nuestra piel.",
-   "paises": [],
-   "regiones": [],
-   "materias": [
-    "granos"
-   ],
-   "temas": [],
-   "relevante": true,
-   "impacto": null,
-   "grupo": "g14599585a09c"
+   "grupo": "g380a017ea5c2",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "e34e69e50ffe",
@@ -684,7 +1361,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "ge34e69e50ffe"
+   "grupo": "ge34e69e50ffe",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "7a9f151dd9cb",
@@ -720,7 +1400,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g7a9f151dd9cb"
+   "grupo": "g7a9f151dd9cb",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "0e5789f2fa46",
@@ -741,6 +1424,49 @@
     "eu"
    ],
    "materias": [],
+   "temas": [
+    "actividad",
+    "politica_fiscal"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g0e5789f2fa46",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
+  },
+  {
+   "id": "9dea0c75f276",
+   "fuente": "mercopress",
+   "fuenteNombre": "MercoPress – Economy",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Next Wednesday, Chancellor Healey delivers the Budget statement, PM Burnham’s first",
+   "link": "https://en.mercopress.com/2026/10/25/next-wednesday-chancellor-healey-delivers-the-budget-statement-pm-burnham-s-first?utm_source=feed&utm_medium=rss&utm_content=economy&utm_campaign=rss",
+   "fecha": "2026-10-25T09:00:00.000Z",
+   "obtenido": "2026-10-25T15:51:06.694Z",
+   "fechaEstimada": false,
+   "extracto": "Each year UK’s Chancellor of the Exchequer makes the Budget statement to the House of Commons outlining the state of the economy and the Government's proposals for changes to taxation. The government of PM Andy Burnham has announced that the Budget will take place this week on Wednesday 28 October 2026 and delivered…",
+   "imagen": "https://en.mercopress.com/data/cache/noticias/111884/100x80/raquelita.jpg",
+   "tax": 5,
+   "paises": [
+    "gb"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
    "temas": [
     "actividad",
     "politica_fiscal"
@@ -793,7 +1519,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "gb7c3b8ec18b4"
+   "grupo": "gb7c3b8ec18b4",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "b590b0a0851f",
@@ -835,7 +1564,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "gb590b0a0851f"
+   "grupo": "gb590b0a0851f",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "eebc537376d0",
@@ -872,7 +1604,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "geebc537376d0"
+   "grupo": "geebc537376d0",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "e9d1515acbda",
@@ -889,12 +1624,19 @@
    "paises": [],
    "regiones": [],
    "materias": [
-    "petroleo"
+    "diesel"
    ],
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "ge9d1515acbda"
+   "grupo": "ge9d1515acbda",
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "diesel": "heating oil"
+   },
+   "tax": 5
   },
   {
    "id": "a82b46945df8",
@@ -926,7 +1668,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "ga82b46945df8"
+   "grupo": "ga82b46945df8",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "fbc0c0dac4d3",
@@ -961,7 +1706,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "gfbc0c0dac4d3"
+   "grupo": "gfbc0c0dac4d3",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "5ff8e80c40b0",
@@ -1002,7 +1750,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g5ff8e80c40b0"
+   "grupo": "g5ff8e80c40b0",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "413f852f376e",
@@ -1038,7 +1789,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g413f852f376e"
+   "grupo": "g413f852f376e",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "535078e59a10",
@@ -1079,7 +1833,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g535078e59a10"
+   "grupo": "g535078e59a10",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "db60470c1c84",
@@ -1116,7 +1873,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "gdb60470c1c84"
+   "grupo": "gdb60470c1c84",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "fd4df045e00a",
@@ -1154,7 +1914,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "gfd4df045e00a"
+   "grupo": "gfd4df045e00a",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "11a4fba58eb9",
@@ -1191,33 +1954,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g11a4fba58eb9"
-  },
-  {
-   "id": "9fcc28b53a89",
-   "fuente": "scmp_business",
-   "fuenteNombre": "South China Morning Post – Business",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Sri Lanka’s property boom gives Chinese developers hope. But familiar risks linger",
-   "link": "https://www.scmp.com/business/markets/article/3371938/sri-lankas-property-boom-gives-chinese-developers-hope-familiar-risks-linger",
-   "fecha": "2026-10-25T01:00:11.000Z",
-   "obtenido": "2026-10-25T01:47:04.150Z",
-   "fechaEstimada": false,
-   "extracto": "A Chinese developer behind one of Sri Lanka’s biggest projects has reason to celebrate as a luxury property boom lifts sentiment in the South Asian nation and fuels optimism about the market’s prospects. Analysts, however, cautioned that a string of disappointing Chinese overseas property investments over the past…",
-   "paises": [
-    "cn"
-   ],
-   "regiones": [
-    "as"
-   ],
-   "materias": [
-    "petroleo"
-   ],
-   "temas": [],
-   "relevante": true,
-   "impacto": null,
-   "grupo": "g9fcc28b53a89"
+   "grupo": "g11a4fba58eb9",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "f2f6084bae65",
@@ -1255,7 +1995,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "gf2f6084bae65"
+   "grupo": "gf2f6084bae65",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "014b7a4048a6",
@@ -1292,7 +2035,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g014b7a4048a6"
+   "grupo": "g014b7a4048a6",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "f06838f075fd",
@@ -1309,28 +2055,21 @@
    "paises": [],
    "regiones": [],
    "materias": [
-    "petroleo"
+    "wti",
+    "brent"
    ],
-   "temas": [
-    "clima"
-   ],
+   "temas": [],
    "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
-     },
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   "impacto": null,
+   "grupo": "gf06838f075fd",
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "oil field",
+    "brent": "oil field"
    },
-   "grupo": "gf06838f075fd"
+   "tax": 5
   },
   {
    "id": "19fdabe9cb63",
@@ -1369,7 +2108,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g19fdabe9cb63"
+   "grupo": "g19fdabe9cb63",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "afce2e6ccf04",
@@ -1417,7 +2159,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "gafce2e6ccf04"
+   "grupo": "gafce2e6ccf04",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "115edf62c0a5",
@@ -1452,7 +2197,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g115edf62c0a5"
+   "grupo": "g115edf62c0a5",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "2f3197510c0b",
@@ -1490,7 +2238,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g2f3197510c0b"
+   "grupo": "g2f3197510c0b",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "4a8f1f6bf119",
@@ -1526,7 +2277,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g6cf54f9a7d74"
+   "grupo": "g6cf54f9a7d74",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "33d886ed4bab",
@@ -1563,7 +2317,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g33d886ed4bab"
+   "grupo": "g33d886ed4bab",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "6e0345fb0a82",
@@ -1599,7 +2356,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g6e0345fb0a82"
+   "grupo": "g6e0345fb0a82",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "9e910adcde51",
@@ -1621,12 +2381,21 @@
     "me"
    ],
    "materias": [
-    "petroleo"
+    "wti",
+    "brent"
    ],
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g9e910adcde51"
+   "grupo": "g9e910adcde51",
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "petroleo",
+    "brent": "petroleo"
+   },
+   "tax": 5
   },
   {
    "id": "8c8987787069",
@@ -1662,7 +2431,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g8c8987787069"
+   "grupo": "g8c8987787069",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "a3268894cc08",
@@ -1695,7 +2467,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "ga3268894cc08"
+   "grupo": "ga3268894cc08",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "801037282c5a",
@@ -1735,7 +2510,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g801037282c5a"
+   "grupo": "g801037282c5a",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "901635416ac3",
@@ -1771,7 +2549,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g901635416ac3"
+   "grupo": "g901635416ac3",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "845e130d11b8",
@@ -1812,7 +2593,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g845e130d11b8"
+   "grupo": "g845e130d11b8",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "4a0662007168",
@@ -1829,12 +2613,19 @@
    "paises": [],
    "regiones": [],
    "materias": [
-    "petroleo"
+    "gasolina"
    ],
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g4a0662007168"
+   "grupo": "g4a0662007168",
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "gasolina": "fuel prices"
+   },
+   "tax": 5
   },
   {
    "id": "6cf54f9a7d74",
@@ -1870,7 +2661,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g6cf54f9a7d74"
+   "grupo": "g6cf54f9a7d74",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "43d3564b0a69",
@@ -1907,7 +2701,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g43d3564b0a69"
+   "grupo": "g43d3564b0a69",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "7fcc33e2ae8e",
@@ -1948,7 +2745,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g7fcc33e2ae8e"
+   "grupo": "g7fcc33e2ae8e",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "bb9c66460354",
@@ -1985,7 +2785,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "gbb9c66460354"
+   "grupo": "gbb9c66460354",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "8503803128cb",
@@ -2029,7 +2832,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g8503803128cb"
+   "grupo": "g8503803128cb",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "10e869134844",
@@ -2067,7 +2873,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g10e869134844"
+   "grupo": "g10e869134844",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "23d46987719e",
@@ -2107,7 +2916,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g23d46987719e"
+   "grupo": "g23d46987719e",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "124186f9595d",
@@ -2154,7 +2966,46 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g124186f9595d"
+   "grupo": "g124186f9595d",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
+  },
+  {
+   "id": "9009e3caf6b3",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "China carries out in-depth investigation of Turkey’s largest rare earth deposit",
+   "link": "https://www.scmp.com/news/china/science/article/3371800/china-carries-out-depth-investigation-turkeys-largest-rare-earth-deposit",
+   "fecha": "2026-10-24T04:00:11.000Z",
+   "obtenido": "2026-10-25T15:51:07.231Z",
+   "fechaEstimada": false,
+   "extracto": "Chinese researchers have mapped the complex geological evolution of Turkey’s Kizilcaoren deposit, offering fresh insights into the country’s most significant known rare earth reserve while dampening expectations over its commercial potential. Although the findings shed light on how rare earth elements accumulate in…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/191ce52c-aff4-4d1d-8538-493d920d67c3_31f8bafa.jpg?itok=Ao6z2EG9&v=1792760360",
+   "tax": 5,
+   "paises": [
+    "tr",
+    "cn"
+   ],
+   "regiones": [
+    "me",
+    "as"
+   ],
+   "materias": [
+    "tierras_raras"
+   ],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {
+    "tierras_raras": "rare earth"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "g9009e3caf6b3"
   },
   {
    "id": "bb18fe6c1ab8",
@@ -2190,7 +3041,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "gbb18fe6c1ab8"
+   "grupo": "gbb18fe6c1ab8",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "a732864d1bbe",
@@ -2230,7 +3084,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "ga732864d1bbe"
+   "grupo": "ga732864d1bbe",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "cd687f2c9b89",
@@ -2271,7 +3128,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "gcd687f2c9b89"
+   "grupo": "gcd687f2c9b89",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "00e84614ccd6",
@@ -2319,7 +3179,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g00e84614ccd6"
+   "grupo": "g00e84614ccd6",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "0e77d63cd38b",
@@ -2360,7 +3223,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g0e77d63cd38b"
+   "grupo": "g0e77d63cd38b",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "7148f32e30ed",
@@ -2391,7 +3257,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g7148f32e30ed"
+   "grupo": "g7148f32e30ed",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "5a6860b10290",
@@ -2427,7 +3296,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g5a6860b10290"
+   "grupo": "g5a6860b10290",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "578cd4bb58f0",
@@ -2458,7 +3330,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g578cd4bb58f0"
+   "grupo": "g578cd4bb58f0",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "ec8832f93c4f",
@@ -2493,7 +3368,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "gec8832f93c4f"
+   "grupo": "gec8832f93c4f",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "289a60c343c3",
@@ -2528,7 +3406,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g289a60c343c3"
+   "grupo": "g289a60c343c3",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "4892ae6e7913",
@@ -2559,7 +3440,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g4892ae6e7913"
+   "grupo": "g4892ae6e7913",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "d5ce60bdd6f9",
@@ -2580,13 +3464,19 @@
     "as"
    ],
    "materias": [
-    "oro",
-    "petroleo"
+    "oro"
    ],
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "gd5ce60bdd6f9"
+   "grupo": "gd5ce60bdd6f9",
+   "categorias": [
+    "preciosos"
+   ],
+   "coincidencias": {
+    "oro": "gold"
+   },
+   "tax": 5
   },
   {
    "id": "aa38aa612f55",
@@ -2629,7 +3519,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "gaa38aa612f55"
+   "grupo": "gaa38aa612f55",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "bf152d7d641b",
@@ -2667,7 +3560,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "gbf152d7d641b"
+   "grupo": "gbf152d7d641b",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "5580b3e486b7",
@@ -2703,7 +3599,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g5580b3e486b7"
+   "grupo": "g5580b3e486b7",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "dd38e45cbf9f",
@@ -2739,7 +3638,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "gdd38e45cbf9f"
+   "grupo": "gdd38e45cbf9f",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "dc2a64a01685",
@@ -2789,7 +3691,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "gdc2a64a01685"
+   "grupo": "gdc2a64a01685",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "da039c1481be",
@@ -2829,7 +3734,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "gda039c1481be"
+   "grupo": "gda039c1481be",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "00149156879d",
@@ -2865,7 +3773,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g00149156879d"
+   "grupo": "g00149156879d",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "d5a669c63923",
@@ -2901,7 +3812,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "gd5a669c63923"
+   "grupo": "gd5a669c63923",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "e95144e34e71",
@@ -2943,7 +3857,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "ge95144e34e71"
+   "grupo": "ge95144e34e71",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "21075bc7ca8b",
@@ -2983,7 +3900,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g21075bc7ca8b"
+   "grupo": "g21075bc7ca8b",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "b962011418c9",
@@ -3024,7 +3944,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "gb962011418c9"
+   "grupo": "gb962011418c9",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "24f54e914fcb",
@@ -3064,7 +3987,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g24f54e914fcb"
+   "grupo": "g24f54e914fcb",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "f11e1427fb3d",
@@ -3104,7 +4030,70 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "gf11e1427fb3d"
+   "grupo": "gf11e1427fb3d",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
+  },
+  {
+   "id": "72a666956b7c",
+   "fuente": "bbc_mundo",
+   "fuenteNombre": "BBC News Mundo",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "El uso de inyecciones para adelgazar está afectando las ventas de productos de belleza y cuidado de la piel, según L'Oréal",
+   "link": "https://www.bbc.com/mundo/articles/c699z39257zlo?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-23T00:35:52.000Z",
+   "obtenido": "2026-10-25T15:51:06.456Z",
+   "fechaEstimada": false,
+   "extracto": "El director ejecutivo de L'Oréal afirma que el creciente uso de GLP-1 es \"un fenómeno muy importante\" para su compañía.",
+   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/04f7/live/62d395b0-ce5d-11f1-a64c-550be9e3c66b.jpg",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [
+    "propano"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "propano": "glp"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "g72a666956b7c"
+  },
+  {
+   "id": "8c3d7bf32c97",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "L'Oreal says weight loss drugs are impacting beauty and skincare sales",
+   "link": "https://www.bbc.co.uk/news/articles/cvglwgwpgrlpo?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-22T22:27:53.000Z",
+   "obtenido": "2026-10-25T15:51:06.232Z",
+   "fechaEstimada": false,
+   "extracto": "The beauty giant's CEO says the use of GLP-1s is \"a very important phenomenon for us\".",
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04f7/live/62d395b0-ce5d-11f1-a64c-550be9e3c66b.jpg",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [
+    "propano"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "propano": "glp"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "g8c3d7bf32c97"
   },
   {
    "id": "d3c2182f8871",
@@ -3141,7 +4130,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "gd3c2182f8871"
+   "grupo": "gd3c2182f8871",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "80068a49c2d6",
@@ -3192,7 +4184,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g80068a49c2d6"
+   "grupo": "g80068a49c2d6",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "a18f8f093b68",
@@ -3232,7 +4227,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "ga18f8f093b68"
+   "grupo": "ga18f8f093b68",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "562b510695d8",
@@ -3263,7 +4261,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g562b510695d8"
+   "grupo": "g562b510695d8",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "52e8775d890c",
@@ -3294,7 +4295,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g52e8775d890c"
+   "grupo": "g52e8775d890c",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "f69a9f960098",
@@ -3316,7 +4320,7 @@
     "global"
    ],
    "materias": [
-    "petroleo"
+    "diesel"
    ],
    "temas": [
     "energia"
@@ -3337,33 +4341,14 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "gf69a9f960098"
-  },
-  {
-   "id": "374498ab6635",
-   "fuente": "bbc_business",
-   "fuenteNombre": "BBC News – Business",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Tank barrel production returns to UK after 20 years",
-   "link": "https://www.bbc.co.uk/news/articles/cm70pj51zdk4o?at_medium=RSS&at_campaign=rss",
-   "fecha": "2026-10-22T13:45:19.000Z",
-   "obtenido": "2026-10-24T21:35:32.519Z",
-   "fechaEstimada": false,
-   "extracto": "The defence secretary says the UK is \"back in the business of making weapons\" for its armed forces.",
-   "paises": [
-    "gb"
+   "grupo": "gf69a9f960098",
+   "categorias": [
+    "energia"
    ],
-   "regiones": [
-    "eu"
-   ],
-   "materias": [
-    "petroleo"
-   ],
-   "temas": [],
-   "relevante": true,
-   "impacto": null,
-   "grupo": "g374498ab6635"
+   "coincidencias": {
+    "diesel": "diesel"
+   },
+   "tax": 5
   },
   {
    "id": "b63679711722",
@@ -3407,7 +4392,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "gb63679711722"
+   "grupo": "gb63679711722",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "9fe341225b27",
@@ -3443,7 +4431,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g9fe341225b27"
+   "grupo": "g9fe341225b27",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "c2e4d0e648e0",
@@ -3461,10 +4452,7 @@
    "regiones": [
     "global"
    ],
-   "materias": [
-    "petroleo",
-    "granos"
-   ],
+   "materias": [],
    "temas": [
     "politica_monetaria",
     "conflicto"
@@ -3490,7 +4478,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "gc2e4d0e648e0"
+   "grupo": "gc2e4d0e648e0",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "aa55ec25dc8b",
@@ -3536,7 +4527,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "gaa55ec25dc8b"
+   "grupo": "gaa55ec25dc8b",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "ab26c20fcddc",
@@ -3574,7 +4568,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "gab26c20fcddc"
+   "grupo": "gab26c20fcddc",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "295b0bec669f",
@@ -3612,7 +4609,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g295b0bec669f"
+   "grupo": "g295b0bec669f",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "9206885a1d17",
@@ -3648,29 +4648,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g9206885a1d17"
-  },
-  {
-   "id": "c92de67b3f7d",
-   "fuente": "bbc_mundo",
-   "fuenteNombre": "BBC News Mundo",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "\"Me olvidé secretos de Estado en un tren: soy la prueba de que es posible recuperarse del mayor error de tu vida\"",
-   "link": "https://www.bbc.com/mundo/articles/c6wyd5wx4xq1o?at_medium=RSS&at_campaign=rss",
-   "fecha": "2026-10-22T09:46:00.000Z",
-   "obtenido": "2026-10-24T21:35:32.630Z",
-   "fechaEstimada": false,
-   "extracto": "El alto funcionario Richard Jackson relata aquel fatídico día en el que olvidó importantes documentos y cómo se recuperó tras lo sucedido.",
-   "paises": [],
-   "regiones": [],
-   "materias": [
-    "granos"
-   ],
-   "temas": [],
-   "relevante": true,
-   "impacto": null,
-   "grupo": "gc92de67b3f7d"
+   "grupo": "g9206885a1d17",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "54dac5078b9b",
@@ -3712,7 +4693,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g54dac5078b9b"
+   "grupo": "g54dac5078b9b",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "ff2d0a722c54",
@@ -3758,7 +4742,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "gff2d0a722c54"
+   "grupo": "gff2d0a722c54",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "c907a956fe08",
@@ -3789,7 +4776,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "gc907a956fe08"
+   "grupo": "gc907a956fe08",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "f5e12e97aca3",
@@ -3825,33 +4815,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "gf5e12e97aca3"
-  },
-  {
-   "id": "871671182ad8",
-   "fuente": "bbc_business",
-   "fuenteNombre": "BBC News – Business",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "The 'trillion pound' oil fund the government believes Britain could have built",
-   "link": "https://www.bbc.co.uk/news/articles/cm4g1zrl2nrqo?at_medium=RSS&at_campaign=rss",
-   "fecha": "2026-10-21T23:27:05.000Z",
-   "obtenido": "2026-10-24T21:35:32.519Z",
-   "fechaEstimada": false,
-   "extracto": "For the first time, the Treasury calculates how much the UK could have raised by investing North Sea proceeds.",
-   "paises": [
-    "gb"
-   ],
-   "regiones": [
-    "eu"
-   ],
-   "materias": [
-    "petroleo"
-   ],
-   "temas": [],
-   "relevante": true,
-   "impacto": null,
-   "grupo": "g871671182ad8"
+   "grupo": "gf5e12e97aca3",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "0254576c8f2b",
@@ -3886,7 +4853,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g0254576c8f2b"
+   "grupo": "g0254576c8f2b",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "598fdccac7d2",
@@ -3917,7 +4887,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g598fdccac7d2"
+   "grupo": "g598fdccac7d2",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "f010f966a831",
@@ -3957,44 +4930,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "gf010f966a831"
-  },
-  {
-   "id": "739131a48428",
-   "fuente": "scmp_business",
-   "fuenteNombre": "South China Morning Post – Business",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "China’s offshore tax crackdown could inadvertently fuel a digital dollar boom",
-   "link": "https://www.scmp.com/opinion/china-opinion/article/3371259/chinas-offshore-tax-crackdown-could-inadvertently-fuel-digital-dollar-boom",
-   "fecha": "2026-10-21T12:30:07.000Z",
-   "obtenido": "2026-10-24T21:35:33.225Z",
-   "fechaEstimada": false,
-   "extracto": "From October 22, China’s grace period for the disclosure and settlement of certain offshore-trust tax liabilities ends. For the Chinese government, this deadline highlights its desire to affirm control over capital outflows, while for Chinese high-net-worth families, it serves as a reminder that it is now harder to…",
-   "paises": [
-    "cn"
-   ],
-   "regiones": [
-    "as"
-   ],
-   "materias": [
-    "petroleo"
-   ],
-   "temas": [
-    "politica_fiscal"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g739131a48428"
+   "grupo": "gf010f966a831",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "604e563177f2",
@@ -4033,7 +4972,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g604e563177f2"
+   "grupo": "g604e563177f2",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "fd023d2557de",
@@ -4073,7 +5015,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "gfd023d2557de"
+   "grupo": "gfd023d2557de",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "4b678de376dc",
@@ -4116,7 +5061,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g4b678de376dc"
+   "grupo": "g4b678de376dc",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "34f3b1766052",
@@ -4158,7 +5106,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g34f3b1766052"
+   "grupo": "g34f3b1766052",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "00b7a05b92bb",
@@ -4200,7 +5151,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g00b7a05b92bb"
+   "grupo": "g00b7a05b92bb",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "c89c45c47763",
@@ -4240,7 +5194,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "gc89c45c47763"
+   "grupo": "gc89c45c47763",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "c66aeb50a0f6",
@@ -4280,7 +5237,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "gc66aeb50a0f6"
+   "grupo": "gc66aeb50a0f6",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "111d92bf9e1d",
@@ -4316,7 +5276,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g111d92bf9e1d"
+   "grupo": "g111d92bf9e1d",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "33f850636054",
@@ -4341,12 +5304,21 @@
     "as"
    ],
    "materias": [
-    "petroleo"
+    "wti",
+    "brent"
    ],
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33f850636054"
+   "grupo": "g33f850636054",
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "petroleo",
+    "brent": "petroleo"
+   },
+   "tax": 5
   },
   {
    "id": "57b0cacc7836",
@@ -4389,7 +5361,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g57b0cacc7836"
+   "grupo": "g57b0cacc7836",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "9cc6be4280f4",
@@ -4410,7 +5385,9 @@
     "as",
     "global"
    ],
-   "materias": [],
+   "materias": [
+    "cerdo"
+   ],
    "temas": [
     "comercio",
     "aranceles"
@@ -4421,7 +5398,7 @@
      {
       "canal": "demanda",
       "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+      "explicacion": "Podría cambiar las compras de importadores o el consumo de alimentos."
      },
      {
       "canal": "dolar",
@@ -4431,7 +5408,14 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g9cc6be4280f4"
+   "grupo": "g9cc6be4280f4",
+   "categorias": [
+    "ganaderia"
+   ],
+   "coincidencias": {
+    "cerdo": "pork"
+   },
+   "tax": 5
   },
   {
    "id": "cc8114cd1a0b",
@@ -4464,7 +5448,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "gcc8114cd1a0b"
+   "grupo": "gcc8114cd1a0b",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "1de2f415df0a",
@@ -4501,7 +5488,14 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g1de2f415df0a"
+   "grupo": "g1de2f415df0a",
+   "categorias": [
+    "preciosos"
+   ],
+   "coincidencias": {
+    "oro": "oro"
+   },
+   "tax": 5
   },
   {
    "id": "66ba26d08253",
@@ -4543,7 +5537,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g66ba26d08253"
+   "grupo": "g66ba26d08253",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "3902bf586689",
@@ -4580,7 +5577,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g3902bf586689"
+   "grupo": "g3902bf586689",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "3e64630612d1",
@@ -4627,7 +5627,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g3e64630612d1"
+   "grupo": "g3e64630612d1",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "28905f8e469b",
@@ -4670,7 +5673,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g28905f8e469b"
+   "grupo": "g28905f8e469b",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "18ada448671f",
@@ -4710,7 +5716,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g18ada448671f"
+   "grupo": "g18ada448671f",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "ffe26705e836",
@@ -4756,7 +5765,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "gffe26705e836"
+   "grupo": "gffe26705e836",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "24aa6e4278d8",
@@ -4791,7 +5803,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g24aa6e4278d8"
+   "grupo": "g24aa6e4278d8",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "2f7fabc62d4e",
@@ -4837,7 +5852,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g2f7fabc62d4e"
+   "grupo": "g2f7fabc62d4e",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "c4dd2da5785c",
@@ -4878,7 +5896,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "gc4dd2da5785c"
+   "grupo": "gc4dd2da5785c",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "69afe8bb3edd",
@@ -4924,7 +5945,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g69afe8bb3edd"
+   "grupo": "g69afe8bb3edd",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "18494916fa7e",
@@ -4967,7 +5991,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g18494916fa7e"
+   "grupo": "g18494916fa7e",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "a10b60db9666",
@@ -5007,7 +6034,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "ga10b60db9666"
+   "grupo": "ga10b60db9666",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "46606509397c",
@@ -5045,7 +6075,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g46606509397c"
+   "grupo": "g46606509397c",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "e545c030814a",
@@ -5085,7 +6118,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "ge545c030814a"
+   "grupo": "ge545c030814a",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "2c9d8102d897",
@@ -5123,7 +6159,10 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g2c9d8102d897"
+   "grupo": "g2c9d8102d897",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "70363c9b200b",
@@ -5163,7 +6202,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g70363c9b200b"
+   "grupo": "g70363c9b200b",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "a8e5eddab8a3",
@@ -5203,37 +6245,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "ga8e5eddab8a3"
-  },
-  {
-   "id": "f2ab5728bd31",
-   "fuente": "mercopress",
-   "fuenteNombre": "MercoPress – Economy",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "The Falklands dispute threatens Argentina’s bid to join the trans-Pacific trade pact",
-   "link": "https://en.mercopress.com/2026/10/16/the-falklands-dispute-threatens-argentina-s-bid-to-join-the-trans-pacific-trade-pact?utm_source=feed&utm_medium=rss&utm_content=economy&utm_campaign=rss",
-   "fecha": "2026-10-16T10:07:00.000Z",
-   "obtenido": "2026-10-24T21:35:33.271Z",
-   "fechaEstimada": false,
-   "extracto": "The escalating dispute between Argentina and the United Kingdom over the Sea Lion oil project north of the Falklands has spilled into trade: London, a member of the Comprehensive and Progressive Agreement for Trans-Pacific Partnership, has not ruled out using its position to stall Argentina’s bid to join the pact,…",
-   "paises": [
-    "ar",
-    "fk",
-    "gb"
-   ],
-   "regiones": [
-    "latam",
-    "eu",
-    "as"
-   ],
-   "materias": [
-    "petroleo"
-   ],
-   "temas": [],
-   "relevante": true,
-   "impacto": null,
-   "grupo": "gf2ab5728bd31"
+   "grupo": "ga8e5eddab8a3",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "5c275fbe96cf",
@@ -5254,7 +6269,8 @@
     "na"
    ],
    "materias": [
-    "petroleo"
+    "gasolina",
+    "diesel"
    ],
    "temas": [
     "inflacion"
@@ -5275,7 +6291,15 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g5c275fbe96cf"
+   "grupo": "g5c275fbe96cf",
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "gasolina": "gasolina",
+    "diesel": "diesel"
+   },
+   "tax": 5
   },
   {
    "id": "77ae42826876",
@@ -5317,7 +6341,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g77ae42826876"
+   "grupo": "g77ae42826876",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   },
   {
    "id": "030aff8850d7",
@@ -5370,43 +6397,10 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g030aff8850d7"
-  },
-  {
-   "id": "6330895cad68",
-   "fuente": "eia_tie",
-   "fuenteNombre": "EIA – Today in Energy",
-   "tipoFuente": "oficial",
-   "idioma": "en",
-   "titulo": "PJM, ERCOT, and SWPP all set peak load records this summer",
-   "link": "https://www.eia.gov/todayinenergy/detail.php?id=68305",
-   "fecha": "2026-10-15T14:00:00.000Z",
-   "obtenido": "2026-10-24T21:35:33.362Z",
-   "fechaEstimada": false,
-   "extracto": "Three regional transmission organizations (RTOs) set records for peak hourly load this past summer, according to data reported on Form EIA-930 and presented in the Hourly Electric Grid Monitor.",
-   "paises": [],
-   "regiones": [],
-   "materias": [],
-   "temas": [
-    "energia"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     },
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g6330895cad68"
+   "grupo": "g030aff8850d7",
+   "categorias": [],
+   "coincidencias": {},
+   "tax": 5
   }
  ]
 }
