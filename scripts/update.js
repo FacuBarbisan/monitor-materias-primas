@@ -80,8 +80,8 @@ export async function actualizar({ forzar = false } = {}) {
 
   await enParalelo(SOURCES, 4, async (fuente) => {
     const est = estadoFuentes[fuente.id] || {};
-    const cache = interno.fuentes[fuente.id]?.versionImagen === 2 ? interno.fuentes[fuente.id] : {};
-    const renovarImagenes = interno.fuentes[fuente.id]?.versionImagen !== 2;
+    const cache = interno.fuentes[fuente.id]?.versionImagen === 3 ? interno.fuentes[fuente.id] : {};
+    const renovarImagenes = interno.fuentes[fuente.id]?.versionImagen !== 3;
     if (!renovarImagenes && !forzar && !FUENTES_LOCALES && !vencida(est.ultimoIntento, fuente.cadaMin)) return;
     est.ultimoIntento = ahora();
     try {
@@ -92,20 +92,25 @@ export async function actualizar({ forzar = false } = {}) {
         for (const c of crudos) {
           const link = normalizarLink(c.link);
           const id = hash(link);
-          if (mapa.has(id)) { if (c.imagen) { mapa.get(id).imagen = c.imagen; mapa.get(id).imagenCredito = c.imagenCredito || fuente.nombre; } relevantes++; continue; }
+          if (mapa.has(id)) {
+            const anterior = mapa.get(id);
+            Object.assign(anterior, clasificar({ titulo: c.titulo, descripcion: c.descripcion }, fuente), { tax: VERSION_TAXONOMIA });
+            if (c.imagen) Object.assign(anterior, { imagen: c.imagen, imagenes: c.imagenes, imagenCredito: c.imagenCredito || fuente.nombre });
+            relevantes++; continue;
+          }
           const extracto = recortar(c.descripcion && c.descripcion !== c.titulo ? c.descripcion : '', 320);
-          const etiquetas = clasificar({ titulo: c.titulo, descripcion: extracto }, fuente);
+          const etiquetas = clasificar({ titulo: c.titulo, descripcion: c.descripcion }, fuente);
           if (fuente.filtrar && !etiquetas.relevante) continue;
           relevantes++;
           mapa.set(id, {
             id, fuente: fuente.id, fuenteNombre: fuente.nombre, tipoFuente: fuente.tipo, idioma: fuente.idioma,
             titulo: c.titulo, link: c.link, fecha: c.fecha, obtenido: ahora(), fechaEstimada: !c.fecha,
-            extracto, imagen: c.imagen || null, imagenCredito: c.imagenCredito || fuente.nombre, tax: VERSION_TAXONOMIA, ...etiquetas, ...(FUENTES_LOCALES ? { prueba: true } : {}),
+            extracto, imagen: c.imagen || null, imagenes: c.imagenes || [], imagenCredito: c.imagenCredito || fuente.nombre, tax: VERSION_TAXONOMIA, ...etiquetas, ...(FUENTES_LOCALES ? { prueba: true } : {}),
           });
         }
         est.itemsEnFeed = crudos.length;
         est.itemsRelevantes = relevantes;
-        interno.fuentes[fuente.id] = { etag: res.etag || null, modificado: res.modificado || null, versionImagen: 2 };
+        interno.fuentes[fuente.id] = { etag: res.etag || null, modificado: res.modificado || null, versionImagen: 3 };
       }
       est.ultimoExito = ahora();
       est.ultimoError = null;
