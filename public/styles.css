@@ -316,3 +316,26 @@ dialog::backdrop { background: rgba(0, 0, 0, .5); }
 .grilla-fotos--destacada > .nota-foto:first-child .nota-foto__media { aspect-ratio: auto; min-height: 260px; }
 .grilla-fotos--destacada > .nota-foto:first-child .nota-foto__titulo { font-size: 1.45rem; }
 @media (max-width: 760px) { .grilla-fotos--destacada > .nota-foto:first-child { display: flex; } .grilla-fotos--destacada > .nota-foto:first-child .nota-foto__media { aspect-ratio: 16 / 9; min-height: 0; } }
+
+/* Tarjetas de mercados y noticias compactas */
+.mercados-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:18px; }
+.mercado-card { background:var(--superficie); border:1px solid var(--borde); border-radius:16px; padding:18px; display:flex; flex-direction:column; gap:12px; min-width:0; }
+.mercado-card header { display:flex; justify-content:space-between; align-items:center; }
+.mercado-card h2 { font-size:1.3rem; margin:4px 0; }
+.mercado-card h2 a { color:var(--texto); text-decoration:none; }
+.mercado-widget { height:350px; position:relative; }
+.mercado-precio { font-size:1.9rem; font-weight:800; }
+.mercado-historia { min-height:220px; }
+.mercado-historia svg { width:100%; height:200px; }
+.referencia-card { background:var(--superficie-2); border-radius:8px; padding:10px; font-size:.8rem; line-height:1.6; }
+.mercado-card > .btn { margin-top:auto; }
+.catalogo-paginas { display:flex; justify-content:center; align-items:center; gap:16px; margin:24px 0; }
+.grilla-fotos { align-items:start; grid-template-columns:repeat(4,minmax(0,1fr)); gap:20px; }
+.nota-foto__media { aspect-ratio:16/9; }
+.nota-foto__cuerpo { gap:10px; }
+.nota-foto__titulo { font-size:1.15rem; }
+@media(max-width:1200px) { .mercados-grid,.grilla-fotos { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:620px) { .mercados-grid,.grilla-fotos { grid-template-columns:1fr; } .catalogo-paginas { gap:8px; font-size:.85rem; } }
+
+.mercado-widget .tradingview-widget-container, .mercado-widget .tradingview-widget-container__widget { height:100%; }
+.mercado-card .estrella { flex-shrink:0; }

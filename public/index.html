@@ -7,7 +7,7 @@
 <meta name="description" content="Catálogo de materias primas con precios de referencia verificables, gráficos y noticias internacionales relacionadas.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230F1E33'/%3E%3Cpath d='M6 22l6-7 5 4 9-10' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <script>try { const t = JSON.parse(localStorage.getItem('mmp.tema') || 'null'); if (t === 'claro') document.documentElement.dataset.theme = 'light'; if (t === 'oscuro') document.documentElement.dataset.theme = 'dark'; } catch (e) {}</script>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css?v=5">
 </head>
 <body data-seccion="materias">
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -16,7 +16,7 @@
     <div class="contenedor barra__fila">
       <a class="marca" href="#materias" aria-label="Ir al catálogo">
         <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="6"/><path d="M6 22l6-7 5 4 9-10"/></svg>
-        <span><span class="marca__titulo">Monitor de Materias Primas</span><br><span class="marca__sub">Precios de referencia, noticias internacionales y geopolítica</span></span>
+        <span><span class="marca__titulo">Monitor de Materias Primas</span><br><span class="marca__sub">Mercados, referencias oficiales y noticias · v5</span></span>
       </a>
       <div class="barra__acciones">
         <button type="button" class="btn" id="btn-recargar" aria-label="Volver a leer los datos publicados" title="Vuelve a leer los datos que publicó el actualizador">
@@ -52,7 +52,7 @@
   <div class="seccion__cab">
     <div>
       <h2>Catálogo de materias primas</h2>
-      <p class="ayuda">Precios de referencia de fuentes oficiales y verificables (EIA, FMI vía FRED y Banco Mundial). La mayoría son <strong>promedios mensuales publicados con rezago</strong>, no cotizaciones en tiempo real: cada fila indica la fecha del dato. Tocá una materia prima para ver su ficha, gráfico y noticias.</p>
+      <p class="ayuda">Gráficos de TradingView donde están disponibles y precios oficiales de referencia, con su fecha y frecuencia. Los promedios mensuales se muestran por separado: no son el precio de hoy. Explorá las 55 materias primas por categoría y abrí cada ficha para ver su historia y noticias.</p>
     </div>
   </div>
   <div class="panel">
@@ -67,21 +67,8 @@
       <span class="chica" id="c-conteo" aria-live="polite"></span>
     </div>
   </div>
-  <div class="tabla-scroll panel" style="padding:0">
-    <table class="tabla-cat" id="tabla-catalogo">
-      <thead><tr>
-        <th scope="col"><span class="vh">Favorita</span></th>
-        <th scope="col">Materia prima</th>
-        <th scope="col" class="num">Último precio de referencia</th>
-        <th scope="col" class="num">Variación</th>
-        <th scope="col">Fecha del dato</th>
-        <th scope="col" class="col-opc">Tipo y fuente</th>
-        <th scope="col" class="col-opc">Gráfico en vivo</th>
-        <th scope="col" class="num col-opc">Noticias (7 días)</th>
-      </tr></thead>
-      <tbody></tbody>
-    </table>
-  </div>
+  <div id="catalogo-tarjetas" class="mercados-grid"></div>
+  <nav id="catalogo-paginas" class="catalogo-paginas" aria-label="Páginas de materias primas"></nav>
 </section>
 
 <!-- ================= FICHA ================= -->
@@ -123,7 +110,7 @@
       <span class="chica" id="conteo" aria-live="polite"></span>
     </div>
   </form>
-  <div id="lista-noticias" class="grilla-fotos grilla-fotos--destacada"></div>
+  <div id="lista-noticias" class="grilla-fotos"></div>
   <div style="text-align:center;margin-top:16px"><button type="button" class="btn" id="mas" hidden>Mostrar más</button></div>
 </section>
 
@@ -175,6 +162,6 @@
   </form>
 </dialog>
 
-<script src="app.js"></script>
+<script src="app.js?v=5"></script>
 </body>
 </html>

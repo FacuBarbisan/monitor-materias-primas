@@ -106,3 +106,13 @@ test('catálogo: ids únicos, categorías válidas y cada materia con precio o m
   }
   for (const k of Object.keys(CATEGORIAS)) assert.ok(COMMODITIES.some((c) => c.categoria === k), `categoría vacía ${k}`);
 });
+
+
+test('imágenes en content:encoded aunque description solo tenga texto', () => {
+ const xml = '<rss><channel><item><title>Trigo</title><link>https://example.org/a</link><description>Texto</description><content:encoded><![CDATA[<img src="https://example.org/trigo.jpg">]]></content:encoded></item></channel></rss>';
+ assert.equal(parsearFeed(xml)[0].imagen, 'https://example.org/trigo.jpg');
+});
+test('imagen https en descripción aunque media tenga una URL insegura', () => {
+ const xml = '<rss><channel><item><title>Oro</title><link>https://example.org/b</link><media:thumbnail url="http://example.org/b.jpg"/><description><![CDATA[<img src="https://example.org/oro.jpg">]]></description></item></channel></rss>';
+ assert.equal(parsearFeed(xml)[0].imagen, 'https://example.org/oro.jpg');
+});

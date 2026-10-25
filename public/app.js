@@ -1,6 +1,6 @@
-// Monitor de Materias Primas – interfaz v4 (sin dependencias).
+// Monitor de Materias Primas – interfaz v5 (sin dependencias).
 // Lee los datos que publica el actualizador (GitHub Actions) en data/*.json. No consulta fuentes externas
-// desde el navegador, salvo los widgets oficiales de TradingView, que se cargan solo al abrir una ficha.
+// desde el navegador, salvo los widgets oficiales de TradingView, que se cargan de a cuatro en el catálogo o al abrir una ficha.
 'use strict';
 
 const $ = (s, el = document) => el.querySelector(s);
@@ -25,7 +25,7 @@ const E = {
   tema: almacen.leer('tema', 'auto'),
   favoritos: migrarFavoritos(almacen.leer('favoritos', { paises: [], materias: [] })),
   guardadas: almacen.leer('guardadas', {}),
-  visibles: 24, catCategoria: '', series: {}, fichaSerie: {}, fichaPeriodo: {}, fichaTema: '',
+  visibles: 24, catCategoria: '', catPagina: 0, series: {}, fichaSerie: {}, fichaPeriodo: {}, fichaTema: '',
 };
 
 // Las versiones anteriores usaban ids genéricos de materias primas.
@@ -166,7 +166,7 @@ function tipoSerie(s) {
   if (s.frecuencia === 'diaria') return 'Spot diario';
   return 'Referencia mensual';
 }
-const nombreProveedor = (p) => ({ fred: 'FMI vía FRED', eia: 'EIA', wb: 'Banco Mundial' }[p] || p);
+const nombreProveedor = (p) => ({ fred: 'FRED (ver serie original)', eia: 'EIA', wb: 'Banco Mundial' }[p] || p);
 function variacion(s) {
   if (!s?.ultimo || !s?.anterior) return null;
   const d = s.ultimo[1] - s.anterior[1];
@@ -179,8 +179,8 @@ function htmlVar(v) {
 }
 
 function pintarCatalogo() {
-  const tbody = $('#tabla-catalogo tbody');
-  if (!E.cat) { tbody.innerHTML = `<tr><td colspan="8" class="vacio">${E.errorCarga ? 'No se pudo leer el catálogo de precios.' : 'Cargando catálogo…'}</td></tr>`; return; }
+  const tbody = $('#catalogo-tarjetas');
+  if (!E.cat) { tbody.innerHTML = `<p class="vacio">${E.errorCarga ? 'No se pudo leer el catálogo de precios.' : 'Cargando catálogo…'}</p>`; return; }
   const cats = categorias();
   const texto = normal($('#c-texto').value.trim());
   const soloFav = $('#c-favoritas').checked;
@@ -192,25 +192,33 @@ function pintarCatalogo() {
     && (!soloFav || E.favoritos.materias.includes(c.id))
     && (!texto || normal(`${c.nombre} ${cats[c.categoria]} ${c.series.map((s) => s.nombre).join(' ')}`).includes(texto)));
   $('#c-conteo').textContent = `${lista.length} de ${catItems().length} materias primas`;
-  if (!lista.length) { tbody.innerHTML = '<tr><td colspan="8" class="vacio">Ninguna materia prima coincide con la búsqueda.</td></tr>'; return; }
-  let html = '', ultimaCat = null;
-  for (const c of lista) {
-    if (c.categoria !== ultimaCat) { ultimaCat = c.categoria; html += `<tr class="cat-fila"><td colspan="8">${esc(cats[c.categoria] || c.categoria)}</td></tr>`; }
-    const s = principal(c);
-    const fav = E.favoritos.materias.includes(c.id);
-    const nN = noticiasDe(c.id).length;
-    html += `<tr data-ir="${esc(c.id)}">
-      <td><button type="button" class="estrella" data-fav-materia="${esc(c.id)}" aria-pressed="${fav}" aria-label="${fav ? 'Quitar de' : 'Agregar a'} favoritas: ${esc(c.nombre)}">${ICO_EST}</button></td>
-      <td><a class="nombre" href="#materia/${esc(c.id)}">${esc(c.nombre)}</a>${c.series.length > 1 ? `<div class="chica">${c.series.length} series de referencia</div>` : ''}</td>
-      <td class="num">${s ? `<strong>${num(s.ultimo[1])}</strong><div class="chica">${esc(s.unidad)}</div>` : `<span class="sin-dato">${c.sinSerieMotivo ? 'Sin precio gratuito' : 'Sin dato verificado'}</span>`}</td>
-      <td class="num">${s ? htmlVar(variacion(s)) : '<span class="sin-dato">—</span>'}${s ? `<div class="chica">vs. ${s.frecuencia === 'mensual' ? 'mes' : 'día'} anterior</div>` : ''}</td>
-      <td>${s ? `${fechaDato(s.ultimo[0], s.frecuencia)}${s.estado?.ultimoError ? '<div class="chica" style="color:var(--error-texto)">Última consulta falló</div>' : ''}` : '<span class="sin-dato">—</span>'}</td>
-      <td class="col-opc">${s ? `${esc(tipoSerie(s))}<div class="chica">${esc(nombreProveedor(s.proveedor))}</div>` : '<span class="sin-dato">—</span>'}</td>
-      <td class="col-opc">${c.widget ? `<span class="etiqueta etiqueta--${c.widget.tipo === 'CFD' ? 'cfd' : 'spot'}">${esc(c.widget.tipo)}</span>${c.widget.verificado ? '' : '<div class="chica">sin verificar</div>'}` : '<span class="sin-dato">—</span>'}</td>
-      <td class="num col-opc">${nN || '<span class="sin-dato">0</span>'}</td>
-    </tr>`;
+  const paginas = Math.max(1, Math.ceil(lista.length / 4));
+  E.catPagina = Math.min(E.catPagina || 0, paginas - 1);
+  const visibles = lista.slice(E.catPagina * 4, E.catPagina * 4 + 4);
+  tbody.innerHTML = visibles.map((c) => {
+    const s = principal(c), fav = E.favoritos.materias.includes(c.id);
+    return `<article class="mercado-card">
+      <header><div><span class="chica">${esc(cats[c.categoria])}</span><h2><a href="#materia/${esc(c.id)}">${esc(c.nombre)}</a></h2></div><button class="estrella" data-fav-materia="${esc(c.id)}" aria-label="Favorita: ${esc(c.nombre)}" aria-pressed="${fav}">${ICO_EST}</button></header>
+      ${c.widget ? `<div class="chica">TradingView · ${esc(c.widget.tipo)} · ${esc(c.widget.proveedor)} · la demora se indica en el widget</div><div class="mercado-widget" data-widget-card="${esc(c.id)}"></div>` : `<div class="mercado-precio">${s ? num(s.ultimo[1]) : 'Sin precio verificado'}</div><div>${s ? esc(s.unidad) : esc(c.sinSerieMotivo || 'Fuente pendiente')}</div><div>${s ? htmlVar(variacion(s)) : ''}</div><div class="mercado-historia" data-historia-card="${esc(c.id)}">${s ? 'Cargando historia…' : 'No hay historia de precios disponible.'}</div>`}
+      ${s ? `<div class="referencia-card"><strong>${esc(tipoSerie(s))}</strong> · ${fechaDato(s.ultimo[0], s.frecuencia)}<br>${c.widget ? `${num(s.ultimo[1])} ${esc(s.unidad)} · ${htmlVar(variacion(s))}<br>` : ''}${esc(nombreProveedor(s.proveedor))} · variación frente al ${s.frecuencia === 'mensual' ? 'mes' : 'día'} anterior${s.frecuencia === 'mensual' ? '<br>Promedio mensual; no es el precio de hoy.' : ''}</div>` : ''}
+      <a class="btn" href="#materia/${esc(c.id)}">Ver ficha y noticias (${noticiasDe(c.id).length}) →</a>
+    </article>`;
+  }).join('') || '<p class="vacio">Ninguna materia prima coincide con la búsqueda.</p>';
+  $('#catalogo-paginas').innerHTML = `<button class="btn" data-cat-pagina="${E.catPagina - 1}" ${E.catPagina === 0 ? 'disabled' : ''}>← Anterior</button><span>Página ${E.catPagina + 1} de ${paginas}</span><button class="btn" data-cat-pagina="${E.catPagina + 1}" ${E.catPagina === paginas - 1 ? 'disabled' : ''}>Siguiente →</button>`;
+  for (const c of visibles) {
+    if (c.widget) widgetTV($(`[data-widget-card="${CSS.escape(c.id)}"]`), c);
+    else {
+      const s = principal(c), el = $(`[data-historia-card="${CSS.escape(c.id)}"]`);
+      if (s) serie(s.clave).then((d) => {
+        if (!el.isConnected) return;
+        const puntos = d.puntos.slice(s.frecuencia === 'mensual' ? -36 : -90);
+        if (puntos.length < 2) { el.textContent = 'Historia insuficiente.'; return; }
+        const valores = puntos.map((p) => p[1]), min = Math.min(...valores), rango = Math.max(...valores) - min || 1;
+        const linea = puntos.map((p, i) => `${i ? 'L' : 'M'}${10 + i * 380 / (puntos.length - 1)},${180 - (p[1] - min) * 160 / rango}`).join(' ');
+        el.innerHTML = `<svg viewBox="0 0 400 200" role="img" aria-label="Historia de ${esc(c.nombre)}"><path d="${linea}" fill="none" stroke="${valores.at(-1) >= valores[0] ? '#009c83' : '#e34b60'}" stroke-width="2.5"/></svg><div class="chica">${fechaDato(puntos[0][0],s.frecuencia)} — ${fechaDato(puntos.at(-1)[0],s.frecuencia)}</div>`;
+      }).catch(() => { if (el.isConnected) el.textContent = 'No se pudo cargar la historia. Abrí la ficha para reintentar.'; });
+    }
   }
-  tbody.innerHTML = html;
 }
 
 // ---------- Ficha ----------
@@ -327,7 +335,7 @@ function dibujarGrafico(d, s) {
   svg.addEventListener('pointerdown', mover);
 }
 
-// TradingView: el script del widget se pide solo al abrir la ficha.
+// TradingView: se carga solo para las tarjetas visibles y la ficha abierta.
 function widgetTV(cont, c) {
   cont.innerHTML = '<div class="widget__estado"><span><span class="girando"></span> Cargando gráfico de TradingView…</span></div>';
   const caja = document.createElement('div');
@@ -430,12 +438,9 @@ const maxF = (g) => g.reduce((m, i) => (i.fecha > m ? i.fecha : m), '');
 
 const ICO_DIARIO = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="15" rx="2"/><path d="M7 9h10M7 13h6M7 17h8"/></svg>';
 function media(i) {
-  const cat = (i.categorias || [])[0] || 'general';
-  const [g1, g2] = GRADIENTES[cat] || GRADIENTES.general;
-  const alt = `<div class="sin-imagen" style="--g1:${g1};--g2:${g2}">${ICO_DIARIO}<strong>${esc(i.fuenteNombre)}</strong><span>La fuente no publicó una imagen para esta nota</span></div>`;
   const src = imgSegura(i.imagen);
-  if (!src) return `<div class="nota-foto__media">${alt}</div>`;
-  return `<div class="nota-foto__media" data-alt="${esc(alt)}"><img src="${esc(src)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"><span class="nota-foto__credito">Imagen: ${esc(i.fuenteNombre)}</span></div>`;
+  if (!src) return '';
+  return `<div class="nota-foto__media"><img src="${esc(src)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"><span class="nota-foto__credito">Imagen: ${esc(i.imagenCredito || i.fuenteNombre)}</span></div>`;
 }
 
 function relacionHTML(i, c) {
@@ -606,7 +611,7 @@ function iniciar() {
   window.addEventListener('hashchange', () => { pintar(); scrollTo(0, 0); });
 
   let t;
-  $('#c-texto').addEventListener('input', () => { clearTimeout(t); t = setTimeout(pintarCatalogo, 150); });
+  $('#c-texto').addEventListener('input', () => { clearTimeout(t); t = setTimeout(() => { E.catPagina = 0; pintarCatalogo(); }, 150); });
   $('#c-favoritas').addEventListener('change', pintarCatalogo);
   $('#filtros').addEventListener('input', (ev) => { clearTimeout(t); t = setTimeout(() => { E.visibles = 24; pintarNoticias(); }, ev.target.id === 'f-texto' ? 250 : 0); });
   $('#limpiar').addEventListener('click', () => { $('#filtros').reset(); E.visibles = 24; pintarNoticias(); });
@@ -616,7 +621,9 @@ function iniciar() {
     const fm = ev.target.closest('[data-fav-materia]');
     if (fm) { ev.stopPropagation(); alternarMateriaFav(fm.dataset.favMateria); if (seccion().s === 'materias' && $('#c-favoritas').checked) pintarCatalogo(); return; }
     const cb = ev.target.closest('[data-cat]');
-    if (cb) { E.catCategoria = cb.dataset.cat; pintarCatalogo(); return; }
+    if (cb) { E.catCategoria = cb.dataset.cat; E.catPagina = 0; pintarCatalogo(); return; }
+    const pag = ev.target.closest('[data-cat-pagina]');
+    if (pag) { E.catPagina = Number(pag.dataset.catPagina); pintarCatalogo(); return; }
     const fila = ev.target.closest('tr[data-ir]');
     if (fila && !ev.target.closest('a,button')) { location.hash = `materia/${fila.dataset.ir}`; return; }
     const g = ev.target.closest('[data-guardar]');
@@ -640,12 +647,12 @@ function iniciar() {
     const fila = ev.target.closest?.('tr[data-ir]');
     if (fila && ev.key === 'Enter' && !ev.target.closest('a,button')) location.hash = `materia/${fila.dataset.ir}`;
   });
-  // Si una imagen de la fuente no carga, se reemplaza por la alternativa visual (sin inventar una foto).
+  // Si una imagen no carga, se elimina su espacio.
   document.addEventListener('error', (ev) => {
     const img = ev.target;
     if (img.tagName !== 'IMG') return;
     const m = img.closest('.nota-foto__media');
-    if (m?.dataset.alt) m.innerHTML = m.dataset.alt;
+    if (m) m.remove();
   }, true);
 
   let tn;

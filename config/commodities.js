@@ -113,7 +113,7 @@ export const COMMODITIES = [
     series: [fred('PIORECRUSDM', 'mensual', 'USD por tonelada métrica seca', 'Mineral de hierro (FMI)', IMF)],
     claves: ['iron ore', 'mineral de hierro', 'steel', 'acero', 'steelmaker', 'steelmakers', 'siderurgia', 'siderurgica'] },
   { id: 'cobalto', nombre: 'Cobalto', categoria: 'industriales', moneda: 'USD', unidad: 'tonelada métrica',
-    series: [fred('PCOBAUSDM', 'mensual', 'USD por tonelada métrica', 'Cobalto (FMI)', IMF)],
+    series: [], sinSerieMotivo: 'La serie PCOBAUSDM devolvió HTTP 404. Precio pendiente de una fuente alternativa verificada; se conservan las noticias de cobalto.',
     claves: ['cobalt', 'cobalto'] },
   { id: 'litio', nombre: 'Litio', categoria: 'industriales', moneda: 'USD', unidad: '—',
     series: [], sinSerieMotivo: 'No se encontró una cotización gratuita y verificable de litio; solo se muestran noticias.',
