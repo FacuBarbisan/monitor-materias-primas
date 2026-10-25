@@ -116,3 +116,18 @@ test('imagen https en descripción aunque media tenga una URL insegura', () => {
  const xml = '<rss><channel><item><title>Oro</title><link>https://example.org/b</link><media:thumbnail url="http://example.org/b.jpg"/><description><![CDATA[<img src="https://example.org/oro.jpg">]]></description></item></channel></rss>';
  assert.equal(parsearFeed(xml)[0].imagen, 'https://example.org/oro.jpg');
 });
+
+test('RSS guarda alternativas de imagen, elimina duplicados y descarta píxeles', () => {
+ const xml = '<rss><channel><item><title>Cobre</title><link>https://example.org/cobre</link><media:content url="https://example.org/grande.jpg" width="1200" medium="image"/><media:thumbnail url="https://example.org/pequena.jpg" width="300"/><description><![CDATA[<img src="https://example.org/grande.jpg"><img src="https://example.org/pixel.gif" width="1" height="1">]]></description></item></channel></rss>';
+ assert.deepEqual(parsearFeed(xml)[0].imagenes, ['https://example.org/grande.jpg', 'https://example.org/pequena.jpg']);
+});
+test('RSS lee srcset y fotos lazy sin elegir un data URI', () => {
+ const xml = '<rss><channel><item><title>Maíz</title><link>https://example.org/maiz</link><description><![CDATA[<img src="data:image/gif;base64,xxx" data-src="https://example.org/base.jpg" srcset="https://example.org/chica.jpg 400w, https://example.org/grande.jpg 1000w">]]></description></item></channel></rss>';
+ const i = parsearFeed(xml)[0];
+ assert.equal(i.imagen,'https://example.org/grande.jpg');
+ assert.deepEqual(i.imagenes,['https://example.org/grande.jpg','https://example.org/chica.jpg','https://example.org/base.jpg']);
+});
+test('Atom lee enclosure de imagen y conserva crédito', () => {
+ const xml = '<feed><entry><title>Trigo</title><link rel="alternate" href="https://example.org/trigo"/><link rel="enclosure" type="image/jpeg" href="https://example.org/foto.jpg"/><media:credit>Autora / Agencia</media:credit></entry></feed>';
+ const i = parsearFeed(xml)[0];assert.equal(i.imagen,'https://example.org/foto.jpg');assert.equal(i.imagenCredito,'Autora / Agencia');
+});
