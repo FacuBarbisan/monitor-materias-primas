@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-25T16:41:04.511Z",
+ "generado": "2026-10-25T16:47:23.346Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -789,6 +789,42 @@
   ]
  },
  "items": [
+  {
+   "id": "142d5138b816",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Jordanians mourn victims of deadly church attack",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/25/jordanians-mourn-victims-of-deadly-church-attack?traffic_source=rss",
+   "fecha": "2026-10-25T16:16:48.000Z",
+   "obtenido": "2026-10-25T16:47:22.903Z",
+   "fechaEstimada": false,
+   "extracto": "",
+   "imagen": null,
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gef590b51a3bf"
+  },
   {
    "id": "83098c493aaf",
    "fuente": "aljazeera",
