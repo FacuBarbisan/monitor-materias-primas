@@ -26,6 +26,14 @@ export const SOURCES = [
   { id: 'mercopress', nombre: 'MercoPress – Economy', tipo: 'periodistica', idioma: 'en', region: 'América del Sur (Uruguay)',
     url: 'https://en.mercopress.com/rss/economy', cadaMin: 60, filtrar: true },
 
+  // ---------- Medios especializados: RSS comprobados el 25/10/2026 ----------
+  { id: 'infocampo', nombre: 'Infocampo – Agro y mercados', tipo: 'periodistica', idioma: 'es', region: 'Argentina / agro internacional',
+    url: 'https://www.infocampo.com.ar/feed/', cadaMin: 60, filtrar: true },
+  { id: 'oilprice', nombre: 'OilPrice – Energía', tipo: 'periodistica', idioma: 'en', region: 'Energía global',
+    url: 'https://oilprice.com/rss/main', cadaMin: 60, filtrar: true },
+  { id: 'mining_technology', nombre: 'Mining Technology – Minería', tipo: 'periodistica', idioma: 'en', region: 'Minería global',
+    url: 'https://www.mining-technology.com/feed/', cadaMin: 60, filtrar: true },
+
   // ---------- Fuentes oficiales ----------
   { id: 'eia_tie', nombre: 'EIA – Today in Energy', tipo: 'oficial', idioma: 'en', region: 'Estados Unidos (energía global)',
     url: 'https://www.eia.gov/rss/todayinenergy.xml', cadaMin: 120, filtrar: false, materiasFijas: [], temasFijos: ['energia'] },
