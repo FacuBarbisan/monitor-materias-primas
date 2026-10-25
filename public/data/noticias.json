@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-25T16:51:20.215Z",
+ "generado": "2026-10-25T19:42:15.567Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -789,6 +789,161 @@
   ]
  },
  "items": [
+  {
+   "id": "abe7b5b96eaf",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Britain's Renewable Energy Boom Is Hitting a Grid Bottleneck",
+   "link": "https://oilprice.com/Energy/Energy-General/Britains-Renewable-Energy-Boom-Is-Hitting-a-Grid-Bottleneck.html",
+   "fecha": "2026-10-25T19:00:00.000Z",
+   "obtenido": "2026-10-25T19:42:13.699Z",
+   "fechaEstimada": false,
+   "extracto": "The United Kingdom has invested heavily in expanding its renewable energy capacity in recent years to reduce its dependence on fossil fuels and support a green transition. However, one major problem stands in the way of it achieving this goal – its unprepared transmission infrastructure. Despite several new wind and…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "gb"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [
+    "gas_natural"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "gas_natural": "natural gas"
+   },
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gabe7b5b96eaf"
+  },
+  {
+   "id": "6d8d3fe3cd27",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "World Is on Track for Up to 2.8 Degrees of Warming Despite Clean Energy Boom",
+   "link": "https://oilprice.com/Energy/Energy-General/World-Is-on-Track-for-Up-to-28-Degrees-of-Warming-Despite-Clean-Energy-Boom.html",
+   "fecha": "2026-10-25T17:00:00.000Z",
+   "obtenido": "2026-10-25T19:42:13.700Z",
+   "fechaEstimada": false,
+   "extracto": "The United Nations says that it is now an inevitability that the world will fail to meet the legally binding goals set forth by the Paris climate accord as a result of “decades of insufficient climate action”. The Paris Agreement, ratified in 2015, targeted limiting global warming to 1.5 degrees Celsius above…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "fr"
+   ],
+   "regiones": [
+    "eu",
+    "global"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "actividad",
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g6d8d3fe3cd27"
+  },
+  {
+   "id": "82c2a8a335d9",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Trump’s tariff pause angers some US ranchers, boosts Brazilian beef imports",
+   "link": "https://www.aljazeera.com/economy/2026/10/25/trumps-tariff-pause-angers-some-us-ranchers-boosts-brazil-beef-imports?traffic_source=rss",
+   "fecha": "2026-10-25T16:42:33.000Z",
+   "obtenido": "2026-10-25T19:42:12.859Z",
+   "fechaEstimada": false,
+   "extracto": "Just as American cattle went to market, Trump's action added unease to an industry already facing uncertainty.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "us",
+    "br"
+   ],
+   "regiones": [
+    "na",
+    "latam"
+   ],
+   "materias": [
+    "carne_vacuna"
+   ],
+   "categorias": [
+    "ganaderia"
+   ],
+   "coincidencias": {
+    "carne_vacuna": "beef"
+   },
+   "temas": [
+    "aranceles",
+    "comercio"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar las compras de importadores o el consumo de alimentos."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g82c2a8a335d9"
+  },
   {
    "id": "142d5138b816",
    "fuente": "aljazeera",
