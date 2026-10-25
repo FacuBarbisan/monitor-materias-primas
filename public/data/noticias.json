@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-25T16:05:28.137Z",
+ "generado": "2026-10-25T16:17:17.685Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -775,6 +775,47 @@
  },
  "items": [
   {
+   "id": "83098c493aaf",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Seven killed in Gaza as Israel targets university campus and other sites",
+   "link": "https://www.aljazeera.com/news/2026/10/25/seven-killed-in-gaza-as-israel-targets-university-campus-and-other-sites?traffic_source=rss",
+   "fecha": "2026-10-25T15:40:25.000Z",
+   "obtenido": "2026-10-25T16:16:38.142Z",
+   "fechaEstimada": false,
+   "extracto": "Israeli air strike kills three security guards in one of two attacks on the Islamic University in Gaza City.",
+   "imagen": null,
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "il",
+    "ps"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g83098c493aaf"
+  },
+  {
    "id": "ef590b51a3bf",
    "fuente": "aljazeera",
    "fuenteNombre": "Al Jazeera English",
@@ -1051,7 +1092,8 @@
     ],
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
-   "grupo": "g1b3aad9a1abe"
+   "grupo": "g1b3aad9a1abe",
+   "imagenCredito": "South China Morning Post – China"
   },
   {
    "id": "d18fce22c053",
@@ -1207,7 +1249,8 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "gd02b90eebbc2"
+   "grupo": "gd02b90eebbc2",
+   "imagenCredito": "South China Morning Post – China"
   },
   {
    "id": "ffb4fb923715",
@@ -1482,7 +1525,8 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g0e5789f2fa46"
+   "grupo": "g0e5789f2fa46",
+   "imagenCredito": "MercoPress – Economy"
   },
   {
    "id": "b7c3b8ec18b4",
@@ -1567,7 +1611,9 @@
    "grupo": "gb590b0a0851f",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/24/c48e3693-942a-4977-a065-0ec3a37d57b0_5f071f38.jpg?itok=OmNd19oC&v=1792816521",
+   "imagenCredito": "South China Morning Post – Business"
   },
   {
    "id": "eebc537376d0",
@@ -1636,7 +1682,9 @@
    "coincidencias": {
     "diesel": "heating oil"
    },
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fc27/live/742bb9f0-cef8-11f1-accf-3309656ad0bb.jpg",
+   "imagenCredito": "BBC News – Business"
   },
   {
    "id": "a82b46945df8",
@@ -1671,7 +1719,9 @@
    "grupo": "ga82b46945df8",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4275/live/b92b23a0-cfad-11f1-aadb-297fd0a130b9.jpg",
+   "imagenCredito": "BBC News – Business"
   },
   {
    "id": "fbc0c0dac4d3",
@@ -1792,7 +1842,9 @@
    "grupo": "g413f852f376e",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/c2dd/live/b4c06e70-ce58-11f1-a166-e30097724580.png",
+   "imagenCredito": "BBC News Mundo"
   },
   {
    "id": "535078e59a10",
@@ -1917,7 +1969,9 @@
    "grupo": "gfd4df045e00a",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/25/df212e2f-ca44-403a-bf3b-808226e2c1b4_b3764242.jpg?itok=6DM8WxQ2&v=1792894838",
+   "imagenCredito": "South China Morning Post – China"
   },
   {
    "id": "11a4fba58eb9",
@@ -1957,7 +2011,9 @@
    "grupo": "g11a4fba58eb9",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/4c7e/live/9ad7c750-d011-11f1-a701-fddedf244c16.jpg",
+   "imagenCredito": "BBC News Mundo"
   },
   {
    "id": "f2f6084bae65",
@@ -2069,7 +2125,9 @@
     "wti": "oil field",
     "brent": "oil field"
    },
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/60a5/live/584f1ed0-cfb0-11f1-9012-0172b9f73a72.jpg",
+   "imagenCredito": "BBC News – Business"
   },
   {
    "id": "19fdabe9cb63",
@@ -2162,7 +2220,9 @@
    "grupo": "gafce2e6ccf04",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/490c/live/648b0ef0-cff8-11f1-b38c-e140dd8d3bd2.jpg",
+   "imagenCredito": "BBC News Mundo"
   },
   {
    "id": "115edf62c0a5",
@@ -2704,7 +2764,9 @@
    "grupo": "g43d3564b0a69",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/24/5dcde1ba-6c40-4f62-b70b-fcd6926fb125_59219b2a.jpg?itok=Zy_Z2Uvu&v=1792831172",
+   "imagenCredito": "South China Morning Post – China"
   },
   {
    "id": "7fcc33e2ae8e",
@@ -2748,7 +2810,9 @@
    "grupo": "g7fcc33e2ae8e",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/24/cdaa69e4-e738-459a-985a-70365611e611_7f1a5e28.jpg?itok=b9dgAQl9&v=1792830608",
+   "imagenCredito": "South China Morning Post – China"
   },
   {
    "id": "bb9c66460354",
@@ -2876,7 +2940,9 @@
    "grupo": "g10e869134844",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/f8d8bab0-0976-414e-9803-3d3f013d7fc9_8d1815de.jpg?itok=4nYjxbUP&v=1792756241",
+   "imagenCredito": "South China Morning Post – Business"
   },
   {
    "id": "23d46987719e",
@@ -3005,7 +3071,8 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g9009e3caf6b3"
+   "grupo": "g9009e3caf6b3",
+   "imagenCredito": "South China Morning Post – China"
   },
   {
    "id": "bb18fe6c1ab8",
@@ -3087,7 +3154,9 @@
    "grupo": "ga732864d1bbe",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1860/live/f6b62750-cf1d-11f1-9796-954775b3a434.jpg",
+   "imagenCredito": "BBC News – Business"
   },
   {
    "id": "cd687f2c9b89",
@@ -3131,7 +3200,9 @@
    "grupo": "gcd687f2c9b89",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/24/7284bb0d-7534-4075-a88e-72fdfe6aaa6a_58c4db2e.jpg?itok=jUSpMKtl&v=1792788671",
+   "imagenCredito": "South China Morning Post – China"
   },
   {
    "id": "00e84614ccd6",
@@ -3182,7 +3253,9 @@
    "grupo": "g00e84614ccd6",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://s.france24.com/media/display/8a4b063c-cf02-11f1-98c8-5b4a75578ebb/w:1024/p:16x9/2026-10-21T185509Z-1027856127-RC2P7OAR4YCQ-RTRMADP-3-BRAZIL-ELECTION-BOLSONARO.jpg",
+   "imagenCredito": "France 24 Español – Economía"
   },
   {
    "id": "0e77d63cd38b",
@@ -3226,7 +3299,9 @@
    "grupo": "g0e77d63cd38b",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://s.france24.com/media/display/18da6276-cef9-11f1-b7db-4d317af013fd/w:1024/p:16x9/Foto-Mexico-1.jpg",
+   "imagenCredito": "France 24 Español – América Latina"
   },
   {
    "id": "7148f32e30ed",
@@ -3333,7 +3408,9 @@
    "grupo": "g578cd4bb58f0",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/68b4/live/5cfc7540-cd76-11f1-bbdb-c39c91930f26.jpg",
+   "imagenCredito": "BBC News Mundo"
   },
   {
    "id": "ec8832f93c4f",
@@ -3409,7 +3486,9 @@
    "grupo": "g289a60c343c3",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/6f6f/live/0c562b60-ce2d-11f1-9f18-490cec60aa0f.jpg",
+   "imagenCredito": "BBC News Mundo"
   },
   {
    "id": "4892ae6e7913",
@@ -3443,7 +3522,9 @@
    "grupo": "g4892ae6e7913",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/77ce/live/5103dfb0-ceef-11f1-b2ae-23f8d2a0e0c0.jpg",
+   "imagenCredito": "BBC News – Business"
   },
   {
    "id": "d5ce60bdd6f9",
@@ -3476,7 +3557,9 @@
    "coincidencias": {
     "oro": "gold"
    },
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/f2ddb048-a1ef-47b0-8e69-22b2093e2693_953b31e0.jpg?itok=Ft-IZJJy&v=1792762569",
+   "imagenCredito": "South China Morning Post – Business"
   },
   {
    "id": "aa38aa612f55",
@@ -3522,7 +3605,9 @@
    "grupo": "gaa38aa612f55",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/24/14ee41bd-dbd9-4a0f-98bb-d5b14412dc09_65998033.jpg?itok=vu-VJUkl&v=1792773451",
+   "imagenCredito": "South China Morning Post – China"
   },
   {
    "id": "bf152d7d641b",
@@ -3563,7 +3648,9 @@
    "grupo": "gbf152d7d641b",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/1bb81f80-ccfc-45b9-b15c-6b0f5a4927e9_89974970.jpg?itok=hfvtxJtz&v=1792754119",
+   "imagenCredito": "South China Morning Post – China"
   },
   {
    "id": "5580b3e486b7",
@@ -3641,7 +3728,9 @@
    "grupo": "gdd38e45cbf9f",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/db148b95-cd9b-465e-90eb-85a97ad9f3ba_548642eb.jpg?itok=dIuAZ-jK&v=1792747572",
+   "imagenCredito": "South China Morning Post – China"
   },
   {
    "id": "dc2a64a01685",
@@ -3694,7 +3783,9 @@
    "grupo": "gdc2a64a01685",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/df758cd5-f6ae-4ce4-af62-50ff4c23fc27_6ada537b.jpg?itok=HK0O-Y-Q&v=1792752320",
+   "imagenCredito": "South China Morning Post – China"
   },
   {
    "id": "da039c1481be",
@@ -3776,7 +3867,9 @@
    "grupo": "g00149156879d",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/609902ef-59e6-40ee-98d2-54cefbaebbc1_e8b1fc81.jpg?itok=VGC4RCBC&v=1792730814",
+   "imagenCredito": "South China Morning Post – Business"
   },
   {
    "id": "d5a669c63923",
@@ -3815,7 +3908,9 @@
    "grupo": "gd5a669c63923",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c4ec/live/bd0928a0-ce22-11f1-9f18-490cec60aa0f.jpg",
+   "imagenCredito": "BBC News – Business"
   },
   {
    "id": "e95144e34e71",
@@ -3860,7 +3955,9 @@
    "grupo": "ge95144e34e71",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/f77f1ea3-287d-429a-825b-43cbd76c62ac_cd309e64.jpg?itok=MY-LBtGg&v=1792722858",
+   "imagenCredito": "South China Morning Post – China"
   },
   {
    "id": "21075bc7ca8b",
@@ -3903,7 +4000,9 @@
    "grupo": "g21075bc7ca8b",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/befa/live/5c854560-ce66-11f1-ab75-d744dbb6f3f7.jpg",
+   "imagenCredito": "BBC News Mundo"
   },
   {
    "id": "b962011418c9",
@@ -3947,7 +4046,9 @@
    "grupo": "gb962011418c9",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/1594ff55-9ef9-455b-918d-212675d736df_48901f1c.jpg?itok=R3kPptfR&v=1792724236",
+   "imagenCredito": "South China Morning Post – China"
   },
   {
    "id": "24f54e914fcb",
@@ -3990,7 +4091,9 @@
    "grupo": "g24f54e914fcb",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/47e29c78-9456-4299-aacd-bbde002065c5_932569a1.jpg?itok=E18BBuZs&v=1792722676",
+   "imagenCredito": "South China Morning Post – China"
   },
   {
    "id": "f11e1427fb3d",
@@ -4033,7 +4136,9 @@
    "grupo": "gf11e1427fb3d",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/2f59b3e4-e50b-4f75-9672-d09490085593_0a530d6d.jpg?itok=3-ZCNuwv&v=1792661675",
+   "imagenCredito": "South China Morning Post – Business"
   },
   {
    "id": "72a666956b7c",
@@ -4063,7 +4168,8 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g72a666956b7c"
+   "grupo": "g72a666956b7c",
+   "imagenCredito": "BBC News Mundo"
   },
   {
    "id": "8c3d7bf32c97",
@@ -4093,7 +4199,8 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g8c3d7bf32c97"
+   "grupo": "g8c3d7bf32c97",
+   "imagenCredito": "BBC News – Business"
   },
   {
    "id": "d3c2182f8871",
@@ -4133,7 +4240,9 @@
    "grupo": "gd3c2182f8871",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/4826c28b-8fef-4b67-a0de-a8ce93eb1f37_cb8c9a73.jpg?itok=gpAKDPqB&v=1792661265",
+   "imagenCredito": "South China Morning Post – Business"
   },
   {
    "id": "80068a49c2d6",
@@ -4187,7 +4296,9 @@
    "grupo": "g80068a49c2d6",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/fe7b03ba-ae1e-411a-b8f9-1195bd60cf8a_cf73cbd4.jpg?itok=EtKhHoex&v=1792701151",
+   "imagenCredito": "South China Morning Post – China"
   },
   {
    "id": "a18f8f093b68",
@@ -4230,7 +4341,9 @@
    "grupo": "ga18f8f093b68",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/d6043b44-e2bb-4b70-9ec0-06307b38ceb1_cf612486.jpg?itok=7PdLbC4N&v=1792700756",
+   "imagenCredito": "South China Morning Post – China"
   },
   {
    "id": "562b510695d8",
@@ -4264,7 +4377,9 @@
    "grupo": "g562b510695d8",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a08/live/66d2ad60-ce29-11f1-9f18-490cec60aa0f.jpg",
+   "imagenCredito": "BBC News – Business"
   },
   {
    "id": "52e8775d890c",
@@ -4298,7 +4413,9 @@
    "grupo": "g52e8775d890c",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8549/live/51056ff0-ce37-11f1-9a39-31b474234113.jpg",
+   "imagenCredito": "BBC News – Business"
   },
   {
    "id": "f69a9f960098",
@@ -4395,7 +4512,9 @@
    "grupo": "gb63679711722",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/5b3baf4a-e4d3-4b77-898b-b4561a87eaf6_91c6ab66.jpg?itok=Q1eYtuuQ&v=1792667661",
+   "imagenCredito": "South China Morning Post – China"
   },
   {
    "id": "9fe341225b27",
@@ -4434,7 +4553,9 @@
    "grupo": "g9fe341225b27",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/02-12-25-Unsplash-cell-phone.jpg/image560x340cropped.jpg",
+   "imagenCredito": "Noticias ONU – Desarrollo económico"
   },
   {
    "id": "c2e4d0e648e0",
@@ -4481,7 +4602,9 @@
    "grupo": "gc2e4d0e648e0",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/10/22-10-2026-Adobe-Stock-protesters.jpg/image560x340cropped.jpg",
+   "imagenCredito": "Noticias ONU – Desarrollo económico"
   },
   {
    "id": "aa55ec25dc8b",
@@ -4530,7 +4653,9 @@
    "grupo": "gaa55ec25dc8b",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/78170304-3308-491b-8fb1-e364469fa23e_8adabd47.jpg?itok=BT22iSlM&v=1792669158",
+   "imagenCredito": "South China Morning Post – China"
   },
   {
    "id": "ab26c20fcddc",
@@ -4571,7 +4696,9 @@
    "grupo": "gab26c20fcddc",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/b3d8ef05-6124-4951-a626-0cfc09909e46_567c1f9d.jpg?itok=xLsqE8rW&v=1792665202",
+   "imagenCredito": "South China Morning Post – China"
   },
   {
    "id": "295b0bec669f",
@@ -4651,7 +4778,9 @@
    "grupo": "g9206885a1d17",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/3dd4d656-bb44-42a5-a174-433ea41d103e_4e4e3152.jpg?itok=dppZm1wa&v=1792662606",
+   "imagenCredito": "South China Morning Post – Business"
   },
   {
    "id": "54dac5078b9b",
@@ -4696,7 +4825,9 @@
    "grupo": "g54dac5078b9b",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/fb25322c-0e8a-4677-b159-beb559c552c9_915e8425.jpg?itok=gRrf9iIV&v=1792660792",
+   "imagenCredito": "South China Morning Post – China"
   },
   {
    "id": "ff2d0a722c54",
@@ -4745,7 +4876,9 @@
    "grupo": "gff2d0a722c54",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/69092f5c-d81d-4acd-9133-aef919777106_f2152d44.jpg?itok=pLLDPgHT&v=1792641147",
+   "imagenCredito": "South China Morning Post – Business"
   },
   {
    "id": "c907a956fe08",
@@ -4779,7 +4912,9 @@
    "grupo": "gc907a956fe08",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b0fd/live/7fe856d0-cca1-11f1-94e6-edd4c60b2e1d.jpg",
+   "imagenCredito": "BBC News – Business"
   },
   {
    "id": "f5e12e97aca3",
@@ -4856,7 +4991,9 @@
    "grupo": "g0254576c8f2b",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a70c/live/920779f0-cd4f-11f1-a64c-550be9e3c66b.png",
+   "imagenCredito": "BBC News – Business"
   },
   {
    "id": "598fdccac7d2",
@@ -4975,7 +5112,9 @@
    "grupo": "g604e563177f2",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/06-10-2026-WFP-Honduras-drought-02.jpg/image560x340cropped.jpg",
+   "imagenCredito": "Noticias ONU – Desarrollo económico"
   },
   {
    "id": "fd023d2557de",
@@ -5064,7 +5203,9 @@
    "grupo": "g4b678de376dc",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d837/live/21441720-cd34-11f1-935f-b9c228680c6f.jpg",
+   "imagenCredito": "BBC News – Business"
   },
   {
    "id": "34f3b1766052",
@@ -5154,7 +5295,9 @@
    "grupo": "g00b7a05b92bb",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/21/91169eda-f914-408f-b426-54ca0da329b0_ec3e9a80.jpg?itok=0WugopTv&v=1792576829",
+   "imagenCredito": "South China Morning Post – Business"
   },
   {
    "id": "c89c45c47763",
@@ -5318,7 +5461,9 @@
     "wti": "petroleo",
     "brent": "petroleo"
    },
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://s.france24.com/media/display/fb4d1248-ccf6-11f1-8e68-4dd8ac2cf3bf/w:1024/p:16x9/2026-10-20T164631Z-891765921-RC2P1OAXG4YT-RTRMADP-3-SYRIA-SAUDI-ARAMCO.jpg",
+   "imagenCredito": "France 24 Español – Economía"
   },
   {
    "id": "57b0cacc7836",
@@ -5364,7 +5509,9 @@
    "grupo": "g57b0cacc7836",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/20/89568940-b0f9-4333-bf80-e2af5040ded4_e197767c.jpg?itok=VnSFC6WA&v=1792505481",
+   "imagenCredito": "South China Morning Post – Business"
   },
   {
    "id": "9cc6be4280f4",
@@ -5495,7 +5642,9 @@
    "coincidencias": {
     "oro": "oro"
    },
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://s.france24.com/media/display/2243b26c-cccf-11f1-9140-d1d2c32ebb87/w:1024/p:16x9/d7185d0b302fc0a6e34ba83ff91e903108e4b95bw.jpg",
+   "imagenCredito": "France 24 Español – América Latina"
   },
   {
    "id": "66ba26d08253",
@@ -5540,7 +5689,9 @@
    "grupo": "g66ba26d08253",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/20-10-2026-Unsplash-France-protests-02.jpg/image560x340cropped.jpg",
+   "imagenCredito": "Noticias ONU – Desarrollo económico"
   },
   {
    "id": "3902bf586689",
@@ -5630,7 +5781,9 @@
    "grupo": "g3e64630612d1",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/20/4c70bc46-1e63-449d-bbb2-d226c27358a6_f5a2d371.jpg?itok=Z3XnlBRf&v=1792491935",
+   "imagenCredito": "South China Morning Post – Business"
   },
   {
    "id": "28905f8e469b",
@@ -5676,7 +5829,9 @@
    "grupo": "g28905f8e469b",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/20/16746b1b-ab55-4d41-a40a-75c868887ed3_511fd6f4.jpg?itok=r0fqh9KD&v=1792473469",
+   "imagenCredito": "South China Morning Post – Business"
   },
   {
    "id": "18ada448671f",
@@ -5768,7 +5923,9 @@
    "grupo": "gffe26705e836",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://s.france24.com/media/display/55940168-cc2e-11f1-b540-6313a763b466/w:1024/p:16x9/2026-10-19T170722Z-793720321-RC2D6OAMM6J4-RTRMADP-3-FRANCE-PROTEST.jpg",
+   "imagenCredito": "France 24 Español – Economía"
   },
   {
    "id": "24aa6e4278d8",
@@ -5806,7 +5963,9 @@
    "grupo": "g24aa6e4278d8",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://s.france24.com/media/display/81b617c6-b389-11f1-ae62-ed3d9e22a40f/w:1024/p:16x9/FOTO-CUBA-ACTO-RETRATO-RAUL-CASTRO.jpg",
+   "imagenCredito": "France 24 Español – América Latina"
   },
   {
    "id": "2f7fabc62d4e",
@@ -5855,7 +6014,9 @@
    "grupo": "g2f7fabc62d4e",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://s.france24.com/media/display/4562196a-cbc5-11f1-9c0e-638c1c1f5fd6/w:1024/p:16x9/AP26292137994289.jpg",
+   "imagenCredito": "France 24 Español – Economía"
   },
   {
    "id": "c4dd2da5785c",
@@ -5994,7 +6155,9 @@
    "grupo": "g18494916fa7e",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://en.mercopress.com/data/cache/noticias/111808/100x80/sen.jpg",
+   "imagenCredito": "MercoPress – Economy"
   },
   {
    "id": "a10b60db9666",
@@ -6037,7 +6200,9 @@
    "grupo": "ga10b60db9666",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://en.mercopress.com/data/cache/noticias/111806/100x80/bpp.jpg",
+   "imagenCredito": "MercoPress – Economy"
   },
   {
    "id": "46606509397c",
@@ -6078,7 +6243,9 @@
    "grupo": "g46606509397c",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/16-10-2026-Unsplash-air-traffic-02.jpg/image560x340cropped.jpg",
+   "imagenCredito": "Noticias ONU – Desarrollo económico"
   },
   {
    "id": "e545c030814a",
@@ -6162,7 +6329,9 @@
    "grupo": "g2c9d8102d897",
    "categorias": [],
    "coincidencias": {},
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://s.france24.com/media/display/f423831e-c96b-11f1-be6c-d1d2c32ebb87/w:1024/p:16x9/AP26115386688562.jpg",
+   "imagenCredito": "France 24 Español – Economía"
   },
   {
    "id": "70363c9b200b",
@@ -6299,7 +6468,9 @@
     "gasolina": "gasolina",
     "diesel": "diesel"
    },
-   "tax": 5
+   "tax": 5,
+   "imagen": "https://s.france24.com/media/display/b94dfb56-c8f9-11f1-80ee-4dd8ac2cf3bf/w:1024/p:16x9/2026-10-15T184633Z-1337115479-RC2R3OAZXK21-RTRMADP-3-USA-GASPRICES.jpg",
+   "imagenCredito": "France 24 Español – Economía"
   },
   {
    "id": "77ae42826876",
@@ -6342,62 +6513,6 @@
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
    "grupo": "g77ae42826876",
-   "categorias": [],
-   "coincidencias": {},
-   "tax": 5
-  },
-  {
-   "id": "030aff8850d7",
-   "fuente": "f24_economia",
-   "fuenteNombre": "France 24 Español – Economía",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "Francia registra su mayor inflación en dos años, impulsada por el encarecimiento de la energía",
-   "link": "https://www.france24.com/es/programas/econom%C3%ADa/20261015-francia-registra-su-mayor-inflaci%C3%B3n-en-dos-a%C3%B1os-impulsada-por-el-encarecimiento-de-la-energ%C3%ADa",
-   "fecha": "2026-10-15T16:16:08.000Z",
-   "obtenido": "2026-10-24T21:35:33.400Z",
-   "fechaEstimada": false,
-   "extracto": "La inflación interanual en Francia alcanzó el 3,1% en septiembre, muy por encima del objetivo del 2% del Banco Central Europeo. El repunte estuvo impulsado por el aumento de más del 21% en los precios de la energía y del 36,2% en los productos petrolíferos, en un contexto de descontento social por el costo de vida que…",
-   "paises": [
-    "eu",
-    "fr"
-   ],
-   "regiones": [
-    "eu"
-   ],
-   "materias": [],
-   "temas": [
-    "inflacion",
-    "politica_monetaria",
-    "energia"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "tasas",
-      "nombre": "Tasas de interés",
-      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
-     },
-     {
-      "canal": "dolar",
-      "nombre": "Dólar",
-      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
-     },
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     },
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g030aff8850d7",
    "categorias": [],
    "coincidencias": {},
    "tax": 5
