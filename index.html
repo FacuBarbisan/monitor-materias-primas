@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monitor de Materias Primas</title>
+<meta name="description" content="Catálogo de materias primas con precios de referencia verificables, gráficos y noticias internacionales relacionadas.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230F1E33'/%3E%3Cpath d='M6 22l6-7 5 4 9-10' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<script>try { const t = JSON.parse(localStorage.getItem('mmp.tema') || 'null'); if (t === 'claro') document.documentElement.dataset.theme = 'light'; if (t === 'oscuro') document.documentElement.dataset.theme = 'dark'; } catch (e) {}</script>
+<link rel="stylesheet" href="styles.css?v=6">
+</head>
+<body data-seccion="materias">
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="cabecera">
+  <div class="barra">
+    <div class="contenedor barra__fila">
+      <a class="marca" href="#materias" aria-label="Ir al catálogo">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="6"/><path d="M6 22l6-7 5 4 9-10"/></svg>
+        <span><span class="marca__titulo">Monitor de Materias Primas</span><br><span class="marca__sub">Mercados, referencias oficiales y noticias · v6</span></span>
+      </a>
+      <div class="barra__acciones">
+        <button type="button" class="btn" id="btn-recargar" aria-label="Volver a leer los datos publicados" title="Vuelve a leer los datos que publicó el actualizador">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 4v7h-7"/></svg><span class="btn-texto-largo">Recargar datos</span>
+        </button>
+        <label><span class="vh">Zona horaria</span><select id="zona" title="Zona horaria de fechas y horas"></select></label>
+        <button type="button" class="btn-icono" id="btn-tema" aria-label="Cambiar entre tema claro, oscuro o automático">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+        </button>
+        <button type="button" class="btn-icono" id="btn-favoritos" aria-label="Elegir mis países y materias primas favoritos">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <nav class="contenedor pestanas" aria-label="Secciones">
+    <a href="#materias" data-s="materias">Materias primas</a>
+    <a href="#noticias" data-s="noticias">Noticias</a>
+    <a href="#guardadas" data-s="guardadas">Guardadas <span class="contador" id="n-guardadas">0</span></a>
+    <a href="#fuentes" data-s="fuentes">Fuentes</a>
+  </nav>
+</header>
+
+<div class="contenedor">
+  <div class="estado-barra" id="estado-barra" role="status" aria-live="polite"></div>
+  <div id="avisos"></div>
+</div>
+
+<main id="contenido" class="contenedor">
+
+<!-- ================= CATÁLOGO ================= -->
+<section data-s="materias" hidden>
+  <div class="seccion__cab">
+    <div>
+      <h2>Catálogo de materias primas</h2>
+      <p class="ayuda">Gráficos de TradingView donde están disponibles y precios oficiales de referencia, con su fecha y frecuencia. Los promedios mensuales se muestran por separado: no son el precio de hoy. Explorá las 55 materias primas por categoría y abrí cada ficha para ver su historia y noticias.</p>
+    </div>
+  </div>
+  <div class="panel">
+    <div class="filtros__buscar">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+      <label for="c-texto" class="vh">Buscar materia prima</label>
+      <input id="c-texto" type="search" placeholder="Buscar: cobre, café, urea, Brent…" autocomplete="off">
+    </div>
+    <div class="chips-filtro" id="c-categorias" role="group" aria-label="Filtrar por categoría"></div>
+    <div class="filtros__pie">
+      <label class="check"><input type="checkbox" id="c-favoritas"> Solo mis favoritas</label>
+      <span class="chica" id="c-conteo" aria-live="polite"></span>
+    </div>
+  </div>
+  <div id="catalogo-tarjetas" class="mercados-grid"></div>
+  <nav id="catalogo-paginas" class="catalogo-paginas" aria-label="Páginas de materias primas"></nav>
+</section>
+
+<!-- ================= FICHA ================= -->
+<section data-s="materia" hidden>
+  <div id="ficha"></div>
+</section>
+
+<!-- ================= NOTICIAS ================= -->
+<section data-s="noticias" hidden>
+  <div class="seccion__cab">
+    <div>
+      <h2>Noticias internacionales</h2>
+      <p class="ayuda">Títulos, extractos e imágenes publicados por cada fuente en su RSS, con enlace al original. País, materia prima, tema y “posible relación” son <strong>interpretaciones automáticas</strong>: no prueban que una noticia mueva un precio.</p>
+    </div>
+  </div>
+  <form class="panel" id="filtros" role="search" onsubmit="return false">
+    <div class="filtros__buscar">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+      <label for="f-texto" class="vh">Buscar noticias</label>
+      <input id="f-texto" type="search" placeholder="Buscar: sanciones, Ormuz, cobre, tasas, Argentina…" autocomplete="off">
+    </div>
+    <div class="filtros__grilla">
+      <label>Región<select id="f-region"></select></label>
+      <label>País<select id="f-pais"></select></label>
+      <label>Categoría<select id="f-categoria"></select></label>
+      <label>Materia prima<select id="f-materia"></select></label>
+      <label>Tema<select id="f-tema"></select></label>
+      <label>Fuente<select id="f-fuente"></select></label>
+      <label>Tipo de fuente<select id="f-tipo"><option value="">Todas</option><option value="oficial">Oficiales</option><option value="periodistica">Periodísticas</option></select></label>
+      <label>Fecha<select id="f-periodo">
+        <option value="1">Últimas 24 horas</option><option value="3">Últimos 3 días</option><option value="7" selected>Últimos 7 días</option><option value="">Todo lo disponible</option><option value="rango">Elegir fechas…</option>
+      </select></label>
+      <label class="rango" hidden>Desde<input id="f-desde" type="date"></label>
+      <label class="rango" hidden>Hasta<input id="f-hasta" type="date"></label>
+    </div>
+    <div class="filtros__pie">
+      <label class="check"><input type="checkbox" id="f-favoritos"> Solo mis favoritos</label>
+      <button type="button" class="btn btn--chico" id="limpiar">Limpiar filtros</button>
+      <span class="chica" id="conteo" aria-live="polite"></span>
+    </div>
+  </form>
+  <div id="lista-noticias" class="grilla-fotos"></div>
+  <div style="text-align:center;margin-top:16px"><button type="button" class="btn" id="mas" hidden>Mostrar más</button></div>
+</section>
+
+<!-- ================= GUARDADAS ================= -->
+<section data-s="guardadas" hidden>
+  <div class="seccion__cab">
+    <div>
+      <h2>Noticias guardadas y notas</h2>
+      <p class="ayuda"><strong>Dónde se guardan:</strong> en este navegador. No se envían a ningún servidor. Si borrás los datos de navegación o usás otro equipo, no estarán: exportá una copia.</p>
+    </div>
+    <div class="acciones" style="margin:0">
+      <button type="button" class="btn" id="exportar">Exportar copia</button>
+      <label class="btn">Importar copia<input type="file" id="importar" accept=".json,application/json" hidden></label>
+    </div>
+  </div>
+  <div id="lista-guardadas" class="grilla-fotos"></div>
+</section>
+
+<!-- ================= FUENTES ================= -->
+<section data-s="fuentes" hidden>
+  <div class="seccion__cab">
+    <div>
+      <h2>Fuentes y estado</h2>
+      <p class="ayuda" id="info-actualizacion"></p>
+    </div>
+  </div>
+  <div class="resumen" id="resumen-fuentes"></div>
+  <div class="panel"><h3>Noticias (RSS leídos por el actualizador)</h3><div class="tabla-scroll"><table class="tabla" id="tabla-fuentes"></table></div></div>
+  <div class="panel"><h3>Proveedores de precios</h3><div class="tabla-scroll"><table class="tabla" id="tabla-proveedores"></table></div></div>
+  <div class="panel"><h3>Verificación de cada serie de precios</h3><p class="ayuda">Resultado de la última consulta del actualizador. Una serie solo muestra precio si su fuente respondió con datos.</p><div class="tabla-scroll"><table class="tabla" id="tabla-series"></table></div></div>
+  <div class="panel"><h3>Gráficos en vivo (TradingView)</h3><div class="tabla-scroll"><table class="tabla" id="tabla-widgets"></table></div></div>
+  <div class="panel"><h3>No disponibles</h3><div class="tabla-scroll"><table class="tabla" id="tabla-no-disponibles"></table></div></div>
+</section>
+</main>
+
+<footer class="contenedor pie">
+  <p>Proyecto educativo personal. No es asesoramiento financiero. Titulares, extractos e imágenes pertenecen a sus medios y se muestran con atribución y enlace al original. Precios: EIA, FMI vía FRED y Banco Mundial (CC BY 4.0). Gráficos en vivo: TradingView.</p>
+</footer>
+
+<dialog id="dlg-favoritos" aria-labelledby="fav-titulo">
+  <form method="dialog">
+    <h2 id="fav-titulo">Mis favoritos</h2>
+    <p class="ayuda">Se guardan en este navegador. “Solo mis favoritos” muestra lo que mencione alguno.</p>
+    <h3 style="margin-top:14px">Materias primas</h3>
+    <div class="opciones opciones--paises" id="fav-materias"></div>
+    <h3 style="margin-top:14px">Países</h3>
+    <div class="opciones opciones--paises" id="fav-paises"></div>
+    <div class="acciones" style="justify-content:flex-end"><button class="btn btn--primario" value="ok">Listo</button></div>
+  </form>
+</dialog>
+
+<script src="app.js?v=6"></script>
+</body>
+</html>
