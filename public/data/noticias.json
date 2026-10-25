@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-25T16:39:53.558Z",
+ "generado": "2026-10-25T16:41:04.511Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -742,6 +742,21 @@
     "tipo": "periodistica"
    },
    {
+    "id": "infocampo",
+    "nombre": "Infocampo – Agro y mercados",
+    "tipo": "periodistica"
+   },
+   {
+    "id": "oilprice",
+    "nombre": "OilPrice – Energía",
+    "tipo": "periodistica"
+   },
+   {
+    "id": "mining_technology",
+    "nombre": "Mining Technology – Minería",
+    "tipo": "periodistica"
+   },
+   {
     "id": "eia_tie",
     "nombre": "EIA – Today in Energy",
     "tipo": "oficial"
@@ -849,6 +864,52 @@
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
    "grupo": "gef590b51a3bf"
+  },
+  {
+   "id": "3cf9f655ef5a",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "COP31 Host Urges NATO Nations to Spend More on Climate Than Defense",
+   "link": "https://oilprice.com/Energy/Energy-General/COP31-Host-Urges-NATO-Nations-to-Spend-More-on-Climate-Than-Defense.html",
+   "fecha": "2026-10-25T15:00:00.000Z",
+   "obtenido": "2026-10-25T16:41:02.587Z",
+   "fechaEstimada": false,
+   "extracto": "The host of the United Nations’ COP31 climate summit, Turkey, is encouraging wealthy countries participating in the conference to spend more on climate support than on defence. This follows Turkey’s announcement in September that it plans to invest heavily in developing its renewable energy capacity in the coming…",
+   "imagen": null,
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "tr"
+   ],
+   "regiones": [
+    "me",
+    "global"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g3cf9f655ef5a"
   },
   {
    "id": "d8e74984c0a2",
@@ -1251,6 +1312,47 @@
    },
    "grupo": "gd02b90eebbc2",
    "imagenCredito": "South China Morning Post – China"
+  },
+  {
+   "id": "b744be691cf3",
+   "fuente": "infocampo",
+   "fuenteNombre": "Infocampo – Agro y mercados",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "El Niño: en las islas de Santa Fe, aseguran que ya fue evacuada el 70% de la hacienda en peligro",
+   "link": "https://www.infocampo.com.ar/el-nino-en-las-islas-de-santa-fe-aseguran-que-ya-fue-evacuada-el-70-de-la-hacienda-en-peligro/",
+   "fecha": "2026-10-25T12:46:10.000Z",
+   "obtenido": "2026-10-25T16:41:04.483Z",
+   "fechaEstimada": false,
+   "extracto": "El Gobierno santafesino informó que las medidas preventivas tomadas en el marco del impacto de El Niño han permitido trasladar desde las zonas inundables de islas más de 500 animales hacia campos altos, lo que incluye bovinos y también caballos.",
+   "imagen": "https://www.infocampo.com.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-24-at-08.55.55.jpeg",
+   "imagenCredito": "Infocampo – Agro y mercados",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gb744be691cf3"
   },
   {
    "id": "ffb4fb923715",
@@ -2225,6 +2327,64 @@
    "imagenCredito": "BBC News Mundo"
   },
   {
+   "id": "21b7a2af885f",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Record Tanker Rates Cripple U.S. Crude Oil Flows to Asia",
+   "link": "https://oilprice.com/Energy/Crude-Oil/Record-Tanker-Rates-Cripple-US-Crude-Oil-Flows-to-Asia.html",
+   "fecha": "2026-10-24T23:00:00.000Z",
+   "obtenido": "2026-10-25T16:41:02.588Z",
+   "fechaEstimada": false,
+   "extracto": "The Iran war has made oil tanker voyages so inefficient that vessel availability has crumbled and freight costs have soared to record-highs, all but erasing the incentive for shipping crude oil from the U.S. Gulf Coast to Asia. The cost of shipping crude oil from the U.S. Gulf Coast to China soared to as high as $80…",
+   "imagen": null,
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ir",
+    "cn"
+   ],
+   "regiones": [
+    "na",
+    "me",
+    "as"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "crude",
+    "brent": "crude"
+   },
+   "temas": [
+    "conflicto",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g21b7a2af885f"
+  },
+  {
    "id": "115edf62c0a5",
    "fuente": "aljazeera",
    "fuenteNombre": "Al Jazeera English",
@@ -2458,6 +2618,57 @@
    "tax": 5
   },
   {
+   "id": "da13228a47a8",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Fuel Oil Becomes Asia’s Next Cost Shock",
+   "link": "https://oilprice.com/Energy/Crude-Oil/Fuel-Oil-Becomes-Asias-Next-Cost-Shock.html",
+   "fecha": "2026-10-24T21:00:00.000Z",
+   "obtenido": "2026-10-25T16:41:02.589Z",
+   "fechaEstimada": false,
+   "extracto": "Singapore’s shipping-fuel market is adding another layer of cost to Asian trade. Disrupted supplies from the Middle East and Russia, resilient bunker demand and prohibitive freight rates have pushed high-sulphur fuel oil above the price of the crude used to produce it. Seasonal relief from Gulf producers and…",
+   "imagen": null,
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "ru",
+    "sg"
+   ],
+   "regiones": [
+    "eurasia",
+    "as",
+    "me"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "crude",
+    "brent": "crude"
+   },
+   "temas": [
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gda13228a47a8"
+  },
+  {
    "id": "8c8987787069",
    "fuente": "aljazeera",
    "fuenteNombre": "Al Jazeera English",
@@ -2497,6 +2708,58 @@
    "tax": 5
   },
   {
+   "id": "7ca0cb4dd759",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Syria's Energy Comeback Could Reshape Middle East Oil and Gas",
+   "link": "https://oilprice.com/Energy/Energy-General/Syrias-Energy-Comeback-Could-Reshape-Middle-East-Oil-and-Gas.html",
+   "fecha": "2026-10-24T19:00:00.000Z",
+   "obtenido": "2026-10-25T16:41:02.589Z",
+   "fechaEstimada": false,
+   "extracto": "Syria is undergoing countrywide reconstruction after more than a decade of conflict, which caused extensive infrastructure damage and led to millions of people being displaced. As Syrians rebuild their lives, the government has big plans for economic diversification and growth to support long-term recovery. Thanks to…",
+   "imagen": null,
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "sy"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "actividad",
+    "conflicto",
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g7ca0cb4dd759"
+  },
+  {
    "id": "a3268894cc08",
    "fuente": "dw_es",
    "fuenteNombre": "DW Español",
@@ -2531,6 +2794,51 @@
    "categorias": [],
    "coincidencias": {},
    "tax": 5
+  },
+  {
+   "id": "6f0a2be692ab",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Can Undersea Volcanoes Power Cities? A Seattle Startup Just Took the First Step",
+   "link": "https://oilprice.com/Energy/Energy-General/Can-Undersea-Volcanoes-Power-Cities-A-Seattle-Startup-Just-Took-the-First-Step.html",
+   "fecha": "2026-10-24T17:00:00.000Z",
+   "obtenido": "2026-10-25T16:41:02.590Z",
+   "fechaEstimada": false,
+   "extracto": "A geothermal startup aiming to source energy directly from undersea volcanoes just hit a major milestone that could bring round-the-clock clean energy to cities on the northwest coast of the United States and serve as a critical proof of concept for other regions, with particular relevance for the other 14 countries…",
+   "imagen": null,
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g6f0a2be692ab"
   },
   {
    "id": "801037282c5a",
@@ -2574,6 +2882,51 @@
    "categorias": [],
    "coincidencias": {},
    "tax": 5
+  },
+  {
+   "id": "7fc2c74491b1",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Trump Targets $6.2 Billion Offshore Wind Project Nearing Completion",
+   "link": "https://oilprice.com/Alternative-Energy/Wind-Power/Trump-Targets-62-Billion-Offshore-Wind-Project-Nearing-Completion.html",
+   "fecha": "2026-10-24T15:00:00.000Z",
+   "obtenido": "2026-10-25T16:41:02.591Z",
+   "fechaEstimada": false,
+   "extracto": "United States President Donald Trump has repeatedly targeted offshore wind since coming into office last year, as he strives to expand the country’s fossil fuel sector and shift the focus away from renewable energy. Trump has sought to halt the development of several offshore wind projects and has even resorted to…",
+   "imagen": null,
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g7fc2c74491b1"
   },
   {
    "id": "901635416ac3",
@@ -2767,6 +3120,42 @@
    "tax": 5,
    "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/24/5dcde1ba-6c40-4f62-b70b-fcd6926fb125_59219b2a.jpg?itok=Zy_Z2Uvu&v=1792831172",
    "imagenCredito": "South China Morning Post – China"
+  },
+  {
+   "id": "ab35b037ed8f",
+   "fuente": "infocampo",
+   "fuenteNombre": "Infocampo – Agro y mercados",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Garrapata bovina: fortalecen acciones sanitarias para proteger zonas libres y evitar resistencias a insecticidas",
+   "link": "https://www.infocampo.com.ar/garrapata-bovina-fortalecen-acciones-sanitarias-para-proteger-zonas-libres-y-evitar-resistencias-a-insecticidas/",
+   "fecha": "2026-10-24T10:20:04.000Z",
+   "obtenido": "2026-10-25T16:41:04.485Z",
+   "fechaEstimada": false,
+   "extracto": "Con su nuevo Plan Nacional, Senasa sensibiliza sobre la importancia de la inspección de tropas y el bioensayo para detectar resistencia a los garrapaticidas.",
+   "imagen": "https://www.infocampo.com.ar/wp-content/uploads/2026/10/whatsapp_image_2026-10-23_at_09.23.47.jpeg",
+   "imagenCredito": "Infocampo – Agro y mercados",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gab35b037ed8f"
   },
   {
    "id": "7fcc33e2ae8e",
@@ -3159,6 +3548,191 @@
    "imagenCredito": "BBC News – Business"
   },
   {
+   "id": "afc66c0cee53",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Trump's Reverse Nixon Strategy: Bring Russia In, Shut China Out",
+   "link": "https://oilprice.com/Energy/Energy-General/Trumps-Reverse-Nixon-Strategy-Bring-Russia-In-Shut-China-Out.html",
+   "fecha": "2026-10-23T23:00:00.000Z",
+   "obtenido": "2026-10-25T16:41:02.591Z",
+   "fechaEstimada": false,
+   "extracto": "On October 9, hours after a phone call between President Trump and President Putin, the Treasury Department issued a six-month waiver allowing Russian diesel to be sold on the global market. The stated aim is to bring down fuel prices before the November 3 midterms. But I believe the deal is more consequential than…",
+   "imagen": null,
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ru",
+    "cn"
+   ],
+   "regiones": [
+    "na",
+    "eurasia",
+    "as",
+    "global"
+   ],
+   "materias": [
+    "gasolina",
+    "diesel"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "gasolina": "fuel prices",
+    "diesel": "diesel"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "gafc66c0cee53"
+  },
+  {
+   "id": "e73449e840a8",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "U.S. Dips Into Strategic Oil Reserve Again Amid Supply Disruptions",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/US-Dips-Into-Strategic-Oil-Reserve-Again-Amid-Supply-Disruptions.html",
+   "fecha": "2026-10-23T22:30:00.000Z",
+   "obtenido": "2026-10-25T16:41:02.592Z",
+   "fechaEstimada": false,
+   "extracto": "The United States is dipping into its Strategic Petroleum Reserve again, this time to keep crude flowing to a Louisiana refinery while oil prices climb above $117 per barrel. The reserve, meanwhile, is already at its lowest level since 1982. The Department of Energy on Friday authorized an emergency exchange of up to…",
+   "imagen": null,
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "strategic petroleum reserve",
+    "brent": "strategic petroleum reserve"
+   },
+   "temas": [
+    "energia",
+    "inventarios"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "ge73449e840a8"
+  },
+  {
+   "id": "1b6e897e59d6",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Why Trump and Carney Haven’t Touched Energy in Their Tariff War",
+   "link": "https://oilprice.com/Energy/Energy-General/Why-Trump-and-Carney-Havent-Touched-Energy-in-Their-Tariff-War.html",
+   "fecha": "2026-10-23T22:00:00.000Z",
+   "obtenido": "2026-10-25T16:41:02.593Z",
+   "fechaEstimada": false,
+   "extracto": "The United States and Canada are locked in an energy trade war – sort of. Although United States President Donald Trump and Canadian Prime Minister Mark Carney have lobbed plenty of blisteringly high tariffs, not to mention threats and insults, at each other over the course of their respective tenures, they have not…",
+   "imagen": null,
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ca"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto",
+    "aranceles",
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g1b6e897e59d6"
+  },
+  {
+   "id": "aef3e894f5a7",
+   "fuente": "infocampo",
+   "fuenteNombre": "Infocampo – Agro y mercados",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Con alma cooperativa, el primer lote de trigo 2026/27 llegó del norte cordobés",
+   "link": "https://www.infocampo.com.ar/con-alma-cooperativa-el-primer-lote-de-trigo-2026-27-llego-del-norte-cordobes/",
+   "fecha": "2026-10-23T21:28:31.000Z",
+   "obtenido": "2026-10-25T16:41:04.486Z",
+   "fechaEstimada": false,
+   "extracto": "La Bolsa de Cereales de Córdoba informó el arribo de la primera partida del cereal, que se rematará en las próximas semanas con un fin solidario.",
+   "imagen": null,
+   "imagenCredito": "Infocampo – Agro y mercados",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [
+    "trigo"
+   ],
+   "categorias": [
+    "granos"
+   ],
+   "coincidencias": {
+    "trigo": "trigo"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "gaef3e894f5a7"
+  },
+  {
    "id": "cd687f2c9b89",
    "fuente": "scmp_china",
    "fuenteNombre": "South China Morning Post – China",
@@ -3203,6 +3777,85 @@
    "tax": 5,
    "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/24/7284bb0d-7534-4075-a88e-72fdfe6aaa6a_58c4db2e.jpg?itok=jUSpMKtl&v=1792788671",
    "imagenCredito": "South China Morning Post – China"
+  },
+  {
+   "id": "4ba04ab3611d",
+   "fuente": "infocampo",
+   "fuenteNombre": "Infocampo – Agro y mercados",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Exportaciones récord: el maíz argentino avanza a todo ritmo y domina el mercado mundial",
+   "link": "https://www.infocampo.com.ar/exportaciones-record-el-maiz-argentino-avanza-a-todo-ritmo-y-domina-el-mercado-mundial/",
+   "fecha": "2026-10-23T19:30:52.000Z",
+   "obtenido": "2026-10-25T16:41:04.487Z",
+   "fechaEstimada": false,
+   "extracto": "El comercio exterior del cereal continúa a un ritmo récord, pese a que la “safriña” brasileña ya inunda el mercado. “El maíz argentino encuentra espacio en destinos donde, en una campaña normal, rara vez lideraría a esta altura del año”, destacan desde la Bolsa de Rosario.",
+   "imagen": "https://www.infocampo.com.ar/wp-content/uploads/2026/10/reporte_1_1_0.png",
+   "imagenCredito": "Infocampo – Agro y mercados",
+   "tax": 5,
+   "paises": [
+    "ar",
+    "br"
+   ],
+   "regiones": [
+    "latam",
+    "global"
+   ],
+   "materias": [
+    "maiz"
+   ],
+   "categorias": [
+    "granos"
+   ],
+   "coincidencias": {
+    "maiz": "maiz"
+   },
+   "temas": [
+    "comercio"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar las compras de importadores o el consumo de alimentos."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g4ba04ab3611d"
+  },
+  {
+   "id": "cb5b65891cc9",
+   "fuente": "infocampo",
+   "fuenteNombre": "Infocampo – Agro y mercados",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "De las silobolsas, al gasoil y los suelos: la plataforma que mide todas las variables del campo en un solo tablero",
+   "link": "https://www.infocampo.com.ar/de-las-silobolsas-al-gasoil-y-los-suelos-la-plataforma-que-mide-todas-las-variables-del-campo-en-un-solo-tablero/",
+   "fecha": "2026-10-23T17:58:13.000Z",
+   "obtenido": "2026-10-25T16:41:04.488Z",
+   "fechaEstimada": false,
+   "extracto": "Frente a un mercado que ofrece un aparato distinto para cada problema, UTelemetry ofrece una plataforma que integra cualquier sensor sobre cualquier conectividad. Silobolsas, agua, gasoil, suelos, galpones y feedlots, en un solo tablero.",
+   "imagen": "https://www.infocampo.com.ar/wp-content/uploads/2026/10/467942064_582390391104152_1564678365754406969_n.jpg",
+   "imagenCredito": "Infocampo – Agro y mercados",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [
+    "diesel"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "diesel": "gasoil"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "gcb5b65891cc9"
   },
   {
    "id": "00e84614ccd6",
@@ -3256,6 +3909,98 @@
    "tax": 5,
    "imagen": "https://s.france24.com/media/display/8a4b063c-cf02-11f1-98c8-5b4a75578ebb/w:1024/p:16x9/2026-10-21T185509Z-1027856127-RC2P7OAR4YCQ-RTRMADP-3-BRAZIL-ELECTION-BOLSONARO.jpg",
    "imagenCredito": "France 24 Español – Economía"
+  },
+  {
+   "id": "9cd8b4e44d7e",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "6 Million Barrels in Two Minutes Draws CFTC Scrutiny",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/6-Million-Barrels-in-Two-Minutes-Draws-CFTC-Scrutiny.html",
+   "fecha": "2026-10-23T17:20:00.000Z",
+   "obtenido": "2026-10-25T16:41:02.594Z",
+   "fechaEstimada": false,
+   "extracto": "Oil traders sold futures equivalent to at least 6 million barrels of crude in just two minutes on March 23, shortly before President Donald Trump backed away from threats to strike Iranian power plants. Now, the federal regulator overseeing those trades says it has been looking into the activity. Commodity Futures…",
+   "imagen": null,
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ir"
+   ],
+   "regiones": [
+    "na",
+    "me"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "crude",
+    "brent": "crude"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "g9cd8b4e44d7e"
+  },
+  {
+   "id": "4c1302105e5c",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "U.S. Rig Count Holds Steady as Oil Prices Surge",
+   "link": "https://oilprice.com/Energy/Energy-General/US-Rig-Count-Holds-Steady-as-Oil-Prices-Surge.html",
+   "fecha": "2026-10-23T17:16:20.000Z",
+   "obtenido": "2026-10-25T16:41:02.595Z",
+   "fechaEstimada": false,
+   "extracto": "The total number of active drilling rigs for oil and gas in the United States remained unchanged for the second week in a row this week, according to new data that Baker Hughes published on Friday, with the total rig count in the US staying at 603, up 53 from this same time last year. The number of active oil rigs…",
+   "imagen": null,
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "oil prices",
+    "brent": "oil prices"
+   },
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g4c1302105e5c"
   },
   {
    "id": "0e77d63cd38b",
@@ -3377,6 +4122,46 @@
    "tax": 5
   },
   {
+   "id": "f334b28c8408",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "$120 Oil Is Almost Here, and Trump Has Few Good Options",
+   "link": "https://oilprice.com/Energy/Energy-General/120-Oil-Is-Almost-Here-and-Trump-Has-Few-Good-Options.html",
+   "fecha": "2026-10-23T16:30:00.000Z",
+   "obtenido": "2026-10-25T16:41:02.596Z",
+   "fechaEstimada": false,
+   "extracto": "Brent crude nears $120 as escalating Saudi-Houthi tensions fuel another weekly oil price rally, putting fresh pressure on Trump. Friday, October 23, 2026 The slow creep of oil prices towards the $120 per barrel mark is a nightmarish scenario for US President Trump, even though there has been little fundamental change…",
+   "imagen": null,
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "sa",
+    "ye"
+   ],
+   "regiones": [
+    "na",
+    "me"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "crude",
+    "brent": "brent"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "gf334b28c8408"
+  },
+  {
    "id": "578cd4bb58f0",
    "fuente": "bbc_mundo",
    "fuenteNombre": "BBC News Mundo",
@@ -3411,6 +4196,51 @@
    "tax": 5,
    "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/68b4/live/5cfc7540-cd76-11f1-bbdb-c39c91930f26.jpg",
    "imagenCredito": "BBC News Mundo"
+  },
+  {
+   "id": "d8da48f492b3",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Space War Fears Rise as Russian Satellite Makes Dangerous Maneuver",
+   "link": "https://oilprice.com/Energy/Energy-General/Space-War-Fears-Rise-as-Russian-Satellite-Makes-Dangerous-Maneuver.html",
+   "fecha": "2026-10-23T16:00:00.000Z",
+   "obtenido": "2026-10-25T16:41:02.596Z",
+   "fechaEstimada": false,
+   "extracto": "US officials publicly accused Russia of threatening a Finnish-operated commercial satellite that provides imagery and intelligence to Ukraine and other nations, calling the move \"deliberately reckless.\" In response to the accusations, made during a United Nations debate on October 21, Russia broadly described US…",
+   "imagen": null,
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "ua",
+    "ru",
+    "us"
+   ],
+   "regiones": [
+    "eu",
+    "eurasia",
+    "na",
+    "global"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gd8da48f492b3"
   },
   {
    "id": "ec8832f93c4f",
@@ -3449,6 +4279,44 @@
    "categorias": [],
    "coincidencias": {},
    "tax": 5
+  },
+  {
+   "id": "2f6a3be434df",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Middle East Physical Crude Slides While Brent Hits Five-Month High",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Physical-Crude-Slides-While-Brent-Hits-Five-Month-High.html",
+   "fecha": "2026-10-23T15:30:00.000Z",
+   "obtenido": "2026-10-25T16:41:02.597Z",
+   "fechaEstimada": false,
+   "extracto": "In contrast with the international benchmark futures prices, the prices of physical crudes from the Middle East have softened this week, as oil continues to flow out of the Persian Gulf in ship-to-ship transfers offshore Oman and producers offer competitive prices to Asian buyers. Some crude grades from Iraq and Oman…",
+   "imagen": null,
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "iq"
+   ],
+   "regiones": [
+    "me",
+    "as"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "crude",
+    "brent": "crude"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "g2f6a3be434df"
   },
   {
    "id": "289a60c343c3",
@@ -3610,6 +4478,86 @@
    "imagenCredito": "South China Morning Post – China"
   },
   {
+   "id": "27e67f9b1721",
+   "fuente": "mining_technology",
+   "fuenteNombre": "Mining Technology – Minería",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Sandvik to deliver 25 underground units to Northern Star in Australia",
+   "link": "https://www.mining-technology.com/news/sandvik-underground-units-northern-star/",
+   "fecha": "2026-10-23T12:27:39.000Z",
+   "obtenido": "2026-10-25T16:41:02.481Z",
+   "fechaEstimada": false,
+   "extracto": "The post Sandvik to deliver 25 underground units to Northern Star in Australia appeared first on Mining Technology .",
+   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Sandvik-Project.jpg",
+   "imagenCredito": "Mining Technology – Minería",
+   "tax": 5,
+   "paises": [
+    "au"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {},
+   "temas": [
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g27e67f9b1721"
+  },
+  {
+   "id": "55259aaa799d",
+   "fuente": "mining_technology",
+   "fuenteNombre": "Mining Technology – Minería",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Thiess secures two five-year mining contracts in Mongolia",
+   "link": "https://www.mining-technology.com/news/thiess-mining-contracts-mongolia/",
+   "fecha": "2026-10-23T12:27:08.000Z",
+   "obtenido": "2026-10-25T16:41:02.519Z",
+   "fechaEstimada": false,
+   "extracto": "Thiess has secured two five-year mining contracts in Mongolia, covering both underground services and asset management at major sites. The post Thiess secures two five-year mining contracts in Mongolia appeared first on Mining Technology .",
+   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-4-23Oct26-oyu-tolgoi-ot-045-mr-jpg.jpg",
+   "imagenCredito": "Mining Technology – Minería",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {},
+   "temas": [
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g55259aaa799d"
+  },
+  {
    "id": "bf152d7d641b",
    "fuente": "scmp_china",
    "fuenteNombre": "South China Morning Post – China",
@@ -3690,6 +4638,48 @@
    "categorias": [],
    "coincidencias": {},
    "tax": 5
+  },
+  {
+   "id": "6565234951b3",
+   "fuente": "mining_technology",
+   "fuenteNombre": "Mining Technology – Minería",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Rio Tinto commits $1.9bn for Queensland’s Kangwinan bauxite project",
+   "link": "https://www.mining-technology.com/news/rio-tinto-1-9bn-kangwinan-bauxite-project/",
+   "fecha": "2026-10-23T10:06:17.000Z",
+   "obtenido": "2026-10-25T16:41:02.580Z",
+   "fechaEstimada": false,
+   "extracto": "Rio Tinto has announced a $1.9bn investment to develop the Kangwinan bauxite project located in Queensland’s Western Cape York Peninsula. The post Rio Tinto commits $1.9bn for Queensland’s Kangwinan bauxite project appeared first on Mining Technology .",
+   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-3-23Oct26-shutterstock_2447425931.jpg",
+   "imagenCredito": "Mining Technology – Minería",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [
+    "aluminio"
+   ],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {
+    "aluminio": "bauxite"
+   },
+   "temas": [
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g6565234951b3"
   },
   {
    "id": "dd38e45cbf9f",
@@ -3829,6 +4819,95 @@
    "categorias": [],
    "coincidencias": {},
    "tax": 5
+  },
+  {
+   "id": "e1f40389c093",
+   "fuente": "mining_technology",
+   "fuenteNombre": "Mining Technology – Minería",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Metals One agrees terms to acquire full stake in Lions Bay Resources",
+   "link": "https://www.mining-technology.com/news/metals-one-acquire-lions-bay-resources/",
+   "fecha": "2026-10-23T07:16:01.000Z",
+   "obtenido": "2026-10-25T16:41:02.580Z",
+   "fechaEstimada": false,
+   "extracto": "Metals One has signed a binding term sheet for the proposed full acquisition of Lions Bay Resources (LBR), aiming to expand its focus on gold and power operations in South Africa. The post Metals One agrees terms to acquire full stake in Lions Bay Resources appeared first on Mining Technology .",
+   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-2-23Oct26-shutterstock_2474021011.jpg",
+   "imagenCredito": "Mining Technology – Minería",
+   "tax": 5,
+   "paises": [
+    "za"
+   ],
+   "regiones": [
+    "af"
+   ],
+   "materias": [
+    "oro"
+   ],
+   "categorias": [
+    "preciosos",
+    "industriales"
+   ],
+   "coincidencias": {
+    "oro": "gold"
+   },
+   "temas": [
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "ge1f40389c093"
+  },
+  {
+   "id": "877b1da237c7",
+   "fuente": "mining_technology",
+   "fuenteNombre": "Mining Technology – Minería",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Cornish Metals raises $181m to fund South Crofty tin project in UK",
+   "link": "https://www.mining-technology.com/news/cornish-metals-181m-fund-south-crofty/",
+   "fecha": "2026-10-23T07:15:03.000Z",
+   "obtenido": "2026-10-25T16:41:02.581Z",
+   "fechaEstimada": false,
+   "extracto": "Cornish Metals has completed a fundraising round, securing £135m ($181m) before expense through the issue of 225,000,000 new ordinary shares to support the South Crofty tin project in Cornwall, UK. The post Cornish Metals raises $181m to fund South Crofty tin project in UK appeared first on Mining Technology .",
+   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-1-23Oct26-shutterstock_2600099793.jpg",
+   "imagenCredito": "Mining Technology – Minería",
+   "tax": 5,
+   "paises": [
+    "gb"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {},
+   "temas": [
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g877b1da237c7"
   },
   {
    "id": "00149156879d",
@@ -4382,6 +5461,60 @@
    "imagenCredito": "BBC News – Business"
   },
   {
+   "id": "cd59024581ba",
+   "fuente": "mining_technology",
+   "fuenteNombre": "Mining Technology – Minería",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Questcorp to acquire final 49% in North Island Project, Canada",
+   "link": "https://www.mining-technology.com/news/questcorp-acquire-final-49-north-island/",
+   "fecha": "2026-10-22T14:51:41.000Z",
+   "obtenido": "2026-10-25T16:41:02.581Z",
+   "fechaEstimada": false,
+   "extracto": "Questcorp Mining has signed an agreement to acquire the remaining 49% interest in the North Island Copper Project near Port Hardy, Vancouver Island, British Columbia, Canada. The post Questcorp to acquire final 49% in North Island Project, Canada appeared first on Mining Technology .",
+   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-5-22Oct26-shutterstock_2375878259.jpg",
+   "imagenCredito": "Mining Technology – Minería",
+   "tax": 5,
+   "paises": [
+    "ca",
+    "gb"
+   ],
+   "regiones": [
+    "na",
+    "eu"
+   ],
+   "materias": [
+    "cobre"
+   ],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {
+    "cobre": "copper"
+   },
+   "temas": [
+    "mineria",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gcd59024581ba"
+  },
+  {
    "id": "52e8775d890c",
    "fuente": "bbc_business",
    "fuenteNombre": "BBC News – Business",
@@ -4416,6 +5549,44 @@
    "tax": 5,
    "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8549/live/51056ff0-ce37-11f1-9a39-31b474234113.jpg",
    "imagenCredito": "BBC News – Business"
+  },
+  {
+   "id": "2b568e636e4c",
+   "fuente": "mining_technology",
+   "fuenteNombre": "Mining Technology – Minería",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Talisman Metals reports drill results from Morocco’s Tirzzit Project",
+   "link": "https://www.mining-technology.com/news/talisman-drill-results-moroccos-tirzzit-project/",
+   "fecha": "2026-10-22T14:18:50.000Z",
+   "obtenido": "2026-10-25T16:41:02.582Z",
+   "fechaEstimada": false,
+   "extracto": "Talisman Metals has released first assay results from the initial four reverse circulation (RC) drill holes of its 2026 exploration campaign at the Tirzzit Project, located 225km east of Agadir, Morocco. The post Talisman Metals reports drill results from Morocco’s Tirzzit Project appeared first on Mining Technology .",
+   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-4-22Oct26-shutterstock_2721227149.jpg",
+   "imagenCredito": "Mining Technology – Minería",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {},
+   "temas": [
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g2b568e636e4c"
   },
   {
    "id": "f69a9f960098",
@@ -4742,6 +5913,53 @@
    "tax": 5
   },
   {
+   "id": "49257ab1a232",
+   "fuente": "mining_technology",
+   "fuenteNombre": "Mining Technology – Minería",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Metals Exploration resumes construction at La India site",
+   "link": "https://www.mining-technology.com/news/metals-exploration-resumes-construction-la-india/",
+   "fecha": "2026-10-22T09:58:34.000Z",
+   "obtenido": "2026-10-25T16:41:02.582Z",
+   "fechaEstimada": false,
+   "extracto": "Metals Exploration has restarted construction activities at its La India gold project located in Nicaragua, following a temporary suspension after a fatal incident on 19 October 2026. The post Metals Exploration resumes construction at La India site appeared first on Mining Technology .",
+   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-3-22Oct26-shutterstock_2780025605.jpg",
+   "imagenCredito": "Mining Technology – Minería",
+   "tax": 5,
+   "paises": [
+    "in"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [
+    "oro"
+   ],
+   "categorias": [
+    "preciosos",
+    "industriales"
+   ],
+   "coincidencias": {
+    "oro": "gold"
+   },
+   "temas": [
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g49257ab1a232"
+  },
+  {
    "id": "9206885a1d17",
    "fuente": "scmp_business",
    "fuenteNombre": "South China Morning Post – Business",
@@ -4830,6 +6048,58 @@
    "imagenCredito": "South China Morning Post – China"
   },
   {
+   "id": "164dda4812f3",
+   "fuente": "mining_technology",
+   "fuenteNombre": "Mining Technology – Minería",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "SAGA concludes first drill programme at Labrador Wolverine project",
+   "link": "https://www.mining-technology.com/news/saga-concludes-first-drill-programme-at-labrador-wolverine-project/",
+   "fecha": "2026-10-22T08:05:47.000Z",
+   "obtenido": "2026-10-25T16:41:02.583Z",
+   "fechaEstimada": false,
+   "extracto": "SAGA Metals has completed its first diamond drilling campaign at the fully owned Wolverine Heavy Rare Earth Element Project located in Labrador, Canada. The post SAGA concludes first drill programme at Labrador Wolverine project appeared first on Mining Technology .",
+   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-1-22Oct26-shutterstock_2509486409-2.jpg",
+   "imagenCredito": "Mining Technology – Minería",
+   "tax": 5,
+   "paises": [
+    "ca"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [
+    "tierras_raras"
+   ],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {
+    "tierras_raras": "rare earth"
+   },
+   "temas": [
+    "energia",
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "En la plata y los metales industriales, la actividad industrial pesa en la demanda; en el oro, la demanda de inversión y de bancos centrales suele pesar más."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g164dda4812f3"
+  },
+  {
    "id": "ff2d0a722c54",
    "fuente": "scmp_business",
    "fuenteNombre": "South China Morning Post – Business",
@@ -4879,6 +6149,52 @@
    "tax": 5,
    "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/69092f5c-d81d-4acd-9133-aef919777106_f2152d44.jpg?itok=pLLDPgHT&v=1792641147",
    "imagenCredito": "South China Morning Post – Business"
+  },
+  {
+   "id": "987fe7e134c9",
+   "fuente": "mining_technology",
+   "fuenteNombre": "Mining Technology – Minería",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Krait secures exclusive option to acquire Nevada mining claims",
+   "link": "https://www.mining-technology.com/news/krait-acquire-nevada-mining-claims/",
+   "fecha": "2026-10-22T07:44:48.000Z",
+   "obtenido": "2026-10-25T16:41:02.583Z",
+   "fechaEstimada": false,
+   "extracto": "Krait Critical Minerals has reached an agreement with Sierra Antimony securing an exclusive option to acquire full interest in 17 contiguous unpatented federal mining claims located in Humboldt County, Nevada, US. The post Krait secures exclusive option to acquire Nevada mining claims appeared first on Mining…",
+   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-2-22Oct26-shutterstock_2646014805.jpg",
+   "imagenCredito": "Mining Technology – Minería",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [
+    "tierras_raras"
+   ],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {
+    "tierras_raras": "critical minerals"
+   },
+   "temas": [
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g987fe7e134c9"
   },
   {
    "id": "c907a956fe08",
