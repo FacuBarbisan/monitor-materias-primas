@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-25T22:05:58.806Z",
+ "generado": "2026-10-26T00:26:55.629Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -790,6 +790,304 @@
  },
  "items": [
   {
+   "id": "c65aaf5fe491",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Trump escalates anti-Muslim rhetoric in fierce attack on El-Sayed",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/26/trump-escalates-anti-muslim-rhetoric-in-fierce-attack-on-el-sayed?traffic_source=rss",
+   "fecha": "2026-10-26T00:02:55.000Z",
+   "obtenido": "2026-10-26T00:26:14.759Z",
+   "fechaEstimada": false,
+   "extracto": "Trump has launched another fierce anti-Muslim attack on Democratic Senate candidate Abdul El-Sayed.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gc65aaf5fe491"
+  },
+  {
+   "id": "cc901b4e9dc6",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Iran war live: Trump rules out strikes ‘today’; Israeli forces raid Hebron",
+   "link": "https://www.aljazeera.com/news/liveblog/2026/10/26/iran-war-live-trump-rules-out-strikes-today-israeli-forces-raid-hebron?traffic_source=rss",
+   "fecha": "2026-10-26T00:00:00.000Z",
+   "obtenido": "2026-10-26T00:26:14.759Z",
+   "fechaEstimada": false,
+   "extracto": "Trump's statement comes as Iran says renewed US-Israeli attacks 'will achieve no different outcome'.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ir",
+    "il"
+   ],
+   "regiones": [
+    "na",
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gcc901b4e9dc6"
+  },
+  {
+   "id": "c648bea597dd",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "The Pentagon's Rare Earth Deadline Is Almost Here. Is Anyone Ready?",
+   "link": "https://oilprice.com/Energy/Energy-General/The-Pentagons-Rare-Earth-Deadline-Is-Almost-Here-Is-Anyone-Ready.html",
+   "fecha": "2026-10-26T00:00:00.000Z",
+   "obtenido": "2026-10-26T00:26:15.212Z",
+   "fechaEstimada": false,
+   "extracto": "For years, the rare earth industry has been talking about January 1, 2027 as the date that changes everything. That date is now less than 75 days away. On January 1, new Pentagon procurement rules take effect that will restrict the use of Chinese-origin rare earth materials in American weapons systems. The…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "cn"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [
+    "tierras_raras"
+   ],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {
+    "tierras_raras": "rare earth"
+   },
+   "temas": [
+    "mineria",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gc648bea597dd"
+  },
+  {
+   "id": "a62d04f22394",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Asia Is Building the World’s Next $15 Trillion Energy Market",
+   "link": "https://oilprice.com/Energy/Energy-General/Asia-Is-Building-the-Worlds-Next-15-Trillion-Energy-Market.html",
+   "fecha": "2026-10-25T23:00:00.000Z",
+   "obtenido": "2026-10-26T00:26:15.212Z",
+   "fechaEstimada": false,
+   "extracto": "The global energy transition is increasingly becoming an Asian story, and Asia is unlikely to follow the path envisioned in Washington or Brussels. The region’s governments will have enormous influence over the future of coal, oil, natural gas, renewables and energy storage. What happens next in Asia will determine…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "eu"
+   ],
+   "regiones": [
+    "na",
+    "eu",
+    "as",
+    "global"
+   ],
+   "materias": [
+    "gas_natural",
+    "carbon"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "gas_natural": "natural gas",
+    "carbon": "coal"
+   },
+   "temas": [
+    "energia",
+    "inventarios"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "ga62d04f22394"
+  },
+  {
+   "id": "9a6c4b3a30ef",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Oil Prices Rise Despite Middle East Export Recovery",
+   "link": "https://oilprice.com/Energy/Crude-Oil/Oil-Prices-Rise-Despite-Middle-East-Export-Recovery.html",
+   "fecha": "2026-10-25T23:00:00.000Z",
+   "obtenido": "2026-10-26T00:26:15.213Z",
+   "fechaEstimada": false,
+   "extracto": "Reports about recovering oil flows in the Persian Gulf and the Red Sea have dominated headlines over the past couple of weeks. Yet oil prices have only moved higher, suggesting barrel numbers alone are not enough to convince the world everything’s back to normal. It isn’t. According to the latest Kpler numbers,…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ir",
+    "il"
+   ],
+   "regiones": [
+    "na",
+    "me"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "oil prices",
+    "brent": "oil prices"
+   },
+   "temas": [
+    "comercio",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g9a6c4b3a30ef"
+  },
+  {
+   "id": "2b646026fdc7",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Cancelan el rally Dakar en Arabia Saudita debido a los ataques de los hutíes",
+   "link": "https://www.dw.com/es/cancelan-el-rally-dakar-en-arabia-saudita-debido-a-los-ataques-de-los-hutíes/a-79757163?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-25T19:36:00.000Z",
+   "obtenido": "2026-10-26T00:26:14.895Z",
+   "fechaEstimada": false,
+   "extracto": "Arabia Saudita enfrenta una presión creciente debido a los ataques perpetrados por los hutíes, respaldados por el regimen islámico de Irán, desde el vecino Yemen",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "DW Español",
+   "tax": 5,
+   "paises": [
+    "sa",
+    "ir",
+    "ye"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g2b646026fdc7"
+  },
+  {
    "id": "abe7b5b96eaf",
    "fuente": "oilprice",
    "fuenteNombre": "OilPrice – Energía",
@@ -1570,9 +1868,9 @@
    "obtenido": "2026-10-25T16:48:00.017Z",
    "fechaEstimada": false,
    "extracto": "Comicios cruciales en Brasil. Cerca de 159 millones de ciudadanos están convocados a las urnas este domingo 25 de octubre para decidir si otorgan un cuarto mandato, no consecutivo, al actual presidente, el izquierdista Luiz Inácio Lula da Silva, o si giran de nuevo hacia la ultraderecha con Jair Bolsonaro, hijo del…",
-   "imagen": "https://s.france24.com/media/display/9df5e82c-cce2-11f1-92d3-d1d2c32ebb87/w:1024/p:16x9/WEB-PORTADA-20OCT-ARTICULO.png",
+   "imagen": "https://s.france24.com/media/display/0d1721f0-c93f-11f1-9b1e-d1d2c32ebb87/w:1024/p:16x9/54efc411ad7eba282bdc673a271ffbaa99cd49e7.jpg",
    "imagenes": [
-    "https://s.france24.com/media/display/9df5e82c-cce2-11f1-92d3-d1d2c32ebb87/w:1024/p:16x9/WEB-PORTADA-20OCT-ARTICULO.png"
+    "https://s.france24.com/media/display/0d1721f0-c93f-11f1-9b1e-d1d2c32ebb87/w:1024/p:16x9/54efc411ad7eba282bdc673a271ffbaa99cd49e7.jpg"
    ],
    "imagenCredito": "France 24 Español – América Latina",
    "tax": 5,
@@ -8738,51 +9036,6 @@
    "imagenes": [
     "https://s.france24.com/media/display/b94dfb56-c8f9-11f1-80ee-4dd8ac2cf3bf/w:1024/p:16x9/2026-10-15T184633Z-1337115479-RC2R3OAZXK21-RTRMADP-3-USA-GASPRICES.jpg"
    ]
-  },
-  {
-   "id": "77ae42826876",
-   "fuente": "wto",
-   "fuenteNombre": "OMC (WTO) – Noticias",
-   "tipoFuente": "oficial",
-   "idioma": "en",
-   "titulo": "WTO and multilateral partners review progress on supply chain finance initiative",
-   "link": "https://www.wto.org/english/news_e/news26_e/trfin_16oct26_517_e.htm",
-   "fecha": "2026-10-16T00:00:00.000Z",
-   "obtenido": "2026-10-24T21:35:34.079Z",
-   "fechaEstimada": false,
-   "extracto": "Director-General Ngozi Okonjo-Iweala joined leaders of multilateral development banks and other international organizations at a high-level roundtable held on the sidelines of the 2026 World Bank – International Monetary Fund (IMF) Annual Meetings in Bangkok, Thailand, on 16 October to review progress in expanding…",
-   "paises": [
-    "th"
-   ],
-   "regiones": [
-    "as",
-    "global"
-   ],
-   "materias": [],
-   "temas": [
-    "comercio",
-    "transporte"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     },
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g77ae42826876",
-   "categorias": [],
-   "coincidencias": {},
-   "tax": 5
   }
  ]
 }
