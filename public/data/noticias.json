@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-26T05:25:11.103Z",
+ "generado": "2026-10-26T11:34:56.997Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -790,6 +790,995 @@
  },
  "items": [
   {
+   "id": "1e19aeb1c6ef",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Houthis Claim Attacks on Saudi Arabia’s East-West Oil Pipeline",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Houthis-Claim-Attacks-on-Saudi-Arabias-East-West-Oil-Pipeline.html",
+   "fecha": "2026-10-26T11:30:00.000Z",
+   "obtenido": "2026-10-26T11:34:17.431Z",
+   "fechaEstimada": false,
+   "extracto": "The Iran-backed Houthis on Monday claimed they attacked pumping stations along Saudi Arabia’s East-West onshore oil pipeline, the Kingdom’s key crude export route bypassing the Strait of Hormuz. The Houthis also said they attacked the Riyadh airport amid escalating hostilities between the Iran-aligned movement in…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "sa",
+    "ir",
+    "ye"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "crude",
+    "brent": "crude"
+   },
+   "temas": [
+    "conflicto",
+    "comercio",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g1e19aeb1c6ef"
+  },
+  {
+   "id": "bc0ac32e25d1",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Jordan arrests three suspects over church attack in dawn raid: What to know",
+   "link": "https://www.aljazeera.com/news/2026/10/26/jordan-arrests-three-suspects-over-church-attack-in-dawn-raid-what-to-know?traffic_source=rss",
+   "fecha": "2026-10-26T11:08:48.000Z",
+   "obtenido": "2026-10-26T11:34:16.753Z",
+   "fechaEstimada": false,
+   "extracto": "Jordanian authorities have not named the individuals or any group involved in the 'terrorist incident'.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g1dbf271aa6b5"
+  },
+  {
+   "id": "8e6dfde254b2",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Key European defence ministers meet in Paris to discuss Ukraine support",
+   "link": "https://www.aljazeera.com/news/2026/10/26/key-european-defence-ministers-meet-in-paris-to-discuss-ukraine-support?traffic_source=rss",
+   "fecha": "2026-10-26T11:04:55.000Z",
+   "obtenido": "2026-10-26T11:34:16.753Z",
+   "fechaEstimada": false,
+   "extracto": "Defence ministers from France, Germany, Italy, Poland and the UK to discuss increasing military assistance to Ukraine.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "gb",
+    "de",
+    "fr",
+    "it",
+    "pl",
+    "ua"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g8e6dfde254b2"
+  },
+  {
+   "id": "45f807d480f4",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Pentagon chief Hegseth to visit Philippines to meet US allies at Asean events",
+   "link": "https://www.scmp.com/news/china/diplomacy/article/3372182/pentagon-chief-hegseth-visit-philippines-meet-us-allies-asean-events",
+   "fecha": "2026-10-26T11:03:12.000Z",
+   "obtenido": "2026-10-26T11:34:17.236Z",
+   "fechaEstimada": false,
+   "extracto": "US Defence Secretary Pete Hegseth will travel to the Philippines this week to meet regional allies, the Pentagon announced on Sunday. The visit comes amid a push by Washington to tighten security ties in the Indo-Pacific ahead of an expected meeting between Presidents Donald Trump and Xi Jinping in southern China.…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/26/f39e29a9-7415-4cea-97d7-c88c785132cb_66615883.jpg?itok=rY3y_sH1&v=1793012449",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/26/f39e29a9-7415-4cea-97d7-c88c785132cb_66615883.jpg?itok=rY3y_sH1&v=1793012449"
+   ],
+   "imagenCredito": "South China Morning Post – China",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ir",
+    "cn",
+    "ph"
+   ],
+   "regiones": [
+    "na",
+    "me",
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g45f807d480f4"
+  },
+  {
+   "id": "0f2ae6fcb391",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Saudi-led coalition says it struck Houthi missile facilities",
+   "link": "https://www.aljazeera.com/news/2026/10/26/saudi-led-coalition-says-it-struck-houthi-missile-facilities?traffic_source=rss",
+   "fecha": "2026-10-26T10:41:23.000Z",
+   "obtenido": "2026-10-26T11:34:16.753Z",
+   "fechaEstimada": false,
+   "extracto": "Coalition says it destroyed ballistic missile launchers as well as tunnels and a depot used to store missiles.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "sa",
+    "ye"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g0f2ae6fcb391"
+  },
+  {
+   "id": "4e666bf2c789",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "U.S. Army Says It Has Helped 1.5 Billion Barrels of Oil Out of Hormuz",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/US-Army-Says-It-Has-Helped-15-Billion-Barrels-of-Oil-Out-of-Hormuz.html",
+   "fecha": "2026-10-26T10:30:00.000Z",
+   "obtenido": "2026-10-26T11:34:17.431Z",
+   "fechaEstimada": false,
+   "extracto": "U.S. forces have helped Persian Gulf producers move more than 1.5 billion barrels out of the Strait of Hormuz since the Iran war began, Adm. Brad Cooper, the commander of U.S. Central Command (CENTCOM), said during a visit to the Strait of Hormuz on Sunday. More than 3,000 commercial vessels have successfully…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ir"
+   ],
+   "regiones": [
+    "na",
+    "me"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "barrels of oil",
+    "brent": "barrels of oil"
+   },
+   "temas": [
+    "conflicto",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g4e666bf2c789"
+  },
+  {
+   "id": "f14b454caab5",
+   "fuente": "mining_technology",
+   "fuenteNombre": "Mining Technology – Minería",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Slam Exploration drills two holes at Moose Lake project",
+   "link": "https://www.mining-technology.com/news/slam-drills-two-holes-moose-lake/",
+   "fecha": "2026-10-26T09:59:22.000Z",
+   "obtenido": "2026-10-26T11:34:17.379Z",
+   "fechaEstimada": false,
+   "extracto": "Slam Exploration has reported the completion of two diamond drill holes at its Moose Lake Gold-Antimony-Silver Project in the Bathurst Mining Camp, New Brunswick, Canada. The post Slam Exploration drills two holes at Moose Lake project appeared first on Mining Technology .",
+   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-3-26Oct26-shutterstock_2623094045-2.jpg",
+   "imagenes": [
+    "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-3-26Oct26-shutterstock_2623094045-2.jpg"
+   ],
+   "imagenCredito": "Mining Technology – Minería",
+   "tax": 5,
+   "paises": [
+    "ca"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [
+    "oro",
+    "plata",
+    "tierras_raras"
+   ],
+   "categorias": [
+    "preciosos",
+    "industriales"
+   ],
+   "coincidencias": {
+    "oro": "gold",
+    "plata": "silver",
+    "tierras_raras": "antimony"
+   },
+   "temas": [
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gf14b454caab5"
+  },
+  {
+   "id": "0708bd4f3e57",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Saudi Arabia confirms January start for Asian Cup 2027 despite attacks",
+   "link": "https://www.aljazeera.com/sports/2026/10/26/saudi-arabia-confirms-january-start-for-asian-cup-2027-despite-attacks?traffic_source=rss",
+   "fecha": "2026-10-26T09:52:58.000Z",
+   "obtenido": "2026-10-26T11:34:16.754Z",
+   "fechaEstimada": false,
+   "extracto": "Asian Cup 2027 to kick off on January 7 with Saudi Arabia facing Palestine in Riyadh as the AFC announces the schedule.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "sa",
+    "ps"
+   ],
+   "regiones": [
+    "me",
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g0708bd4f3e57"
+  },
+  {
+   "id": "20d9b23b865c",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Algeria’s military deployment to Niger: What’s behind the move?",
+   "link": "https://www.aljazeera.com/news/2026/10/26/algerias-military-deployment-to-niger-whats-behind-the-move?traffic_source=rss",
+   "fecha": "2026-10-26T09:52:11.000Z",
+   "obtenido": "2026-10-26T11:34:16.754Z",
+   "fechaEstimada": false,
+   "extracto": "This will be Algeria's first foreign troop deployment in 50 years as the country shifts its military doctrine.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "dz"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g20d9b23b865c"
+  },
+  {
+   "id": "dcfd1f9c96ea",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Europe's Natural Gas Prices Soar to Four-Year High as Winter Looms",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Natural-Gas-Prices-Soar-to-Four-Year-High-as-Winter-Looms.html",
+   "fecha": "2026-10-26T09:30:00.000Z",
+   "obtenido": "2026-10-26T11:34:17.432Z",
+   "fechaEstimada": false,
+   "extracto": "Europe’s benchmark natural gas price jumped by 2% at opening in Amsterdam on Monday, extending the 7% weekly gain from last week, as concerns mount that the gas withdrawal season has started amid no signs that Qatar’s LNG flows would return anytime soon. The front-month price at the Dutch Title Transfer Facility…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "nl",
+    "qa"
+   ],
+   "regiones": [
+    "eu",
+    "me"
+   ],
+   "materias": [
+    "gas_natural"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "gas_natural": "natural gas"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "gdcfd1f9c96ea"
+  },
+  {
+   "id": "f737e8530d3d",
+   "fuente": "ecb",
+   "fuenteNombre": "Banco Central Europeo – Prensa y discursos",
+   "tipoFuente": "oficial",
+   "idioma": "en",
+   "titulo": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
+   "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261026~bde7b6d11a.en.html",
+   "fecha": "2026-10-26T09:00:00.000Z",
+   "obtenido": "2026-10-26T11:34:17.853Z",
+   "fechaEstimada": false,
+   "extracto": "",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Banco Central Europeo – Prensa y discursos",
+   "tax": 5,
+   "paises": [
+    "eu"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "politica_monetaria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gf737e8530d3d"
+  },
+  {
+   "id": "43a87f7f9797",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Do Palestinians in Gaza expect anything to change after Israel’s election?",
+   "link": "https://www.aljazeera.com/news/2026/10/26/do-palestinians-in-gaza-expect-anything-to-change-after-israels-election?traffic_source=rss",
+   "fecha": "2026-10-26T08:43:39.000Z",
+   "obtenido": "2026-10-26T11:34:16.755Z",
+   "fechaEstimada": false,
+   "extracto": "After years of war, displacement and restrictions, Gazans ask whether Israel’s election will affect their future.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "il",
+    "ps"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g43a87f7f9797"
+  },
+  {
+   "id": "b37aa884c34a",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "India's Stock Market Feels the Heat From High Oil Prices",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Stock-Market-Feels-the-Heat-From-High-Oil-Prices.html",
+   "fecha": "2026-10-26T08:30:00.000Z",
+   "obtenido": "2026-10-26T11:34:17.432Z",
+   "fechaEstimada": false,
+   "extracto": "The latest jump in oil prices has disturbed Indian equities, with both major indices starting the week with losses and 12 out of India’s 16 sectors booking losses, Reuters reported earlier in the day. With Brent crude trading at over $114 per barrel, it is not hard to see why investor sentiment in the world’s…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "in"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "oil prices",
+    "brent": "oil prices"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "gb37aa884c34a"
+  },
+  {
+   "id": "1acb98decd33",
+   "fuente": "mining_technology",
+   "fuenteNombre": "Mining Technology – Minería",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Halo Minerals receives mining permit for Playa Verde project in Chile",
+   "link": "https://www.mining-technology.com/news/halo-minerals-mining-permit-playa-verde/",
+   "fecha": "2026-10-26T07:51:26.000Z",
+   "obtenido": "2026-10-26T11:34:17.379Z",
+   "fechaEstimada": false,
+   "extracto": "The post Halo Minerals receives mining permit for Playa Verde project in Chile appeared first on Mining Technology .",
+   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-1-26Oct26-shutterstock_2396109055-1.jpg",
+   "imagenes": [
+    "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-1-26Oct26-shutterstock_2396109055-1.jpg"
+   ],
+   "imagenCredito": "Mining Technology – Minería",
+   "tax": 5,
+   "paises": [
+    "cl"
+   ],
+   "regiones": [
+    "latam"
+   ],
+   "materias": [],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {},
+   "temas": [
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g1acb98decd33"
+  },
+  {
+   "id": "d7d53dde6cea",
+   "fuente": "mining_technology",
+   "fuenteNombre": "Mining Technology – Minería",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Copper One begins 10,000ft drilling programme at Majuba Hill",
+   "link": "https://www.mining-technology.com/news/copper-one-10000ft-drilling-majuba-hill/",
+   "fecha": "2026-10-26T07:51:17.000Z",
+   "obtenido": "2026-10-26T11:34:17.380Z",
+   "fechaEstimada": false,
+   "extracto": "Copper One Resources has started an expanded diamond core drilling programme at its wholly-owned Majuba Hill copper-silver-gold project in Pershing County, Nevada, US. The post Copper One begins 10,000ft drilling programme at Majuba Hill appeared first on Mining Technology .",
+   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Majuba-Hill-Project.jpg",
+   "imagenes": [
+    "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Majuba-Hill-Project.jpg"
+   ],
+   "imagenCredito": "Mining Technology – Minería",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [
+    "oro",
+    "plata",
+    "cobre"
+   ],
+   "categorias": [
+    "preciosos",
+    "industriales"
+   ],
+   "coincidencias": {
+    "oro": "gold",
+    "plata": "silver",
+    "cobre": "copper"
+   },
+   "temas": [
+    "energia",
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "En la plata y los metales industriales, la actividad industrial pesa en la demanda; en el oro, la demanda de inversión y de bancos centrales suele pesar más."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gd7d53dde6cea"
+  },
+  {
+   "id": "b805b21c65a3",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Officials from Mecca pact states to hold talks in Iran amid regional tensions",
+   "link": "https://www.aljazeera.com/news/2026/10/26/officials-from-mecca-pact-states-to-hold-talks-in-iran-amid-regional-tensions?traffic_source=rss",
+   "fecha": "2026-10-26T07:33:47.000Z",
+   "obtenido": "2026-10-26T11:34:16.756Z",
+   "fechaEstimada": false,
+   "extracto": "Talks to be first high-level contact between Iran and the bloc since Houthi rebels escalated attacks on Saudi Arabia.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "sa",
+    "ir",
+    "ye"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gb805b21c65a3"
+  },
+  {
+   "id": "ea990d0e627e",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Photos: Lula supporters flood streets in celebration of historic win",
+   "link": "https://www.aljazeera.com/gallery/2026/10/26/photos-lula-supporters-flood-streets-in-celebration-of-historic-win?traffic_source=rss",
+   "fecha": "2026-10-26T07:24:58.000Z",
+   "obtenido": "2026-10-26T11:34:16.756Z",
+   "fechaEstimada": false,
+   "extracto": "Avenues and squares in Rio de Janeiro and Sao Paulo filled with crowds dressed in red, celebrating democracy.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "br"
+   ],
+   "regiones": [
+    "latam"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gea990d0e627e"
+  },
+  {
+   "id": "ab417417e715",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Saudi Arabia Turns to Singapore for Oil Storage",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Turns-to-Singapore-for-Oil-Storage.html",
+   "fecha": "2026-10-26T07:15:00.000Z",
+   "obtenido": "2026-10-26T11:34:17.433Z",
+   "fechaEstimada": false,
+   "extracto": "Saudi Arabia has struck a deal with the Singaporean government to store crude oil in underground caverns in the city-state, Bloomberg reported today. The report follows the latest Houthi attacks on Saudi infrastructure over the weekend, which included oil facilities among their targets. The Saudi crude will be stored…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "sa",
+    "ye",
+    "sg"
+   ],
+   "regiones": [
+    "me",
+    "as"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "crude",
+    "brent": "crude"
+   },
+   "temas": [
+    "conflicto",
+    "inventarios"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gab417417e715"
+  },
+  {
+   "id": "1dbf271aa6b5",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Jordan arrests three suspects in deadly church attack",
+   "link": "https://www.aljazeera.com/news/2026/10/26/jordan-arrests-three-suspects-in-deadly-church-attack?traffic_source=rss",
+   "fecha": "2026-10-26T07:03:07.000Z",
+   "obtenido": "2026-10-26T11:34:16.756Z",
+   "fechaEstimada": false,
+   "extracto": "Suspects refuse to surrender and attack security forces, who return fire, wound and arrest them, authorities say.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g1dbf271aa6b5"
+  },
+  {
+   "id": "a51d6de29203",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Dakar Rally 2027 moved out of Saudi Arabia amid conflict in Middle East",
+   "link": "https://www.aljazeera.com/sports/2026/10/26/dakar-rally-2027-moved-out-of-saudi-arabia-amid-conflict-in-middle-east?traffic_source=rss",
+   "fecha": "2026-10-26T06:29:10.000Z",
+   "obtenido": "2026-10-26T11:34:16.756Z",
+   "fechaEstimada": false,
+   "extracto": "Organisers of January's off-road race say it will be relocated due to recent developments in the region.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "sa"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "ga51d6de29203"
+  },
+  {
+   "id": "ed0d72744958",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Oil Prices Dip but Hold Above $100 as Middle East Supply Threats Mount",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Dip-but-Hold-Above-100-as-Middle-East-Supply-Threats-Mount.html",
+   "fecha": "2026-10-26T06:03:45.000Z",
+   "obtenido": "2026-10-26T11:34:17.434Z",
+   "fechaEstimada": false,
+   "extracto": "Crude oil prices began trading with a dip this week but remain significantly elevated as hostilities between Yemen’s Houthis and Saudi Arabia, as well as Iranian attacks on tankers in the Persian Gulf, continue. At the time of writing, Brent crude was trading at $114.42 per barrel, down from over $116 per barrel last…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "sa",
+    "ir",
+    "ye"
+   ],
+   "regiones": [
+    "na",
+    "me"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "oil prices",
+    "brent": "oil prices"
+   },
+   "temas": [
+    "conflicto",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "ged0d72744958"
+  },
+  {
    "id": "4aa2eb3e52ea",
    "fuente": "ecb",
    "fuenteNombre": "Banco Central Europeo – Prensa y discursos",
@@ -840,6 +1829,48 @@
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
    "grupo": "g4aa2eb3e52ea"
+  },
+  {
+   "id": "e339937ff21f",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Hutíes lanzan misil contra aeropuerto internacional de Riad",
+   "link": "https://www.dw.com/es/hutíes-lanzan-misil-contra-aeropuerto-internacional-de-riad/a-79759038?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-26T04:59:00.000Z",
+   "obtenido": "2026-10-26T11:34:16.783Z",
+   "fechaEstimada": false,
+   "extracto": "La autoridad hutí informó que el ataque con misil “alcanzó su objetivo con precisión\" en Arabia Saudita.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "DW Español",
+   "tax": 5,
+   "paises": [
+    "sa",
+    "ye"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "ge339937ff21f"
   },
   {
    "id": "294c05df272f",
