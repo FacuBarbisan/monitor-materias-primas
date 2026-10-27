@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-26T21:55:46.580Z",
+ "generado": "2026-10-27T01:31:04.183Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -790,6 +790,491 @@
  },
  "items": [
   {
+   "id": "3e34e7a03b6a",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Healey vows cheaper marmalade and gherkins in pre-Budget package of 'everyday fixes'",
+   "link": "https://www.bbc.co.uk/news/articles/c6d93gq1xdgno?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-27T01:10:22.000Z",
+   "obtenido": "2026-10-27T01:30:23.154Z",
+   "fechaEstimada": false,
+   "extracto": "The chancellor will axe tariffs on some staples as part of plans to give households \"breathing space\".",
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c2c/live/35815a70-d173-11f1-9d71-6d5ae0660afe.jpg",
+   "imagenes": [
+    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c2c/live/35815a70-d173-11f1-9d71-6d5ae0660afe.jpg"
+   ],
+   "imagenCredito": "BBC News – Business",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "politica_fiscal",
+    "aranceles"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g3e34e7a03b6a"
+  },
+  {
+   "id": "ee8a248034d7",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Taiwan looks to autonomous swarms to counter Beijing’s grey-zone pressure",
+   "link": "https://www.scmp.com/news/china/military/article/3372189/taiwan-looks-autonomous-swarms-counter-beijings-grey-zone-pressure",
+   "fecha": "2026-10-27T01:00:10.000Z",
+   "obtenido": "2026-10-27T01:30:23.892Z",
+   "fechaEstimada": false,
+   "extracto": "Taiwan is developing an AI-powered system to coordinate drone fleets for maritime surveillance and countering “grey-zone” activities, with researchers completing a simulation involving 20 aircraft, according to the island’s Ocean Affairs Council. The system, which is funded by the council, would allow different types…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/26/f093978d-1a79-41a3-934e-c3cb457a1338_eb126986.jpg?itok=w4v3sTSh&v=1793015969",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/26/f093978d-1a79-41a3-934e-c3cb457a1338_eb126986.jpg?itok=w4v3sTSh&v=1793015969"
+   ],
+   "imagenCredito": "South China Morning Post – China",
+   "tax": 5,
+   "paises": [
+    "cn",
+    "tw"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gee8a248034d7"
+  },
+  {
+   "id": "7de546e9a215",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "What message is China sending with latest footage of ‘no-notice’ DF rocket drill?",
+   "link": "https://www.scmp.com/news/china/military/article/3372206/what-message-china-sending-latest-footage-no-notice-df-rocket-drill",
+   "fecha": "2026-10-27T00:00:19.000Z",
+   "obtenido": "2026-10-27T01:30:23.893Z",
+   "fechaEstimada": false,
+   "extracto": "China has released footage of its troops carrying out a “no-notice” rocket launch as part of an ongoing effort by state media to showcase the People’s Liberation Army’s rapid-response capabilities. State broadcaster CCTV on Monday released a brief video showing the exercise in mountainous terrain and said it had been…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/26/7784ecb4-80ad-4446-8804-65aca1a2a336_cd1e8a83.jpg?itok=3jsQjiul&v=1793024464",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/26/7784ecb4-80ad-4446-8804-65aca1a2a336_cd1e8a83.jpg?itok=3jsQjiul&v=1793024464"
+   ],
+   "imagenCredito": "South China Morning Post – China",
+   "tax": 5,
+   "paises": [
+    "cn"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g7de546e9a215"
+  },
+  {
+   "id": "d045374d88f1",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Iran war live: Iran says US ‘not serious’ about talks; ship ablaze off Iraq",
+   "link": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-iran-says-us-not-serious-on-talks-ship-on-fire-off-iraq?traffic_source=rss",
+   "fecha": "2026-10-27T00:00:00.000Z",
+   "obtenido": "2026-10-27T01:30:23.419Z",
+   "fechaEstimada": false,
+   "extracto": "Iran says the United States is \"not serious\" about negotiations as UKMTO reports a ship on fire off the coast of Iraq.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ir",
+    "iq"
+   ],
+   "regiones": [
+    "na",
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gd045374d88f1"
+  },
+  {
+   "id": "a2ed10463eb3",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "UK Weighs Scrapping Its Largest Untapped Oilfield With Oil Over $100",
+   "link": "https://oilprice.com/Energy/Crude-Oil/UK-Weighs-Scrapping-Its-Largest-Untapped-Oilfield-With-Oil-Over-100.html",
+   "fecha": "2026-10-27T00:00:00.000Z",
+   "obtenido": "2026-10-27T01:30:23.964Z",
+   "fechaEstimada": false,
+   "extracto": "Britain is deciding whether to drill its largest untapped oilfield in the middle of an oil shock, with Brent above 100 and more than 70% of its oil already coming from abroad. Rosebank, west of Shetland, is an £8.7 billion (~11.6 billion) development that its operator says would pump about 69,000 barrels a day at…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "gb"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "oilfield",
+    "brent": "oilfield"
+   },
+   "temas": [
+    "energia",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "ga2ed10463eb3"
+  },
+  {
+   "id": "0ac4b0fce346",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Jordan strikes Syria after church attack, killing at least seven people",
+   "link": "https://www.aljazeera.com/news/2026/10/26/jordan-launches-air-strikes-in-syria-in-response-to-a-fatal-church-shooting?traffic_source=rss",
+   "fecha": "2026-10-26T23:50:11.000Z",
+   "obtenido": "2026-10-27T01:30:23.420Z",
+   "fechaEstimada": false,
+   "extracto": "Syria closes border crossings with Jordan after air strikes kill seven people in Deraa and Suweyda, including children.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "sy"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gb5973b5c1918"
+  },
+  {
+   "id": "b5973b5c1918",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Jordan attacks Syria in response to Karak church attack",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/26/jordan-attacks-syria-in-response-to-karak-church-attack?traffic_source=rss",
+   "fecha": "2026-10-26T23:48:51.000Z",
+   "obtenido": "2026-10-27T01:30:23.420Z",
+   "fechaEstimada": false,
+   "extracto": "Jordan’s air force has carried out several strikes in southern Syria in response to Friday’s church attack.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "sy"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gb5973b5c1918"
+  },
+  {
+   "id": "fbe8d3ce3ae3",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Beijing Pushes Domestic Oil Production as Iranian Supply Dries Up",
+   "link": "https://oilprice.com/Energy/Crude-Oil/Beijing-Pushes-Domestic-Oil-Production-as-Iranian-Supply-Dries-Up.html",
+   "fecha": "2026-10-26T23:00:00.000Z",
+   "obtenido": "2026-10-27T01:30:23.965Z",
+   "fechaEstimada": false,
+   "extracto": "China needs its biggest oil and gas producers to drill more, explore more, and build strategic supply bases as the Iran war forces Beijing to confront an uncomfortable reality: even the world's largest crude stockpile cannot replace a dependable supply of oil indefinitely. China's National Energy Administration has…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "ir",
+    "cn"
+   ],
+   "regiones": [
+    "me",
+    "as"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "oil production",
+    "brent": "oil production"
+   },
+   "temas": [
+    "conflicto",
+    "energia",
+    "inventarios"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gfbe8d3ce3ae3"
+  },
+  {
+   "id": "f03eb158b007",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Alleged Russian Funding Prompts Executive Exodus at U.S. LNG Firm",
+   "link": "https://oilprice.com/Energy/Natural-Gas/Alleged-Russian-Funding-Prompts-Executive-Exodus-at-US-LNG-Firm.html",
+   "fecha": "2026-10-26T22:00:00.000Z",
+   "obtenido": "2026-10-27T01:30:23.966Z",
+   "fechaEstimada": false,
+   "extracto": "The top executives of U.S. energy startup Polar LNG have all resigned in recent weeks, just six months after the company was launched, amid a controversy over alleged funding and control of the venture’s strategy by Russia’s biggest LNG developer and exporter, privately-held Novatek. The senior managers who left Polar…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ru"
+   ],
+   "regiones": [
+    "na",
+    "eurasia"
+   ],
+   "materias": [
+    "gas_natural"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "gas_natural": "lng"
+   },
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gf03eb158b007"
+  },
+  {
+   "id": "26577f60d1c4",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Africa food security under threat due to Iran war, trade officials warn",
+   "link": "https://www.aljazeera.com/news/2026/10/26/africa-food-security-under-threat-due-to-iran-war-warn-trade-officials?traffic_source=rss",
+   "fecha": "2026-10-26T21:42:18.000Z",
+   "obtenido": "2026-10-27T01:30:23.421Z",
+   "fechaEstimada": false,
+   "extracto": "The war on Iran is driving up fuel and fertiliser costs across Africa, threatening food security, trade officials say.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "ir"
+   ],
+   "regiones": [
+    "me",
+    "af"
+   ],
+   "materias": [],
+   "categorias": [
+    "fertilizantes"
+   ],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g26577f60d1c4"
+  },
+  {
    "id": "51ef758d94dc",
    "fuente": "f24_latam",
    "fuenteNombre": "France 24 Español – América Latina",
@@ -900,6 +1385,50 @@
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
    "grupo": "g21021b41ddb6"
+  },
+  {
+   "id": "218f9c2272b8",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Ucrania contra Rusia en África: la peligrosa alianza de Ucrania con rebeldes y yihadistas en Mali",
+   "link": "https://www.dw.com/es/ucrania-contra-rusia-en-áfrica-la-peligrosa-alianza-de-ucrania-con-rebeldes-y-yihadistas-en-mali/a-79770244?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-26T20:59:00.000Z",
+   "obtenido": "2026-10-27T01:30:23.233Z",
+   "fechaEstimada": false,
+   "extracto": "Especialistas ucranianos en drones estarían apoyando a rebeldes tuareg que luchan junto a yihadistas contra el gobierno militar de Mali y las fuerzas rusas. Una alianza arriesgada.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "DW Español",
+   "tax": 5,
+   "paises": [
+    "ua",
+    "ru"
+   ],
+   "regiones": [
+    "eu",
+    "eurasia",
+    "af"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g218f9c2272b8"
   },
   {
    "id": "70923da52b02",
@@ -4148,25 +4677,9 @@
    "materias": [],
    "categorias": [],
    "coincidencias": {},
-   "temas": [
-    "sanciones"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     },
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
+   "temas": [],
+   "relevante": false,
+   "impacto": null,
    "grupo": "g0f2348bdc2ba"
   },
   {
