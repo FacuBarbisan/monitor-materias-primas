@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-27T01:31:04.183Z",
+ "generado": "2026-10-27T06:51:58.130Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -789,6 +789,343 @@
   ]
  },
  "items": [
+  {
+   "id": "116640c778c9",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Oil Prices Drop Despite Threat of New U.S. Strikes on Iran",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Drop-Despite-Threat-of-New-US-Strikes-on-Iran.html",
+   "fecha": "2026-10-27T06:15:57.000Z",
+   "obtenido": "2026-10-27T06:51:55.989Z",
+   "fechaEstimada": false,
+   "extracto": "Crude oil prices moved lower today after reports about renewed diplomatic efforts to achieve peace in the Middle East, with Saudi, Turkish, and Pakistani officials travelling to Tehran to discuss the prospects of an end to hostilities. At the time of writing, Brent crude was trading at $114.85 per barrel, with West…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "tr",
+    "sa",
+    "ir",
+    "ye",
+    "pk"
+   ],
+   "regiones": [
+    "na",
+    "me",
+    "as"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "oil prices",
+    "brent": "oil prices"
+   },
+   "temas": [
+    "conflicto",
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g116640c778c9"
+  },
+  {
+   "id": "6f2d6c86f5ea",
+   "fuente": "scmp_business",
+   "fuenteNombre": "South China Morning Post – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Moonshot apologises after Kimi K3.1 Pro roll-out stumbles as promotional scrutiny widens",
+   "link": "https://www.scmp.com/tech/big-tech/article/3372247/moonshot-apologises-after-kimi-k31-pro-roll-out-stumbles-promotional-scrutiny-widens",
+   "fecha": "2026-10-27T06:00:10.000Z",
+   "obtenido": "2026-10-27T06:51:55.345Z",
+   "fechaEstimada": false,
+   "extracto": "Chinese artificial intelligence start-up Moonshot AI, developer of the popular Kimi series, apologised on Monday for limiting customers’ use of its latest model, in a botched roll-out that has also invited scrutiny over its promotional practices and cybersecurity measures. “We’re sorry for the rate limits and…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/27/7bcdba6b-8e0c-4a82-aa80-babeaee14542_04426242.jpg?itok=7197M_L_&v=1793076330",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/27/7bcdba6b-8e0c-4a82-aa80-babeaee14542_04426242.jpg?itok=7197M_L_&v=1793076330"
+   ],
+   "imagenCredito": "South China Morning Post – Business",
+   "tax": 5,
+   "paises": [
+    "cn"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "aranceles"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g6f2d6c86f5ea"
+  },
+  {
+   "id": "5b1706282e1d",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Saudi-led coalition says it downed Houthi missiles and drones",
+   "link": "https://www.aljazeera.com/news/2026/10/27/saudi-led-coalition-destroys-four-houthi-drones?traffic_source=rss",
+   "fecha": "2026-10-27T04:54:26.000Z",
+   "obtenido": "2026-10-27T06:51:54.707Z",
+   "fechaEstimada": false,
+   "extracto": "The attacks come as top officials from Saudi Arabia, Turkiye, Pakistan and Iran met in Tehran to de-escalate conflict.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "tr",
+    "sa",
+    "ir",
+    "ye",
+    "pk"
+   ],
+   "regiones": [
+    "me",
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g5b1706282e1d"
+  },
+  {
+   "id": "94ca8d46df83",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "People missing after massive drilling platform sinks off Gabon",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/27/people-missing-after-massive-drilling-platform-sinks-off-gabon?traffic_source=rss",
+   "fecha": "2026-10-27T04:45:16.000Z",
+   "obtenido": "2026-10-27T06:51:54.707Z",
+   "fechaEstimada": false,
+   "extracto": "Five people are missing after a massive offshore drilling platform sank into the sea off Gabon’s southern coast.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g94ca8d46df83"
+  },
+  {
+   "id": "7edd61a23b34",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Chinese scientists create powerful catalyst to turn air on Mars into rocket fuel",
+   "link": "https://www.scmp.com/news/china/science/article/3372123/chinese-scientists-create-powerful-catalyst-turn-air-mars-rocket-fuel",
+   "fecha": "2026-10-27T04:00:34.000Z",
+   "obtenido": "2026-10-27T06:51:55.287Z",
+   "fechaEstimada": false,
+   "extracto": "Chinese space scientists are working out how future astronauts on Mars could make their own fuel out of thin air, a sign that Beijing is serious about one day sending people to the red planet. A team at the state-funded Deep Space Exploration Laboratory in Hefei has developed a catalyst that turns carbon dioxide –…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/26/5e202978-c70d-4d8a-96a3-b82aaba89694_2e9e0e04.jpg?itok=8ym_f39Y&v=1792991728",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/26/5e202978-c70d-4d8a-96a3-b82aaba89694_2e9e0e04.jpg?itok=8ym_f39Y&v=1792991728"
+   ],
+   "imagenCredito": "South China Morning Post – China",
+   "tax": 5,
+   "paises": [
+    "cn"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g7edd61a23b34"
+  },
+  {
+   "id": "5ea81059009d",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Russia halts strikes on Ukraine’s Kherson as Oleshky ceasefire takes effect",
+   "link": "https://www.aljazeera.com/news/2026/10/27/russia-halts-strikes-on-ukraines-kherson-as-oleshky-ceasefire-takes-effect?traffic_source=rss",
+   "fecha": "2026-10-27T02:29:00.000Z",
+   "obtenido": "2026-10-27T06:51:54.709Z",
+   "fechaEstimada": false,
+   "extracto": "The localised ceasefire, secured by US First Lady Melania Trump, will allow evacuations and aid deliveries to Oleshky.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ua",
+    "ru"
+   ],
+   "regiones": [
+    "na",
+    "eu",
+    "eurasia"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g5ea81059009d"
+  },
+  {
+   "id": "e5f5ffe4742f",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Comienza una tregua en la devastada ciudad de Oleshki, ocupada por Rusia",
+   "link": "https://www.dw.com/es/comienza-una-tregua-en-la-devastada-ciudad-de-oleshki-ocupada-por-rusia/a-79771333?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-27T02:08:00.000Z",
+   "obtenido": "2026-10-27T06:51:54.940Z",
+   "fechaEstimada": false,
+   "extracto": "El alto el fuego temporal busca aliviar la grave crisis humanitaria en la ciudad sureña, donde solo quedan unos 2.000 habitantes.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "DW Español",
+   "tax": 5,
+   "paises": [
+    "ru"
+   ],
+   "regiones": [
+    "eurasia"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "ge5f5ffe4742f"
+  },
   {
    "id": "3e34e7a03b6a",
    "fuente": "bbc_business",
@@ -12949,49 +13286,6 @@
    "imagenes": [
     "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/16-10-2026-Unsplash-air-traffic-02.jpg/image560x340cropped.jpg"
    ]
-  },
-  {
-   "id": "e545c030814a",
-   "fuente": "ecb",
-   "fuenteNombre": "Banco Central Europeo – Prensa y discursos",
-   "tipoFuente": "oficial",
-   "idioma": "en",
-   "titulo": "Christine Lagarde: IMFC Statement",
-   "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html",
-   "fecha": "2026-10-17T05:00:00.000Z",
-   "obtenido": "2026-10-24T21:35:34.020Z",
-   "fechaEstimada": false,
-   "extracto": "",
-   "paises": [
-    "eu"
-   ],
-   "regiones": [
-    "eu"
-   ],
-   "materias": [],
-   "temas": [
-    "politica_monetaria"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "tasas",
-      "nombre": "Tasas de interés",
-      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
-     },
-     {
-      "canal": "dolar",
-      "nombre": "Dólar",
-      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "ge545c030814a",
-   "categorias": [],
-   "coincidencias": {},
-   "tax": 5
   }
  ]
 }
