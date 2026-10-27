@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-27T19:00:17.957Z",
+ "generado": "2026-10-27T22:59:59.315Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -790,6 +790,566 @@
  },
  "items": [
   {
+   "id": "548a1a05caef",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "'Tone deaf at best' - advice to stock up on essentials worries experts and low-income families",
+   "link": "https://www.bbc.co.uk/news/articles/c6x238kpxj8do?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-27T22:51:50.000Z",
+   "obtenido": "2026-10-27T22:59:26.237Z",
+   "fechaEstimada": false,
+   "extracto": "Some families say they cannot afford to stockpile in line with the government's advice.",
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0e6/live/7feaccc0-d210-11f1-b3b6-c1e79e957e40.jpg",
+   "imagenes": [
+    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0e6/live/7feaccc0-d210-11f1-b3b6-c1e79e957e40.jpg"
+   ],
+   "imagenCredito": "BBC News – Business",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "inventarios"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g548a1a05caef"
+  },
+  {
+   "id": "db21c104226c",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Iran war live: Pezeshkian says Middle East can solve own issues without US",
+   "link": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-pezeshkian-says-middle-east-can-solve-own-issues-without-us?traffic_source=rss",
+   "fecha": "2026-10-27T22:29:31.000Z",
+   "obtenido": "2026-10-27T22:59:26.331Z",
+   "fechaEstimada": false,
+   "extracto": "Iranian president's words came at summit for gas exporting countries in Russia.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "ru",
+    "ir",
+    "us"
+   ],
+   "regiones": [
+    "eurasia",
+    "me",
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gdb21c104226c"
+  },
+  {
+   "id": "fc6ed4830c64",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Will Rubio’s Jamnagar Move Permanently Break The Russia-India Oil Axis?",
+   "link": "https://oilprice.com/Energy/Energy-General/Will-Rubios-Jamnagar-Move-Permanently-Break-The-Russia-India-Oil-Axis.html",
+   "fecha": "2026-10-27T22:00:00.000Z",
+   "obtenido": "2026-10-27T22:59:27.200Z",
+   "fechaEstimada": false,
+   "extracto": "The announcement by India’s largest private refiner Reliance Industries Ltd that it is open to collaborating with U.S. companies across oil, gas and clean energy, including in Venezuela, is a welcome signal to Washington that all is not lost in its ongoing attempts to utilise the Asian subcontinent as a key economic,…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ve",
+    "ru",
+    "cn",
+    "in"
+   ],
+   "regiones": [
+    "na",
+    "latam",
+    "eurasia",
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "actividad",
+    "conflicto",
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gfc6ed4830c64"
+  },
+  {
+   "id": "b13fcb31525a",
+   "fuente": "infocampo",
+   "fuenteNombre": "Infocampo – Agro y mercados",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "El Niño: las provincias avanzan con obras preventivas y la hidrovía suma “refuerzos” internacionales",
+   "link": "https://www.infocampo.com.ar/el-nino-las-provincias-avanzan-con-obras-preventivas-y-la-hidrovia-suma-refuerzos-internacionales/",
+   "fecha": "2026-10-27T21:34:35.000Z",
+   "obtenido": "2026-10-27T22:59:28.094Z",
+   "fechaEstimada": false,
+   "extracto": "Desde los gobiernos de Buenos Aires, Córdoba y Santa Fe repasaron en los últimos días las inversiones en marcha para reducir los posibles impactos de El Niño. A la par, la empresa concesionaria de la hidrovía informó que, ante las crecidas del Paraná, está trayendo dragas desde Singapur y Croacia para reforzar los…",
+   "imagen": "https://www.infocampo.com.ar/wp-content/uploads/2026/10/obras-hidricas-canales-buenos-aires.png",
+   "imagenes": [
+    "https://www.infocampo.com.ar/wp-content/uploads/2026/10/obras-hidricas-canales-buenos-aires.png",
+    "https://www.infocampo.com.ar/wp-content/uploads/2026/10/obra-hidrica-desague-buenos-aires.png",
+    "https://www.infocampo.com.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-27-at-15.02.19.jpeg",
+    "https://www.infocampo.com.ar/wp-content/uploads/2026/10/virginia-coudannes.jpg",
+    "https://www.infocampo.com.ar/wp-content/uploads/2026/10/obra-hidrica-buenos-aires.png"
+   ],
+   "imagenCredito": "Infocampo – Agro y mercados",
+   "tax": 5,
+   "paises": [
+    "ar",
+    "sg"
+   ],
+   "regiones": [
+    "latam",
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gb13fcb31525a"
+  },
+  {
+   "id": "9200cef604c1",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Trump showcases Venezuelan oil as he seeks to rally voters in Texas",
+   "link": "https://www.aljazeera.com/news/2026/10/27/trump-showcases-venezuelan-oil-as-he-seeks-to-rally-voters-in-texas?traffic_source=rss",
+   "fecha": "2026-10-27T21:28:33.000Z",
+   "obtenido": "2026-10-27T22:59:26.332Z",
+   "fechaEstimada": false,
+   "extracto": "US president seeks to highlight Venezuela operation as Iran war makes affordability a key midterm issue.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ve",
+    "ir"
+   ],
+   "regiones": [
+    "na",
+    "latam",
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g9200cef604c1"
+  },
+  {
+   "id": "4d68ff0aefa3",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Forever Wars: Why can’t America stop?",
+   "link": "https://www.aljazeera.com/video/lets-focus/2026/10/27/forever-wars-why-cant-america-stop?traffic_source=rss",
+   "fecha": "2026-10-27T21:21:08.000Z",
+   "obtenido": "2026-10-27T22:59:26.332Z",
+   "fechaEstimada": false,
+   "extracto": "Iran, Iraq, Afghanistan. Why does the US keep going to war, and can voters stop it?",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "ir",
+    "iq",
+    "us"
+   ],
+   "regiones": [
+    "me",
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g4d68ff0aefa3"
+  },
+  {
+   "id": "90265dae0a8b",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Dream postponed: Hebron groom caught in Israeli military lockdown",
+   "link": "https://www.aljazeera.com/news/2026/10/27/dream-postponed-hebron-groom-caught-in-israeli-military-lockdown?traffic_source=rss",
+   "fecha": "2026-10-27T21:12:27.000Z",
+   "obtenido": "2026-10-27T22:59:26.333Z",
+   "fechaEstimada": false,
+   "extracto": "Israel's military operation in West Bank's Hebron has disrupted Palestinian life, including a postponed wedding.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "il",
+    "ps"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g90265dae0a8b"
+  },
+  {
+   "id": "6f7781fe3be1",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Turkey’s Libya Deal Puts Oil Majors in a Bind",
+   "link": "https://oilprice.com/Energy/Energy-General/Turkeys-Libya-Deal-Puts-Oil-Majors-in-a-Bind.html",
+   "fecha": "2026-10-27T21:00:00.000Z",
+   "obtenido": "2026-10-27T22:59:27.201Z",
+   "fechaEstimada": false,
+   "extracto": "Turkey has finally gotten both sides of a divided Libya to sign the maritime map it has pushed for seven years. Ankara signed the boundary deal with Libya’s Tripoli government in 2019, and the rival parliament in the east rejected it in 2020. On October 20, that same parliament, the Haftar-aligned House of…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "tr",
+    "ly"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g6f7781fe3be1"
+  },
+  {
+   "id": "1cdf5ccaf64f",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "US Crude Oil Inventories Buck Analyst Expectations",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Inventories-Buck-Analyst-Expectations.html",
+   "fecha": "2026-10-27T20:56:11.000Z",
+   "obtenido": "2026-10-27T22:59:27.202Z",
+   "fechaEstimada": false,
+   "extracto": "The American Petroleum Institute (API) estimated that crude oil inventories in the United States fell by 2.031 million barrels in the week ending October 23. In the week prior, US crude oil inventories fell by a staggering 4.93 million barrels. Commercial crude oil inventories excluding the SPR have lost more than 58…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "crude",
+    "brent": "crude"
+   },
+   "temas": [
+    "inventarios"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g1cdf5ccaf64f"
+  },
+  {
+   "id": "884836ca9426",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Qatar’s Emir and Putin call for diplomacy amid US-Iran conflict",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/27/qatars-emir-and-putin-call-for-diplomacy-amid-us-iran-conflict?traffic_source=rss",
+   "fecha": "2026-10-27T19:36:01.000Z",
+   "obtenido": "2026-10-27T22:59:26.335Z",
+   "fechaEstimada": false,
+   "extracto": "Russian President Vladimir Putin and Qatar’s Emir, Sheikh Tamim bin Hamad Al Thani, met in Moscow.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "ru",
+    "qa",
+    "ir",
+    "us"
+   ],
+   "regiones": [
+    "eurasia",
+    "me",
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g884836ca9426"
+  },
+  {
+   "id": "3df91b027f6c",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Irán condena a 5 años de prisión al cineasta Jafar Panahi, según su abogado",
+   "link": "https://www.dw.com/es/irán-condena-a-5-años-de-prisión-al-cineasta-jafar-panahi-según-su-abogado/a-79781453?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-27T19:27:00.000Z",
+   "obtenido": "2026-10-27T22:59:26.399Z",
+   "fechaEstimada": false,
+   "extracto": "El tribunal ordenó la confiscación de todos los bienes del director, ganador el año pasado de la Palma de Oro en Cannes con la película 'Un simple accidente'. Ya había sido condenado por \"propaganda contra el régimen\".",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "DW Español",
+   "tax": 5,
+   "paises": [
+    "ir"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [
+    "oro"
+   ],
+   "categorias": [
+    "preciosos"
+   ],
+   "coincidencias": {
+    "oro": "oro"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "g3df91b027f6c"
+  },
+  {
+   "id": "0132828b58c5",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Alemania y el impacto del acuerdo de 4.000 millones entre Audi y Trump",
+   "link": "https://www.dw.com/es/alemania-y-el-impacto-del-acuerdo-de-4-000-millones-entre-audi-y-trump/a-79781203?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-27T19:06:00.000Z",
+   "obtenido": "2026-10-27T22:59:26.399Z",
+   "fechaEstimada": false,
+   "extracto": "Audi está a punto de inaugurar su primera fábrica en EE. UU., una medida que Trump atribuye a sus aranceles. DW analiza la reacción alemana en medio de una reducción masiva de la industria automotriz en el país.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "DW Español",
+   "tax": 5,
+   "paises": [
+    "us",
+    "de"
+   ],
+   "regiones": [
+    "na",
+    "eu"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "aranceles"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g0132828b58c5"
+  },
+  {
    "id": "eb1793e21be7",
    "fuente": "bbc_mundo",
    "fuenteNombre": "BBC News Mundo",
@@ -801,9 +1361,9 @@
    "obtenido": "2026-10-27T19:00:14.573Z",
    "fechaEstimada": true,
    "extracto": "El primer ministro israelí enfrenta una ajustada votación contra Gadi Eisenkot, un exmilitar que encabeza la oposición. Estas elecciones, las primeras desde los ataques liderados por Hamás contra Israel y las guerras que les siguieron, son vistas como un referéndum sobre Netanyahu.",
-   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5d53/live/fd8316b0-d1f7-11f1-b441-2b33b063138f.png",
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad6d/live/30378a50-d257-11f1-aea4-e9d772bed98c.jpg",
    "imagenes": [
-    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5d53/live/fd8316b0-d1f7-11f1-b441-2b33b063138f.png"
+    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad6d/live/30378a50-d257-11f1-aea4-e9d772bed98c.jpg"
    ],
    "imagenCredito": "BBC News Mundo",
    "tax": 5,
@@ -944,6 +1504,52 @@
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
    "grupo": "gcccc77875e33"
+  },
+  {
+   "id": "6012462515ec",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Rain brings temporary relief as Southeast Asia battles fires and toxic haze",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/27/indonesia-wildfires-rain-toxic-haze-southeast-asia?traffic_source=rss",
+   "fecha": "2026-10-27T18:41:28.000Z",
+   "obtenido": "2026-10-27T22:59:26.337Z",
+   "fechaEstimada": false,
+   "extracto": "Rain has offered brief relief from wildfires in Indonesia, but underground peat fires continue to burn",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "id"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g6012462515ec"
   },
   {
    "id": "db6de709465b",
@@ -2395,9 +3001,9 @@
    "obtenido": "2026-10-27T13:17:56.020Z",
    "fechaEstimada": false,
    "extracto": "Integrantes de una fuerza multinacional, se les perdió la pista el 18 de octubre. Desde entonces las interrogantes sobre el caso no han dejado de multiplicarse.",
-   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/184f/live/03a72d70-d215-11f1-a275-c5df85f1853c.png",
+   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/88c5/live/9aad39e0-d24b-11f1-8ba3-9fd3e261415f.png",
    "imagenes": [
-    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/184f/live/03a72d70-d215-11f1-a275-c5df85f1853c.png"
+    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/88c5/live/9aad39e0-d24b-11f1-8ba3-9fd3e261415f.png"
    ],
    "imagenCredito": "BBC News Mundo",
    "tax": 5,
