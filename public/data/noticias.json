@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-28T02:21:19.599Z",
+ "generado": "2026-10-28T09:01:26.480Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -789,6 +789,859 @@
   ]
  },
  "items": [
+  {
+   "id": "4103a6273f82",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Octopus Energy boss on standing charges",
+   "link": "https://www.bbc.co.uk/news/videos/cqe9lmgdnz45o?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-28T08:36:45.000Z",
+   "obtenido": "2026-10-28T09:00:36.562Z",
+   "fechaEstimada": false,
+   "extracto": "CEO Greg Jackson spoke to BBC Breakfast after the chancellor announced cuts to gas bills for millions.",
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3fca/live/3ace03a0-d2a6-11f1-a701-fddedf244c16.jpg",
+   "imagenes": [
+    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3fca/live/3ace03a0-d2a6-11f1-a701-fddedf244c16.jpg"
+   ],
+   "imagenCredito": "BBC News – Business",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g4103a6273f82"
+  },
+  {
+   "id": "329db33fd1f4",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Why the US midterms matter even if you don’t live in America",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/28/why-the-us-midterms-matter-even-if-you-dont-live-in-america?traffic_source=rss",
+   "fecha": "2026-10-28T08:15:19.000Z",
+   "obtenido": "2026-10-28T09:00:36.707Z",
+   "fechaEstimada": false,
+   "extracto": "From military aid and sanctions to trade and tariffs, the US midterms could shape decisions that affect millions.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto",
+    "sanciones",
+    "aranceles"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g329db33fd1f4"
+  },
+  {
+   "id": "46fd82656d13",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Cyclone Arnab makes landfall in India’s Andhra Pradesh",
+   "link": "https://www.aljazeera.com/news/2026/10/28/cyclone-arnab-makes-landfall-in-indias-andhra-pradesh?traffic_source=rss",
+   "fecha": "2026-10-28T08:07:26.000Z",
+   "obtenido": "2026-10-28T09:00:36.707Z",
+   "fechaEstimada": false,
+   "extracto": "Authorities evacuate 180,000 people as storm causes flooding, disrupting flights and train schedules.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "in"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g46fd82656d13"
+  },
+  {
+   "id": "c120cd63a55b",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Oil Traders Brace for Iran Escalation After U.S. Elections",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Traders-Brace-for-Iran-Escalation-After-US-Elections.html",
+   "fecha": "2026-10-28T07:50:00.000Z",
+   "obtenido": "2026-10-28T09:00:37.487Z",
+   "fechaEstimada": false,
+   "extracto": "Oil traders appear to be preparing for a resumption of hostilities in the Middle East following the U.S. midterm elections on November 3, and if such a resumption does not take place, oil prices are likely to drop, ING commodity strategists wrote today in a note. With President Trump repeatedly hinting at or outright…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ir"
+   ],
+   "regiones": [
+    "na",
+    "me"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "oil prices",
+    "brent": "oil prices"
+   },
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g62ddfa1a8d3c"
+  },
+  {
+   "id": "f17242284de4",
+   "fuente": "mining_technology",
+   "fuenteNombre": "Mining Technology – Minería",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Star Copper completes Star Project drill campaign in BC",
+   "link": "https://www.mining-technology.com/news/star-copper-completes-star-project-drill/",
+   "fecha": "2026-10-28T07:39:32.000Z",
+   "obtenido": "2026-10-28T09:00:37.503Z",
+   "fechaEstimada": false,
+   "extracto": "Star Copper has concluded its exploration campaign at the wholly owned Star Project in the Golden Triangle region of northwestern British Columbia (BC), Canada. The post Star Copper completes Star Project drill campaign in BC appeared first on Mining Technology .",
+   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-2-28Oct26-shutterstock_2785562171.jpg",
+   "imagenes": [
+    "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-2-28Oct26-shutterstock_2785562171.jpg"
+   ],
+   "imagenCredito": "Mining Technology – Minería",
+   "tax": 5,
+   "paises": [
+    "ca",
+    "gb"
+   ],
+   "regiones": [
+    "na",
+    "eu"
+   ],
+   "materias": [
+    "cobre"
+   ],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {
+    "cobre": "copper"
+   },
+   "temas": [
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gf17242284de4"
+  },
+  {
+   "id": "8ee4ef7127d0",
+   "fuente": "mining_technology",
+   "fuenteNombre": "Mining Technology – Minería",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Nova Minerals gains final approvals for Alaska antimony development",
+   "link": "https://www.mining-technology.com/news/nova-final-approvals-alaska-antimony-development/",
+   "fecha": "2026-10-28T07:39:24.000Z",
+   "obtenido": "2026-10-28T09:00:37.504Z",
+   "fechaEstimada": false,
+   "extracto": "Nova Minerals has secured final approvals from the Alaska Department of Natural Resources for its plan of operations and reclamation plan, completing the permitting process for its Alaska antimony project. The post Nova Minerals gains final approvals for Alaska antimony development appeared first on Mining Technology .",
+   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-1-28Oct26-shutterstock_2635529147-3.jpg",
+   "imagenes": [
+    "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-1-28Oct26-shutterstock_2635529147-3.jpg"
+   ],
+   "imagenCredito": "Mining Technology – Minería",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [
+    "tierras_raras"
+   ],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {
+    "tierras_raras": "antimony"
+   },
+   "temas": [
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g8ee4ef7127d0"
+  },
+  {
+   "id": "95bcc36bb7cd",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Elderly women and children survive Russian attack on Kharkiv",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/28/elderly-women-and-children-survive-russian-attack-on-kharkiv?traffic_source=rss",
+   "fecha": "2026-10-28T07:35:20.000Z",
+   "obtenido": "2026-10-28T09:00:36.708Z",
+   "fechaEstimada": false,
+   "extracto": "A Russian drone attack in Ukraine's Kharkiv late Tuesday forced elderly women and children to evacuate their homes.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "ua",
+    "ru"
+   ],
+   "regiones": [
+    "eu",
+    "eurasia"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g95bcc36bb7cd"
+  },
+  {
+   "id": "082007399000",
+   "fuente": "scmp_business",
+   "fuenteNombre": "South China Morning Post – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "China’s hybrid car exports to EU up 200%; response to Tesla’s ‘flying car’: 7 EV reads",
+   "link": "https://www.scmp.com/business/china-evs/article/3372399/chinas-hybrid-car-exports-eu-200-response-teslas-flying-car-7-ev-reads",
+   "fecha": "2026-10-28T07:30:08.000Z",
+   "obtenido": "2026-10-28T09:00:37.359Z",
+   "fechaEstimada": false,
+   "extracto": "We have put together stories from our coverage on electric and new energy vehicles from the past two weeks to help you stay informed. If you would like to see more of our reporting, please consider subscribing. 1. BYD to build new factories in Europe to beat trade barriers aimed at Chinese EVs China’s BYD will build…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/27d710cf-bbf7-4ac9-9983-38d7a09d6507_e7336d40.jpg?itok=U2lSnV5M&v=1793168068",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/27d710cf-bbf7-4ac9-9983-38d7a09d6507_e7336d40.jpg?itok=U2lSnV5M&v=1793168068"
+   ],
+   "imagenCredito": "South China Morning Post – Business",
+   "tax": 5,
+   "paises": [
+    "eu",
+    "cn"
+   ],
+   "regiones": [
+    "eu",
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "politica_fiscal",
+    "comercio",
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g082007399000"
+  },
+  {
+   "id": "6fd0c8519d5b",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Zimbabwe’s platinum boom: Where is the wealth?",
+   "link": "https://www.aljazeera.com/news/2026/10/28/zimbabwes-platinum-boom-where-is-the-wealth?traffic_source=rss",
+   "fecha": "2026-10-28T07:08:00.000Z",
+   "obtenido": "2026-10-28T09:00:36.709Z",
+   "fechaEstimada": false,
+   "extracto": "The metal is generating billions, but mining communities say basic services have failed to keep pace.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [
+    "platino"
+   ],
+   "categorias": [
+    "preciosos",
+    "industriales"
+   ],
+   "coincidencias": {
+    "platino": "platinum"
+   },
+   "temas": [
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g6fd0c8519d5b"
+  },
+  {
+   "id": "ef7835976121",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Sanctioned Oil Tankers Find a Lucrative New Trade in the Persian Gulf",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Sanctioned-Oil-Tankers-Find-a-Lucrative-New-Trade-in-the-Persian-Gulf.html",
+   "fecha": "2026-10-28T06:45:00.000Z",
+   "obtenido": "2026-10-28T09:00:37.488Z",
+   "fechaEstimada": false,
+   "extracto": "Tankers previously used to ship crude oil from sanctioned countries are now moving crude out of the Middle East, after being removed from sanction lists. Two very large crude carriers that used to transport Venezuelan crude before are now being used to export oil from the Persian Gulf, and two more are en route to the…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "ve"
+   ],
+   "regiones": [
+    "latam",
+    "me"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "oil tankers",
+    "brent": "oil tankers"
+   },
+   "temas": [
+    "sanciones",
+    "comercio",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gef7835976121"
+  },
+  {
+   "id": "16f06ba92238",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "The next phase of military rule in Egypt is here",
+   "link": "https://www.aljazeera.com/opinions/2026/10/28/the-next-phase-of-military-rule-in-egypt-is-here?traffic_source=rss",
+   "fecha": "2026-10-28T06:36:59.000Z",
+   "obtenido": "2026-10-28T09:00:36.709Z",
+   "fechaEstimada": false,
+   "extracto": "El-Sisi’s announcement that he will not run for a fourth term may signal a new leadership arrangement.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "eg"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g16f06ba92238"
+  },
+  {
+   "id": "61e67cc744d7",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Pre-loved clothes project sells items for 50p",
+   "link": "https://www.bbc.co.uk/news/articles/c687z58lljwpo?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-28T06:07:20.000Z",
+   "obtenido": "2026-10-28T09:00:36.561Z",
+   "fechaEstimada": false,
+   "extracto": "The Echo project was partly set up in response to the cost of living crisis, say organisers.",
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b08c/live/6b9c5440-d167-11f1-87df-afb7a168a1f2.png",
+   "imagenes": [
+    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b08c/live/6b9c5440-d167-11f1-87df-afb7a168a1f2.png"
+   ],
+   "imagenCredito": "BBC News – Business",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "inflacion"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g61e67cc744d7"
+  },
+  {
+   "id": "89663276e43a",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "EU plans high-level China currency talks as fears of new trade shock mount",
+   "link": "https://www.scmp.com/news/china/diplomacy/article/3372373/eu-plans-high-level-china-currency-talks-fears-new-trade-shock-mount",
+   "fecha": "2026-10-28T05:00:07.000Z",
+   "obtenido": "2026-10-28T09:00:37.779Z",
+   "fechaEstimada": false,
+   "extracto": "After convincing China to accept a cap on its hybrid car exports, a stream of top-level European finance and banking officials will descend on the Chinese capital in the coming months on a far trickier mission: persuading Beijing to stop holding down its currency to help save the bloc’s struggling industry. In the…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/259760c7-0362-44c9-bb91-fddfc7305b6a_17edfb46.jpg?itok=Ff5IFFrQ&v=1793156461",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/259760c7-0362-44c9-bb91-fddfc7305b6a_17edfb46.jpg?itok=Ff5IFFrQ&v=1793156461"
+   ],
+   "imagenCredito": "South China Morning Post – China",
+   "tax": 5,
+   "paises": [
+    "eu",
+    "cn"
+   ],
+   "regiones": [
+    "eu",
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "actividad",
+    "comercio"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g89663276e43a"
+  },
+  {
+   "id": "1805ea9343ac",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Más de 100.000 evacuados en India por el peligroso ciclón Arnab",
+   "link": "https://www.dw.com/es/más-de-100-000-evacuados-en-india-por-el-peligroso-ciclón-arnab/a-79782470?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-28T04:22:00.000Z",
+   "obtenido": "2026-10-28T09:00:36.824Z",
+   "fechaEstimada": false,
+   "extracto": "Los vendavales sacudieron los árboles y llovió en la ciudad portuaria de Kakinada, cerca del ojo de la tormenta, mientras fuertes olas rompieron contra la costa.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "DW Español",
+   "tax": 5,
+   "paises": [
+    "in"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g1805ea9343ac"
+  },
+  {
+   "id": "409ea7f7de8b",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "China formally launches project to build aircraft carrier-sized ‘science island’",
+   "link": "https://www.scmp.com/news/china/science/article/3372330/china-formally-launches-project-build-aircraft-carrier-sized-science-island",
+   "fecha": "2026-10-28T04:00:10.000Z",
+   "obtenido": "2026-10-28T09:00:37.780Z",
+   "fechaEstimada": false,
+   "extracto": "China’s massive maritime science infrastructure – an aircraft carrier-sized floating artificial island – has officially entered its engineering construction phase. On October 18, Shanghai Jiao Tong University (SJTU), the facility’s lead developer, signed a construction contract worth over 2.7 billion yuan (US$405…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/27/46e05c0c-c543-4258-bee1-dad0c6b113cd_3460df19.jpg?itok=TMsElw2s&v=1793104361",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/27/46e05c0c-c543-4258-bee1-dad0c6b113cd_3460df19.jpg?itok=TMsElw2s&v=1793104361"
+   ],
+   "imagenCredito": "South China Morning Post – China",
+   "tax": 5,
+   "paises": [
+    "cn",
+    "us"
+   ],
+   "regiones": [
+    "as",
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g409ea7f7de8b"
+  },
+  {
+   "id": "75dac25c566e",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Oil Prices Climb as Houthi Attacks Reignite Saudi Supply Fears",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-as-Houthi-Attacks-Reignite-Saudi-Supply-Fears.html",
+   "fecha": "2026-10-28T03:53:00.000Z",
+   "obtenido": "2026-10-28T09:00:37.489Z",
+   "fechaEstimada": false,
+   "extracto": "Oil prices climbed in early Asian trade on Wednesday as renewed Houthi attacks on Saudi Arabia reignited supply fears in the region. Falling inventories and reports that the U.S. is preparing for a new military campaign against Iran after the midterm elections added to the upward momentum. At the time of writing,…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "sa",
+    "ir",
+    "ye"
+   ],
+   "regiones": [
+    "na",
+    "me",
+    "as"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "oil prices",
+    "brent": "oil prices"
+   },
+   "temas": [
+    "conflicto",
+    "inventarios"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g75dac25c566e"
+  },
+  {
+   "id": "a54d918bb33e",
+   "fuente": "mercopress",
+   "fuenteNombre": "MercoPress – Economy",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Latin America’s energy inflation reaches its highest level in a year",
+   "link": "https://en.mercopress.com/2026/10/28/latin-america-s-energy-inflation-reaches-its-highest-level-in-a-year?utm_source=feed&utm_medium=rss&utm_content=economy&utm_campaign=rss",
+   "fecha": "2026-10-28T03:30:00.000Z",
+   "obtenido": "2026-10-28T09:00:36.995Z",
+   "fechaEstimada": false,
+   "extracto": "Annual energy inflation in Latin America and the Caribbean accelerated to 8.33% in August, its highest level in twelve months, and pressure on fuel prices continued in September and October, when diesel prices matched petrol for the first time, according to a report by the Latin American Energy Organization (OLADE)…",
+   "imagen": "https://en.mercopress.com/data/cache/noticias/111921/100x80/amercinfla.jpg",
+   "imagenes": [
+    "https://en.mercopress.com/data/cache/noticias/111921/100x80/amercinfla.jpg"
+   ],
+   "imagenCredito": "MercoPress – Economy",
+   "tax": 5,
+   "paises": [],
+   "regiones": [
+    "latam"
+   ],
+   "materias": [
+    "gasolina",
+    "diesel"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "gasolina": "fuel prices",
+    "diesel": "diesel"
+   },
+   "temas": [
+    "inflacion",
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "ga54d918bb33e"
+  },
   {
    "id": "bdc51a7d0276",
    "fuente": "scmp_china",
@@ -1818,9 +2671,9 @@
    "obtenido": "2026-10-27T19:00:14.640Z",
    "fechaEstimada": false,
    "extracto": "Chancellor John Healey will set out his plans for UK taxes on 28 October.",
-   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a8c/live/b075b800-d21f-11f1-b441-2b33b063138f.jpg",
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c529/live/61181430-d2a9-11f1-b441-2b33b063138f.jpg",
    "imagenes": [
-    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a8c/live/b075b800-d21f-11f1-b441-2b33b063138f.jpg"
+    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c529/live/61181430-d2a9-11f1-b441-2b33b063138f.jpg"
    ],
    "imagenCredito": "BBC News – Business",
    "tax": 5,
