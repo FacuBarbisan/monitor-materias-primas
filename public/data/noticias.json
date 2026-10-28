@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-28T09:01:26.480Z",
+ "generado": "2026-10-28T16:08:50.153Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -789,6 +789,1128 @@
   ]
  },
  "items": [
+  {
+   "id": "0649f5d8b5b5",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "UBS Data Shows Russian Oil Exports Only 10% Below Pre-War Levels",
+   "link": "https://oilprice.com/Energy/Energy-General/UBS-Data-Shows-Russian-Oil-Exports-Only-10-Below-Pre-War-Levels.html",
+   "fecha": "2026-10-28T16:00:00.000Z",
+   "obtenido": "2026-10-28T16:07:30.088Z",
+   "fechaEstimada": false,
+   "extracto": "President Trump's US-Russia deal to export diesel and crude cargoes has drawn considerable scrutiny from Western elites as the first shipments could soon reach US shores. Ukrainian drone strikes on Russian refineries, combined with disruptions in the Strait of Hormuz, have intensified pressure on the global energy…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ua",
+    "ru",
+    "ir"
+   ],
+   "regiones": [
+    "na",
+    "eu",
+    "eurasia",
+    "me",
+    "global"
+   ],
+   "materias": [
+    "wti",
+    "brent",
+    "diesel"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "oil exports",
+    "brent": "oil exports",
+    "diesel": "diesel"
+   },
+   "temas": [
+    "conflicto",
+    "sanciones",
+    "comercio",
+    "energia",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g0649f5d8b5b5"
+  },
+  {
+   "id": "c832c9c96b4b",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Your pay, energy bills and savings: How the Budget affects you",
+   "link": "https://www.bbc.co.uk/news/articles/cr0j05vxlwjzo?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-28T15:32:58.000Z",
+   "obtenido": "2026-10-28T16:07:28.815Z",
+   "fechaEstimada": false,
+   "extracto": "Changes announced by Chancellor John Healey in his first Budget will affect your finances directly. Here's how.",
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5846/live/65892820-d2e4-11f1-8d3a-ef62f316044e.jpg",
+   "imagenes": [
+    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5846/live/65892820-d2e4-11f1-8d3a-ef62f316044e.jpg"
+   ],
+   "imagenCredito": "BBC News – Business",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "politica_fiscal",
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gc832c9c96b4b"
+  },
+  {
+   "id": "48ea9480c0e5",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "PetroChina Q3 Profit Jumps to $7.78 Billion",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/PetroChina-Q3-Profit-Jumps-to-778-Billion.html",
+   "fecha": "2026-10-28T15:30:00.000Z",
+   "obtenido": "2026-10-28T16:07:30.089Z",
+   "fechaEstimada": false,
+   "extracto": "PetroChina’s third-quarter profit rose 21.6% on Iran war-inflated oil and gas prices, while the company’s nine-month crude output, refinery runs and domestic diesel sales all fell. Net profit for the July-September period reached 51.84 billion yuan ($7.78 billion), up from 42.29 billion yuan a year earlier, Asia’s…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "ir",
+    "cn"
+   ],
+   "regiones": [
+    "me",
+    "as"
+   ],
+   "materias": [
+    "wti",
+    "brent",
+    "gas_natural",
+    "diesel"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "crude",
+    "brent": "crude",
+    "gas_natural": "gas prices",
+    "diesel": "diesel"
+   },
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g48ea9480c0e5"
+  },
+  {
+   "id": "e46cb5901ecf",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "US Oil Inventories Fall Again As Prices Rise",
+   "link": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Inventories-Fall-Again-As-Prices-Rise.html",
+   "fecha": "2026-10-28T14:44:00.000Z",
+   "obtenido": "2026-10-28T16:07:30.090Z",
+   "fechaEstimada": false,
+   "extracto": "Crude oil inventories in the United States saw a decrease of 1.9 million barrels during the week ending October 23, according to new data from the U.S. Energy Information Administration (EIA) released on Wednesday. The decrease brings commercial stockpiles to 410.6 million barrels, according to government data, which…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "crude",
+    "brent": "crude"
+   },
+   "temas": [
+    "energia",
+    "inventarios"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "ge46cb5901ecf"
+  },
+  {
+   "id": "ee4d08971903",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Boxer Serrano to hang up gloves in Puerto Rico farewell on January 9",
+   "link": "https://www.aljazeera.com/sports/2026/10/28/boxer-serrano-to-hang-up-gloves-in-puerto-rico-farewell-on-january-9?traffic_source=rss",
+   "fecha": "2026-10-28T14:40:46.000Z",
+   "obtenido": "2026-10-28T16:07:28.855Z",
+   "fechaEstimada": false,
+   "extracto": "Amanda Serrano will defend her unified WBO and WBA featherweight world boxing titles against Australia's Skye ⁠Falzon.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "au"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gee4d08971903"
+  },
+  {
+   "id": "a698e1b16df5",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "China’s Refiners Turn to Africa and Brazil Crude as Freight Rates Ease",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Refiners-Turn-to-Africa-and-Brazil-Crude-as-Freight-Rates-Ease.html",
+   "fecha": "2026-10-28T14:30:00.000Z",
+   "obtenido": "2026-10-28T16:07:30.091Z",
+   "fechaEstimada": false,
+   "extracto": "China’s refiners are buying crude oil from West Africa and Brazil after freight rates eased in the past two weeks, while competition for Russian supply is stronger and Iranian barrels have disappeared. Following a decline in shipping rates from all-time highs, some Chinese refiners have bought West African and…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "br",
+    "ru",
+    "ir",
+    "cn"
+   ],
+   "regiones": [
+    "latam",
+    "eurasia",
+    "me",
+    "as",
+    "af"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "crude",
+    "brent": "crude"
+   },
+   "temas": [
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "ga698e1b16df5"
+  },
+  {
+   "id": "6f8449369001",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Chinese astronomers find planets that somehow avoided death by red giant stars",
+   "link": "https://www.scmp.com/news/china/science/article/3372402/chinese-astronomers-find-planets-somehow-avoided-death-red-giant-stars",
+   "fecha": "2026-10-28T14:00:10.000Z",
+   "obtenido": "2026-10-28T16:07:29.427Z",
+   "fechaEstimada": false,
+   "extracto": "When a star like our sun grows old, it puffs up into a red giant that can gobble up its nearest planets. But Chinese astronomers say they have found three solar systems where planets should have been eaten this way yet somehow survived – a puzzle that could change how scientists picture Earth’s distant future. Using…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/3a88e33c-498e-4c86-8c01-7843264b20f9_a216259c.jpg?itok=wCLcfEAw&v=1793168261",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/3a88e33c-498e-4c86-8c01-7843264b20f9_a216259c.jpg?itok=wCLcfEAw&v=1793168261"
+   ],
+   "imagenCredito": "South China Morning Post – China",
+   "tax": 5,
+   "paises": [
+    "cn"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g6f8449369001"
+  },
+  {
+   "id": "f113fb4e4dba",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Iran Eyes $130 Oil While at Least 50 Tankers Sit Stuck in the Gulf",
+   "link": "https://oilprice.com/Energy/Energy-General/Iran-Eyes-130-Oil-While-at-Least-50-Tankers-Sit-Stuck-in-the-Gulf.html",
+   "fecha": "2026-10-28T14:00:00.000Z",
+   "obtenido": "2026-10-28T16:07:30.091Z",
+   "fechaEstimada": false,
+   "extracto": "An oil price of $130 per barrel could be one of the scenarios of Iran’s economic planners preparing the budget for the next Iranian year starting March 2027, according to Iranian media. It is not clear yet what baseline Iranian economists will use in next year’s budget, but the Plan and Budget Organization may include…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "ir"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "oil price",
+    "brent": "oil price"
+   },
+   "temas": [
+    "actividad",
+    "politica_fiscal",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gf113fb4e4dba"
+  },
+  {
+   "id": "1344d124d3b0",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Why are three of the UK’s four nuclear deterrent submarines at sea?",
+   "link": "https://www.aljazeera.com/news/2026/10/28/why-are-three-of-the-uks-four-nuclear-deterrent-submarines-at-sea?traffic_source=rss",
+   "fecha": "2026-10-28T13:56:41.000Z",
+   "obtenido": "2026-10-28T16:07:28.857Z",
+   "fechaEstimada": false,
+   "extracto": "The deployment marks the first time in years that three Vanguard-class vessels have been at sea at the same time.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "gb"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "energia",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g1344d124d3b0"
+  },
+  {
+   "id": "9c4e8a2ed855",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "QatarEnergy Extends LNG Force Majeure to End of 2026",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/QatarEnergy-Extends-LNG-Force-Majeure-to-End-of-2026.html",
+   "fecha": "2026-10-28T13:30:00.000Z",
+   "obtenido": "2026-10-28T16:07:30.092Z",
+   "fechaEstimada": false,
+   "extracto": "State-owned firm QatarEnergy has extended the force majeure on LNG deliveries to the end of the year, leaving Europe and Asia without certain term supply heading into the winter, in a move that drove European natural gas prices to the highest level since the autumn of 2022. Italy’s gas importer and energy provider…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "it"
+   ],
+   "regiones": [
+    "eu",
+    "as"
+   ],
+   "materias": [
+    "gas_natural"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "gas_natural": "lng"
+   },
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g9c4e8a2ed855"
+  },
+  {
+   "id": "055223064721",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "U.S. Lawmakers Warn Banks Against Trump's Russian Diesel Deal",
+   "link": "https://oilprice.com/Energy/Energy-General/US-Lawmakers-Warn-Banks-Against-Trumps-Russian-Diesel-Deal.html",
+   "fecha": "2026-10-28T13:00:00.000Z",
+   "obtenido": "2026-10-28T16:07:30.093Z",
+   "fechaEstimada": false,
+   "extracto": "A bipartisan group of US lawmakers has warned American banks, port authorities, and fuel-industry groups against facilitating imports of Russian diesel, raising the prospect of congressional investigations and legal action over President Donald Trump’s decision to ease restrictions on Russian fuel. In letters sent to…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ru"
+   ],
+   "regiones": [
+    "na",
+    "eurasia"
+   ],
+   "materias": [
+    "diesel"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "diesel": "diesel"
+   },
+   "temas": [
+    "comercio",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g055223064721"
+  },
+  {
+   "id": "23f612c91eaa",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Bahri Profit Hits $1.36 Billion as the World Scrambles for Tankers",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Bahri-Profit-Hits-136-Billion-as-the-World-Scrambles-for-Tankers.html",
+   "fecha": "2026-10-28T12:30:00.000Z",
+   "obtenido": "2026-10-28T16:07:30.094Z",
+   "fechaEstimada": false,
+   "extracto": "Surging tanker rates amid the oil and shipping crisis helped Saudi Arabia’s shipping giant Bahri post a tenfold jump in net profit for the third quarter from a year earlier. Bahri booked a net profit of $1.36 billion (5.1 billion Saudi riyals) for the third quarter, ten times higher than the profit of $137 million…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "sa"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g23f612c91eaa"
+  },
+  {
+   "id": "5b0eff628970",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "US warns China is expanding its space toolkit with spaceplane and energy weapons",
+   "link": "https://www.scmp.com/news/china/military/article/3372459/us-warns-china-expanding-its-space-toolkit-spaceplane-and-energy-weapons",
+   "fecha": "2026-10-28T12:01:05.000Z",
+   "obtenido": "2026-10-28T16:07:29.430Z",
+   "fechaEstimada": false,
+   "extracto": "A rare satellite image of China’s secretive spaceplane has appeared in a new US intelligence report that warned Beijing was expanding its ability to track American forces and could deploy space-based directed-energy weapons by the late 2020s. The US Defence Intelligence Agency (DIA) report published on Sunday included…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/6f757eae-23db-4fc0-b15f-01566440fd47_e1dfda5b.jpg?itok=TofyvwG1&v=1793185507",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/6f757eae-23db-4fc0-b15f-01566440fd47_e1dfda5b.jpg?itok=TofyvwG1&v=1793185507"
+   ],
+   "imagenCredito": "South China Morning Post – China",
+   "tax": 5,
+   "paises": [
+    "cn",
+    "us"
+   ],
+   "regiones": [
+    "as",
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g5b0eff628970"
+  },
+  {
+   "id": "cbfcfa26fe47",
+   "fuente": "mining_technology",
+   "fuenteNombre": "Mining Technology – Minería",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Talga to supply Swedish anode material to Japan’s Dainen",
+   "link": "https://www.mining-technology.com/news/talga-to-supply-anode-material-dainen/",
+   "fecha": "2026-10-28T11:52:37.000Z",
+   "obtenido": "2026-10-28T16:07:29.595Z",
+   "fechaEstimada": false,
+   "extracto": "Talga Group has entered into a binding offtake term sheet with Dainen Materials of Japan for the delivery of Talnode-C, a high-performance anode material produced in Sweden. The post Talga to supply Swedish anode material to Japan’s Dainen appeared first on Mining Technology .",
+   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-5-28Oct26-shutterstock_2592003607.jpg",
+   "imagenes": [
+    "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-5-28Oct26-shutterstock_2592003607.jpg"
+   ],
+   "imagenCredito": "Mining Technology – Minería",
+   "tax": 5,
+   "paises": [
+    "jp"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {},
+   "temas": [
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gcbfcfa26fe47"
+  },
+  {
+   "id": "d0a8a1445960",
+   "fuente": "mining_technology",
+   "fuenteNombre": "Mining Technology – Minería",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Centaurus signs Jaguar offtake deals with Glencore and CNGR",
+   "link": "https://www.mining-technology.com/news/centaurus-jaguar-offtake-deals-glencore-cngr/",
+   "fecha": "2026-10-28T11:51:23.000Z",
+   "obtenido": "2026-10-28T16:07:29.595Z",
+   "fechaEstimada": false,
+   "extracto": "Centaurus Metals has entered into binding offtake agreements and secured a $40m strategic equity investment from Glencore and CNGR Advanced Material for its Jaguar Nickel Project in Brazil. The post Centaurus signs Jaguar offtake deals with Glencore and CNGR appeared first on Mining Technology .",
+   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-4-28Oct26-shutterstock_2749202785.jpg",
+   "imagenes": [
+    "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-4-28Oct26-shutterstock_2749202785.jpg"
+   ],
+   "imagenCredito": "Mining Technology – Minería",
+   "tax": 5,
+   "paises": [
+    "br"
+   ],
+   "regiones": [
+    "latam"
+   ],
+   "materias": [
+    "niquel"
+   ],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {
+    "niquel": "nickel"
+   },
+   "temas": [
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gd0a8a1445960"
+  },
+  {
+   "id": "62c80d775c44",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "China’s military holds talks in France and Germany despite rising trade tensions",
+   "link": "https://www.scmp.com/news/china/military/article/3372465/chinas-military-holds-talks-france-and-germany-despite-rising-trade-tensions",
+   "fecha": "2026-10-28T11:43:40.000Z",
+   "obtenido": "2026-10-28T16:07:29.431Z",
+   "fechaEstimada": false,
+   "extracto": "The People’s Liberation Army (PLA) has held defence strategy consultations with France and Germany over the past week despite mounting trade tensions between Beijing and Europe. A PLA strategy consultation delegation visited France and Germany from October 21 to 28 for the talks, according to a statement released by…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/bac3c2b2-16ac-44c5-be06-1a41c6296c15_fc993426.jpg?itok=MigiBhi7&v=1793187818",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/bac3c2b2-16ac-44c5-be06-1a41c6296c15_fc993426.jpg?itok=MigiBhi7&v=1793187818"
+   ],
+   "imagenCredito": "South China Morning Post – China",
+   "tax": 5,
+   "paises": [
+    "de",
+    "fr",
+    "cn"
+   ],
+   "regiones": [
+    "eu",
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto",
+    "comercio"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g62c80d775c44"
+  },
+  {
+   "id": "764acdca1ab9",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Cyclone leaves trail of destruction in India as thousands evacuated",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/28/cyclone-leaves-trail-of-destruction-in-india-as-thousands-evacuated?traffic_source=rss",
+   "fecha": "2026-10-28T11:41:04.000Z",
+   "obtenido": "2026-10-28T16:07:28.861Z",
+   "fechaEstimada": false,
+   "extracto": "Cyclone Arnab has left a trail of destruction along India’s eastern coast.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "in"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g764acdca1ab9"
+  },
+  {
+   "id": "5d32ed72e5f2",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Families brace for a fourth winter of wind, rain and floods in Gaza’s camps",
+   "link": "https://www.aljazeera.com/features/2026/10/28/gaza-families-brace-for-a-fourth-winter-of-wind-rain-and-floods-in-camps?traffic_source=rss",
+   "fecha": "2026-10-28T11:36:04.000Z",
+   "obtenido": "2026-10-28T16:07:28.861Z",
+   "fechaEstimada": false,
+   "extracto": "Gaza's impending winter is likely to lead to further devastation for Palestinians.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "ps"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g5d32ed72e5f2"
+  },
+  {
+   "id": "61b180c6876f",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "India's Gasoline Demand Could Peak by 2035 as EVs Gain Ground",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Gasoline-Demand-Could-Peak-by-2035-as-EVs-Gain-Ground.html",
+   "fecha": "2026-10-28T11:30:00.000Z",
+   "obtenido": "2026-10-28T16:07:30.095Z",
+   "fechaEstimada": false,
+   "extracto": "India’s gasoline demand is likely to peak by 2035 amid rising ethanol blending and increased use of vehicles running on batteries and natural gas, according to A S Sahney, the chairman of the largest state-owned refiner, Indian Oil Corporation (IOC). Talking at an industry event in Goa on Wednesday, Sahney said that…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "in"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [
+    "gas_natural",
+    "gasolina",
+    "diesel",
+    "jet_fuel",
+    "maiz"
+   ],
+   "categorias": [
+    "energia",
+    "granos"
+   ],
+   "coincidencias": {
+    "gas_natural": "natural gas",
+    "gasolina": "gasoline",
+    "diesel": "diesel",
+    "jet_fuel": "jet fuel",
+    "maiz": "ethanol"
+   },
+   "temas": [
+    "actividad"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario. Podría cambiar las compras de importadores o el consumo de alimentos."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g61b180c6876f"
+  },
+  {
+   "id": "882c4b281210",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "China’s Wind and Solar Power Capacity Surpasses 2 Terawatts",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Wind-and-Solar-Power-Capacity-Surpasses-2-Terawatts.html",
+   "fecha": "2026-10-28T10:20:00.000Z",
+   "obtenido": "2026-10-28T16:07:30.096Z",
+   "fechaEstimada": false,
+   "extracto": "China’s total installed wind and solar power generation capacity exceeded 2 billion kW by the end of September, with 170 million kW in new capacity added over the first nine months of the year, the country’s National Energy Administration reported this week. Solar capacity accounted for the bigger portion of that…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "cn"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "actividad",
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g882c4b281210"
+  },
+  {
+   "id": "90a2f544eb99",
+   "fuente": "mining_technology",
+   "fuenteNombre": "Mining Technology – Minería",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "BMO Capital Markets leads M&A financial advice in mining for Q1-Q3 2026",
+   "link": "https://www.mining-technology.com/news/bmo-capital-financial-advice-mining-q1-q3-2026/",
+   "fecha": "2026-10-28T10:13:00.000Z",
+   "obtenido": "2026-10-28T16:07:29.595Z",
+   "fechaEstimada": false,
+   "extracto": "BMO Capital Markets has emerged as the leading financial adviser for metals and mining sector mergers and acquisitions (M&A), both in terms of deal value and volume, for the first three quarters (Q1-Q3) of 2026, based on a league table from data analytics company GlobalData. The post BMO Capital Markets leads M&A…",
+   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/financial-adviser-in-metals-mining-Q1-Q3-2026.jpg",
+   "imagenes": [
+    "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/financial-adviser-in-metals-mining-Q1-Q3-2026.jpg"
+   ],
+   "imagenCredito": "Mining Technology – Minería",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {},
+   "temas": [
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g90a2f544eb99"
+  },
+  {
+   "id": "c592c01b9fac",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Equinor Profits Triple as Oil and Gas Prices Surge",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Equinor-Profits-Triple-as-Oil-and-Gas-Prices-Surge.html",
+   "fecha": "2026-10-28T09:20:33.000Z",
+   "obtenido": "2026-10-28T16:07:30.097Z",
+   "fechaEstimada": false,
+   "extracto": "Equinor tripled its adjusted net income for the third quarter from a year earlier, on the back of strong refining margins, high oil and natural gas prices, and increased hydrocarbon production. The Norwegian energy major on Wednesday reported an adjusted net income of $2.86 billion for the third quarter, tripled from…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "no"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [
+    "wti",
+    "brent",
+    "gas_natural"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "refining margins",
+    "brent": "refining margins",
+    "gas_natural": "gas prices"
+   },
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gc592c01b9fac"
+  },
   {
    "id": "4103a6273f82",
    "fuente": "bbc_business",
@@ -1827,6 +2949,48 @@
    "grupo": "g46328f1a6a1d"
   },
   {
+   "id": "68c547a29bee",
+   "fuente": "wto",
+   "fuenteNombre": "OMC (WTO) – Noticias",
+   "tipoFuente": "oficial",
+   "idioma": "en",
+   "titulo": "Trade Policy Review: Democratic Republic of the Congo",
+   "link": "https://www.wto.org/english/tratop_e/tpr_e/tpr_cod_28oct26_e.htm",
+   "fecha": "2026-10-28T00:00:00.000Z",
+   "obtenido": "2026-10-28T16:07:30.458Z",
+   "fechaEstimada": false,
+   "extracto": "The third review of the trade policies and practices of the Democratic Republic of the Congo takes place on 28 and 30 October 2026. The basis for the review is a report by the WTO Secretariat and a report by the Government of the Democratic Republic of the Congo.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OMC (WTO) – Noticias",
+   "tax": 5,
+   "paises": [
+    "cd"
+   ],
+   "regiones": [
+    "af",
+    "global"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "comercio"
+   ],
+   "relevante": false,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g68c547a29bee"
+  },
+  {
    "id": "91e15500542f",
    "fuente": "scmp_business",
    "fuenteNombre": "South China Morning Post – Business",
@@ -2671,40 +3835,30 @@
    "obtenido": "2026-10-27T19:00:14.640Z",
    "fechaEstimada": false,
    "extracto": "Chancellor John Healey will set out his plans for UK taxes on 28 October.",
-   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c529/live/61181430-d2a9-11f1-b441-2b33b063138f.jpg",
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a8c/live/b075b800-d21f-11f1-b441-2b33b063138f.jpg",
    "imagenes": [
-    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c529/live/61181430-d2a9-11f1-b441-2b33b063138f.jpg"
+    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a8c/live/b075b800-d21f-11f1-b441-2b33b063138f.jpg"
    ],
    "imagenCredito": "BBC News – Business",
    "tax": 5,
-   "paises": [
-    "gb"
-   ],
-   "regiones": [
-    "eu"
-   ],
+   "paises": [],
+   "regiones": [],
    "materias": [],
    "categorias": [],
    "coincidencias": {},
    "temas": [
-    "politica_fiscal",
-    "energia"
+    "politica_fiscal"
    ],
-   "relevante": true,
+   "relevante": false,
    "impacto": {
     "canales": [
      {
       "canal": "demanda",
       "nombre": "Demanda",
       "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     },
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
      }
     ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
    "grupo": "gcccc77875e33"
   },
@@ -10099,6 +11253,48 @@
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
    "grupo": "gc648bea597dd"
+  },
+  {
+   "id": "db567f06c372",
+   "fuente": "wto",
+   "fuenteNombre": "OMC (WTO) – Noticias",
+   "tipoFuente": "oficial",
+   "idioma": "en",
+   "titulo": "High-level talks in Doha spotlight trade and investment opportunities for LDCs",
+   "link": "https://www.wto.org/english/news_e/news26_e/ldevc_26oct26_525_e.htm",
+   "fecha": "2026-10-26T00:00:00.000Z",
+   "obtenido": "2026-10-28T16:07:30.459Z",
+   "fechaEstimada": false,
+   "extracto": "A high-level roundtable held in Doha, Qatar, on 26 October brought together representatives of least-developed countries (LDCs), international organizations and development partners to discuss how trade, investment and development cooperation can support sustainable development in LDCs. WTO Deputy Director-General…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OMC (WTO) – Noticias",
+   "tax": 5,
+   "paises": [
+    "qa"
+   ],
+   "regiones": [
+    "me",
+    "global"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "comercio"
+   ],
+   "relevante": false,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gdb567f06c372"
   },
   {
    "id": "a62d04f22394",
@@ -18003,52 +19199,6 @@
    "imagenCredito": "MercoPress – Economy",
    "imagenes": [
     "https://en.mercopress.com/data/cache/noticias/111806/100x80/bpp.jpg"
-   ]
-  },
-  {
-   "id": "46606509397c",
-   "fuente": "onu_economia",
-   "fuenteNombre": "Noticias ONU – Desarrollo económico",
-   "tipoFuente": "oficial",
-   "idioma": "es",
-   "titulo": "¿Por qué tu avión da vueltas antes de aterrizar? El plan de la ONU para reducir las esperas en el aire",
-   "link": "https://news.un.org/feed/view/es/story/2026/10/1542074",
-   "fecha": "2026-10-18T12:00:00.000Z",
-   "obtenido": "2026-10-24T21:35:33.669Z",
-   "fechaEstimada": false,
-   "extracto": "Los retrasos del tráfico aéreo cuestan miles de millones de dólares y pueden convertirse en una pesadilla para los pasajeros. Sin embargo, algunos países ya están demostrando que una mejor coordinación permite ahorrar miles de horas de vuelo y reducir las emisiones. La agencia de aviación de Naciones Unidas quiere…",
-   "paises": [],
-   "regiones": [
-    "global"
-   ],
-   "materias": [],
-   "temas": [
-    "sanciones"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     },
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g46606509397c",
-   "categorias": [],
-   "coincidencias": {},
-   "tax": 5,
-   "imagen": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/16-10-2026-Unsplash-air-traffic-02.jpg/image560x340cropped.jpg",
-   "imagenCredito": "Noticias ONU – Desarrollo económico",
-   "imagenes": [
-    "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/16-10-2026-Unsplash-air-traffic-02.jpg/image560x340cropped.jpg"
    ]
   }
  ]
