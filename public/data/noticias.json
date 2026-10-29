@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-29T19:54:02.066Z",
+ "generado": "2026-10-29T23:59:37.752Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -789,6 +789,474 @@
   ]
  },
  "items": [
+  {
+   "id": "114fbbcc54a2",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "What’s Next for Global Natural Gas Demand?",
+   "link": "https://oilprice.com/Energy/Natural-Gas/Whats-Next-for-Global-Natural-Gas-Demand.html",
+   "fecha": "2026-10-29T23:00:00.000Z",
+   "obtenido": "2026-10-29T23:58:59.841Z",
+   "fechaEstimada": false,
+   "extracto": "The Iran war and the lack of LNG supply from the Middle East have upended forecasts of near-term natural gas demand and import costs. So far this year, economies in Europe and Asia have relied more on renewables and coal for power generation to offset reduced gas supplies procured at very high prices. This year’s…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "ir"
+   ],
+   "regiones": [
+    "me",
+    "eu",
+    "as",
+    "global"
+   ],
+   "materias": [
+    "gas_natural",
+    "carbon"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "gas_natural": "natural gas",
+    "carbon": "coal"
+   },
+   "temas": [
+    "conflicto",
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g114fbbcc54a2"
+  },
+  {
+   "id": "8592f05a0d80",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Ataque con dron ruso causa 14 muertos en una estación de tren en Ucrania",
+   "link": "https://www.dw.com/es/ataque-con-dron-ruso-causa-14-muertos-en-una-estación-de-tren-en-ucrania/a-79803106?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-29T22:38:00.000Z",
+   "obtenido": "2026-10-29T23:58:59.296Z",
+   "fechaEstimada": false,
+   "extracto": "El presidente ucraniano Volodimir Zelenski reiteró su llamado a no debilitar \"las sanciones contra Moscú y su maquinaria bélica\".",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "DW Español",
+   "tax": 5,
+   "paises": [
+    "ua",
+    "ru"
+   ],
+   "regiones": [
+    "eu",
+    "eurasia"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto",
+    "sanciones"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g8592f05a0d80"
+  },
+  {
+   "id": "45e08f7ec019",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Chinese scientists dissatisfied with jobs but optimistic about future, survey says",
+   "link": "https://www.scmp.com/news/china/diplomacy/article/3372643/chinese-scientists-dissatisfied-jobs-optimistic-about-future-survey-says",
+   "fecha": "2026-10-29T22:22:06.000Z",
+   "obtenido": "2026-10-29T23:58:59.728Z",
+   "fechaEstimada": false,
+   "extracto": "Chinese scientists are less satisfied with their jobs than researchers in any other major country, according to a survey that also found they are more optimistic about their careers than their counterparts in the United States and Britain. Only 51 per cent of the 157 respondents from China said they were satisfied…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/30/1b4eafa6-a69d-44ab-905e-1c90e71b6f53_bf3f6e33.jpg?itok=8SqUjuNK&v=1793312515",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/30/1b4eafa6-a69d-44ab-905e-1c90e71b6f53_bf3f6e33.jpg?itok=8SqUjuNK&v=1793312515"
+   ],
+   "imagenCredito": "South China Morning Post – China",
+   "tax": 5,
+   "paises": [
+    "us",
+    "gb",
+    "cn"
+   ],
+   "regiones": [
+    "na",
+    "eu",
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "empleo"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g45e08f7ec019"
+  },
+  {
+   "id": "43a92d4b8911",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "China’s Battery Factories May Sit Atop Lithium Resources",
+   "link": "https://oilprice.com/Energy/Energy-General/Chinas-Battery-Factories-May-Sit-Atop-Lithium-Resources.html",
+   "fecha": "2026-10-29T22:00:00.000Z",
+   "obtenido": "2026-10-29T23:58:59.842Z",
+   "fechaEstimada": false,
+   "extracto": "The world’s largest battery maker and user, the country that dominates all alternative energy technology, is about to find out whether it could also boost its already dominant presence in a critical battery metal: lithium. China, according to a new study, could have significant, untapped resources of lithium right…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "cn"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [
+    "litio"
+   ],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {
+    "litio": "lithium"
+   },
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "En la plata y los metales industriales, la actividad industrial pesa en la demanda; en el oro, la demanda de inversión y de bancos centrales suele pesar más."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g43a92d4b8911"
+  },
+  {
+   "id": "22e6348dc1ee",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Trump's Russian Diesel Is a Legal Hot Potato With a Five-Year Fuse",
+   "link": "https://oilprice.com/Energy/Energy-General/Trumps-Russian-Diesel-Is-a-Legal-Hot-Potato-With-a-Five-Year-Fuse.html",
+   "fecha": "2026-10-29T21:00:00.000Z",
+   "obtenido": "2026-10-29T23:58:59.843Z",
+   "fechaEstimada": false,
+   "extracto": "A Malta-flagged tanker called the Agioi Fanendes left the Russian port of Primorsk on Oct. 22 carrying nearly 40,000 metric tons of ultra-low-sulfur diesel, and ship-tracking data has it arriving at the Port of New York and New Jersey on Nov. 7, four days after the midterm elections. Nobody has publicly said who…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ru"
+   ],
+   "regiones": [
+    "na",
+    "eurasia"
+   ],
+   "materias": [
+    "diesel"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "diesel": "diesel"
+   },
+   "temas": [
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g22e6348dc1ee"
+  },
+  {
+   "id": "62474baa7a04",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Palestinians injured, arrested in Israeli raids across West Bank",
+   "link": "https://www.aljazeera.com/news/2026/10/29/palestinians-injured-arrested-in-israeli-raids-across-west-bank?traffic_source=rss",
+   "fecha": "2026-10-29T20:40:03.000Z",
+   "obtenido": "2026-10-29T23:58:59.185Z",
+   "fechaEstimada": false,
+   "extracto": "This comes as more than 3,300 Palestinians are forced from homes in Hebron as Israel's military offensive continues.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "il",
+    "ps"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g62474baa7a04"
+  },
+  {
+   "id": "d5f01f9dd738",
+   "fuente": "fed",
+   "fuenteNombre": "Reserva Federal de EE. UU. – Comunicados",
+   "tipoFuente": "oficial",
+   "idioma": "en",
+   "titulo": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+   "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
+   "fecha": "2026-10-29T20:30:00.000Z",
+   "obtenido": "2026-10-29T23:58:59.950Z",
+   "fechaEstimada": false,
+   "extracto": "",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Reserva Federal de EE. UU. – Comunicados",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "politica_monetaria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gd5f01f9dd738"
+  },
+  {
+   "id": "2b7872d25e92",
+   "fuente": "bbc_mundo",
+   "fuenteNombre": "BBC News Mundo",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Muere a los 86 años Patrick Stewart, legendario actor de Star Trek y X-Men",
+   "link": "https://www.bbc.com/mundo/articles/crlyk9yp775zo?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-29T20:26:48.000Z",
+   "obtenido": "2026-10-29T23:58:58.980Z",
+   "fechaEstimada": false,
+   "extracto": "A lo largo de una trayectoria que abarcó siete décadas, Patrick Stewart obtuvo varios premios Emmy y Globos de Oro, una estrella en el Paseo de la Fama de Hollywood y el título de caballero otorgado por la reina Isabel II.",
+   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/a064/live/b37df130-d3db-11f1-9c32-1532a6164171.jpg",
+   "imagenes": [
+    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/a064/live/b37df130-d3db-11f1-9c32-1532a6164171.jpg"
+   ],
+   "imagenCredito": "BBC News Mundo",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [
+    "oro"
+   ],
+   "categorias": [
+    "preciosos"
+   ],
+   "coincidencias": {
+    "oro": "oro"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "g2b7872d25e92"
+  },
+  {
+   "id": "7c57aea4835c",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "World's First Permanent Nuclear Waste Site Wins License in Finland",
+   "link": "https://oilprice.com/Energy/Energy-General/Worlds-First-Permanent-Nuclear-Waste-Site-Wins-License-in-Finland.html",
+   "fecha": "2026-10-29T20:00:00.000Z",
+   "obtenido": "2026-10-29T23:58:59.844Z",
+   "fechaEstimada": false,
+   "extracto": "The world’s very first permanent nuclear waste repository just got one major step closer to opening its doors for business. Posiva, the waste management company responsible for the project located in Eurajoki, Finland, just received its operating license for the Onkalo facility from the country’s government. The…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g7c57aea4835c"
+  },
+  {
+   "id": "480af308b2f4",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Exxon, Chevron Executives Cancel Gulf Visit Over Security Concerns",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Exxon-Chevron-Executives-Cancel-Gulf-Visit-Over-Security-Concerns.html",
+   "fecha": "2026-10-29T20:00:00.000Z",
+   "obtenido": "2026-10-29T23:58:59.845Z",
+   "fechaEstimada": false,
+   "extracto": "ExxonMobil CEO Darren Woods and Chevron upstream president Clay Neff have canceled plans to attend next week's ADIPEC conference in Abu Dhabi over security concerns, according to sources cited by Reuters on Thursday. Both executives were expected at the November 2-5 event, one of the oil industry's largest annual…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ae",
+    "ir"
+   ],
+   "regiones": [
+    "na",
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g480af308b2f4"
+  },
   {
    "id": "0dfad52304a7",
    "fuente": "aljazeera",
@@ -3055,9 +3523,9 @@
    "obtenido": "2026-10-29T14:26:04.075Z",
    "fechaEstimada": false,
    "extracto": "Las tropas están intentando recuperar a cuatro militares desaparecidos en una emboscada en las afueras de Puerto Príncipe, la capital de Haití.",
-   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/9f2f/live/fe8d35c0-d38e-11f1-b31d-29088a2dcf13.jpg",
+   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/5a0a/live/6b4dd230-d3f0-11f1-b9ee-397f93ebf015.jpg",
    "imagenes": [
-    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/9f2f/live/fe8d35c0-d38e-11f1-b31d-29088a2dcf13.jpg"
+    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/5a0a/live/6b4dd230-d3f0-11f1-b9ee-397f93ebf015.jpg"
    ],
    "imagenCredito": "BBC News Mundo",
    "tax": 5,
