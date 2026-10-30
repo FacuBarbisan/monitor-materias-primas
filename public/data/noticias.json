@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-30T18:39:43.313Z",
+ "generado": "2026-10-30T22:41:03.512Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -790,6 +790,474 @@
  },
  "items": [
   {
+   "id": "6673378c4964",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Gasoline Up 34% and Heating Oil Up 74% as Voters Head to the Midterms",
+   "link": "https://oilprice.com/Energy/Gas-Prices/Gasoline-Up-34-and-Heating-Oil-Up-74-as-Voters-Head-to-the-Midterms.html",
+   "fecha": "2026-10-30T22:00:00.000Z",
+   "obtenido": "2026-10-30T22:40:16.651Z",
+   "fechaEstimada": false,
+   "extracto": "The results of the upcoming midterm elections will reveal just how much power global energy markets have over state-level politics – and how much changing political regimes can cost the global energy sector in return. As voters head to the polls, energy prices are blisteringly high. As of Monday, average gasoline…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na",
+    "global"
+   ],
+   "materias": [
+    "gasolina",
+    "diesel"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "gasolina": "gasoline",
+    "diesel": "heating oil"
+   },
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g6673378c4964"
+  },
+  {
+   "id": "dda0d7605ca2",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "The flaw in Australia’s ‘China threat’ thesis",
+   "link": "https://www.scmp.com/opinion/asia-opinion/article/3372519/flaw-australias-china-threat-thesis",
+   "fecha": "2026-10-30T21:30:08.000Z",
+   "obtenido": "2026-10-30T22:40:16.156Z",
+   "fechaEstimada": false,
+   "extracto": "Australia’s preparations for a possible conflict with China reflect “a relatively superficial understanding”, argues prominent economist John Edwards. Europe, Canada, Indonesia, Malaysia and India, he notes, are not preparing for such a conflict. Why should Australia? Edwards, a former senior economic adviser to…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/29/401cd105-f9a3-4052-9f57-d883adbc1e3c_33fd4e25.jpg?itok=BeN1Rw1y&v=1793247086",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/29/401cd105-f9a3-4052-9f57-d883adbc1e3c_33fd4e25.jpg?itok=BeN1Rw1y&v=1793247086"
+   ],
+   "imagenCredito": "South China Morning Post – China",
+   "tax": 5,
+   "paises": [
+    "ca",
+    "cn",
+    "in",
+    "id",
+    "my",
+    "au",
+    "us"
+   ],
+   "regiones": [
+    "na",
+    "as",
+    "eu"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "actividad",
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gdda0d7605ca2"
+  },
+  {
+   "id": "16a6189094eb",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+   "link": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-30T21:13:14.000Z",
+   "obtenido": "2026-10-30T22:40:15.554Z",
+   "fechaEstimada": false,
+   "extracto": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61df/live/2d4de870-d487-11f1-b441-2b33b063138f.jpg",
+   "imagenes": [
+    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61df/live/2d4de870-d487-11f1-b441-2b33b063138f.jpg"
+   ],
+   "imagenCredito": "BBC News – Business",
+   "tax": 5,
+   "paises": [
+    "kp"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g16a6189094eb"
+  },
+  {
+   "id": "c7e7f2cba1d2",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Un nuevo radar ruso en Kaliningrado podría espiar gran parte de Europa",
+   "link": "https://www.dw.com/es/un-nuevo-radar-ruso-en-kaliningrado-podría-espiar-gran-parte-de-europa/a-79811157?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-30T21:04:00.000Z",
+   "obtenido": "2026-10-30T22:40:15.424Z",
+   "fechaEstimada": false,
+   "extracto": "Expertos advierten que la nueva instalación militar podría aumentar las tensiones entre Moscú y la OTAN y reforzar la capacidad de vigilancia rusa.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "DW Español",
+   "tax": 5,
+   "paises": [
+    "ru"
+   ],
+   "regiones": [
+    "eurasia",
+    "eu"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gc7e7f2cba1d2"
+  },
+  {
+   "id": "6beef6a3a28c",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "G20 drops group photo as Europeans refuse to stand with Lavrov",
+   "link": "https://www.aljazeera.com/news/2026/10/30/g20-drops-group-photo-as-europeans-refuse-to-stand-with-lavrov?traffic_source=rss",
+   "fecha": "2026-10-30T20:37:20.000Z",
+   "obtenido": "2026-10-30T22:40:15.743Z",
+   "fechaEstimada": false,
+   "extracto": "Sanctioned Russian FM attends Atlanta talks as Iran war, Hormuz disruption and Ukraine divide G20 members.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "ua",
+    "ru",
+    "ir"
+   ],
+   "regiones": [
+    "eu",
+    "eurasia",
+    "me",
+    "global"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g6beef6a3a28c"
+  },
+  {
+   "id": "ad8804b38c64",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Port Sudan families can barely afford water as shortages persist",
+   "link": "https://www.aljazeera.com/news/2026/10/30/port-sudan-families-can-barely-afford-water-as-shortages-persist?traffic_source=rss",
+   "fecha": "2026-10-30T20:10:22.000Z",
+   "obtenido": "2026-10-30T22:40:15.744Z",
+   "fechaEstimada": false,
+   "extracto": "Despite efforts to restore damaged infrastructure, residents face soaring water costs as war, displacement strain supply",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gad8804b38c64"
+  },
+  {
+   "id": "b9b76a905286",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Texas grand jury indicts ICE officer accused of running over man in Houston",
+   "link": "https://www.aljazeera.com/news/2026/10/30/texas-grand-jury-indicts-ice-officer-accused-of-running-over-man-in-houston?traffic_source=rss",
+   "fecha": "2026-10-30T19:16:30.000Z",
+   "obtenido": "2026-10-30T22:40:15.745Z",
+   "fechaEstimada": false,
+   "extracto": "The officer faces charges after allegedly striking a fleeing construction worker with an SUV during an immigration raid.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gb9b76a905286"
+  },
+  {
+   "id": "9f04c558dcb3",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Pakistan army ‘cautiously optimistic’ about US-Iran mediation efforts",
+   "link": "https://www.aljazeera.com/news/2026/10/30/pakistan-army-cautiously-optimistic-about-us-iran-mediation-efforts?traffic_source=rss",
+   "fecha": "2026-10-30T18:55:36.000Z",
+   "obtenido": "2026-10-30T22:40:15.745Z",
+   "fechaEstimada": false,
+   "extracto": "Pakistan's military spokesman warns of 'powerful spoilers and detractors' who still believe the conflict serves them.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "ir",
+    "pk",
+    "us"
+   ],
+   "regiones": [
+    "me",
+    "as",
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g9f04c558dcb3"
+  },
+  {
+   "id": "1a0bb3417032",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Israel demolishes homes of Palestinians blamed for attack on soldiers",
+   "link": "https://www.aljazeera.com/news/2026/10/30/israel-demolishes-homes-of-palestinians-blamed-for-attack-on-soldiers?traffic_source=rss",
+   "fecha": "2026-10-30T18:35:44.000Z",
+   "obtenido": "2026-10-30T22:40:15.746Z",
+   "fechaEstimada": false,
+   "extracto": "Troops hold at least 12 Palestinians near demolished homes as nearly 5,000 remain displaced from Hebron neighbourhoods",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "il"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g1a0bb3417032"
+  },
+  {
+   "id": "9135444346b9",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Oman rescues 25 from burning oil tanker in Strait of Hormuz",
+   "link": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz?traffic_source=rss",
+   "fecha": "2026-10-30T18:33:29.000Z",
+   "obtenido": "2026-10-30T22:40:15.746Z",
+   "fechaEstimada": false,
+   "extracto": "Incident comes as Iran says three oil tankers were halted while attempting to use 'unauthorised routes' to cross Hormuz.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "ir"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "oil tanker",
+    "brent": "oil tanker"
+   },
+   "temas": [
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g9135444346b9"
+  },
+  {
    "id": "588aa2dd22ee",
    "fuente": "oilprice",
    "fuenteNombre": "OilPrice – Energía",
@@ -839,22 +1307,19 @@
    "obtenido": "2026-10-30T18:39:35.718Z",
    "fechaEstimada": false,
    "extracto": "Desde hace varios días, no se sabe nada de los militares, que trabajaban como técnicos en una misión de Naciones Unidas en Puerto Príncipe.",
-   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/75ae/live/364ceac0-d487-11f1-80bc-6d398902272f.png",
+   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/4125/live/1250a350-d49b-11f1-93e1-3b657b665bcf.jpg",
    "imagenes": [
-    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/75ae/live/364ceac0-d487-11f1-80bc-6d398902272f.png"
+    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/4125/live/1250a350-d49b-11f1-93e1-3b657b665bcf.jpg"
    ],
    "imagenCredito": "BBC News Mundo",
    "tax": 5,
    "paises": [],
-   "regiones": [
-    "global"
-   ],
+   "regiones": [],
    "materias": [],
    "categorias": [],
    "coincidencias": {},
    "temas": [
-    "conflicto",
-    "transporte"
+    "conflicto"
    ],
    "relevante": true,
    "impacto": {
@@ -863,14 +1328,9 @@
       "canal": "riesgo",
       "nombre": "Riesgo geopolítico",
       "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     },
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
      }
     ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
    "grupo": "g81dc90dca07d"
   },
@@ -968,6 +1428,56 @@
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
    "grupo": "g4a6e9f283f81"
+  },
+  {
+   "id": "7e4507aa7761",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "UE y Canadá lanzan nueva \"alianza\" con acuerdos sobre minerales críticos, IA y Ucrania",
+   "link": "https://www.dw.com/es/ue-y-canadá-lanzan-nueva-alianza-con-acuerdos-sobre-minerales-críticos-ia-y-ucrania/a-79812242?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-30T18:02:00.000Z",
+   "obtenido": "2026-10-30T22:40:15.483Z",
+   "fechaEstimada": false,
+   "extracto": "La Comisión Europea ya había asomado que la UE y el país americano exploran la posibilidad de que Canadá se convierta en el primer \"miembro asociado\" del bloque.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "DW Español",
+   "tax": 5,
+   "paises": [
+    "ca",
+    "eu",
+    "ua"
+   ],
+   "regiones": [
+    "na",
+    "eu"
+   ],
+   "materias": [
+    "tierras_raras"
+   ],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {
+    "tierras_raras": "minerales criticos"
+   },
+   "temas": [
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g7e4507aa7761"
   },
   {
    "id": "e1a9ca73c060",
@@ -28782,55 +29292,6 @@
    "categorias": [],
    "coincidencias": {},
    "tax": 5
-  },
-  {
-   "id": "1de2f415df0a",
-   "fuente": "f24_latam",
-   "fuenteNombre": "France 24 Español – América Latina",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "Derrumbe de mina en Colombia: 12 de las 14 víctimas mortales eran mujeres",
-   "link": "https://www.france24.com/es/am%C3%A9rica-latina/20261020-derrumbe-de-mina-en-colombia-12-de-las-14-v%C3%ADctimas-mortales-eran-mujeres",
-   "fecha": "2026-10-20T22:00:42.000Z",
-   "obtenido": "2026-10-24T21:35:32.565Z",
-   "fechaEstimada": false,
-   "extracto": "Al menos 14 personas murieron en un deslizamiento en una mina de oro que operaba de forma irregular en el municipio de Santa Bárbara de Iscuandé, en el departamento de Nariño (suroeste). Las autoridades regionales confirmaron este martes 20 de octubre que 12 de las víctimas eran mujeres.",
-   "paises": [
-    "co"
-   ],
-   "regiones": [
-    "latam"
-   ],
-   "materias": [
-    "oro"
-   ],
-   "temas": [
-    "mineria"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g1de2f415df0a",
-   "categorias": [
-    "preciosos"
-   ],
-   "coincidencias": {
-    "oro": "oro"
-   },
-   "tax": 5,
-   "imagen": "https://s.france24.com/media/display/2243b26c-cccf-11f1-9140-d1d2c32ebb87/w:1024/p:16x9/d7185d0b302fc0a6e34ba83ff91e903108e4b95bw.jpg",
-   "imagenCredito": "France 24 Español – América Latina",
-   "imagenes": [
-    "https://s.france24.com/media/display/2243b26c-cccf-11f1-9140-d1d2c32ebb87/w:1024/p:16x9/d7185d0b302fc0a6e34ba83ff91e903108e4b95bw.jpg"
-   ]
   }
  ]
 }
