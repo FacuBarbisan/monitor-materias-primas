@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-30T22:41:03.512Z",
+ "generado": "2026-10-31T01:51:57.239Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -790,6 +790,209 @@
  },
  "items": [
   {
+   "id": "09abf5224a5e",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Trump: EE.UU. investiga si Corea del Norte está detrás del ataque a Binance",
+   "link": "https://www.dw.com/es/trump-ee-uu-investiga-si-corea-del-norte-está-detrás-del-ataque-a-binance/a-79814049?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-31T00:16:00.000Z",
+   "obtenido": "2026-10-31T01:51:55.506Z",
+   "fechaEstimada": false,
+   "extracto": "Según la firma TRM Labs, el potente ciberataque habría sido orquestado por TraderTraitor, un grupo de hackers norcoreanos.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "DW Español",
+   "tax": 5,
+   "paises": [
+    "us",
+    "kp"
+   ],
+   "regiones": [
+    "na",
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g09abf5224a5e"
+  },
+  {
+   "id": "fe624c8cc66f",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Iran war live: Oil tankers hit in Hormuz; Trump says conflict will end soon",
+   "link": "https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon?traffic_source=rss",
+   "fecha": "2026-10-31T00:00:00.000Z",
+   "obtenido": "2026-10-31T01:51:55.696Z",
+   "fechaEstimada": false,
+   "extracto": "IRGC says four tankers hit in Strait of Hormuz, as Trump says war on Iran will 'get wrapped up soon'.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ir"
+   ],
+   "regiones": [
+    "na",
+    "me"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "oil tankers",
+    "brent": "oil tankers"
+   },
+   "temas": [
+    "conflicto",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gfe624c8cc66f"
+  },
+  {
+   "id": "e55f1bff4a8b",
+   "fuente": "f24_latam",
+   "fuenteNombre": "France 24 Español – América Latina",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Rusia - Ucrania: al menos 256 colombianos muertos y 973 desaparecidos en la guerra",
+   "link": "https://www.france24.com/es/am%C3%A9rica-latina/20261030-rusia-ucrania-al-menos-256-colombianos-muertos-y-973-desaparecidos-en-la-guerra",
+   "fecha": "2026-10-30T23:12:37.000Z",
+   "obtenido": "2026-10-31T01:51:55.586Z",
+   "fechaEstimada": false,
+   "extracto": "Colombia reporta 256 ciudadanos muertos y 973 desaparecidos en medio de la guerra de Rusia en Ucrania, en la que se ha señalado que combaten miles de colombianos. De los fallecimientos reportados por el Gobierno de De la Espriella, 162 corresponden a información recibida desde Ucrania y 94 desde Rusia. En cuanto a las…",
+   "imagen": "https://s.france24.com/media/display/5e34d370-d448-11f1-b94c-695cb59fade5/w:1024/p:16x9/febeeb91cefc151c1afe1312cadab27699ace5df.jpg",
+   "imagenes": [
+    "https://s.france24.com/media/display/5e34d370-d448-11f1-b94c-695cb59fade5/w:1024/p:16x9/febeeb91cefc151c1afe1312cadab27699ace5df.jpg"
+   ],
+   "imagenCredito": "France 24 Español – América Latina",
+   "tax": 5,
+   "paises": [
+    "co",
+    "ua",
+    "ru"
+   ],
+   "regiones": [
+    "latam",
+    "eu",
+    "eurasia"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "ge55f1bff4a8b"
+  },
+  {
+   "id": "0f01e9d40bc8",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Europe Is Now Seriously Rethinking Its Oil Refinery Phase Down",
+   "link": "https://oilprice.com/Energy/Crude-Oil/Europe-Is-Now-Seriously-Rethinking-Its-Oil-Refinery-Phase-Down.html",
+   "fecha": "2026-10-30T23:00:00.000Z",
+   "obtenido": "2026-10-31T01:51:56.307Z",
+   "fechaEstimada": false,
+   "extracto": "Over the past couple of decades, Europe has pursued some of the world’s most ambitious clean energy policies, aiming to become the first climate-neutral continent by 2050. Hardly surprisingly, Europe is now further along the clean energy transition compared to its western peers, with renewables accounting for roughly…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na",
+    "eu",
+    "global"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "oil refinery",
+    "brent": "oil refinery"
+   },
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g0f01e9d40bc8"
+  },
+  {
    "id": "6673378c4964",
    "fuente": "oilprice",
    "fuenteNombre": "OilPrice – Energía",
@@ -843,6 +1046,49 @@
     "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
    },
    "grupo": "g6673378c4964"
+  },
+  {
+   "id": "f7b2c75831dd",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Estados Unidos aprueba venta de misiles Patriot a Ucrania por 2.100 millones de dólares",
+   "link": "https://www.dw.com/es/estados-unidos-aprueba-venta-de-misiles-patriot-a-ucrania-por-2-100-millones-de-dólares/a-79813694?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-30T21:54:00.000Z",
+   "obtenido": "2026-10-31T01:51:55.507Z",
+   "fechaEstimada": false,
+   "extracto": "El anuncio ocurre después de que Kiev acusara al Pentágono de retrasar la entrega de munición esencial para interceptar los misiles balísticos rusos.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "DW Español",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ua"
+   ],
+   "regiones": [
+    "na",
+    "eu"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gf7b2c75831dd"
   },
   {
    "id": "dda0d7605ca2",
@@ -29205,93 +29451,6 @@
    "imagenes": [
     "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/20/89568940-b0f9-4333-bf80-e2af5040ded4_e197767c.jpg?itok=VnSFC6WA&v=1792505481"
    ]
-  },
-  {
-   "id": "9cc6be4280f4",
-   "fuente": "wto",
-   "fuenteNombre": "OMC (WTO) – Noticias",
-   "tipoFuente": "oficial",
-   "idioma": "en",
-   "titulo": "The Philippines launches safeguard investigation on pork",
-   "link": "https://www.wto.org/english/news_e/news26_e/safe_phl_21oct26_520_e.htm",
-   "fecha": "2026-10-21T00:00:00.000Z",
-   "obtenido": "2026-10-24T21:35:34.078Z",
-   "fechaEstimada": false,
-   "extracto": "On 21 October 2026, the Philippines notified the WTO’s Committee on Safeguards that it had initiated on 9 October 2026 a safeguard investigation on imports of pork.",
-   "paises": [
-    "ph"
-   ],
-   "regiones": [
-    "as",
-    "global"
-   ],
-   "materias": [
-    "cerdo"
-   ],
-   "temas": [
-    "comercio",
-    "aranceles"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar las compras de importadores o el consumo de alimentos."
-     },
-     {
-      "canal": "dolar",
-      "nombre": "Dólar",
-      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g9cc6be4280f4",
-   "categorias": [
-    "ganaderia"
-   ],
-   "coincidencias": {
-    "cerdo": "pork"
-   },
-   "tax": 5
-  },
-  {
-   "id": "cc8114cd1a0b",
-   "fuente": "wto",
-   "fuenteNombre": "OMC (WTO) – Noticias",
-   "tipoFuente": "oficial",
-   "idioma": "en",
-   "titulo": "Trade Facilitation Committee advances TFA review and discusses implementation support",
-   "link": "https://www.wto.org/english/news_e/news26_e/fac_21oct26_522_e.htm",
-   "fecha": "2026-10-21T00:00:00.000Z",
-   "obtenido": "2026-10-24T21:35:34.079Z",
-   "fechaEstimada": false,
-   "extracto": "WTO members meeting in the Committee on Trade Facilitation on 21-22 October advanced work on the second review of the Trade Facilitation Agreement (TFA) and reaffirmed their commitment to completing the review by the end of the year. They also exchanged experiences on key implementation issues, reviewed specific trade…",
-   "paises": [],
-   "regiones": [
-    "global"
-   ],
-   "materias": [],
-   "temas": [
-    "comercio"
-   ],
-   "relevante": false,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "gcc8114cd1a0b",
-   "categorias": [],
-   "coincidencias": {},
-   "tax": 5
   }
  ]
 }
