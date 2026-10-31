@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-31T14:49:39.783Z",
+ "generado": "2026-10-31T19:21:06.982Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -789,6 +789,553 @@
   ]
  },
  "items": [
+  {
+   "id": "43bf5494a953",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Jackdaw Approval Sparks Fierce Debate Over Britain's Energy Future",
+   "link": "https://oilprice.com/Energy/Energy-General/Jackdaw-Approval-Sparks-Fierce-Debate-Over-Britains-Energy-Future.html",
+   "fecha": "2026-10-31T19:00:00.000Z",
+   "obtenido": "2026-10-31T19:21:04.221Z",
+   "fechaEstimada": false,
+   "extracto": "The United Kingdom approved the development of the Jackdaw North Sea gas field on the 21st of October following years of legal battles and political uncertainty. Jackdaw is a large offshore natural gas field in the North Sea, owned by Adura, a joint venture between Shell and Equinor, since 2025, located around 240 km…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "gb",
+    "no"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [
+    "gas_natural"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "gas_natural": "gas field"
+   },
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g43bf5494a953"
+  },
+  {
+   "id": "fc505fd8a426",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Tension and clashes as hundreds of thousands protest again in France",
+   "link": "https://www.aljazeera.com/news/2026/10/31/tension-and-clashes-as-hundreds-of-thousands-protest-again-in-france?traffic_source=rss",
+   "fecha": "2026-10-31T18:28:14.000Z",
+   "obtenido": "2026-10-31T19:21:03.710Z",
+   "fechaEstimada": false,
+   "extracto": "Authorities say 320,000 march on third consecutive weekend of demonstrations over cost of living and state of schools.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "fr"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "inflacion"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gfc505fd8a426"
+  },
+  {
+   "id": "22f98fc082e4",
+   "fuente": "bbc_mundo",
+   "fuenteNombre": "BBC News Mundo",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Refugiados ucranianos se reúnen con sus familias luego de estar años atrapados en territorio ocupado por Rusia",
+   "link": "https://www.bbc.com/mundo/articles/cw5ynz0e3d02o?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-10-31T17:57:37.000Z",
+   "obtenido": "2026-10-31T19:21:03.553Z",
+   "fechaEstimada": false,
+   "extracto": "Los habitantes de Oleshky se habían quedado sin comida, agua ni electricidad, y muchos recurrieron a cocinar hierbas de sus huertos para sobrevivir.",
+   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/41b8/live/9f93a310-d532-11f1-b441-2b33b063138f.jpg",
+   "imagenes": [
+    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/41b8/live/9f93a310-d532-11f1-b441-2b33b063138f.jpg"
+   ],
+   "imagenCredito": "BBC News Mundo",
+   "tax": 5,
+   "paises": [
+    "ru"
+   ],
+   "regiones": [
+    "eurasia"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g22f98fc082e4"
+  },
+  {
+   "id": "e04e9abbdfc5",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "At least four Palestinians killed in Gaza as Israeli attacks continue",
+   "link": "https://www.aljazeera.com/news/2026/10/31/at-least-four-palestinians-killed-in-gaza-as-israeli-attacks-continue?traffic_source=rss",
+   "fecha": "2026-10-31T17:49:23.000Z",
+   "obtenido": "2026-10-31T19:21:03.711Z",
+   "fechaEstimada": false,
+   "extracto": "Israel carried out several attacks in Gaza, including shelling the Nuseirat refugee camp.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "il",
+    "ps"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "ge04e9abbdfc5"
+  },
+  {
+   "id": "5cc141bab7d9",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Cómo el aumento de los tipos de interés está haciendo estallar el presupuesto de Francia",
+   "link": "https://www.dw.com/es/cómo-el-aumento-de-los-tipos-de-interés-está-haciendo-estallar-el-presupuesto-de-francia/a-79814756?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-31T17:44:00.000Z",
+   "obtenido": "2026-10-31T19:21:03.990Z",
+   "fechaEstimada": false,
+   "extracto": "Debido a las protestas, Francia se propone invertir 4.000 millones de euros más en el sector educativo. El endeudado país apenas tiene margen de maniobra financiero. Y los intereses de la deuda siguen subiendo.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "DW Español",
+   "tax": 5,
+   "paises": [
+    "fr"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "politica_monetaria",
+    "politica_fiscal"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g5cc141bab7d9"
+  },
+  {
+   "id": "9ac2a2736436",
+   "fuente": "f24_latam",
+   "fuenteNombre": "France 24 Español – América Latina",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "EE. UU. alerta sobre posibles atentados contra infraestructura estratégica en el norte de Honduras",
+   "link": "https://www.france24.com/es/am%C3%A9rica-latina/20261031-ee-uu-alerta-sobre-posibles-atentados-contra-infraestructura-estrat%C3%A9gica-en-el-norte-de-honduras",
+   "fecha": "2026-10-31T17:33:16.000Z",
+   "obtenido": "2026-10-31T19:21:03.638Z",
+   "fechaEstimada": false,
+   "extracto": "La Embajada de Estados Unidos en Honduras recomendó a sus ciudadanos evitar este fin de semana la zona de Puerto Cortés, en el norte del país, ante una posible amenaza de atentados contra puentes e instalaciones portuarias. La alerta coincide con una investigación que ya ha derivado en la captura de un sospechoso y…",
+   "imagen": "https://s.france24.com/media/display/1b57e31c-d551-11f1-9b0d-1beafce15fea/w:1024/p:16x9/000-86QE6N6.jpg",
+   "imagenes": [
+    "https://s.france24.com/media/display/1b57e31c-d551-11f1-9b0d-1beafce15fea/w:1024/p:16x9/000-86QE6N6.jpg"
+   ],
+   "imagenCredito": "France 24 Español – América Latina",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g9ac2a2736436"
+  },
+  {
+   "id": "854e2ede3f81",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "DARPA Backs Project to Measure AI Energy Use at Every Stage of the Workflow",
+   "link": "https://oilprice.com/Energy/Energy-General/DARPA-Backs-Project-to-Measure-AI-Energy-Use-at-Every-Stage-of-the-Workflow.html",
+   "fecha": "2026-10-31T17:00:00.000Z",
+   "obtenido": "2026-10-31T19:21:04.221Z",
+   "fechaEstimada": false,
+   "extracto": "The artificial intelligence boom is creating an energy monster. The indiscriminate integration of machine learning into everything from from our energy grids to our electric toothbrushes – no, really – has created a global race to build up data center capacity as quickly as humanly possible, causing energy demand…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [],
+   "regiones": [
+    "global"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g854e2ede3f81"
+  },
+  {
+   "id": "1b1b84e9af1a",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Desplazados de la ciudad ocupada de Oleshki llegan a Ucrania",
+   "link": "https://www.dw.com/es/desplazados-de-la-ciudad-ocupada-de-oleshki-llegan-a-ucrania/a-79818137?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-31T16:57:00.000Z",
+   "obtenido": "2026-10-31T19:21:03.991Z",
+   "fechaEstimada": false,
+   "extracto": "Residentes hambrientos cruzaron a territorio ucraniano, en un retorno masivo de civiles de la primera tregua humanitaria de este tipo en más de cuatro años de guerra, gracias a la primera dama de EE. UU., Melania Trump.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "DW Español",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ua"
+   ],
+   "regiones": [
+    "na",
+    "eu"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g1b1b84e9af1a"
+  },
+  {
+   "id": "7c2b1ed1b30e",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Thousands rally in Berlin as Gen Z plans protests in 30 German cities",
+   "link": "https://www.aljazeera.com/news/2026/10/31/thousands-rally-in-berlin-as-gen-z-plans-protests-in-30-german-cities?traffic_source=rss",
+   "fecha": "2026-10-31T16:28:04.000Z",
+   "obtenido": "2026-10-31T19:21:03.713Z",
+   "fechaEstimada": false,
+   "extracto": "Demonstrations sweeping Europe are inspiring young Germans frustrated by rising costs of living amid military spending.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "de"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g7c2b1ed1b30e"
+  },
+  {
+   "id": "88ecc9b77dba",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Senegal’s Ambitious Plan to Slash Electricity Costs and Boost Energy Security",
+   "link": "https://oilprice.com/Energy/Energy-General/Senegals-Ambitious-Plan-to-Slash-Electricity-Costs-and-Boost-Energy-Security.html",
+   "fecha": "2026-10-31T15:00:00.000Z",
+   "obtenido": "2026-10-31T19:21:04.222Z",
+   "fechaEstimada": false,
+   "extracto": "The government of Senegal has ambitious energy diversification aims, with plans to develop both the country’s oil and gas sector and grow its renewable energy capacity. As part of its Vision 2050 plan, the government aims to reduce energy costs and enhance energy security by diversifying energy sources. The government…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g88ecc9b77dba"
+  },
+  {
+   "id": "7b1743ac28f1",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Zelenski llega a Estambul para reunirse con Erdogan",
+   "link": "https://www.dw.com/es/zelenski-llega-a-estambul-para-reunirse-con-erdogan/a-79816581?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-10-31T14:44:00.000Z",
+   "obtenido": "2026-10-31T19:21:03.992Z",
+   "fechaEstimada": false,
+   "extracto": "El presidente ucraniano tratará con su par turco los ataques a buques en el Mar Negro.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "DW Español",
+   "tax": 5,
+   "paises": [
+    "ua",
+    "tr"
+   ],
+   "regiones": [
+    "eu",
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g7b1743ac28f1"
+  },
+  {
+   "id": "1cbdabf822bf",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Iran FM says US outreach a ‘positive step’ as delegation in Qatar for talks",
+   "link": "https://www.aljazeera.com/news/2026/10/31/iran-fm-says-us-outreach-a-positive-step-as-delegation-in-qatar-for-talks?traffic_source=rss",
+   "fecha": "2026-10-31T14:31:37.000Z",
+   "obtenido": "2026-10-31T19:21:03.713Z",
+   "fechaEstimada": false,
+   "extracto": "Iran’s Foreign Minister Abbas Araghchi tells Al Jazeera Tehran doesn't rule out attack, is ‘prepared for all scenarios’.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "qa",
+    "ir",
+    "us"
+   ],
+   "regiones": [
+    "me",
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g1cbdabf822bf"
+  },
   {
    "id": "514af1ba8622",
    "fuente": "infocampo",
@@ -30209,40 +30756,6 @@
    "imagenes": [
     "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a70c/live/920779f0-cd4f-11f1-a64c-550be9e3c66b.png"
    ]
-  },
-  {
-   "id": "598fdccac7d2",
-   "fuente": "bbc_business",
-   "fuenteNombre": "BBC News – Business",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Civil servant admits he 'made mistakes' juggling five government jobs",
-   "link": "https://www.bbc.co.uk/news/articles/cmze4w63ly42o?at_medium=RSS&at_campaign=rss",
-   "fecha": "2026-10-21T15:58:05.000Z",
-   "obtenido": "2026-10-24T21:35:32.521Z",
-   "fechaEstimada": false,
-   "extracto": "Kashim Chowdhury was contracted for 183 hours a week, more than the number of hours in seven days.",
-   "paises": [],
-   "regiones": [],
-   "materias": [],
-   "temas": [
-    "empleo"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g598fdccac7d2",
-   "categorias": [],
-   "coincidencias": {},
-   "tax": 5
   }
  ]
 }
