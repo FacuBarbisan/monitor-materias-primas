@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-31T22:52:05.228Z",
+ "generado": "2026-11-01T02:17:18.205Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -789,6 +789,140 @@
   ]
  },
  "items": [
+  {
+   "id": "b1f994c77c83",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Shops looted as German cost of living protests turn violent",
+   "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-11-01T01:59:57.000Z",
+   "obtenido": "2026-11-01T02:17:15.699Z",
+   "fechaEstimada": false,
+   "extracto": "Police in Frankfurt say \"violent riots\" took place in the city centre, with unrest also reported in Berlin, Hamburg and Cologne.",
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d1d6/live/e39b2030-d58f-11f1-b151-73ae9f7607e8.jpg",
+   "imagenes": [
+    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d1d6/live/e39b2030-d58f-11f1-b151-73ae9f7607e8.jpg"
+   ],
+   "imagenCredito": "BBC News – Business",
+   "tax": 5,
+   "paises": [
+    "de"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "inflacion"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gb1f994c77c83"
+  },
+  {
+   "id": "c6f3aaf1479c",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Iran war live: Araghchi says talks under way on 2-day plan to reopen Hormuz",
+   "link": "https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz?traffic_source=rss",
+   "fecha": "2026-11-01T00:00:51.000Z",
+   "obtenido": "2026-11-01T02:17:15.978Z",
+   "fechaEstimada": false,
+   "extracto": "Top diplomat says Iran and Qatar have reached a plan to reopen Hormuz in two days if the US meets Tehran's conditions.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "qa",
+    "ir",
+    "us"
+   ],
+   "regiones": [
+    "me",
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gc6f3aaf1479c"
+  },
+  {
+   "id": "b5696a708aa8",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Dutch authorities rescue 38 people adrift in rubber boat",
+   "link": "https://www.aljazeera.com/news/2026/10/31/dutch-authorities-rescue-38-people-adrift-in-rubber-boat?traffic_source=rss",
+   "fecha": "2026-10-31T22:38:03.000Z",
+   "obtenido": "2026-11-01T02:17:15.978Z",
+   "fechaEstimada": false,
+   "extracto": "Migrant boats are rarely found in Dutch waters, and authorities are still trying to establish where this one came from.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "nl"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [
+    "caucho"
+   ],
+   "categorias": [
+    "agricolas"
+   ],
+   "coincidencias": {
+    "caucho": "rubber"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "gb5696a708aa8"
+  },
   {
    "id": "6ccfb5b1f535",
    "fuente": "oilprice",
@@ -30837,133 +30971,6 @@
    "imagenCredito": "BBC News – Business",
    "imagenes": [
     "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b0fd/live/7fe856d0-cca1-11f1-94e6-edd4c60b2e1d.jpg"
-   ]
-  },
-  {
-   "id": "f5e12e97aca3",
-   "fuente": "scmp_china",
-   "fuenteNombre": "South China Morning Post – China",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Beijing hits out after Taipei bans mainland travel for Sun Yat-sen anniversary",
-   "link": "https://www.scmp.com/news/china/politics/article/3371695/beijing-hits-out-after-taipei-bans-mainland-travel-sun-yat-sen-anniversary",
-   "fecha": "2026-10-22T01:00:10.000Z",
-   "obtenido": "2026-10-24T21:35:33.203Z",
-   "fechaEstimada": false,
-   "extracto": "A fresh dispute has erupted between Beijing and Taipei over commemorations for Sun Yat-sen, a Chinese revolutionary hero who is revered on both sides of the Taiwan Strait. Beijing on Wednesday lashed out at Taipei’s move to ban Taiwanese officials from attending events in the mainland Chinese capital marking the 160th…",
-   "paises": [
-    "cn",
-    "tw"
-   ],
-   "regiones": [
-    "as"
-   ],
-   "materias": [],
-   "temas": [
-    "transporte"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "gf5e12e97aca3",
-   "categorias": [],
-   "coincidencias": {},
-   "tax": 5
-  },
-  {
-   "id": "320730b66364",
-   "fuente": "wto",
-   "fuenteNombre": "OMC (WTO) – Noticias",
-   "tipoFuente": "oficial",
-   "idioma": "en",
-   "titulo": "Zimbabwe initiates safeguard investigation on pasta products",
-   "link": "https://www.wto.org/english/news_e/news26_e/safe_zwe_22oct26_523_e.htm",
-   "fecha": "2026-10-22T00:00:00.000Z",
-   "obtenido": "2026-10-26T17:39:54.178Z",
-   "fechaEstimada": false,
-   "extracto": "On 22 October 2026, Zimbabwe notified the WTO’s Committee on Safeguards that it had initiated on 18 September 2026 a safeguard investigation on imports of certain pasta products.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OMC (WTO) – Noticias",
-   "tax": 5,
-   "paises": [],
-   "regiones": [
-    "global"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "comercio",
-    "aranceles"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     },
-     {
-      "canal": "dolar",
-      "nombre": "Dólar",
-      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g320730b66364"
-  },
-  {
-   "id": "0254576c8f2b",
-   "fuente": "bbc_business",
-   "fuenteNombre": "BBC News – Business",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "The grads ditching the UK for a fresh start abroad",
-   "link": "https://www.bbc.co.uk/news/articles/cmzxj4e8w44vo?at_medium=RSS&at_campaign=rss",
-   "fecha": "2026-10-21T23:12:06.000Z",
-   "obtenido": "2026-10-24T21:35:32.522Z",
-   "fechaEstimada": false,
-   "extracto": "With graduate jobs hard to come by, more young adults are reported to be considering emigrating.",
-   "paises": [
-    "gb"
-   ],
-   "regiones": [
-    "eu"
-   ],
-   "materias": [],
-   "temas": [
-    "empleo"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g0254576c8f2b",
-   "categorias": [],
-   "coincidencias": {},
-   "tax": 5,
-   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a70c/live/920779f0-cd4f-11f1-a64c-550be9e3c66b.png",
-   "imagenCredito": "BBC News – Business",
-   "imagenes": [
-    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a70c/live/920779f0-cd4f-11f1-a64c-550be9e3c66b.png"
    ]
   }
  ]
