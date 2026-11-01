@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-01T16:50:39.358Z",
+ "generado": "2026-11-01T21:13:23.234Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -789,6 +789,312 @@
   ]
  },
  "items": [
+  {
+   "id": "3aa03fa2481a",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Massive AI Data Center Sparks Backlash Despite Clean Energy Promises",
+   "link": "https://oilprice.com/Energy/Energy-General/Massive-AI-Data-Center-Sparks-Backlash-Despite-Clean-Energy-Promises.html",
+   "fecha": "2026-11-01T20:00:00.000Z",
+   "obtenido": "2026-11-01T21:13:22.420Z",
+   "fechaEstimada": false,
+   "extracto": "As more governments put increasing pressure on tech companies to develop more sustainable data centres, to ensure they do not place a further burden on the grid, several tech firms are investing in developing new energy capacity and incorporating other innovative ideas into their facility development. This has led…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g3aa03fa2481a"
+  },
+  {
+   "id": "73f5320117cd",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Video captures house collapsing due to Ecuador floods",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/video-captures-house-collapsing-due-to-ecuador-floods?traffic_source=rss",
+   "fecha": "2026-11-01T19:56:47.000Z",
+   "obtenido": "2026-11-01T21:13:21.273Z",
+   "fechaEstimada": false,
+   "extracto": "Residents filmed as a house collapsed into a swollen river in Ecuador, where torrential rains and floods linked to El N",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "ec"
+   ],
+   "regiones": [
+    "latam"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g73f5320117cd"
+  },
+  {
+   "id": "f05cc4a1fa13",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "How will the Iran war shape the outcome of the US midterm vote?",
+   "link": "https://www.aljazeera.com/video/inside-story/2026/11/1/how-will-the-iran-war-shape-the-outcome-of-the-u-s-midterm-vote?traffic_source=rss",
+   "fecha": "2026-11-01T19:00:32.000Z",
+   "obtenido": "2026-11-01T21:13:21.273Z",
+   "fechaEstimada": false,
+   "extracto": "The conflict has become a central issue ahead of Tuesday's polls.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "ir",
+    "us"
+   ],
+   "regiones": [
+    "me",
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gf05cc4a1fa13"
+  },
+  {
+   "id": "3f14586dbdfe",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "France opens ‘attempted murder’ probe into petrol bomb attacks on police",
+   "link": "https://www.aljazeera.com/news/2026/11/1/france-opens-attempted-murder-probe-into-molotov-attacks-on-police?traffic_source=rss",
+   "fecha": "2026-11-01T18:58:23.000Z",
+   "obtenido": "2026-11-01T21:13:21.274Z",
+   "fechaEstimada": false,
+   "extracto": "No arrests made after several security officers were reportedly injured during incidents at Saturday's protests.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "fr"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g3f14586dbdfe"
+  },
+  {
+   "id": "7c09d77620f5",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Israel’s first ambassador to Somaliland presents credentials in Hargeisa",
+   "link": "https://www.aljazeera.com/news/2026/11/1/israels-first-ambassador-to-somaliland-presents-credentials-in-hargeisa?traffic_source=rss",
+   "fecha": "2026-11-01T18:23:57.000Z",
+   "obtenido": "2026-11-01T21:13:21.275Z",
+   "fechaEstimada": false,
+   "extracto": "Israel expands ties with the breakaway territory as Somalia challenges its motives and war intensifies in Yemen.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "il",
+    "ye"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g7c09d77620f5"
+  },
+  {
+   "id": "f2b76c5f922c",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "U.S. Labs Look to New Materials to Close China's Nuclear Lead",
+   "link": "https://oilprice.com/Energy/Energy-General/US-Labs-Look-to-New-Materials-to-Close-Chinas-Nuclear-Lead.html",
+   "fecha": "2026-11-01T18:00:00.000Z",
+   "obtenido": "2026-11-01T21:13:22.421Z",
+   "fechaEstimada": false,
+   "extracto": "The United States is racing to reestablish itself as a frontrunner in the global nuclear energy sector. While the country still maintains its status as the world’s largest nuclear power producer, it likely won’t be able to hold onto that accolade for long. China has vastly outspent the United States on nuclear power…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "cn"
+   ],
+   "regiones": [
+    "na",
+    "as",
+    "global"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gf2b76c5f922c"
+  },
+  {
+   "id": "522a758e51d0",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Thousands of jobs at Virgin Media O2 to be cut",
+   "link": "https://www.bbc.co.uk/news/articles/c6rry8x9d9qko?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-11-01T16:57:14.000Z",
+   "obtenido": "2026-11-01T21:13:21.056Z",
+   "fechaEstimada": false,
+   "extracto": "The broadband provider has not finalised the number of roles to be axed but it will likely be a sizeable chunk of its workforce, the BBC understands.",
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac17/live/9ec7c8b0-d610-11f1-bdc5-33a5057f63d4.jpg",
+   "imagenes": [
+    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac17/live/9ec7c8b0-d610-11f1-bdc5-33a5057f63d4.jpg"
+   ],
+   "imagenCredito": "BBC News – Business",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "empleo"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g522a758e51d0"
+  },
   {
    "id": "67caca99c669",
    "fuente": "aljazeera",
@@ -31019,171 +31325,6 @@
    "imagenCredito": "BBC News – Business",
    "imagenes": [
     "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04f7/live/62d395b0-ce5d-11f1-a64c-550be9e3c66b.jpg"
-   ]
-  },
-  {
-   "id": "d3c2182f8871",
-   "fuente": "scmp_business",
-   "fuenteNombre": "South China Morning Post – Business",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Embracing the Experience Economy",
-   "link": "https://www.scmp.com/presented/business/topics/c-suite-content-hub/article/3371715/embracing-experience-economy",
-   "fecha": "2026-10-22T21:00:10.000Z",
-   "obtenido": "2026-10-24T21:35:33.219Z",
-   "fechaEstimada": false,
-   "extracto": "When Abel Zhao thinks about the future of travel and live experience, he begins with a memory. As a high school student during the 1998 FIFA World Cup, Zhao was too young to enter the stadium. Instead, he stood outside with friends, listening to the roar of the crowd and absorbing the energy of thousands of people…",
-   "paises": [],
-   "regiones": [],
-   "materias": [],
-   "temas": [
-    "actividad",
-    "energia"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     },
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "gd3c2182f8871",
-   "categorias": [],
-   "coincidencias": {},
-   "tax": 5,
-   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/4826c28b-8fef-4b67-a0de-a8ce93eb1f37_cb8c9a73.jpg?itok=gpAKDPqB&v=1792661265",
-   "imagenCredito": "South China Morning Post – Business",
-   "imagenes": [
-    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/4826c28b-8fef-4b67-a0de-a8ce93eb1f37_cb8c9a73.jpg?itok=gpAKDPqB&v=1792661265"
-   ]
-  },
-  {
-   "id": "80068a49c2d6",
-   "fuente": "scmp_china",
-   "fuenteNombre": "South China Morning Post – China",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "EU mulls sanctions reprieve for Chinese fabric-maker accused of aiding Russia",
-   "link": "https://www.scmp.com/news/china/article/3371832/eu-mulls-sanctions-reprieve-chinese-fabric-maker-accused-aiding-russia",
-   "fecha": "2026-10-22T20:32:36.000Z",
-   "obtenido": "2026-10-24T21:35:33.199Z",
-   "fechaEstimada": false,
-   "extracto": "Diplomats from the EU’s 27 member states were pressured this week to lift sanctions on Yusha Group, a Chinese textiles manufacturer accused of selling sensitive European technology to Russian buyers. In exchange, Beijing has pledged that the company will refrain from shipping banned items to Russian military-linked…",
-   "paises": [
-    "eu",
-    "de",
-    "ru",
-    "cn"
-   ],
-   "regiones": [
-    "eu",
-    "eurasia",
-    "as"
-   ],
-   "materias": [],
-   "temas": [
-    "conflicto",
-    "sanciones",
-    "aranceles",
-    "comercio",
-    "transporte"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     },
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     },
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     },
-     {
-      "canal": "dolar",
-      "nombre": "Dólar",
-      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
-     },
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g80068a49c2d6",
-   "categorias": [],
-   "coincidencias": {},
-   "tax": 5,
-   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/fe7b03ba-ae1e-411a-b8f9-1195bd60cf8a_cf73cbd4.jpg?itok=EtKhHoex&v=1792701151",
-   "imagenCredito": "South China Morning Post – China",
-   "imagenes": [
-    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/fe7b03ba-ae1e-411a-b8f9-1195bd60cf8a_cf73cbd4.jpg?itok=EtKhHoex&v=1792701151"
-   ]
-  },
-  {
-   "id": "a18f8f093b68",
-   "fuente": "scmp_china",
-   "fuenteNombre": "South China Morning Post – China",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "16 killed, 32 hurt after magnitude 7 earthquake strikes China’s Tibet",
-   "link": "https://www.scmp.com/news/china/article/3371831/casualties-reported-after-70-quake-strikes-chinas-tibet",
-   "fecha": "2026-10-22T20:26:03.000Z",
-   "obtenido": "2026-10-24T21:35:33.200Z",
-   "fechaEstimada": false,
-   "extracto": "At least 16 people were killed and 32 more injured when a strong 7.0-magnitude earthquake struck China’s western Tibet autonomous region late on Thursday, state news agency Xinhua said, citing local authorities. More than 300 houses collapsed in the earthquake, which struck on Thursday at 10.33pm. Officials were still…",
-   "paises": [
-    "cn"
-   ],
-   "regiones": [
-    "as"
-   ],
-   "materias": [],
-   "temas": [
-    "clima"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     },
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "ga18f8f093b68",
-   "categorias": [],
-   "coincidencias": {},
-   "tax": 5,
-   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/d6043b44-e2bb-4b70-9ec0-06307b38ceb1_cf612486.jpg?itok=7PdLbC4N&v=1792700756",
-   "imagenCredito": "South China Morning Post – China",
-   "imagenes": [
-    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/d6043b44-e2bb-4b70-9ec0-06307b38ceb1_cf612486.jpg?itok=7PdLbC4N&v=1792700756"
    ]
   }
  ]
