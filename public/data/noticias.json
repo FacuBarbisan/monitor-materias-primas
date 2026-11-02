@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-01T21:13:23.234Z",
+ "generado": "2026-11-02T00:51:04.303Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -789,6 +789,325 @@
   ]
  },
  "items": [
+  {
+   "id": "a67f2264c1c0",
+   "fuente": "bbc_mundo",
+   "fuenteNombre": "BBC News Mundo",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "\"Era como si cayera un misil\": 9 muertos al estrellarse un avión privado en un vecindario de Florida",
+   "link": "https://www.bbc.com/mundo/articles/c61m4yyjyrrxo?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-11-02T00:01:15.000Z",
+   "obtenido": "2026-11-02T00:50:24.764Z",
+   "fechaEstimada": false,
+   "extracto": "La aeronave privada se estrelló en el condado de Palm Beach, Florida. Imágenes captadas por los residentes mostraban al jet cayendo a gran velocidad antes de estrellarse.",
+   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/03e5/live/df9393e0-d64e-11f1-93e1-3b657b665bcf.jpg",
+   "imagenes": [
+    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/03e5/live/df9393e0-d64e-11f1-93e1-3b657b665bcf.jpg"
+   ],
+   "imagenCredito": "BBC News Mundo",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "ga67f2264c1c0"
+  },
+  {
+   "id": "37c9fe5d7b4c",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon",
+   "link": "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss",
+   "fecha": "2026-11-02T00:00:00.000Z",
+   "obtenido": "2026-11-02T00:50:24.935Z",
+   "fechaEstimada": false,
+   "extracto": "US president warns Iran to make a deal, as IRGC says two tankers have hit mines and caught fire in the Strait of Hormuz.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ir"
+   ],
+   "regiones": [
+    "na",
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto",
+    "mineria",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gfe624c8cc66f"
+  },
+  {
+   "id": "133a192efc71",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Oil Prices No Longer Follow Headlines",
+   "link": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-No-Longer-Follow-Headlines.html",
+   "fecha": "2026-11-02T00:00:00.000Z",
+   "obtenido": "2026-11-02T00:50:25.546Z",
+   "fechaEstimada": false,
+   "extracto": "A month ago, a series of news reports said oil flows out of Hormuz had recovered to pre-war levels, pushing oil prices lower. However, the rout did not last. Benchmarks are set for their fourth monthly gain in a row, and no amount of repeating that Gulf states are exporting even more oil than before the war can change…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "ir"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "oil prices",
+    "brent": "oil prices"
+   },
+   "temas": [
+    "conflicto",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g133a192efc71"
+  },
+  {
+   "id": "c0ea4d934af5",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "UN warns of security risks in Western Sahara as peacekeeping mission ends",
+   "link": "https://www.aljazeera.com/news/2026/11/1/un-warns-of-security-risks-in-western-sahara-as-peacekeeping-mission-ends?traffic_source=rss",
+   "fecha": "2026-11-01T23:19:51.000Z",
+   "obtenido": "2026-11-02T00:50:24.935Z",
+   "fechaEstimada": false,
+   "extracto": "The mission, known as MINURSO, has been in place in the disputed region since a ceasefire in 1991.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gc0ea4d934af5"
+  },
+  {
+   "id": "757a23938f9b",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "'I've had people eating cat food': Rising cost of living top of mind for US voters",
+   "link": "https://www.bbc.co.uk/news/videos/cwly0eev3m44o?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-11-01T22:25:51.000Z",
+   "obtenido": "2026-11-02T00:50:24.754Z",
+   "fechaEstimada": false,
+   "extracto": "The BBC's Clive Myrie travelled to North Caroline where voters voiced their frustrations ahead of midterm elections.",
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7eaa/live/a5c67c70-d637-11f1-93e1-3b657b665bcf.jpg",
+   "imagenes": [
+    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7eaa/live/a5c67c70-d637-11f1-93e1-3b657b665bcf.jpg"
+   ],
+   "imagenCredito": "BBC News – Business",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "inflacion"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g757a23938f9b"
+  },
+  {
+   "id": "66c9f884c135",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Kherson braces for return of war as localised Russia-Ukraine truce ends",
+   "link": "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss",
+   "fecha": "2026-11-01T22:15:14.000Z",
+   "obtenido": "2026-11-02T00:50:24.936Z",
+   "fechaEstimada": false,
+   "extracto": "Moscow and Kyiv continue strikes elsewhere, but no reported violations in Kherson region during the six-day ceasefire.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "ua",
+    "ru"
+   ],
+   "regiones": [
+    "eu",
+    "eurasia"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g66c9f884c135"
+  },
+  {
+   "id": "772013f447ee",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Thousands displaced from Hebron as Israel carries on siege",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/thousands-displaced-from-hebron-as-israel-carries-on-siege?traffic_source=rss",
+   "fecha": "2026-11-01T21:28:47.000Z",
+   "obtenido": "2026-11-02T00:50:24.936Z",
+   "fechaEstimada": false,
+   "extracto": "Almost 5,000 people have been displaced as a result of Israel’s military siege on the city of Hebron in the West Bank.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "il",
+    "ps"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g772013f447ee"
+  },
   {
    "id": "3aa03fa2481a",
    "fuente": "oilprice",
@@ -31166,165 +31485,6 @@
    "imagenCredito": "South China Morning Post – Business",
    "imagenes": [
     "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/2f59b3e4-e50b-4f75-9672-d09490085593_0a530d6d.jpg?itok=3-ZCNuwv&v=1792661675"
-   ]
-  },
-  {
-   "id": "72a666956b7c",
-   "fuente": "bbc_mundo",
-   "fuenteNombre": "BBC News Mundo",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "El uso de inyecciones para adelgazar está afectando las ventas de productos de belleza y cuidado de la piel, según L'Oréal",
-   "link": "https://www.bbc.com/mundo/articles/c699z39257zlo?at_medium=RSS&at_campaign=rss",
-   "fecha": "2026-10-23T00:35:52.000Z",
-   "obtenido": "2026-10-25T15:51:06.456Z",
-   "fechaEstimada": false,
-   "extracto": "El director ejecutivo de L'Oréal afirma que el creciente uso de GLP-1 es \"un fenómeno muy importante\" para su compañía.",
-   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/04f7/live/62d395b0-ce5d-11f1-a64c-550be9e3c66b.jpg",
-   "tax": 5,
-   "paises": [],
-   "regiones": [],
-   "materias": [
-    "propano"
-   ],
-   "categorias": [
-    "energia"
-   ],
-   "coincidencias": {
-    "propano": "glp"
-   },
-   "temas": [],
-   "relevante": true,
-   "impacto": null,
-   "grupo": "g72a666956b7c",
-   "imagenCredito": "BBC News Mundo",
-   "imagenes": [
-    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/04f7/live/62d395b0-ce5d-11f1-a64c-550be9e3c66b.jpg"
-   ]
-  },
-  {
-   "id": "7b81b6dfcd31",
-   "fuente": "scmp_business",
-   "fuenteNombre": "South China Morning Post – Business",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Wall Street piles into Hong Kong’s dim sum bonds despite fading yuan funding edge: BofA",
-   "link": "https://www.scmp.com/business/banking-finance/article/3371769/wall-street-piles-hong-kongs-dim-sum-bonds-despite-fading-yuan-funding-edge-bofa",
-   "fecha": "2026-10-23T00:00:14.000Z",
-   "obtenido": "2026-10-25T16:48:00.065Z",
-   "fechaEstimada": false,
-   "extracto": "Hong Kong’s offshore yuan bond market is becoming an increasingly important funding source for global banks, with US lenders driving a surge in issuance even as the currency’s traditional funding advantage over the dollar narrows. The shift offers a glimpse of how financial ties between Wall Street and China are…",
-   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/8e4a3c28-630b-4007-a062-86e30bb64b0e_68f6db5b.jpg?itok=sDrs0Vdd&v=1792654992",
-   "imagenes": [
-    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/8e4a3c28-630b-4007-a062-86e30bb64b0e_68f6db5b.jpg?itok=sDrs0Vdd&v=1792654992"
-   ],
-   "imagenCredito": "South China Morning Post – Business",
-   "tax": 5,
-   "paises": [
-    "us",
-    "cn",
-    "hk"
-   ],
-   "regiones": [
-    "na",
-    "as",
-    "global"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "politica_monetaria"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "tasas",
-      "nombre": "Tasas de interés",
-      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
-     },
-     {
-      "canal": "dolar",
-      "nombre": "Dólar",
-      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g7b81b6dfcd31"
-  },
-  {
-   "id": "ad1f6a827aa8",
-   "fuente": "wto",
-   "fuenteNombre": "OMC (WTO) – Noticias",
-   "tipoFuente": "oficial",
-   "idioma": "en",
-   "titulo": "Members intensify discussions on WTO reform based on substantive proposals",
-   "link": "https://www.wto.org/english/news_e/news26_e/refrm_23oct26_524_e.htm",
-   "fecha": "2026-10-23T00:00:00.000Z",
-   "obtenido": "2026-10-26T17:39:54.177Z",
-   "fechaEstimada": false,
-   "extracto": "At a transparency session on 23 October, WTO members welcomed progress in the WTO reform process and acknowledged a clear shift toward more substantive and focused discussions. Ahead of the meeting, facilitators for the discussions on WTO reform reported on their engagement with members during October on the four…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OMC (WTO) – Noticias",
-   "tax": 5,
-   "paises": [],
-   "regiones": [
-    "global"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "comercio"
-   ],
-   "relevante": false,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "gad1f6a827aa8"
-  },
-  {
-   "id": "8c3d7bf32c97",
-   "fuente": "bbc_business",
-   "fuenteNombre": "BBC News – Business",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "L'Oreal says weight loss drugs are impacting beauty and skincare sales",
-   "link": "https://www.bbc.co.uk/news/articles/cvglwgwpgrlpo?at_medium=RSS&at_campaign=rss",
-   "fecha": "2026-10-22T22:27:53.000Z",
-   "obtenido": "2026-10-25T15:51:06.232Z",
-   "fechaEstimada": false,
-   "extracto": "The beauty giant's CEO says the use of GLP-1s is \"a very important phenomenon for us\".",
-   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04f7/live/62d395b0-ce5d-11f1-a64c-550be9e3c66b.jpg",
-   "tax": 5,
-   "paises": [],
-   "regiones": [],
-   "materias": [
-    "propano"
-   ],
-   "categorias": [
-    "energia"
-   ],
-   "coincidencias": {
-    "propano": "glp"
-   },
-   "temas": [],
-   "relevante": true,
-   "impacto": null,
-   "grupo": "g8c3d7bf32c97",
-   "imagenCredito": "BBC News – Business",
-   "imagenes": [
-    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04f7/live/62d395b0-ce5d-11f1-a64c-550be9e3c66b.jpg"
    ]
   }
  ]
