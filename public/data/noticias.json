@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02T00:51:04.303Z",
+ "generado": "2026-11-02T07:44:37.122Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -789,6 +789,669 @@
   ]
  },
  "items": [
+  {
+   "id": "f213944b70a7",
+   "fuente": "mining_technology",
+   "fuenteNombre": "Mining Technology – Minería",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Copper One concludes initial Phase 2 drill hole at Majuba Hill in Nevada",
+   "link": "https://www.mining-technology.com/news/copper-one-concludes-drill-hole-majuba-hill/",
+   "fecha": "2026-11-02T07:41:19.000Z",
+   "obtenido": "2026-11-02T07:43:57.536Z",
+   "fechaEstimada": false,
+   "extracto": "Copper One Resources has completed the first drill hole of its planned 10,000ft Phase 2 diamond drilling programme at the Majuba Hill Copper-Silver-Gold Project in Nevada’s Pershing County, US. The post Copper One concludes initial Phase 2 drill hole at Majuba Hill in Nevada appeared first on Mining Technology .",
+   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/11/Copper-One-Project.jpg",
+   "imagenes": [
+    "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/11/Copper-One-Project.jpg"
+   ],
+   "imagenCredito": "Mining Technology – Minería",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [
+    "oro",
+    "plata",
+    "cobre"
+   ],
+   "categorias": [
+    "preciosos",
+    "industriales"
+   ],
+   "coincidencias": {
+    "oro": "gold",
+    "plata": "silver",
+    "cobre": "copper"
+   },
+   "temas": [
+    "energia",
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "En la plata y los metales industriales, la actividad industrial pesa en la demanda; en el oro, la demanda de inversión y de bancos centrales suele pesar más."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gf213944b70a7"
+  },
+  {
+   "id": "d82f0f4e43ea",
+   "fuente": "mining_technology",
+   "fuenteNombre": "Mining Technology – Minería",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "U. S. Steel begins work on $1.9bn iron plant in Arkansas",
+   "link": "https://www.mining-technology.com/news/u-s-steel-work-iron-plant-arkansas/",
+   "fecha": "2026-11-02T07:41:11.000Z",
+   "obtenido": "2026-11-02T07:43:57.536Z",
+   "fechaEstimada": false,
+   "extracto": "U. S. Steel has started work on a $1.9bn direct reduced iron (DRI) production facility at the Big River Steel Works campus located in Osceola, Arkansas, US. The post U. S. Steel begins work on $1.9bn iron plant in Arkansas appeared first on Mining Technology .",
+   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/11/MT-1-2Nov26-output_1.jpg",
+   "imagenes": [
+    "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/11/MT-1-2Nov26-output_1.jpg"
+   ],
+   "imagenCredito": "Mining Technology – Minería",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [
+    "hierro"
+   ],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {
+    "hierro": "steel"
+   },
+   "temas": [
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gd82f0f4e43ea"
+  },
+  {
+   "id": "56812aaecedc",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Hormuz shipping still faces major risks",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/2/hormuz-shipping-still-faces-major-risks?traffic_source=rss",
+   "fecha": "2026-11-02T07:30:12.000Z",
+   "obtenido": "2026-11-02T07:43:56.846Z",
+   "fechaEstimada": false,
+   "extracto": "The Strait of Hormuz remains dangerous and costly for shipping, despite US claims that it is open.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "ir",
+    "us"
+   ],
+   "regiones": [
+    "me",
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g56812aaecedc"
+  },
+  {
+   "id": "2dd17f4c145e",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Bangladesh garment factories disrupted as protests continue for third day",
+   "link": "https://www.aljazeera.com/news/2026/11/2/bangladesh-garment-factories-disrupted-as-protests-continue-for-third-day?traffic_source=rss",
+   "fecha": "2026-11-02T07:08:28.000Z",
+   "obtenido": "2026-11-02T07:43:56.847Z",
+   "fechaEstimada": false,
+   "extracto": "Workers in Bangladesh's largest export sector are demanding a minimum wage increase amid rising inflation.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "inflacion",
+    "comercio"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g2dd17f4c145e"
+  },
+  {
+   "id": "f3c921a15d27",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "China’s fifth plenum: everything you need to know from the war on corruption to promotions",
+   "link": "https://www.scmp.com/news/china/article/3372950/chinas-fifth-plenum-everything-you-need-know-war-corruption-promotions",
+   "fecha": "2026-11-02T06:52:44.000Z",
+   "obtenido": "2026-11-02T07:43:57.360Z",
+   "fechaEstimada": false,
+   "extracto": "We have put together stories from our coverage of China’s fifth plenum. If you would like to see more of our reporting, please consider subscribing. 1. ‘Unwritten rules’ become newest target in Communist Party’s war on corruption The Communist Party of China has pledged to vigorously crack down on the “unwritten…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/4ab0cd56-6779-4b1d-9458-f3d132fdd538_ae844896.jpg?itok=pho2J1zn&v=1793599426",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/4ab0cd56-6779-4b1d-9458-f3d132fdd538_ae844896.jpg?itok=pho2J1zn&v=1793599426"
+   ],
+   "imagenCredito": "South China Morning Post – China",
+   "tax": 5,
+   "paises": [
+    "cn"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gf3c921a15d27"
+  },
+  {
+   "id": "e3a3cc375b6c",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Oil Prices Slide 3% as Hopes for Iran Peace Deal Grow",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-3-as-Hopes-for-Iran-Peace-Deal-Grow.html",
+   "fecha": "2026-11-02T06:30:00.000Z",
+   "obtenido": "2026-11-02T07:43:57.771Z",
+   "fechaEstimada": false,
+   "extracto": "Crude oil prices started the week with a dip on renewed optimism about a possible peace deal between the United States and Iran, following reports about mediation talks between Iran and Qatar over the weekend. At the time of writing, Brent crude was trading at $109.82 per barrel, and West Texas Intermediate was…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "qa",
+    "ir"
+   ],
+   "regiones": [
+    "na",
+    "me"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "oil prices",
+    "brent": "oil prices"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "ge3a3cc375b6c"
+  },
+  {
+   "id": "808fe03d9122",
+   "fuente": "scmp_business",
+   "fuenteNombre": "South China Morning Post – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "China’s WeBank finds growth in Southeast Asia, mining high digital banking demand",
+   "link": "https://www.scmp.com/business/banking-finance/article/3372916/chinas-webank-finds-growth-southeast-asia-mining-high-digital-banking-demand",
+   "fecha": "2026-11-02T05:00:25.000Z",
+   "obtenido": "2026-11-02T07:43:57.414Z",
+   "fechaEstimada": false,
+   "extracto": "Hong Kong-based WeBank Technology Services, a fintech unit of Tencent Holdings-backed Chinese online lending giant WeBank, generated tens of millions of dollars in revenue last year amid rising demand for digital banking infrastructure in Southeast Asia, according to a senior executive. WeBank Technology, which…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/e703ceeb-47ed-466e-b2b9-1c7e5285126d_2564c2cb.jpg?itok=jT8XbosV&v=1793585056",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/e703ceeb-47ed-466e-b2b9-1c7e5285126d_2564c2cb.jpg?itok=jT8XbosV&v=1793585056"
+   ],
+   "imagenCredito": "South China Morning Post – Business",
+   "tax": 5,
+   "paises": [
+    "cn",
+    "hk"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {},
+   "temas": [
+    "actividad",
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g808fe03d9122"
+  },
+  {
+   "id": "6ff5875f6baa",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "El presidente Donald Trump elude toda responsabilidad por altos precios de la gasolina en Estados Unidos",
+   "link": "https://www.dw.com/es/el-presidente-donald-trump-elude-toda-responsabilidad-por-altos-precios-de-la-gasolina-en-estados-unidos/a-79825128?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-11-02T04:23:00.000Z",
+   "obtenido": "2026-11-02T07:43:57.026Z",
+   "fechaEstimada": false,
+   "extracto": "Durante un mitin en Iowa, a dos días de las cruciales elecciones de medio término, el gobernante dijo a los estadounidenses que el alza de los combustibles es un \"pequeño precio a pagar\" por la guerra en Irán.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "DW Español",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ir"
+   ],
+   "regiones": [
+    "na",
+    "me"
+   ],
+   "materias": [
+    "gasolina"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "gasolina": "gasolina"
+   },
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g6ff5875f6baa"
+  },
+  {
+   "id": "ffbae4b1c8a2",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Trump leans into Islamophobia and conspiracy in last-ditch campaign rallies",
+   "link": "https://www.aljazeera.com/news/2026/11/2/trump-leans-into-islamophobia-and-conspiracy-in-last-ditch-campaign-rallies?traffic_source=rss",
+   "fecha": "2026-11-02T04:08:54.000Z",
+   "obtenido": "2026-11-02T07:43:56.849Z",
+   "fechaEstimada": false,
+   "extracto": "Trump attacks Muslim politicians Abdul El-Sayed and Ilhan Omar in his two last rallies on the campaign trail.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gffbae4b1c8a2"
+  },
+  {
+   "id": "ab2ca8c601fc",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Chinese scientists found giant ‘chimneys’ in deep water that could alter submarine warfare",
+   "link": "https://www.scmp.com/news/china/science/article/3372663/chinese-scientists-found-giant-chimneys-deep-water-could-alter-submarine-warfare",
+   "fecha": "2026-11-02T03:13:07.000Z",
+   "obtenido": "2026-11-02T07:43:57.362Z",
+   "fechaEstimada": false,
+   "extracto": "Chinese researchers have mapped how energy from surface wind surges thousands of metres into the seabed, revealing massive underwater conduits they called “inertial chimneys”. The discovery, based on data collected by a US-funded ocean sensor array off the east coast of Japan, coupled with future long-term underwater…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/30/f26f5a24-832f-47f7-9389-545d21d4f496_0404b79d.jpg?itok=OUozStYh&v=1793330447",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/30/f26f5a24-832f-47f7-9389-545d21d4f496_0404b79d.jpg?itok=OUozStYh&v=1793330447"
+   ],
+   "imagenCredito": "South China Morning Post – China",
+   "tax": 5,
+   "paises": [
+    "cn",
+    "jp",
+    "us"
+   ],
+   "regiones": [
+    "as",
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gab2ca8c601fc"
+  },
+  {
+   "id": "6751277a07c2",
+   "fuente": "scmp_business",
+   "fuenteNombre": "South China Morning Post – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Chinese stocks rebound on optimism PBOC set to expand US$45 billion relending facility",
+   "link": "https://www.scmp.com/business/china-business/article/3372917/chinese-stocks-rebound-worst-sell-10-years-state-support-speculation-mounts",
+   "fecha": "2026-11-02T02:22:38.000Z",
+   "obtenido": "2026-11-02T07:43:57.415Z",
+   "fechaEstimada": false,
+   "extracto": "China’s stocks rebounded on Monday from a brutal sell-off in October as speculation gathered pace that Beijing would double down on efforts to stem a rout that sent its benchmark into a bear market. The CSI 300 Index rose 0.8 per cent to 4,016.92 at the close. The Star Market 50 Index, which is dominated by the…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/a7e049cd-62f9-4e8e-9c23-4336a60368de_05dd290c.jpg?itok=_8nXM35t&v=1793586142",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/a7e049cd-62f9-4e8e-9c23-4336a60368de_05dd290c.jpg?itok=_8nXM35t&v=1793586142"
+   ],
+   "imagenCredito": "South China Morning Post – Business",
+   "tax": 5,
+   "paises": [
+    "cn",
+    "us"
+   ],
+   "regiones": [
+    "as",
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "politica_monetaria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g6751277a07c2"
+  },
+  {
+   "id": "a52058c91295",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Rusia enfrenta \"ciberataque masivo\" contra aplicación del Ministerio de Emergencias",
+   "link": "https://www.dw.com/es/rusia-enfrenta-ciberataque-masivo-contra-aplicación-del-ministerio-de-emergencias/a-79825073?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-11-02T02:13:00.000Z",
+   "obtenido": "2026-11-02T07:43:57.027Z",
+   "fechaEstimada": false,
+   "extracto": "El hackeo afectó una aplicación móvil que avisa a la población rusa sobre posibles ataques de Ucrania y otras amenazas.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "DW Español",
+   "tax": 5,
+   "paises": [
+    "ua",
+    "ru"
+   ],
+   "regiones": [
+    "eu",
+    "eurasia"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "ga52058c91295"
+  },
+  {
+   "id": "cd73f9d1898d",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
+   "link": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss",
+   "fecha": "2026-11-02T01:40:50.000Z",
+   "obtenido": "2026-11-02T07:43:56.850Z",
+   "fechaEstimada": false,
+   "extracto": "Ukrainian users receive fake warnings of nuclear threats, while Moscow reports 'false information' on its app.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "ua",
+    "ru"
+   ],
+   "regiones": [
+    "eu",
+    "eurasia"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto",
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gcd73f9d1898d"
+  },
+  {
+   "id": "25581797d516",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Why Is This Rare Earth Metal 346 Times More Expensive In America Than in China?",
+   "link": "https://oilprice.com/Energy/Energy-General/Why-Is-This-Rare-Earth-Metal-346-Times-More-Expensive-In-America-Than-in-China.html",
+   "fecha": "2026-11-02T01:00:00.000Z",
+   "obtenido": "2026-11-02T07:43:57.772Z",
+   "fechaEstimada": false,
+   "extracto": "Samarium sells for as much as 346 times more in North America than in China, and that price is just a preview of what American industry would pay the day Beijing stops exporting. Jet engines, industrial motors, EVs, wind turbines and medical scanners all run on rare earth magnets, and most U.S. manufacturers still buy…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "cn",
+    "jp"
+   ],
+   "regiones": [
+    "na",
+    "as"
+   ],
+   "materias": [
+    "tierras_raras"
+   ],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {
+    "tierras_raras": "rare earth"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "g25581797d516"
+  },
   {
    "id": "a67f2264c1c0",
    "fuente": "bbc_mundo",
@@ -31009,483 +31672,6 @@
    "categorias": [],
    "coincidencias": {},
    "tax": 5
-  },
-  {
-   "id": "e1f40389c093",
-   "fuente": "mining_technology",
-   "fuenteNombre": "Mining Technology – Minería",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Metals One agrees terms to acquire full stake in Lions Bay Resources",
-   "link": "https://www.mining-technology.com/news/metals-one-acquire-lions-bay-resources/",
-   "fecha": "2026-10-23T07:16:01.000Z",
-   "obtenido": "2026-10-25T16:41:02.580Z",
-   "fechaEstimada": false,
-   "extracto": "Metals One has signed a binding term sheet for the proposed full acquisition of Lions Bay Resources (LBR), aiming to expand its focus on gold and power operations in South Africa. The post Metals One agrees terms to acquire full stake in Lions Bay Resources appeared first on Mining Technology .",
-   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-2-23Oct26-shutterstock_2474021011.jpg",
-   "imagenCredito": "Mining Technology – Minería",
-   "tax": 5,
-   "paises": [
-    "za"
-   ],
-   "regiones": [
-    "af"
-   ],
-   "materias": [
-    "oro"
-   ],
-   "categorias": [
-    "preciosos",
-    "industriales"
-   ],
-   "coincidencias": {
-    "oro": "gold"
-   },
-   "temas": [
-    "mineria"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "ge1f40389c093",
-   "imagenes": [
-    "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-2-23Oct26-shutterstock_2474021011.jpg"
-   ]
-  },
-  {
-   "id": "877b1da237c7",
-   "fuente": "mining_technology",
-   "fuenteNombre": "Mining Technology – Minería",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Cornish Metals raises $181m to fund South Crofty tin project in UK",
-   "link": "https://www.mining-technology.com/news/cornish-metals-181m-fund-south-crofty/",
-   "fecha": "2026-10-23T07:15:03.000Z",
-   "obtenido": "2026-10-25T16:41:02.581Z",
-   "fechaEstimada": false,
-   "extracto": "Cornish Metals has completed a fundraising round, securing £135m ($181m) before expense through the issue of 225,000,000 new ordinary shares to support the South Crofty tin project in Cornwall, UK. The post Cornish Metals raises $181m to fund South Crofty tin project in UK appeared first on Mining Technology .",
-   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-1-23Oct26-shutterstock_2600099793.jpg",
-   "imagenCredito": "Mining Technology – Minería",
-   "tax": 5,
-   "paises": [
-    "gb"
-   ],
-   "regiones": [
-    "eu"
-   ],
-   "materias": [],
-   "categorias": [
-    "industriales"
-   ],
-   "coincidencias": {},
-   "temas": [
-    "mineria"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g877b1da237c7",
-   "imagenes": [
-    "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-1-23Oct26-shutterstock_2600099793.jpg"
-   ]
-  },
-  {
-   "id": "00149156879d",
-   "fuente": "scmp_business",
-   "fuenteNombre": "South China Morning Post – Business",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Market sell-off, tax scrutiny and growth: key figures shaping investor sentiment",
-   "link": "https://www.scmp.com/business/markets/article/3371870/market-sell-tax-scrutiny-and-growth-key-figures-shaping-investor-sentiment",
-   "fecha": "2026-10-23T07:00:07.000Z",
-   "obtenido": "2026-10-24T21:35:33.216Z",
-   "fechaEstimada": false,
-   "extracto": "As regional equities tumbled and hopes for investor stimulus faded, the Hang Seng Index fell to a seven-month low. Attention also remained focused on Beijing’s intensified scrutiny of offshore wealth and tax compliance. Macroeconomic data pointed to steady, if uneven, domestic momentum. Here are the core figures…",
-   "paises": [
-    "cn",
-    "hk"
-   ],
-   "regiones": [
-    "as"
-   ],
-   "materias": [],
-   "temas": [
-    "actividad",
-    "politica_fiscal"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g00149156879d",
-   "categorias": [],
-   "coincidencias": {},
-   "tax": 5,
-   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/609902ef-59e6-40ee-98d2-54cefbaebbc1_e8b1fc81.jpg?itok=VGC4RCBC&v=1792730814",
-   "imagenCredito": "South China Morning Post – Business",
-   "imagenes": [
-    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/609902ef-59e6-40ee-98d2-54cefbaebbc1_e8b1fc81.jpg?itok=VGC4RCBC&v=1792730814"
-   ]
-  },
-  {
-   "id": "d5a669c63923",
-   "fuente": "bbc_business",
-   "fuenteNombre": "BBC News – Business",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Lights will stay on this winter, grid operator says after concerns",
-   "link": "https://www.bbc.co.uk/news/articles/cmy56q2n1veqo?at_medium=RSS&at_campaign=rss",
-   "fecha": "2026-10-23T06:47:10.000Z",
-   "obtenido": "2026-10-24T21:35:32.517Z",
-   "fechaEstimada": false,
-   "extracto": "The assurance from the National Energy System Operator comes amid concern from its engineers about their ability to ensure adequate supply.",
-   "paises": [],
-   "regiones": [],
-   "materias": [],
-   "temas": [
-    "energia"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     },
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "gd5a669c63923",
-   "categorias": [],
-   "coincidencias": {},
-   "tax": 5,
-   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c4ec/live/bd0928a0-ce22-11f1-9f18-490cec60aa0f.jpg",
-   "imagenCredito": "BBC News – Business",
-   "imagenes": [
-    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c4ec/live/bd0928a0-ce22-11f1-9f18-490cec60aa0f.jpg"
-   ]
-  },
-  {
-   "id": "e95144e34e71",
-   "fuente": "scmp_china",
-   "fuenteNombre": "South China Morning Post – China",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Honduras squeezes Chinese firms; Super Typhoon Champi nears Taiwan: SCMP’s 7 highlights",
-   "link": "https://www.scmp.com/news/china/article/3371851/honduras-squeezes-chinese-firms-super-typhoon-champi-nears-taiwan-scmps-7-highlights",
-   "fecha": "2026-10-23T04:15:11.000Z",
-   "obtenido": "2026-10-24T21:35:33.195Z",
-   "fechaEstimada": false,
-   "extracto": "We have selected seven stories from this week’s news across Hong Kong, mainland China, the wider Asia region and beyond that resonated with our readers and shed light on topical issues. If you would like to see more of our reporting, please consider subscribing. 1. Honduras targets Chinese shops, state builder as…",
-   "paises": [
-    "cn",
-    "hk",
-    "tw"
-   ],
-   "regiones": [
-    "as"
-   ],
-   "materias": [],
-   "temas": [
-    "clima"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     },
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "ge95144e34e71",
-   "categorias": [],
-   "coincidencias": {},
-   "tax": 5,
-   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/f77f1ea3-287d-429a-825b-43cbd76c62ac_cd309e64.jpg?itok=MY-LBtGg&v=1792722858",
-   "imagenCredito": "South China Morning Post – China",
-   "imagenes": [
-    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/f77f1ea3-287d-429a-825b-43cbd76c62ac_cd309e64.jpg?itok=MY-LBtGg&v=1792722858"
-   ]
-  },
-  {
-   "id": "21075bc7ca8b",
-   "fuente": "bbc_mundo",
-   "fuenteNombre": "BBC News Mundo",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "Quiénes son los \"ciudadanos palestinos de Israel\" y por qué pueden tener la llave para desbancar a Netanyahu",
-   "link": "https://www.bbc.com/mundo/articles/crz9812qjxd2o?at_medium=RSS&at_campaign=rss",
-   "fecha": "2026-10-23T04:00:39.000Z",
-   "obtenido": "2026-10-24T21:35:32.623Z",
-   "fechaEstimada": false,
-   "extracto": "El descontento ha sido tradicionalmente un factor que ha mermado la participación electoral de los árabes israelíes. Sin embargo, en estas elecciones existe un fuerte deseo de derrotar a la actual coalición gobernante de derecha.",
-   "paises": [
-    "il"
-   ],
-   "regiones": [
-    "me"
-   ],
-   "materias": [],
-   "temas": [
-    "sanciones"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     },
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g21075bc7ca8b",
-   "categorias": [],
-   "coincidencias": {},
-   "tax": 5,
-   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/befa/live/5c854560-ce66-11f1-ab75-d744dbb6f3f7.jpg",
-   "imagenCredito": "BBC News Mundo",
-   "imagenes": [
-    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/befa/live/5c854560-ce66-11f1-ab75-d744dbb6f3f7.jpg"
-   ]
-  },
-  {
-   "id": "de1e52fe22a7",
-   "fuente": "scmp_china",
-   "fuenteNombre": "South China Morning Post – China",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "What do the protests in France look like from China? Internet users weigh in",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3371813/what-do-protests-france-look-china-internet-users-weigh",
-   "fecha": "2026-10-23T04:00:30.000Z",
-   "obtenido": "2026-10-25T16:48:00.119Z",
-   "fechaEstimada": false,
-   "extracto": "Internet users in China are watching the protests in France with a mix of geopolitical cynicism, domestic pride and sadness at the damage to French landmarks. The protests started in September, when students and teachers in southeastern Paris rallied against deteriorating school conditions. Those specific grievances…",
-   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/09900241-967e-46b1-b8ec-536da2ec5eeb_6cf5a14e.jpg?itok=ediukoli&v=1792670162",
-   "imagenes": [
-    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/09900241-967e-46b1-b8ec-536da2ec5eeb_6cf5a14e.jpg?itok=ediukoli&v=1792670162"
-   ],
-   "imagenCredito": "South China Morning Post – China",
-   "tax": 5,
-   "paises": [
-    "fr",
-    "cn"
-   ],
-   "regiones": [
-    "eu",
-    "as"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "inflacion"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "tasas",
-      "nombre": "Tasas de interés",
-      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
-     },
-     {
-      "canal": "dolar",
-      "nombre": "Dólar",
-      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "gde1e52fe22a7"
-  },
-  {
-   "id": "b962011418c9",
-   "fuente": "scmp_china",
-   "fuenteNombre": "South China Morning Post – China",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Chinese state media takes aim at Japanese firm KDDI over Mongolia wildfire",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3371856/chinese-state-media-takes-aim-japanese-firm-kddi-over-mongolia-wildfire",
-   "fecha": "2026-10-23T02:57:23.000Z",
-   "obtenido": "2026-10-24T21:35:33.196Z",
-   "fechaEstimada": false,
-   "extracto": "Chinese state media has called for a Japanese telecoms firm to apologise to China over a huge wildfire in neighbouring Mongolia, as diplomatic tensions run high between Beijing and Tokyo. The grassland fire broke out on October 8 and burned about 80 per cent of a nature reserve on the Mongolia-China border. According…",
-   "paises": [
-    "cn",
-    "jp"
-   ],
-   "regiones": [
-    "as"
-   ],
-   "materias": [],
-   "temas": [
-    "clima"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     },
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "gb962011418c9",
-   "categorias": [],
-   "coincidencias": {},
-   "tax": 5,
-   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/1594ff55-9ef9-455b-918d-212675d736df_48901f1c.jpg?itok=R3kPptfR&v=1792724236",
-   "imagenCredito": "South China Morning Post – China",
-   "imagenes": [
-    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/1594ff55-9ef9-455b-918d-212675d736df_48901f1c.jpg?itok=R3kPptfR&v=1792724236"
-   ]
-  },
-  {
-   "id": "24f54e914fcb",
-   "fuente": "scmp_china",
-   "fuenteNombre": "South China Morning Post – China",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "China’s Xi Jinping orders urgent relief after Tibet earthquake leaves 16 dead",
-   "link": "https://www.scmp.com/news/china/politics/article/3371850/chinas-xi-jinping-orders-urgent-relief-after-tibet-earthquake-leaves-16-dead",
-   "fecha": "2026-10-23T02:31:49.000Z",
-   "obtenido": "2026-10-24T21:35:33.197Z",
-   "fechaEstimada": false,
-   "extracto": "All efforts need to be focused on search and rescue for survivors and treating the injured, President Xi Jinping instructed on Friday morning, after a 7.0-magnitude earthquake killed 16 and injured 65 in China’s Tibet autonomous region overnight. “The disaster-hit area is located in a high-altitude region with cold…",
-   "paises": [
-    "cn"
-   ],
-   "regiones": [
-    "as"
-   ],
-   "materias": [],
-   "temas": [
-    "clima"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     },
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g24f54e914fcb",
-   "categorias": [],
-   "coincidencias": {},
-   "tax": 5,
-   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/47e29c78-9456-4299-aacd-bbde002065c5_932569a1.jpg?itok=E18BBuZs&v=1792722676",
-   "imagenCredito": "South China Morning Post – China",
-   "imagenes": [
-    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/47e29c78-9456-4299-aacd-bbde002065c5_932569a1.jpg?itok=E18BBuZs&v=1792722676"
-   ]
-  },
-  {
-   "id": "f11e1427fb3d",
-   "fuente": "scmp_business",
-   "fuenteNombre": "South China Morning Post – Business",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Even as Beijing boosts oversight, Chinese investors continue pivot to offshore assets",
-   "link": "https://www.scmp.com/economy/china-economy/article/3371785/even-beijing-boosts-oversight-chinese-investors-continue-pivot-offshore-assets",
-   "fecha": "2026-10-23T01:00:09.000Z",
-   "obtenido": "2026-10-24T21:35:33.218Z",
-   "fechaEstimada": false,
-   "extracto": "Chinese households are increasingly shifting assets from real estate and bank deposits into more lucrative investments at home and abroad, despite growing oversight, Moody’s Ratings said. A multi-year downturn in the Chinese property market and low interest rates are fuelling the demand for alternative investments,…",
-   "paises": [
-    "cn"
-   ],
-   "regiones": [
-    "as"
-   ],
-   "materias": [],
-   "temas": [
-    "politica_monetaria"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "tasas",
-      "nombre": "Tasas de interés",
-      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
-     },
-     {
-      "canal": "dolar",
-      "nombre": "Dólar",
-      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "gf11e1427fb3d",
-   "categorias": [],
-   "coincidencias": {},
-   "tax": 5,
-   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/2f59b3e4-e50b-4f75-9672-d09490085593_0a530d6d.jpg?itok=3-ZCNuwv&v=1792661675",
-   "imagenCredito": "South China Morning Post – Business",
-   "imagenes": [
-    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/2f59b3e4-e50b-4f75-9672-d09490085593_0a530d6d.jpg?itok=3-ZCNuwv&v=1792661675"
-   ]
   }
  ]
 }
