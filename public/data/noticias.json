@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-07T20:33:05.782Z",
+ "generado": "2026-11-08T00:01:28.783Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -789,6 +789,194 @@
   ]
  },
  "items": [
+  {
+   "id": "3b9c1cba0fcf",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Wars May Spur Faster Electrification",
+   "link": "https://oilprice.com/Energy/Energy-General/Wars-May-Spur-Faster-Electrification.html",
+   "fecha": "2026-11-08T00:00:00.000Z",
+   "obtenido": "2026-11-08T00:00:16.931Z",
+   "fechaEstimada": false,
+   "extracto": "The wars in Ukraine and the Middle East have prompted an increase in EV sales to avoid retail fuel inflation and gas demand destruction in favor of other power generation sources. With COP31 starting next week, some participants have signaled that faster electrification could become the focus of the event. “I would…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "ua",
+    "au"
+   ],
+   "regiones": [
+    "eu",
+    "as",
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "inflacion"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g3b9c1cba0fcf"
+  },
+  {
+   "id": "e139f6a99088",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "The U.S. Has $50 Billion for Nuclear Waste and Nowhere to Put It",
+   "link": "https://oilprice.com/Alternative-Energy/Nuclear-Power/The-US-Has-50-Billion-for-Nuclear-Waste-and-Nowhere-to-Put-It.html",
+   "fecha": "2026-11-07T22:00:00.000Z",
+   "obtenido": "2026-11-08T00:00:16.932Z",
+   "fechaEstimada": false,
+   "extracto": "Finland and the United States are exemplifying two opposing approaches to managing the mounting problem of spent nuclear fuel. Finland is about to open the world’s first permanent nuclear waste disposal facility. The United States is stuck in a cycle of endless political turnover and resultant gridlock about how to…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "politica_fiscal",
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "ge139f6a99088"
+  },
+  {
+   "id": "37f79facbb16",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Who is behind Europe’s suspected hybrid attacks?",
+   "link": "https://www.aljazeera.com/video/inside-story/2026/11/7/who-is-behind-europes-suspected-hybrid-attacks?traffic_source=rss",
+   "fecha": "2026-11-07T20:48:58.000Z",
+   "obtenido": "2026-11-08T00:00:15.831Z",
+   "fechaEstimada": false,
+   "extracto": "Bomb hoaxes and supermarket cyberattacks are heightening security fears.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g37f79facbb16"
+  },
+  {
+   "id": "9768f0b992ea",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Abdul El-Sayed slams Trump’s tariff war with Canada",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/abdul-el-sayed-slams-trumps-tariff-war-with-canada?traffic_source=rss",
+   "fecha": "2026-11-07T20:44:34.000Z",
+   "obtenido": "2026-11-08T00:00:15.832Z",
+   "fechaEstimada": false,
+   "extracto": "Michigan Senator-elect Abdul El-Sayed has criticised Trump’s trade war with Canada.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ca"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto",
+    "aranceles"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g9768f0b992ea"
+  },
   {
    "id": "147cd7a0ae71",
    "fuente": "aljazeera",
@@ -30569,7 +30757,7 @@
     ],
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
-   "grupo": "g935b77607c90"
+   "grupo": "g65f2776c0400"
   },
   {
    "id": "31dd88dc13c2",
@@ -34697,850 +34885,6 @@
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
    "grupo": "g0d295d6038b9"
-  },
-  {
-   "id": "285941a7ebd9",
-   "fuente": "aljazeera",
-   "fuenteNombre": "Al Jazeera English",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Iran war live: Tehran presses 7-day Hormuz plan; Trump denies peace talks",
-   "link": "https://www.aljazeera.com/news/liveblog/2026/10/29/iran-war-live-tehran-presses-7-day-hormuz-plan-trump-denies-peace-talks?traffic_source=rss",
-   "fecha": "2026-10-29T00:00:00.000Z",
-   "obtenido": "2026-10-29T01:01:13.041Z",
-   "fechaEstimada": false,
-   "extracto": "Araghchi says Iran is in close contact with mediators on ideas to implement its seven-day plan to reopen Hormuz strait.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Al Jazeera English",
-   "tax": 5,
-   "paises": [
-    "us",
-    "ir"
-   ],
-   "regiones": [
-    "na",
-    "me"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g285941a7ebd9"
-  },
-  {
-   "id": "3687dd2ed48b",
-   "fuente": "oilprice",
-   "fuenteNombre": "OilPrice – Energía",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Peace Talks Won’t Save Oil Buyers From $100-Plus Oil",
-   "link": "https://oilprice.com/Energy/Crude-Oil/Peace-Talks-Wont-Save-Oil-Buyers-From-100-Plus-Oil.html",
-   "fecha": "2026-10-29T00:00:00.000Z",
-   "obtenido": "2026-10-29T01:01:13.785Z",
-   "fechaEstimada": false,
-   "extracto": "Middle East nations have renewed their diplomatic efforts, with high-level delegations from Saudi Arabia, Turkey and Pakistan having met with Iranian officials in Tehran on Monday to explore a regional security framework in a bid to de-escalate tensions. Whereas Iranian President Pezeshkian has expressed a willingness…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OilPrice – Energía",
-   "tax": 5,
-   "paises": [
-    "us",
-    "tr",
-    "sa",
-    "ir",
-    "pk"
-   ],
-   "regiones": [
-    "na",
-    "me",
-    "as"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto",
-    "sanciones",
-    "transporte"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     },
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     },
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g3687dd2ed48b"
-  },
-  {
-   "id": "935b77607c90",
-   "fuente": "wto",
-   "fuenteNombre": "OMC (WTO) – Noticias",
-   "tipoFuente": "oficial",
-   "idioma": "en",
-   "titulo": "Global Review 2026 spotlights partnerships for trade and development",
-   "link": "https://www.wto.org/english/news_e/news26_e/aid_29oct26_526_e.htm",
-   "fecha": "2026-10-29T00:00:00.000Z",
-   "obtenido": "2026-10-29T14:26:05.661Z",
-   "fechaEstimada": false,
-   "extracto": "\"Developing economies seeking trade success need stronger partnerships with all stakeholders,\" WTO Director-General Ngozi Okonjo-Iweala said in her opening remarks at the 2026 Global Review on 29 October, marking 20 years of the Aid for Trade initiative. Over two days, ministers, heads of international organizations…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OMC (WTO) – Noticias",
-   "tax": 5,
-   "paises": [],
-   "regiones": [
-    "global"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "comercio",
-    "empleo",
-    "actividad"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g935b77607c90"
-  },
-  {
-   "id": "ef7ddf4a5678",
-   "fuente": "wto",
-   "fuenteNombre": "OMC (WTO) – Noticias",
-   "tipoFuente": "oficial",
-   "idioma": "en",
-   "titulo": "Côte d'Ivoire President: Re-globalization an opportunity to move beyond traditional trade",
-   "link": "https://www.wto.org/english/news_e/news26_e/pls_29oct26_530_e.htm",
-   "fecha": "2026-10-29T00:00:00.000Z",
-   "obtenido": "2026-10-29T19:54:00.630Z",
-   "fechaEstimada": false,
-   "extracto": "\"Re-globalization presents an opportunity for developing countries to move beyond their traditional areas of specialization in exporting primary products, and to occupy a more prominent place in the spheres of innovation, transformation, industrial production and marketing.\" That was the key message on 29 October of…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OMC (WTO) – Noticias",
-   "tax": 5,
-   "paises": [],
-   "regiones": [
-    "global"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "comercio",
-    "actividad"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "gef7ddf4a5678"
-  },
-  {
-   "id": "61f4f4f77d69",
-   "fuente": "wto",
-   "fuenteNombre": "OMC (WTO) – Noticias",
-   "tipoFuente": "oficial",
-   "idioma": "en",
-   "titulo": "WHO, WIPO and the WTO to hold 13th Joint Technical Symposium on 25 November 2026",
-   "link": "https://www.wto.org/english/news_e/news26_e/heal_29oct26_531_e.htm",
-   "fecha": "2026-10-29T00:00:00.000Z",
-   "obtenido": "2026-10-30T13:03:51.104Z",
-   "fechaEstimada": false,
-   "extracto": "The World Health Organization (WHO), the World Intellectual Property Organization (WIPO) and the World Trade Organization (WTO) will hold the 13th Joint Technical Symposium on Enabling Ecosystems for Local and Regional Health Products Manufacturing: Considering the Role of Trade, IP, AI and Digital Innovation on 25…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OMC (WTO) – Noticias",
-   "tax": 5,
-   "paises": [],
-   "regiones": [
-    "global"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "comercio"
-   ],
-   "relevante": false,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g61f4f4f77d69"
-  },
-  {
-   "id": "d5e4f48e84a9",
-   "fuente": "wto",
-   "fuenteNombre": "OMC (WTO) – Noticias",
-   "tipoFuente": "oficial",
-   "idioma": "en",
-   "titulo": "New report looks at role of South-South and triangular cooperation for trade development",
-   "link": "https://www.wto.org/english/news_e/news26_e/devel_29oct26_535_e.htm",
-   "fecha": "2026-10-29T00:00:00.000Z",
-   "obtenido": "2026-10-30T18:39:37.479Z",
-   "fechaEstimada": false,
-   "extracto": "The growing importance of trade between developing economies - South-South trade - is highlighted in a joint publication launched on Day 1 (29 October) of the 10th Global Review of Aid for Trade by the WTO and the United Nations Office for South-South Cooperation (UNOSSC). The publication examines how the partnerships…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OMC (WTO) – Noticias",
-   "tax": 5,
-   "paises": [],
-   "regiones": [
-    "global"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "comercio",
-    "actividad"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "gd5e4f48e84a9"
-  },
-  {
-   "id": "b6870db50afd",
-   "fuente": "wto",
-   "fuenteNombre": "OMC (WTO) – Noticias",
-   "tipoFuente": "oficial",
-   "idioma": "en",
-   "titulo": "Members review regional trade agreements, confirm meeting frequency, adopt annual report",
-   "link": "https://www.wto.org/english/news_e/news26_e/rta_29oct26_532_e.htm",
-   "fecha": "2026-10-29T00:00:00.000Z",
-   "obtenido": "2026-10-30T18:39:37.481Z",
-   "fechaEstimada": false,
-   "extracto": "At a meeting of the Committee on Regional Trade Agreements (CRTA) on 29 October, WTO members considered five regional trade agreements (RTAs) among members as well as three involving non-members. They also took note of new RTA notifications and adopted the Committee's annual report for 2026.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OMC (WTO) – Noticias",
-   "tax": 5,
-   "paises": [],
-   "regiones": [
-    "global"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "comercio"
-   ],
-   "relevante": false,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "gb6870db50afd"
-  },
-  {
-   "id": "870c1f83e968",
-   "fuente": "wto",
-   "fuenteNombre": "OMC (WTO) – Noticias",
-   "tipoFuente": "oficial",
-   "idioma": "en",
-   "titulo": "Members review 34 notifications, share experiences at Fisheries Subsidies Committee",
-   "link": "https://www.wto.org/english/news_e/news26_e/fish_29oct26_539_e.htm",
-   "fecha": "2026-10-29T00:00:00.000Z",
-   "obtenido": "2026-11-03T15:15:42.878Z",
-   "fechaEstimada": false,
-   "extracto": "At a meeting of the Committee on Fisheries Subsidies on 29 October, WTO members conducted the first review of notifications under the WTO Agreement on Fisheries Subsidies and shared experiences on how they are implementing the Agreement since it entered into force just over a year ago.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OMC (WTO) – Noticias",
-   "tax": 5,
-   "paises": [],
-   "regiones": [
-    "global"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "comercio",
-    "politica_fiscal"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g870c1f83e968"
-  },
-  {
-   "id": "f7d0291277ee",
-   "fuente": "wto",
-   "fuenteNombre": "OMC (WTO) – Noticias",
-   "tipoFuente": "oficial",
-   "idioma": "en",
-   "titulo": "Cotton partners launch drive to bring textile/garment investment to West, Central Africa",
-   "link": "https://www.wto.org/english/news_e/news26_e/cotpt_29oct26_540_e.htm",
-   "fecha": "2026-10-29T00:00:00.000Z",
-   "obtenido": "2026-11-04T16:29:16.334Z",
-   "fechaEstimada": false,
-   "extracto": "On the margins of the Global Aid for Trade Review, the Partenariat pour le Coton (PPC – the Cotton Partnership) launched an Investment Promotion Drive on 29 October to help Africa’s farmers move from exporting cotton as raw fibre to increasing participation in higher-value activities, such as garment manufacturing.…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OMC (WTO) – Noticias",
-   "tax": 5,
-   "paises": [],
-   "regiones": [
-    "af",
-    "global"
-   ],
-   "materias": [
-    "algodon"
-   ],
-   "categorias": [
-    "agricolas"
-   ],
-   "coincidencias": {
-    "algodon": "cotton"
-   },
-   "temas": [
-    "comercio",
-    "empleo",
-    "actividad"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar las compras de importadores o el consumo de alimentos."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "gf7d0291277ee"
-  },
-  {
-   "id": "38fe6f0634c4",
-   "fuente": "scmp_business",
-   "fuenteNombre": "South China Morning Post – Business",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Hong Kong holds base rate at 4.25% after US Federal Reserve decision",
-   "link": "https://www.scmp.com/business/banking-finance/article/3372495/hong-kong-holds-base-rate-425-after-us-federal-reserve-decision",
-   "fecha": "2026-10-28T23:09:59.000Z",
-   "obtenido": "2026-10-29T01:01:13.687Z",
-   "fechaEstimada": false,
-   "extracto": "The Hong Kong Monetary Authority (HKMA) announced on Thursday that it would keep its base rate unchanged at 4.25 per cent, hours after the US Federal Reserve also decided to hold its benchmark rate steady. The city’s de facto central bank often mirrors steps taken by the US Fed as the Hong Kong’s currency is pegged to…",
-   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/29/3bd5a36d-382b-449b-9b01-6374b3d84f75_70ab9969.jpg?itok=z6NYE6_v&v=1793228987",
-   "imagenes": [
-    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/29/3bd5a36d-382b-449b-9b01-6374b3d84f75_70ab9969.jpg?itok=z6NYE6_v&v=1793228987"
-   ],
-   "imagenCredito": "South China Morning Post – Business",
-   "tax": 5,
-   "paises": [
-    "us",
-    "cn",
-    "hk"
-   ],
-   "regiones": [
-    "na",
-    "as"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "politica_monetaria"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "tasas",
-      "nombre": "Tasas de interés",
-      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
-     },
-     {
-      "canal": "dolar",
-      "nombre": "Dólar",
-      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g38fe6f0634c4"
-  },
-  {
-   "id": "acd0a7a01f9b",
-   "fuente": "scmp_china",
-   "fuenteNombre": "South China Morning Post – China",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Australia returns ancient stone heads to China after more than 30 years",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3372466/australia-returns-ancient-stone-heads-china-after-more-30-years",
-   "fecha": "2026-10-28T23:00:07.000Z",
-   "obtenido": "2026-10-29T01:01:13.627Z",
-   "fechaEstimada": false,
-   "extracto": "Australia has returned two stone sculptures to China after more than 30 years abroad. The statues, showing the heads of a military official and civil servant, had been given to the National Gallery of Australia in Canberra by a private collector and date back to the Northern Song dynasty (960–1127). China’s National…",
-   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/c5f1d486-241d-4725-8e0a-23c3082ac6c3_06484739.jpg?itok=K4UxzY7f&v=1793188211",
-   "imagenes": [
-    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/c5f1d486-241d-4725-8e0a-23c3082ac6c3_06484739.jpg?itok=K4UxzY7f&v=1793188211"
-   ],
-   "imagenCredito": "South China Morning Post – China",
-   "tax": 5,
-   "paises": [
-    "cn",
-    "au"
-   ],
-   "regiones": [
-    "as"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "gacd0a7a01f9b"
-  },
-  {
-   "id": "7ea1e06e36b8",
-   "fuente": "oilprice",
-   "fuenteNombre": "OilPrice – Energía",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Oil Refineries Become Prime Targets as Global Fuel Shortage Worsens",
-   "link": "https://oilprice.com/Energy/Energy-General/Oil-Refineries-Become-Prime-Targets-as-Global-Fuel-Shortage-Worsens.html",
-   "fecha": "2026-10-28T23:00:00.000Z",
-   "obtenido": "2026-10-29T01:01:13.786Z",
-   "fechaEstimada": false,
-   "extracto": "Ten years ago, European countries were closing refineries while Gulf oil states were building new ones. Now, many of these refineries have been damaged in the war between the U.S. and Israel, and Iran. Fuel output from one of the biggest refining regions is not going to be coming back soon. Neither is full refining…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OilPrice – Energía",
-   "tax": 5,
-   "paises": [
-    "us",
-    "ru",
-    "ir",
-    "il"
-   ],
-   "regiones": [
-    "na",
-    "eurasia",
-    "me",
-    "eu",
-    "global"
-   ],
-   "materias": [
-    "wti",
-    "brent",
-    "gas_natural"
-   ],
-   "categorias": [
-    "energia"
-   ],
-   "coincidencias": {
-    "wti": "oil refineries",
-    "brent": "oil refineries",
-    "gas_natural": "natural gas"
-   },
-   "temas": [
-    "conflicto",
-    "energia"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     },
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
-     },
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g7ea1e06e36b8"
-  },
-  {
-   "id": "bf0c87b80669",
-   "fuente": "oilprice",
-   "fuenteNombre": "OilPrice – Energía",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "How Trump’s Russian Diesel Could End Up in Cuba Instead",
-   "link": "https://oilprice.com/Latest-Energy-News/World-News/How-Trumps-Russian-Diesel-Could-End-Up-in-Cuba-Instead.html",
-   "fecha": "2026-10-28T22:28:57.000Z",
-   "obtenido": "2026-10-29T01:01:13.786Z",
-   "fechaEstimada": false,
-   "extracto": "The tanker billed as the first to carry Russian diesel to the United States under Donald Trump’s deal with Vladimir Putin has dropped New York as its destination. The Malta-flagged Agioi Fanendes left Primorsk on October 22 with about 40,000 metric tons of ultra-low-sulfur diesel, due in New York on November 7.…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OilPrice – Energía",
-   "tax": 5,
-   "paises": [
-    "us",
-    "cu",
-    "ru"
-   ],
-   "regiones": [
-    "na",
-    "latam",
-    "eurasia"
-   ],
-   "materias": [
-    "diesel"
-   ],
-   "categorias": [
-    "energia"
-   ],
-   "coincidencias": {
-    "diesel": "diesel"
-   },
-   "temas": [
-    "transporte"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "gbf0c87b80669"
-  },
-  {
-   "id": "d4381d7a2fbd",
-   "fuente": "oilprice",
-   "fuenteNombre": "OilPrice – Energía",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "U.S. Natural Gas Production Hits New Records as Demand Surges",
-   "link": "https://oilprice.com/Energy/Natural-Gas/US-Natural-Gas-Production-Hits-New-Records-as-Demand-Surges.html",
-   "fecha": "2026-10-28T22:00:00.000Z",
-   "obtenido": "2026-10-29T01:01:13.787Z",
-   "fechaEstimada": false,
-   "extracto": "U.S. natural gas production is on track to close a second consecutive year with record-high natural gas output as producers respond to demand signs both at home and overseas. Soaring demand for powering data centers in the United States and rising liquefied natural gas exports amid expanding liquefaction capacity, as…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OilPrice – Energía",
-   "tax": 5,
-   "paises": [
-    "us",
-    "qa",
-    "ir"
-   ],
-   "regiones": [
-    "na",
-    "me",
-    "global"
-   ],
-   "materias": [
-    "gas_natural"
-   ],
-   "categorias": [
-    "energia"
-   ],
-   "coincidencias": {
-    "gas_natural": "natural gas"
-   },
-   "temas": [
-    "conflicto",
-    "comercio"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     },
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "gd4381d7a2fbd"
-  },
-  {
-   "id": "7c643d93ee47",
-   "fuente": "f24_latam",
-   "fuenteNombre": "France 24 Español – América Latina",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "Flávio Bolsonaro se autoproclama “presidente de Brasil\", pero se retracta minutos después",
-   "link": "https://www.france24.com/es/video/20261028-fla%CC%81vio-bolsonaro-se-autoproclama-presidente-de-brasil",
-   "fecha": "2026-10-28T21:23:25.000Z",
-   "obtenido": "2026-10-29T01:01:13.189Z",
-   "fechaEstimada": false,
-   "extracto": "🔴🇧🇷 El senador ultraderechista Flávio Bolsonaro se autoproclamó \"presidente electo de Brasil\" este 28 de octubre en una carta abierta que divulgó en sus redes sociales. Sin embargo, minutos después, se retractó y se nombró \"líder de Brasil.",
-   "imagen": "https://s.france24.com/media/display/44224d62-d314-11f1-b57e-47de50b3c1e4/w:1024/p:16x9/Fla%CC%81vio-Bolsonaro-se-autoproclama-presidente.png",
-   "imagenes": [
-    "https://s.france24.com/media/display/44224d62-d314-11f1-b57e-47de50b3c1e4/w:1024/p:16x9/Fla%CC%81vio-Bolsonaro-se-autoproclama-presidente.png"
-   ],
-   "imagenCredito": "France 24 Español – América Latina",
-   "tax": 5,
-   "paises": [
-    "br"
-   ],
-   "regiones": [
-    "latam"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "sanciones"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     },
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g7c643d93ee47"
-  },
-  {
-   "id": "70ede1f0cbfd",
-   "fuente": "aljazeera",
-   "fuenteNombre": "Al Jazeera English",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Indonesian students demand action on wildfires and rising costs",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/28/aje-onl-nf_indonesian-students-demand-action-on-wildfires-281026?traffic_source=rss",
-   "fecha": "2026-10-28T21:23:17.000Z",
-   "obtenido": "2026-10-29T01:01:13.041Z",
-   "fechaEstimada": false,
-   "extracto": "Hundreds of Indonesian students protested against the government's handling of forest fires and rising costs.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Al Jazeera English",
-   "tax": 5,
-   "paises": [
-    "id"
-   ],
-   "regiones": [
-    "as"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "clima"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     },
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g70ede1f0cbfd"
-  },
-  {
-   "id": "619713f04e45",
-   "fuente": "scmp_china",
-   "fuenteNombre": "South China Morning Post – China",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Hegseth pledges stronger military framework with Philippines, but lacks details",
-   "link": "https://www.scmp.com/news/us/diplomacy/article/3372492/hegseth-pledges-stronger-military-framework-philippines-lacks-details",
-   "fecha": "2026-10-28T21:20:22.000Z",
-   "obtenido": "2026-10-29T01:01:13.628Z",
-   "fechaEstimada": false,
-   "extracto": "US Defence Secretary Pete Hegseth announced additional military cooperation funding for the Philippines and agreed with Manila on efforts for enhanced interoperability between their forces on Wednesday, as Washington sought to strengthen its defence posture along the first island chain. The Pentagon disclosed neither…",
-   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/29/1d93a449-fba6-40e7-ab49-ade56eb30901_ea7399ef.jpg?itok=3nB6BWb-&v=1793222409",
-   "imagenes": [
-    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/29/1d93a449-fba6-40e7-ab49-ade56eb30901_ea7399ef.jpg?itok=3nB6BWb-&v=1793222409"
-   ],
-   "imagenCredito": "South China Morning Post – China",
-   "tax": 5,
-   "paises": [
-    "us",
-    "ph"
-   ],
-   "regiones": [
-    "na",
-    "as"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g619713f04e45"
-  },
-  {
-   "id": "49ae322846b3",
-   "fuente": "oilprice",
-   "fuenteNombre": "OilPrice – Energía",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Solar Has Overtaken Nuclear in the Global Power Mix",
-   "link": "https://oilprice.com/Alternative-Energy/Solar-Energy/Solar-Has-Overtaken-Nuclear-in-the-Global-Power-Mix.html",
-   "fecha": "2026-10-28T21:00:00.000Z",
-   "obtenido": "2026-10-28T21:08:53.119Z",
-   "fechaEstimada": false,
-   "extracto": "Last year, solar power quietly overtook nuclear power in the global energy mix. This is a stunning feat when you consider that just a decade ago, in 2015, global solar generation amounted to just 256 terawatt-hours (TWh) in 2015, while global nuclear power generated ten-fold that amount at 2,576 TWh. And solar didn’t…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OilPrice – Energía",
-   "tax": 5,
-   "paises": [],
-   "regiones": [
-    "global"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "energia"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     },
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g49ae322846b3"
   }
  ]
 }
