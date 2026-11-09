@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-09T09:53:48.337Z",
+ "generado": "2026-11-09T20:49:48.611Z",
  "diasRetencion": 10,
  "modoPrueba": false,
  "catalogo": {
@@ -789,6 +789,1959 @@
   ]
  },
  "items": [
+  {
+   "id": "fc30ed05ee20",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Deadly explosion at Iron and steel plant in Turkiye",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/9/deadly-explosion-at-iron-and-steel-plant-in-turkiye?traffic_source=rss",
+   "fecha": "2026-11-09T20:19:18.000Z",
+   "obtenido": "2026-11-09T20:49:05.808Z",
+   "fechaEstimada": false,
+   "extracto": "",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "tr"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [
+    "hierro"
+   ],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {
+    "hierro": "steel"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "gfc30ed05ee20"
+  },
+  {
+   "id": "2a58001e20ca",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Brent Crashes 7% on Iran Peace Hopes Despite Fresh Saudi Pipeline Attack",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crashes-7-on-Iran-Peace-Hopes-Despite-Fresh-Saudi-Pipeline-Attack.html",
+   "fecha": "2026-11-09T20:10:55.000Z",
+   "obtenido": "2026-11-09T20:49:06.730Z",
+   "fechaEstimada": false,
+   "extracto": "Another round of unconfirmed reports about a potential U.S.-Iran diplomatic breakthrough sent fresh optimism rippling through oil markets on Monday, after Al Arabiya claimed that a Qatari-Pakistani mediation proposal had revived serious negotiations over Tehran's nuclear program. Citing unnamed sources, Al Arabiya…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "sa",
+    "ir",
+    "pk"
+   ],
+   "regiones": [
+    "na",
+    "me",
+    "as"
+   ],
+   "materias": [
+    "wti",
+    "brent",
+    "uranio"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "oil markets",
+    "brent": "brent",
+    "uranio": "uranium"
+   },
+   "temas": [
+    "conflicto",
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g2a58001e20ca"
+  },
+  {
+   "id": "e5c8fd8b5746",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Europe’s Raw Material Future Lies Next Door, If It Does Not Repeat the Past",
+   "link": "https://oilprice.com/Energy/Energy-General/Europes-Raw-Material-Future-Lies-Next-Door-If-It-Does-Not-Repeat-the-Past.html",
+   "fecha": "2026-11-09T20:00:00.000Z",
+   "obtenido": "2026-11-09T20:49:06.731Z",
+   "fechaEstimada": false,
+   "extracto": "Europe often discusses critical raw materials as if geographical distance were the central problem. Lithium comes from South America or Australia. Cobalt comes from the Democratic Republic of Congo. Rare earths are processed in China. The obvious response appears to be finding alternative suppliers elsewhere in the…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "ua",
+    "cd",
+    "cn",
+    "au"
+   ],
+   "regiones": [
+    "eu",
+    "af",
+    "as",
+    "latam"
+   ],
+   "materias": [
+    "cobalto",
+    "litio",
+    "tierras_raras"
+   ],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {
+    "cobalto": "cobalt",
+    "litio": "lithium",
+    "tierras_raras": "rare earths"
+   },
+   "temas": [
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "ge5c8fd8b5746"
+  },
+  {
+   "id": "2e974b60266b",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Explosion at Turkish steel plant kills at least 16 people",
+   "link": "https://www.aljazeera.com/news/2026/11/9/explosion-at-turkish-steel-plant-kills-at-least-16-people?traffic_source=rss",
+   "fecha": "2026-11-09T19:58:40.000Z",
+   "obtenido": "2026-11-09T20:49:05.808Z",
+   "fechaEstimada": false,
+   "extracto": "President Erdogan announces an investigation after a crane collapsed into a furnace, triggering the blast near Izmir.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "tr"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [
+    "hierro"
+   ],
+   "categorias": [
+    "industriales"
+   ],
+   "coincidencias": {
+    "hierro": "steel"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "g2e974b60266b"
+  },
+  {
+   "id": "3076691df007",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "South Africa detains foreigners suspected of heading to join Russian forces",
+   "link": "https://www.aljazeera.com/news/2026/11/9/south-africa-detains-foreigners-suspected-of-heading-to-join-russian-forces?traffic_source=rss",
+   "fecha": "2026-11-09T19:56:45.000Z",
+   "obtenido": "2026-11-09T20:49:05.808Z",
+   "fechaEstimada": false,
+   "extracto": "Africans and others continue to be recruited to fight for Russia in its war on Ukraine.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "ua",
+    "ru",
+    "za"
+   ],
+   "regiones": [
+    "eu",
+    "eurasia",
+    "af"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g3076691df007"
+  },
+  {
+   "id": "a134af14b073",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "US agencies unite to combat rogue drone threats nationwide",
+   "link": "https://www.aljazeera.com/news/2026/11/9/us-agencies-unite-to-combat-rogue-drone-threats-nationwide?traffic_source=rss",
+   "fecha": "2026-11-09T19:07:56.000Z",
+   "obtenido": "2026-11-09T20:49:05.809Z",
+   "fechaEstimada": false,
+   "extracto": "More than $40bn allocated by NATO for counter-drone technologies as US agencies ramp up measures against aerial threats.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "ga134af14b073"
+  },
+  {
+   "id": "98f2fe719d0e",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Qatar PM meets with Trump for talks on ending war on Iran",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/9/qatar-pm-meets-with-trump-for-talks-on-ending-war-on-iran?traffic_source=rss",
+   "fecha": "2026-11-09T18:48:00.000Z",
+   "obtenido": "2026-11-09T20:49:05.810Z",
+   "fechaEstimada": false,
+   "extracto": "Qatari Prime Minister Sheikh Mohammed bin Abdulrahman bin Jassim Al Thani has met with US President Donald Trump.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "us",
+    "qa",
+    "ir"
+   ],
+   "regiones": [
+    "na",
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g98f2fe719d0e"
+  },
+  {
+   "id": "7afcd5b2fc85",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "How a civil servant got away with juggling five jobs for so long",
+   "link": "https://www.bbc.co.uk/news/articles/cw1m4d8vjvppo?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-11-09T18:40:31.000Z",
+   "obtenido": "2026-11-09T20:49:05.500Z",
+   "fechaEstimada": false,
+   "extracto": "Kashim Chowdhury has been convicted of fraud after pocketing £284,000 of taxpayers' money over three years.",
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d7c/live/f86c8280-db55-11f1-b441-2b33b063138f.jpg",
+   "imagenes": [
+    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d7c/live/f86c8280-db55-11f1-b441-2b33b063138f.jpg"
+   ],
+   "imagenCredito": "BBC News – Business",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "empleo"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g7afcd5b2fc85"
+  },
+  {
+   "id": "27c08e96fd14",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Yemen government forces claim new advances as Houthi border attacks resume",
+   "link": "https://www.aljazeera.com/news/2026/11/9/yemen-government-forces-claim-new-advances-as-houthi-border-attacks-resume?traffic_source=rss",
+   "fecha": "2026-11-09T18:37:03.000Z",
+   "obtenido": "2026-11-09T20:49:05.811Z",
+   "fechaEstimada": false,
+   "extracto": "Yemeni forces claim fresh advances across key fronts as cross-border Houthi attacks surge amid heavy clashes.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "ye"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g27c08e96fd14"
+  },
+  {
+   "id": "37eafad43936",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Russian investigative newspaper Novaya Gazeta closes citing gov’t clampdown",
+   "link": "https://www.aljazeera.com/news/2026/11/9/russian-investigative-newspaper-novaya-gazeta-closes-citing-govt-clampdown?traffic_source=rss",
+   "fecha": "2026-11-09T18:21:38.000Z",
+   "obtenido": "2026-11-09T20:49:05.811Z",
+   "fechaEstimada": false,
+   "extracto": "The paper was one of the few remaining outlets in Russia that criticised Moscow's war on Ukraine.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "ua",
+    "ru"
+   ],
+   "regiones": [
+    "eu",
+    "eurasia"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g37eafad43936"
+  },
+  {
+   "id": "b13dd4fa8c13",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "The AI Power Grab That Could Upend America's Electricity Industry",
+   "link": "https://oilprice.com/Energy/Energy-General/The-AI-Power-Grab-That-Could-Upend-Americas-Electricity-Industry.html",
+   "fecha": "2026-11-09T18:00:00.000Z",
+   "obtenido": "2026-11-09T20:49:06.732Z",
+   "fechaEstimada": false,
+   "extracto": "Let’s begin with a question. “How would an average-sized human fare in a 'negotiation' with a six-ton Tyrannosaurus Rex?” Obviously, the interaction would end with the human serving as a high-protein snack. The T-Rex weighs 75 times more than the average person. With that kind of weight disparity, there is no…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us"
+   ],
+   "regiones": [
+    "na"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gb13dd4fa8c13"
+  },
+  {
+   "id": "6ded7d23fb95",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Murphy Oil Bets on Israeli Gas Near Leviathan",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Murphy-Oil-Bets-on-Israeli-Gas-Near-Leviathan.html",
+   "fecha": "2026-11-09T17:30:00.000Z",
+   "obtenido": "2026-11-09T20:49:06.733Z",
+   "fechaEstimada": false,
+   "extracto": "Israel’s Energy Ministry on Monday awarded six offshore natural gas exploration licenses to Houston-based Murphy Oil and Israel’s Ratio Energies, eight months after the war with Iran forced Israel to shut its biggest gas field. The Zone G licenses cover about 1,700 square kilometers of seabed roughly 25 kilometers…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "ir",
+    "il"
+   ],
+   "regiones": [
+    "me"
+   ],
+   "materias": [
+    "gas_natural"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "gas_natural": "natural gas"
+   },
+   "temas": [
+    "conflicto",
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g6ded7d23fb95"
+  },
+  {
+   "id": "cb84f65d2a5c",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Civil servant who secretly held five jobs found guilty of fraud",
+   "link": "https://www.bbc.co.uk/news/articles/cm70pgnx891do?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-11-09T17:17:16.000Z",
+   "obtenido": "2026-11-09T20:49:05.499Z",
+   "fechaEstimada": false,
+   "extracto": "Kashim Chowdhury had secretly held multiple public sector jobs on full-time salaries.",
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1641/live/c3324b50-d6f9-11f1-b983-c357054e4d1e.jpg",
+   "imagenes": [
+    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1641/live/c3324b50-d6f9-11f1-b983-c357054e4d1e.jpg"
+   ],
+   "imagenCredito": "BBC News – Business",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "empleo"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gcb84f65d2a5c"
+  },
+  {
+   "id": "eb848dd7a82a",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Saudi Pipeline Attacked as OPEC Output Climbs to 90% of Pre-War Levels",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Pipeline-Attacked-as-OPEC-Output-Climbs-to-90-of-Pre-War-Levels.html",
+   "fecha": "2026-11-09T17:16:00.000Z",
+   "obtenido": "2026-11-09T20:49:06.734Z",
+   "fechaEstimada": false,
+   "extracto": "Saudi Arabia’s East-West pipeline, the kingdom’s main route for moving crude around the Strait of Hormuz, came under attack on Monday, the same day a Reuters survey showed OPEC output had recovered to 90% of its pre-war rate. An Energy Ministry official said the pipeline was targeted in the Medina region, causing a…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "sa",
+    "ir"
+   ],
+   "regiones": [
+    "me",
+    "global"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "opec",
+    "brent": "opec"
+   },
+   "temas": [
+    "actividad",
+    "conflicto",
+    "comercio",
+    "energia",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     },
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "geb848dd7a82a"
+  },
+  {
+   "id": "d77e8a1fd5c1",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Global LNG Markets Face a Winter of Extreme Uncertainty",
+   "link": "https://oilprice.com/Energy/Energy-General/Global-LNG-Markets-Face-a-Winter-of-Extreme-Uncertainty.html",
+   "fecha": "2026-11-09T17:00:00.000Z",
+   "obtenido": "2026-11-09T20:49:06.735Z",
+   "fechaEstimada": false,
+   "extracto": "The defining feature of the Northern Hemisphere winter 2026/27 is uncertainty. Liquefied natural gas (LNG) prices are above $30 per million British thermal units (MMBtu), and gas inventories are markedly lower in key markets. Further price rallies are not a foregone conclusion, though. Potent downside risks remain,…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "gb"
+   ],
+   "regiones": [
+    "eu",
+    "global"
+   ],
+   "materias": [
+    "gas_natural"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "gas_natural": "lng"
+   },
+   "temas": [
+    "inventarios"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gd77e8a1fd5c1"
+  },
+  {
+   "id": "f10e6943d7a9",
+   "fuente": "f24_latam",
+   "fuenteNombre": "France 24 Español – América Latina",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Ecuador: ¿qué han cambiado 1.000 días de estado de excepción?",
+   "link": "https://www.france24.com/es/programas/enlace/20261109-ecuador-qu%C3%A9-han-cambiado-1-000-d%C3%ADas-de-estado-de-excepci%C3%B3n",
+   "fecha": "2026-11-09T16:38:44.000Z",
+   "obtenido": "2026-11-09T20:49:06.217Z",
+   "fechaEstimada": false,
+   "extracto": "Ecuador cumple 1.000 días bajo estados de excepción desde enero de 2024, una estrategia que ha normalizado la presencia militar en las calles. Las cifras oficiales registraron menos homicidios en 2024, pero la violencia repuntó en 2025 hasta un récord histórico. En 2026, pese a un nuevo descenso, los asesinatos siguen…",
+   "imagen": "https://s.france24.com/media/display/cc4fef62-d5f0-11f1-98a6-d18c5759e759/w:1024/p:16x9/000-B27E7GZ.jpg",
+   "imagenes": [
+    "https://s.france24.com/media/display/cc4fef62-d5f0-11f1-98a6-d18c5759e759/w:1024/p:16x9/000-B27E7GZ.jpg"
+   ],
+   "imagenCredito": "France 24 Español – América Latina",
+   "tax": 5,
+   "paises": [
+    "ec",
+    "fr"
+   ],
+   "regiones": [
+    "latam",
+    "eu"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gf10e6943d7a9"
+  },
+  {
+   "id": "4b0b87d5fa0f",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Europe’s Power Prices Jump to 2022 High as Wind and Solar Falter",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Power-Prices-Jump-to-2022-High-as-Wind-and-Solar-Falter.html",
+   "fecha": "2026-11-09T16:30:00.000Z",
+   "obtenido": "2026-11-09T20:49:06.735Z",
+   "fechaEstimada": false,
+   "extracto": "A weather front is bringing still and cloudy weather at the start of the week in some of Europe’s largest electricity markets, resulting in power prices for peak evening periods soaring to 2022 highs. Across the UK, Germany, and France, the top power markets in Europe, wind and solar power generation is slumping on…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "gb",
+    "de",
+    "fr",
+    "nl"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g4b0b87d5fa0f"
+  },
+  {
+   "id": "21e48e02d078",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Un atentado sacude la imagen de Polonia como país seguro",
+   "link": "https://www.dw.com/es/un-atentado-sacude-la-imagen-de-polonia-como-país-seguro/a-79902694?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-11-09T16:17:00.000Z",
+   "obtenido": "2026-11-09T20:49:05.798Z",
+   "fechaEstimada": false,
+   "extracto": "El ataque dejó nueve muertos y desató una nueva disputa política entre el Gobierno de Donald Tusk y la oposición de derecha, en medio de crecientes cuestionamientos sobre la seguridad.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "DW Español",
+   "tax": 5,
+   "paises": [
+    "pl"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g21e48e02d078"
+  },
+  {
+   "id": "600a6ba34de1",
+   "fuente": "infocampo",
+   "fuenteNombre": "Infocampo – Agro y mercados",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "La disputa por el VISEC: desde CRA no descartan recurrir a Defensa de la Competencia",
+   "link": "https://www.infocampo.com.ar/la-disputa-por-el-visec-desde-cra-no-descartan-recurrir-a-defensa-de-la-competencia/",
+   "fecha": "2026-11-09T16:07:14.000Z",
+   "obtenido": "2026-11-09T20:49:07.026Z",
+   "fechaEstimada": false,
+   "extracto": "Tras las polémicas de los últimos días, Confederaciones Rurales Argentinas salió a ratificar su posición en contra de que se obligue a la adhesión al VISEC para cumplir el reglamento europeo antideforestación. Apuntó fundamentalmente contra los frigoríficos exportadores.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Infocampo – Agro y mercados",
+   "tax": 5,
+   "paises": [],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [
+    "carne_vacuna"
+   ],
+   "categorias": [
+    "ganaderia"
+   ],
+   "coincidencias": {
+    "carne_vacuna": "frigorificos"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "g600a6ba34de1"
+  },
+  {
+   "id": "c58d7e0e8d4b",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Action on energy costs is my overriding aim, says Fahnbulleh",
+   "link": "https://www.bbc.co.uk/news/articles/cmz7x7q7q8vvo?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-11-09T16:01:19.000Z",
+   "obtenido": "2026-11-09T20:49:05.562Z",
+   "fechaEstimada": false,
+   "extracto": "The energy secretary says reducing bills is key to maintaining public support for climate action.",
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fead/live/0dafb010-dc53-11f1-a869-656dc96bd12d.jpg",
+   "imagenes": [
+    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fead/live/0dafb010-dc53-11f1-a869-656dc96bd12d.jpg"
+   ],
+   "imagenCredito": "BBC News – Business",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gc58d7e0e8d4b"
+  },
+  {
+   "id": "75924a72afc0",
+   "fuente": "aljazeera",
+   "fuenteNombre": "Al Jazeera English",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Trump says Iran is sealed off. But can new US task force stop weapons flow?",
+   "link": "https://www.aljazeera.com/news-analysis/2026/11/9/trump-says-iran-is-sealed-off-but-can-new-us-task-force-stop-weapons-flow?traffic_source=rss",
+   "fecha": "2026-11-09T15:31:37.000Z",
+   "obtenido": "2026-11-09T20:49:05.814Z",
+   "fechaEstimada": false,
+   "extracto": "Analysts say a small intelligence-focused unit cannot seal Iran’s borders, and others warn it could expand the war.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Al Jazeera English",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ir"
+   ],
+   "regiones": [
+    "na",
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g75924a72afc0"
+  },
+  {
+   "id": "fdf0b53f6b61",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "COP31 Opens in Antalya With a UN Push for Faster Climate Action",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/COP31-Opens-in-Antalya-With-a-UN-Push-for-Faster-Climate-Action.html",
+   "fecha": "2026-11-09T15:30:00.000Z",
+   "obtenido": "2026-11-09T20:49:06.737Z",
+   "fechaEstimada": false,
+   "extracto": "UN leaders urged governments to move faster on climate change mitigation efforts as the two-week COP31 climate summit began in Antalya, Turkey, on Monday. “No single COP is a silver bullet that can stop climate change overnight. But every recent COP has made essential progress. COP31 in Antalya will, too, Simon…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "tr",
+    "ir"
+   ],
+   "regiones": [
+    "me",
+    "global"
+   ],
+   "materias": [
+    "plata"
+   ],
+   "categorias": [
+    "preciosos"
+   ],
+   "coincidencias": {
+    "plata": "silver"
+   },
+   "temas": [
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gfdf0b53f6b61"
+  },
+  {
+   "id": "70435438bddf",
+   "fuente": "dw_es",
+   "fuenteNombre": "DW Español",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Rescatan a un pianista que pasó nueve horas a la deriva en el Pacífico",
+   "link": "https://www.dw.com/es/rescatan-a-un-pianista-que-pasó-nueve-horas-a-la-deriva-en-el-pacífico/a-79902399?maca=spa-rss-sp-all-1122-xml-mrss",
+   "fecha": "2026-11-09T15:24:00.000Z",
+   "obtenido": "2026-11-09T20:49:05.799Z",
+   "fechaEstimada": false,
+   "extracto": "El pianista logró sobrevivir gracias a las temperaturas inusualmente cálidas del agua, atribuidas al fenómeno climático de El Niño, según uno de sus rescatistas.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "DW Español",
+   "tax": 5,
+   "paises": [],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g70435438bddf"
+  },
+  {
+   "id": "d4aaedec3796",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Russia Targets Ukraine's Power Grid Ahead of Crucial Abu Dhabi Peace Talks",
+   "link": "https://oilprice.com/Geopolitics/Europe/Russia-Targets-Ukraines-Power-Grid-Ahead-of-Crucial-Abu-Dhabi-Peace-Talks.html",
+   "fecha": "2026-11-09T15:00:00.000Z",
+   "obtenido": "2026-11-09T20:49:06.738Z",
+   "fechaEstimada": false,
+   "extracto": "Ukrainian authorities battled to restore power to hundreds of thousands of people in the east of the country following Russian air strikes, while US President Donald Trump suggested in a TV interview that Kyiv may have to cede territory in any US-brokered peace deal. \"I think we're going to have it [a peace deal]…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ua",
+    "ru",
+    "ae"
+   ],
+   "regiones": [
+    "na",
+    "eu",
+    "eurasia",
+    "me"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto",
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gd4aaedec3796"
+  },
+  {
+   "id": "0b50c02d0f6a",
+   "fuente": "infocampo",
+   "fuenteNombre": "Infocampo – Agro y mercados",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "El boom de los drones en el agro: “La oportunidad está, es un cliente que adopta tecnologías muy rápido”",
+   "link": "https://www.infocampo.com.ar/el-boom-de-los-drones-en-el-agro-la-oportunidad-esta-es-un-cliente-que-adopta-tecnologias-muy-rapido/",
+   "fecha": "2026-11-09T14:50:29.000Z",
+   "obtenido": "2026-11-09T20:49:07.027Z",
+   "fechaEstimada": false,
+   "extracto": "La firma Bidcom Agro participó de la última edición de Agromanagement, en La Rural, donde destacaron la capacidad de innovación de los productores agropecuarios y el potencial de los drones para su uso dentro de la producción.",
+   "imagen": "https://www.infocampo.com.ar/wp-content/uploads/2026/11/Bidcom-agro-2.png",
+   "imagenes": [
+    "https://www.infocampo.com.ar/wp-content/uploads/2026/11/Bidcom-agro-2.png",
+    "https://www.infocampo.com.ar/wp-content/uploads/2026/11/Bidcom-agro-2-1536x368.png",
+    "https://www.infocampo.com.ar/wp-content/uploads/2026/11/Bidcom-Agro-1.png",
+    "https://www.infocampo.com.ar/wp-content/uploads/2026/11/Bidcom-agro-2-1024x245.png",
+    "https://www.infocampo.com.ar/wp-content/uploads/2026/11/Bidcom-Agro-1-819x1024.png"
+   ],
+   "imagenCredito": "Infocampo – Agro y mercados",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g0b50c02d0f6a"
+  },
+  {
+   "id": "c319eea66a29",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Iran Moves to Control Oil Terminals in China, Leak Shows",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Moves-to-Control-Oil-Terminals-in-China-Leak-Shows.html",
+   "fecha": "2026-11-09T14:30:00.000Z",
+   "obtenido": "2026-11-09T20:49:06.739Z",
+   "fechaEstimada": false,
+   "extracto": "Iran has been using oil terminals and storage facilities in China to ship its oil to its biggest buyer and keep sanctioned tankers operating despite the U.S. sanctions on Iranian oil exports, Iran International reported on Monday, citing top-level confidential correspondence of the former Iranian leaders. Ali…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ir",
+    "cn"
+   ],
+   "regiones": [
+    "na",
+    "me",
+    "as"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "oil exports",
+    "brent": "oil exports"
+   },
+   "temas": [
+    "sanciones",
+    "comercio",
+    "inventarios",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gc319eea66a29"
+  },
+  {
+   "id": "82390ecba1e9",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Fresh GJ-11 footage gives a glimpse of weapon bay on China’s next-gen drone",
+   "link": "https://www.scmp.com/news/china/military/article/3373839/fresh-gj-11-footage-gives-glimpse-weapon-bay-chinas-next-gen-drone",
+   "fecha": "2026-11-09T14:20:46.000Z",
+   "obtenido": "2026-11-09T20:49:06.322Z",
+   "fechaEstimada": false,
+   "extracto": "China has released new images of its GJ-11 stealth combat drone, offering a closer look at the advanced design and high-performance features of the next-generation uncrewed aircraft. The images appeared on Monday in a report by state broadcaster CCTV counting down to the 77th anniversary of the PLA Air Force on…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/34c5e50a-6b9e-46a0-ae28-38cbc889eb98_8dfc4436.jpg?itok=5rAdX4QK&v=1794235212",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/34c5e50a-6b9e-46a0-ae28-38cbc889eb98_8dfc4436.jpg?itok=5rAdX4QK&v=1794235212"
+   ],
+   "imagenCredito": "South China Morning Post – China",
+   "tax": 5,
+   "paises": [
+    "cn"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g82390ecba1e9"
+  },
+  {
+   "id": "a3d56b69c36e",
+   "fuente": "infocampo",
+   "fuenteNombre": "Infocampo – Agro y mercados",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Precio del maíz en Rosario hoy 9 noviembre 2026",
+   "link": "https://www.infocampo.com.ar/precio-del-maiz-hoy-9-noviembre-2026/",
+   "fecha": "2026-11-09T14:06:22.000Z",
+   "obtenido": "2026-11-09T20:49:07.028Z",
+   "fechaEstimada": false,
+   "extracto": "Todo sobre la cotización de maíz, precio en tiempo real.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Infocampo – Agro y mercados",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [
+    "maiz"
+   ],
+   "categorias": [
+    "granos"
+   ],
+   "coincidencias": {
+    "maiz": "maiz"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "g36e51581a302"
+  },
+  {
+   "id": "5107045d5f8b",
+   "fuente": "infocampo",
+   "fuenteNombre": "Infocampo – Agro y mercados",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Precio del Trigo en Rosario hoy 9 noviembre 2026",
+   "link": "https://www.infocampo.com.ar/precio-del-trigo-hoy-9-noviembre-2026/",
+   "fecha": "2026-11-09T14:06:04.000Z",
+   "obtenido": "2026-11-09T20:49:07.028Z",
+   "fechaEstimada": false,
+   "extracto": "Todo sobre la cotización del trigo, precio en tiempo real.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Infocampo – Agro y mercados",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [
+    "trigo"
+   ],
+   "categorias": [
+    "granos"
+   ],
+   "coincidencias": {
+    "trigo": "trigo"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "g36e51581a302"
+  },
+  {
+   "id": "dba862d963e8",
+   "fuente": "infocampo",
+   "fuenteNombre": "Infocampo – Agro y mercados",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Precio del Girasol en Rosario hoy 9 noviembre 2026",
+   "link": "https://www.infocampo.com.ar/precio-del-girasol-hoy-9-noviembre-2026/",
+   "fecha": "2026-11-09T14:05:45.000Z",
+   "obtenido": "2026-11-09T20:49:07.028Z",
+   "fechaEstimada": false,
+   "extracto": "Todo sobre la cotización del Girasol, precio en tiempo real.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Infocampo – Agro y mercados",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [
+    "aceite_girasol"
+   ],
+   "categorias": [
+    "aceites"
+   ],
+   "coincidencias": {
+    "aceite_girasol": "girasol"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "g36e51581a302"
+  },
+  {
+   "id": "e0b2683787ed",
+   "fuente": "infocampo",
+   "fuenteNombre": "Infocampo – Agro y mercados",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Precio de la Soja en Rosario hoy 9 noviembre 2026",
+   "link": "https://www.infocampo.com.ar/precio-de-la-soja-hoy-9-noviembre-2026/",
+   "fecha": "2026-11-09T14:05:30.000Z",
+   "obtenido": "2026-11-09T20:49:07.028Z",
+   "fechaEstimada": false,
+   "extracto": "Todo sobre la cotización de soja, precio en tiempo real. Pizarra Rosario, cotización de cereales",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Infocampo – Agro y mercados",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [
+    "soja"
+   ],
+   "categorias": [
+    "granos"
+   ],
+   "coincidencias": {
+    "soja": "soja"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "g36e51581a302"
+  },
+  {
+   "id": "b94b0b806d03",
+   "fuente": "infocampo",
+   "fuenteNombre": "Infocampo – Agro y mercados",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Precio del Sorgo en Rosario hoy 9 noviembre 2026",
+   "link": "https://www.infocampo.com.ar/precio-del-sorgo-hoy-9-noviembre-2026/",
+   "fecha": "2026-11-09T14:05:11.000Z",
+   "obtenido": "2026-11-09T20:49:07.029Z",
+   "fechaEstimada": false,
+   "extracto": "Todo sobre la cotización del Sorgo, precio en tiempo real.",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "Infocampo – Agro y mercados",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [
+    "sorgo"
+   ],
+   "categorias": [
+    "granos"
+   ],
+   "coincidencias": {
+    "sorgo": "sorgo"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "g36e51581a302"
+  },
+  {
+   "id": "6d57686edcac",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Can Xi Jinping and Vladimir Putin give Donald Trump the Iran exit he needs?",
+   "link": "https://www.scmp.com/news/china/diplomacy/article/3373831/can-xi-jinping-and-vladimir-putin-give-donald-trump-iran-exit-he-needs",
+   "fecha": "2026-11-09T14:00:06.000Z",
+   "obtenido": "2026-11-09T20:49:06.324Z",
+   "fechaEstimada": false,
+   "extracto": "US President Donald Trump has floated the idea of a trilateral summit with China and Russia to broker an end to the Iran war, with his administration under pressure to deliver a breakthrough following the US midterm elections, according to analysts. Chinese observers also see Beijing potentially playing the role of a…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/65051a57-27c9-474e-9ef8-475668c3be1c_aee2825b.jpg?itok=RmLxrGTx&v=1794228281",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/65051a57-27c9-474e-9ef8-475668c3be1c_aee2825b.jpg?itok=RmLxrGTx&v=1794228281"
+   ],
+   "imagenCredito": "South China Morning Post – China",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ru",
+    "ir",
+    "cn"
+   ],
+   "regiones": [
+    "na",
+    "eurasia",
+    "me",
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g6d57686edcac"
+  },
+  {
+   "id": "03f2cc428bd4",
+   "fuente": "bbc_business",
+   "fuenteNombre": "BBC News – Business",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Rising cost of living tests UK's net zero ambitions",
+   "link": "https://www.bbc.co.uk/news/videos/cm1dwd4e4ywvo?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-11-09T13:42:03.000Z",
+   "obtenido": "2026-11-09T20:49:05.562Z",
+   "fechaEstimada": false,
+   "extracto": "From floods to wildfires to heatwaves, 2026 is the year it became hard to ignore the impact of climate change on UK weather. But will soaring living costs affect the government’s commitment to tackling climate change?",
+   "imagen": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0086/live/20d5ad30-dc43-11f1-b441-2b33b063138f.jpg",
+   "imagenes": [
+    "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0086/live/20d5ad30-dc43-11f1-b441-2b33b063138f.jpg"
+   ],
+   "imagenCredito": "BBC News – Business",
+   "tax": 5,
+   "paises": [
+    "gb"
+   ],
+   "regiones": [
+    "eu"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "inflacion",
+    "clima"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "tasas",
+      "nombre": "Tasas de interés",
+      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
+     },
+     {
+      "canal": "dolar",
+      "nombre": "Dólar",
+      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g03f2cc428bd4"
+  },
+  {
+   "id": "a1f988f36af0",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Oil Sinks to $94 as Iran’s $8 Billion Hormuz Deal Heads to Trump",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Sinks-to-94-as-Irans-8-Billion-Hormuz-Deal-Heads-to-Trump.html",
+   "fecha": "2026-11-09T13:30:00.000Z",
+   "obtenido": "2026-11-09T20:49:06.739Z",
+   "fechaEstimada": false,
+   "extracto": "Brent crude fell 3.6% to $94.00 per barrel on Monday as Qatar’s prime minister headed to the White House with an Iranian proposal for an interim deal to reopen the Strait of Hormuz. WTI dropped 3% to $88.09, and U.S. natural gas rose 0.8% to $3.02/MMBtu as of 7:26 a.m. ET. The decline extends last week’s 16% slide in…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "qa",
+    "ir",
+    "il"
+   ],
+   "regiones": [
+    "na",
+    "me"
+   ],
+   "materias": [
+    "wti",
+    "brent",
+    "gas_natural"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "crude",
+    "brent": "brent",
+    "gas_natural": "natural gas"
+   },
+   "temas": [
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "ga1f988f36af0"
+  },
+  {
+   "id": "d742c885fbc0",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "IEA Backs Electrification Efforts at COP31 Climate Summit",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Backs-Electrification-Efforts-at-COP31-Climate-Summit.html",
+   "fecha": "2026-11-09T12:30:00.000Z",
+   "obtenido": "2026-11-09T20:49:06.740Z",
+   "fechaEstimada": false,
+   "extracto": "The International Energy Agency (IEA) will be pushing for faster and wider electrification at COP31 starting on Monday in Antalya, Turkey, as leaders and policymakers gather for the climate summit during an unprecedented global energy crisis. Analysis by the IEA is informing the COP 31 Presidency’s goals on…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "tr"
+   ],
+   "regiones": [
+    "me",
+    "global"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gd742c885fbc0"
+  },
+  {
+   "id": "44d7d6711990",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "C-17, Il-76 and Y-20 equals: an aviation moment in the skies over China",
+   "link": "https://www.scmp.com/news/china/diplomacy/article/3373821/c-17-il-76-y-20-aviation-moment-skies-over-china",
+   "fecha": "2026-11-09T12:00:24.000Z",
+   "obtenido": "2026-11-09T20:49:06.325Z",
+   "fechaEstimada": false,
+   "extracto": "China has been the backdrop for a rare aviation moment in the past few days, with the world’s three core strategic heavy-lifting aircraft operating within the country. Several large US military transport aircraft were spotted landing in Shenzhen over the weekend, widely seen as preparation for US President Donald…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/6e6a344c-1b76-4f18-9df6-291df3d63ac2_7350c922.jpg?itok=p9I2eiP-&v=1794223726",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/6e6a344c-1b76-4f18-9df6-291df3d63ac2_7350c922.jpg?itok=p9I2eiP-&v=1794223726"
+   ],
+   "imagenCredito": "South China Morning Post – China",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ru",
+    "cn"
+   ],
+   "regiones": [
+    "na",
+    "eurasia",
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "actividad",
+    "conflicto"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g44d7d6711990"
+  },
+  {
+   "id": "4c8a95e1f8c0",
+   "fuente": "oilprice",
+   "fuenteNombre": "OilPrice – Energía",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Iraq's Oil Sales to America Fall to Lowest Since the 2003 War",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-Oil-Sales-to-America-Fall-to-Lowest-Since-the-2003-War.html",
+   "fecha": "2026-11-09T11:30:00.000Z",
+   "obtenido": "2026-11-09T20:49:06.741Z",
+   "fechaEstimada": false,
+   "extracto": "U.S. imports of Iraqi crude oil have slumped this year to a multi-decade low, EIA data show, as the Strait of Hormuz crisis has choked international shipments from OPEC’s second-largest oil producer. U.S. imports have markedly dipped since March, to zero in several weeks this summer, after the closure of the Strait of…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OilPrice – Energía",
+   "tax": 5,
+   "paises": [
+    "us",
+    "ir",
+    "iq"
+   ],
+   "regiones": [
+    "na",
+    "me",
+    "global"
+   ],
+   "materias": [
+    "wti",
+    "brent"
+   ],
+   "categorias": [
+    "energia"
+   ],
+   "coincidencias": {
+    "wti": "crude",
+    "brent": "crude"
+   },
+   "temas": [
+    "conflicto",
+    "comercio",
+    "energia",
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "riesgo",
+      "nombre": "Riesgo geopolítico",
+      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
+     },
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
+     },
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "g4c8a95e1f8c0"
+  },
+  {
+   "id": "6333ef2daa70",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Why Manila’s call for softer tone will not ease South China Sea tensions with Beijing",
+   "link": "https://www.scmp.com/news/china/diplomacy/article/3373818/why-manilas-call-softer-tone-will-not-ease-south-china-sea-tensions-beijing",
+   "fecha": "2026-11-09T11:15:11.000Z",
+   "obtenido": "2026-11-09T20:49:06.326Z",
+   "fechaEstimada": false,
+   "extracto": "Manila’s efforts to strike a more conciliatory tone towards Beijing are unlikely to ease tensions in the contested South China Sea, a Chinese analyst has cautioned. This was because the Philippine foreign ministry held minimal influence over actual maritime policy and enforcement operations, the South China Sea…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/d006c11b-4b68-458f-8ab3-f6b2ad2e23f9_51c47a7a.jpg?itok=HGa0YaPE&v=1794222505",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/d006c11b-4b68-458f-8ab3-f6b2ad2e23f9_51c47a7a.jpg?itok=HGa0YaPE&v=1794222505"
+   ],
+   "imagenCredito": "South China Morning Post – China",
+   "tax": 5,
+   "paises": [
+    "cn",
+    "ph"
+   ],
+   "regiones": [
+    "as"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "transporte"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "transporte",
+      "nombre": "Transporte",
+      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g6333ef2daa70"
+  },
+  {
+   "id": "d008f05797e1",
+   "fuente": "bbc_mundo",
+   "fuenteNombre": "BBC News Mundo",
+   "tipoFuente": "periodistica",
+   "idioma": "es",
+   "titulo": "Cómo el crecimiento de la energía solar \"escandalosamente barata\" ha desafiado todas las proyecciones",
+   "link": "https://www.bbc.com/mundo/articles/cr4g1ee27w6po?at_medium=RSS&at_campaign=rss",
+   "fecha": "2026-11-09T11:10:31.000Z",
+   "obtenido": "2026-11-09T20:49:05.581Z",
+   "fechaEstimada": false,
+   "extracto": "La energía solar, debido a sus costos bajos, se ha convertido en una principales fuentes de energía en varios países del mundo.",
+   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/89f9/live/18877e60-d1fd-11f1-93e1-3b657b665bcf.jpg",
+   "imagenes": [
+    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/89f9/live/18877e60-d1fd-11f1-93e1-3b657b665bcf.jpg"
+   ],
+   "imagenCredito": "BBC News Mundo",
+   "tax": 5,
+   "paises": [],
+   "regiones": [],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "actividad",
+    "energia"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     },
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
+     }
+    ],
+    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
+   },
+   "grupo": "gd008f05797e1"
+  },
+  {
+   "id": "b6df0febf7c9",
+   "fuente": "mining_technology",
+   "fuenteNombre": "Mining Technology – Minería",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "Torrent Gold agrees to buy New Mexico’s Sunrise Tungsten Project",
+   "link": "https://www.mining-technology.com/news/torrent-gold-buy-sunrise-tungsten-project/",
+   "fecha": "2026-11-09T10:15:27.000Z",
+   "obtenido": "2026-11-09T20:49:06.509Z",
+   "fechaEstimada": false,
+   "extracto": "Torrent Gold has signed an agreement to acquire the Sunrise Tungsten Project, a group of 19 unpatented lode mining claims located in Hidalgo County, New Mexico. The post Torrent Gold agrees to buy New Mexico’s Sunrise Tungsten Project appeared first on Mining Technology .",
+   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/11/Mining-3-9Nov26-shutterstock_2755734389-3.jpg",
+   "imagenes": [
+    "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/11/Mining-3-9Nov26-shutterstock_2755734389-3.jpg"
+   ],
+   "imagenCredito": "Mining Technology – Minería",
+   "tax": 5,
+   "paises": [
+    "mx"
+   ],
+   "regiones": [
+    "latam"
+   ],
+   "materias": [
+    "oro"
+   ],
+   "categorias": [
+    "preciosos",
+    "industriales"
+   ],
+   "coincidencias": {
+    "oro": "gold"
+   },
+   "temas": [
+    "mineria"
+   ],
+   "relevante": true,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "oferta",
+      "nombre": "Oferta",
+      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "gb6df0febf7c9"
+  },
+  {
+   "id": "a416a4bfb4dd",
+   "fuente": "scmp_china",
+   "fuenteNombre": "South China Morning Post – China",
+   "tipoFuente": "periodistica",
+   "idioma": "en",
+   "titulo": "China eyes new grip on EV sector with high-performance rare-earth rubber",
+   "link": "https://www.scmp.com/news/china/science/article/3373791/china-eyes-new-grip-ev-sector-high-performance-rare-earth-rubber",
+   "fecha": "2026-11-09T10:00:09.000Z",
+   "obtenido": "2026-11-09T20:49:06.327Z",
+   "fechaEstimada": false,
+   "extracto": "China’s high-performance rare-earth rubber faces a commercial test as manufacturers seek to expand its use in electric vehicle (EV) and heavy-duty tyres, with market data suggesting it commands a higher price than conventional synthetic rubber. Rare-earth cis-butadiene rubber grade ND9106 was quoted at 22,500 yuan…",
+   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/183039e2-a12e-4d09-a037-a20391a7295d_3aa526ce.jpg?itok=h6vhgqzi&v=1794213867",
+   "imagenes": [
+    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/183039e2-a12e-4d09-a037-a20391a7295d_3aa526ce.jpg?itok=h6vhgqzi&v=1794213867"
+   ],
+   "imagenCredito": "South China Morning Post – China",
+   "tax": 5,
+   "paises": [
+    "cn",
+    "us"
+   ],
+   "regiones": [
+    "as",
+    "na"
+   ],
+   "materias": [
+    "caucho"
+   ],
+   "categorias": [
+    "agricolas"
+   ],
+   "coincidencias": {
+    "caucho": "rubber"
+   },
+   "temas": [],
+   "relevante": true,
+   "impacto": null,
+   "grupo": "ga416a4bfb4dd"
+  },
   {
    "id": "f03fc21c1881",
    "fuente": "bbc_business",
@@ -1892,6 +3845,48 @@
    "grupo": "gb354bcaef0aa"
   },
   {
+   "id": "397d159570a2",
+   "fuente": "wto",
+   "fuenteNombre": "OMC (WTO) – Noticias",
+   "tipoFuente": "oficial",
+   "idioma": "en",
+   "titulo": "Germany contributes EUR 500,000 to strengthen developing economies' trade capacity",
+   "link": "https://www.wto.org/english/news_e/news26_e/tech_09nov26_543_e.htm",
+   "fecha": "2026-11-09T00:00:00.000Z",
+   "obtenido": "2026-11-09T20:49:06.965Z",
+   "fechaEstimada": false,
+   "extracto": "Germany is contributing EUR 500,000 (approximately CHF 460,000) to the WTO's Global Trust Fund (GTF) to help developing economies and least developed countries (LDCs) enhance their participation in the multilateral trading system. Carmen Heidecke, Ambassador of Germany to the WTO, signed the Memorandum of…",
+   "imagen": null,
+   "imagenes": [],
+   "imagenCredito": "OMC (WTO) – Noticias",
+   "tax": 5,
+   "paises": [
+    "de"
+   ],
+   "regiones": [
+    "eu",
+    "global"
+   ],
+   "materias": [],
+   "categorias": [],
+   "coincidencias": {},
+   "temas": [
+    "comercio"
+   ],
+   "relevante": false,
+   "impacto": {
+    "canales": [
+     {
+      "canal": "demanda",
+      "nombre": "Demanda",
+      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
+     }
+    ],
+    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
+   },
+   "grupo": "g397d159570a2"
+  },
+  {
    "id": "c0d097ef2ec6",
    "fuente": "dw_es",
    "fuenteNombre": "DW Español",
@@ -2472,7 +4467,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "ddcecc616c5a",
@@ -2504,7 +4499,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "373efb5f0665",
@@ -2536,7 +4531,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "b3963d8ba65e",
@@ -2568,7 +4563,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "8fa0d3c3e0f3",
@@ -2600,7 +4595,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "ac9ab47c5f2a",
@@ -4614,7 +6609,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "92dc532b072e",
@@ -4646,7 +6641,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "d8f3ab1f0229",
@@ -4678,7 +6673,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "cd6cc831217f",
@@ -4710,7 +6705,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "1aea5dcdad73",
@@ -4742,7 +6737,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "d7c65fe5c5f1",
@@ -7381,7 +9376,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "f3674603482c",
@@ -7413,7 +9408,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "569a4affb2af",
@@ -7445,7 +9440,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "cbdca550a13c",
@@ -7477,7 +9472,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "671ec8734dc9",
@@ -7509,7 +9504,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "cb0904074ee2",
@@ -11291,7 +13286,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "78b5139a3b55",
@@ -11323,7 +13318,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "7fcc0ea02931",
@@ -11355,7 +13350,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "cb9fb341483f",
@@ -11387,7 +13382,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "b020a77f4762",
@@ -11419,7 +13414,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "b892ceee22fd",
@@ -15229,7 +17224,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "dcecd2a739da",
@@ -15261,7 +17256,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "afd74d3629f0",
@@ -15293,7 +17288,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "b989ef4c5c17",
@@ -15325,7 +17320,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "e329fa5f16a6",
@@ -15357,7 +17352,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "5402494b5a6d",
@@ -19321,7 +21316,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "4adc29d78351",
@@ -19353,7 +21348,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "40006a6aa189",
@@ -19385,7 +21380,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "6d1decc9efc5",
@@ -19417,7 +21412,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "df734ab4d417",
@@ -19449,7 +21444,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "90f8c57f3ecd",
@@ -23391,7 +25386,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "84db0826444b",
@@ -23423,7 +25418,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "38ec4bfa4d62",
@@ -23455,7 +25450,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "ec7139d37001",
@@ -23487,7 +25482,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "f855d977878e",
@@ -23519,7 +25514,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "0229604a766f",
@@ -26288,7 +28283,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "2baed4b85c8c",
@@ -26320,7 +28315,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "863577e2dfa2",
@@ -26352,7 +28347,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "0dd4abbafe5b",
@@ -26384,7 +28379,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "22c6b5a8101c",
@@ -26416,7 +28411,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "6c91130e4f8d",
@@ -28084,7 +30079,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "37d65a6b5d9a",
@@ -28116,7 +30111,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "54a6537364c0",
@@ -28148,7 +30143,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "365ac780ddd1",
@@ -28180,7 +30175,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "36e51581a302",
@@ -28212,7 +30207,7 @@
    "temas": [],
    "relevante": true,
    "impacto": null,
-   "grupo": "g33333fe60d3e"
+   "grupo": "g36e51581a302"
   },
   {
    "id": "3e21981f290d",
@@ -29787,2589 +31782,6 @@
     "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
    },
    "grupo": "gc7e7f2cba1d2"
-  },
-  {
-   "id": "6beef6a3a28c",
-   "fuente": "aljazeera",
-   "fuenteNombre": "Al Jazeera English",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "G20 drops group photo as Europeans refuse to stand with Lavrov",
-   "link": "https://www.aljazeera.com/news/2026/10/30/g20-drops-group-photo-as-europeans-refuse-to-stand-with-lavrov?traffic_source=rss",
-   "fecha": "2026-10-30T20:37:20.000Z",
-   "obtenido": "2026-10-30T22:40:15.743Z",
-   "fechaEstimada": false,
-   "extracto": "Sanctioned Russian FM attends Atlanta talks as Iran war, Hormuz disruption and Ukraine divide G20 members.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Al Jazeera English",
-   "tax": 5,
-   "paises": [
-    "ua",
-    "ru",
-    "ir"
-   ],
-   "regiones": [
-    "eu",
-    "eurasia",
-    "me",
-    "global"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto",
-    "transporte"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     },
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g6beef6a3a28c"
-  },
-  {
-   "id": "ad8804b38c64",
-   "fuente": "aljazeera",
-   "fuenteNombre": "Al Jazeera English",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Port Sudan families can barely afford water as shortages persist",
-   "link": "https://www.aljazeera.com/news/2026/10/30/port-sudan-families-can-barely-afford-water-as-shortages-persist?traffic_source=rss",
-   "fecha": "2026-10-30T20:10:22.000Z",
-   "obtenido": "2026-10-30T22:40:15.744Z",
-   "fechaEstimada": false,
-   "extracto": "Despite efforts to restore damaged infrastructure, residents face soaring water costs as war, displacement strain supply",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Al Jazeera English",
-   "tax": 5,
-   "paises": [],
-   "regiones": [],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto",
-    "transporte"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     },
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "gad8804b38c64"
-  },
-  {
-   "id": "b9b76a905286",
-   "fuente": "aljazeera",
-   "fuenteNombre": "Al Jazeera English",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Texas grand jury indicts ICE officer accused of running over man in Houston",
-   "link": "https://www.aljazeera.com/news/2026/10/30/texas-grand-jury-indicts-ice-officer-accused-of-running-over-man-in-houston?traffic_source=rss",
-   "fecha": "2026-10-30T19:16:30.000Z",
-   "obtenido": "2026-10-30T22:40:15.745Z",
-   "fechaEstimada": false,
-   "extracto": "The officer faces charges after allegedly striking a fleeing construction worker with an SUV during an immigration raid.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Al Jazeera English",
-   "tax": 5,
-   "paises": [
-    "us"
-   ],
-   "regiones": [
-    "na"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "gb9b76a905286"
-  },
-  {
-   "id": "9f04c558dcb3",
-   "fuente": "aljazeera",
-   "fuenteNombre": "Al Jazeera English",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Pakistan army ‘cautiously optimistic’ about US-Iran mediation efforts",
-   "link": "https://www.aljazeera.com/news/2026/10/30/pakistan-army-cautiously-optimistic-about-us-iran-mediation-efforts?traffic_source=rss",
-   "fecha": "2026-10-30T18:55:36.000Z",
-   "obtenido": "2026-10-30T22:40:15.745Z",
-   "fechaEstimada": false,
-   "extracto": "Pakistan's military spokesman warns of 'powerful spoilers and detractors' who still believe the conflict serves them.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Al Jazeera English",
-   "tax": 5,
-   "paises": [
-    "ir",
-    "pk",
-    "us"
-   ],
-   "regiones": [
-    "me",
-    "as",
-    "na"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g9f04c558dcb3"
-  },
-  {
-   "id": "1a0bb3417032",
-   "fuente": "aljazeera",
-   "fuenteNombre": "Al Jazeera English",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Israel demolishes homes of Palestinians blamed for attack on soldiers",
-   "link": "https://www.aljazeera.com/news/2026/10/30/israel-demolishes-homes-of-palestinians-blamed-for-attack-on-soldiers?traffic_source=rss",
-   "fecha": "2026-10-30T18:35:44.000Z",
-   "obtenido": "2026-10-30T22:40:15.746Z",
-   "fechaEstimada": false,
-   "extracto": "Troops hold at least 12 Palestinians near demolished homes as nearly 5,000 remain displaced from Hebron neighbourhoods",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Al Jazeera English",
-   "tax": 5,
-   "paises": [
-    "il"
-   ],
-   "regiones": [
-    "me"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g1a0bb3417032"
-  },
-  {
-   "id": "9135444346b9",
-   "fuente": "aljazeera",
-   "fuenteNombre": "Al Jazeera English",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Oman rescues 25 from burning oil tanker in Strait of Hormuz",
-   "link": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz?traffic_source=rss",
-   "fecha": "2026-10-30T18:33:29.000Z",
-   "obtenido": "2026-10-30T22:40:15.746Z",
-   "fechaEstimada": false,
-   "extracto": "Incident comes as Iran says three oil tankers were halted while attempting to use 'unauthorised routes' to cross Hormuz.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Al Jazeera English",
-   "tax": 5,
-   "paises": [
-    "ir"
-   ],
-   "regiones": [
-    "me"
-   ],
-   "materias": [
-    "wti",
-    "brent"
-   ],
-   "categorias": [
-    "energia"
-   ],
-   "coincidencias": {
-    "wti": "oil tanker",
-    "brent": "oil tanker"
-   },
-   "temas": [
-    "transporte"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g9135444346b9"
-  },
-  {
-   "id": "588aa2dd22ee",
-   "fuente": "oilprice",
-   "fuenteNombre": "OilPrice – Energía",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Chevron Profits Nearly Triple to $9.9 Billion",
-   "link": "https://oilprice.com/Latest-Energy-News/World-News/Chevron-Profits-Nearly-Triple-to-99-Billion.html",
-   "fecha": "2026-10-30T18:30:00.000Z",
-   "obtenido": "2026-10-30T18:39:37.067Z",
-   "fechaEstimada": false,
-   "extracto": "Chevron's third-quarter profit nearly tripled to $9.9 billion, with its refineries doing much of the heavy lifting despite processing just 3% more crude than a year earlier. The company reported earnings of $5.06 per share Friday, up from $1.82 a year ago. Adjusted earnings reached $10.4 billion, or $5.28 per share,…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OilPrice – Energía",
-   "tax": 5,
-   "paises": [
-    "us"
-   ],
-   "regiones": [
-    "na"
-   ],
-   "materias": [
-    "wti",
-    "brent"
-   ],
-   "categorias": [
-    "energia"
-   ],
-   "coincidencias": {
-    "wti": "crude",
-    "brent": "crude"
-   },
-   "temas": [],
-   "relevante": true,
-   "impacto": null,
-   "grupo": "g588aa2dd22ee"
-  },
-  {
-   "id": "619d0b3ef917",
-   "fuente": "bbc_mundo",
-   "fuenteNombre": "BBC News Mundo",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "El ultimátum de Bukele a las poderosas bandas de Haití tras el secuestro de 4 militares salvadoreños",
-   "link": "https://www.bbc.com/mundo/watch/crp3gpdylz4zo?at_medium=RSS&at_campaign=rss",
-   "fecha": "2026-10-30T18:28:43.000Z",
-   "obtenido": "2026-11-06T23:33:01.019Z",
-   "fechaEstimada": false,
-   "extracto": "Bukele ha enviado cientos de militares a Haití en la última semana.",
-   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/b702/live/ee6c1680-d496-11f1-93e1-3b657b665bcf.png",
-   "imagenes": [
-    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/b702/live/ee6c1680-d496-11f1-93e1-3b657b665bcf.png"
-   ],
-   "imagenCredito": "BBC News Mundo",
-   "tax": 5,
-   "paises": [],
-   "regiones": [],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g81dc90dca07d"
-  },
-  {
-   "id": "81dc90dca07d",
-   "fuente": "bbc_mundo",
-   "fuenteNombre": "BBC News Mundo",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "Las claves del ultimátum de Bukele a las poderosas bandas de Haití tras el secuestro de 4 militares salvadoreños",
-   "link": "https://www.bbc.com/mundo/watch/cq9vz31j8xpko?at_medium=RSS&at_campaign=rss",
-   "fecha": "2026-10-30T18:27:04.000Z",
-   "obtenido": "2026-10-30T18:39:35.718Z",
-   "fechaEstimada": false,
-   "extracto": "Desde hace varios días, no se sabe nada de los militares, que trabajaban como técnicos en una misión de Naciones Unidas en Puerto Príncipe.",
-   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/4125/live/1250a350-d49b-11f1-93e1-3b657b665bcf.jpg",
-   "imagenes": [
-    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/4125/live/1250a350-d49b-11f1-93e1-3b657b665bcf.jpg"
-   ],
-   "imagenCredito": "BBC News Mundo",
-   "tax": 5,
-   "paises": [],
-   "regiones": [],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g81dc90dca07d"
-  },
-  {
-   "id": "58ddd002b49f",
-   "fuente": "infocampo",
-   "fuenteNombre": "Infocampo – Agro y mercados",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "El trigo se entusiasma con buenos rindes y rentabilidad, pero enciende alertas por fusarium",
-   "link": "https://www.infocampo.com.ar/el-trigo-se-entusiasma-con-buenos-rindes-y-rentabilidad-pero-enciende-alertas-por-fusarium/",
-   "fecha": "2026-10-30T18:17:01.000Z",
-   "obtenido": "2026-10-30T18:39:38.518Z",
-   "fechaEstimada": false,
-   "extracto": "En la zona núcleo, el trigo está volviendo a mostrar un potencial productivo inusual, con recuentos de hasta 500 espigas por metro cuadrado. Sin embargo, la aparición de fusarium en lotes del sur santafesino obliga a intensificar los monitoreos.",
-   "imagen": "https://www.infocampo.com.ar/wp-content/uploads/2026/10/bombal-scaled.jpg",
-   "imagenes": [
-    "https://www.infocampo.com.ar/wp-content/uploads/2026/10/bombal-scaled.jpg",
-    "https://www.infocampo.com.ar/wp-content/uploads/2026/10/bombal-2048x1536.jpg",
-    "https://www.infocampo.com.ar/wp-content/uploads/2026/10/bombal-1536x1152.jpg",
-    "https://www.infocampo.com.ar/wp-content/uploads/2026/10/aldao.jpg",
-    "https://www.infocampo.com.ar/wp-content/uploads/2026/10/bombal-1024x768.jpg"
-   ],
-   "imagenCredito": "Infocampo – Agro y mercados",
-   "tax": 5,
-   "paises": [],
-   "regiones": [],
-   "materias": [
-    "trigo"
-   ],
-   "categorias": [
-    "granos"
-   ],
-   "coincidencias": {
-    "trigo": "trigo"
-   },
-   "temas": [
-    "sanciones"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     },
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría modificar la producción o los saldos exportables de granos y alimentos."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g58ddd002b49f"
-  },
-  {
-   "id": "4a6e9f283f81",
-   "fuente": "aljazeera",
-   "fuenteNombre": "Al Jazeera English",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Kim Jong Un calls for North Korea’s drone technology superiority",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/30/aje-onl-nf_north-korea-seeks-absolute-superiority-in-drone-301026?traffic_source=rss",
-   "fecha": "2026-10-30T18:03:45.000Z",
-   "obtenido": "2026-10-30T18:39:35.828Z",
-   "fechaEstimada": false,
-   "extracto": "North Korean leader Kim Jong Un calls for “absolute superiority” in drone capabilities.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Al Jazeera English",
-   "tax": 5,
-   "paises": [
-    "kp"
-   ],
-   "regiones": [
-    "as"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g4a6e9f283f81"
-  },
-  {
-   "id": "7e4507aa7761",
-   "fuente": "dw_es",
-   "fuenteNombre": "DW Español",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "UE y Canadá lanzan nueva \"alianza\" con acuerdos sobre minerales críticos, IA y Ucrania",
-   "link": "https://www.dw.com/es/ue-y-canadá-lanzan-nueva-alianza-con-acuerdos-sobre-minerales-críticos-ia-y-ucrania/a-79812242?maca=spa-rss-sp-all-1122-xml-mrss",
-   "fecha": "2026-10-30T18:02:00.000Z",
-   "obtenido": "2026-10-30T22:40:15.483Z",
-   "fechaEstimada": false,
-   "extracto": "La Comisión Europea ya había asomado que la UE y el país americano exploran la posibilidad de que Canadá se convierta en el primer \"miembro asociado\" del bloque.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "DW Español",
-   "tax": 5,
-   "paises": [
-    "ca",
-    "eu",
-    "ua"
-   ],
-   "regiones": [
-    "na",
-    "eu"
-   ],
-   "materias": [
-    "tierras_raras"
-   ],
-   "categorias": [
-    "industriales"
-   ],
-   "coincidencias": {
-    "tierras_raras": "minerales criticos"
-   },
-   "temas": [
-    "mineria"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g7e4507aa7761"
-  },
-  {
-   "id": "e1a9ca73c060",
-   "fuente": "oilprice",
-   "fuenteNombre": "OilPrice – Energía",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Water Tank Rupture Triggers Safety Concerns at Tajikistan’s Rogun Dam",
-   "link": "https://oilprice.com/Alternative-Energy/Hydroelectric/Water-Tank-Rupture-Triggers-Safety-Concerns-at-Tajikistans-Rogun-Dam.html",
-   "fecha": "2026-10-30T18:00:00.000Z",
-   "obtenido": "2026-10-30T18:39:37.067Z",
-   "fechaEstimada": false,
-   "extracto": "A recent industrial “incident” disrupted work on the Rogun Dam in Tajikistan. Depending on which source is to be believed, either no one was harmed or at least five people were injured. According to Tajikistan’s State Service for the Supervision of Industrial and Mining Safety, an accident occurred in a tunnel at a…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OilPrice – Energía",
-   "tax": 5,
-   "paises": [],
-   "regiones": [
-    "as"
-   ],
-   "materias": [],
-   "categorias": [
-    "industriales"
-   ],
-   "coincidencias": {},
-   "temas": [
-    "mineria"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "ge1a9ca73c060"
-  },
-  {
-   "id": "e2e4fdc5f30d",
-   "fuente": "aljazeera",
-   "fuenteNombre": "Al Jazeera English",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "How cuts under Colombia’s de la Espriella threaten a key human rights court",
-   "link": "https://www.aljazeera.com/news/longform/2026/10/30/how-cuts-under-colombias-de-la-espriella-threaten-a-key-human-rights-court?traffic_source=rss",
-   "fecha": "2026-10-30T17:43:21.000Z",
-   "obtenido": "2026-10-30T18:39:35.828Z",
-   "fechaEstimada": false,
-   "extracto": "Colombia's president plans to slash spending on a transitional justice court. But war crimes victims fear the cost.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Al Jazeera English",
-   "tax": 5,
-   "paises": [
-    "co"
-   ],
-   "regiones": [
-    "latam"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "ge2e4fdc5f30d"
-  },
-  {
-   "id": "2704eef6038e",
-   "fuente": "oilprice",
-   "fuenteNombre": "OilPrice – Energía",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "ExxonMobil Profits Double to $15.4 Billion",
-   "link": "https://oilprice.com/Latest-Energy-News/World-News/ExxonMobil-Profits-Double-to-154-Billion.html",
-   "fecha": "2026-10-30T17:27:04.000Z",
-   "obtenido": "2026-10-30T18:39:37.068Z",
-   "fechaEstimada": false,
-   "extracto": "ExxonMobil reported $15.4 billion in third-quarter profit Friday, more than double its earnings a year earlier, with its Gulf Coast refineries running at full capacity and diesel prices doing the rest. The company earned $3.72 per share, or $4.23 on an adjusted basis, beating Wall Street's $4.08 estimate. Adjusted net…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OilPrice – Energía",
-   "tax": 5,
-   "paises": [
-    "us"
-   ],
-   "regiones": [
-    "na",
-    "me"
-   ],
-   "materias": [
-    "diesel"
-   ],
-   "categorias": [
-    "energia"
-   ],
-   "coincidencias": {
-    "diesel": "diesel"
-   },
-   "temas": [
-    "energia"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
-     },
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g2704eef6038e"
-  },
-  {
-   "id": "e6864206bb85",
-   "fuente": "oilprice",
-   "fuenteNombre": "OilPrice – Energía",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "U.S. Oil, Gas Drillers Still on Hold",
-   "link": "https://oilprice.com/Energy/Energy-General/US-Oil-Gas-Drillers-Still-on-Hold.html",
-   "fecha": "2026-10-30T17:09:57.000Z",
-   "obtenido": "2026-10-30T18:39:37.068Z",
-   "fechaEstimada": false,
-   "extracto": "The total number of active drilling rigs for oil and gas in the United States remained unchanged again this week, according to new data that Baker Hughes published on Friday, with the total rig count in the US staying at 603, up 57 from this same time last year. The number of active oil rigs rose by 2, to 462 during…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OilPrice – Energía",
-   "tax": 5,
-   "paises": [
-    "us"
-   ],
-   "regiones": [
-    "na"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "energia"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     },
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "ge6864206bb85"
-  },
-  {
-   "id": "45e4aabdbf40",
-   "fuente": "dw_es",
-   "fuenteNombre": "DW Español",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "El plan de Trump para la flota fantasma de Rusia inquieta a Europa",
-   "link": "https://www.dw.com/es/el-plan-de-trump-para-la-flota-fantasma-de-rusia-inquieta-a-europa/a-79810907?maca=spa-rss-sp-all-1122-xml-mrss",
-   "fecha": "2026-10-30T17:00:00.000Z",
-   "obtenido": "2026-10-30T18:39:35.943Z",
-   "fechaEstimada": false,
-   "extracto": "Estados Unidos estaría estudiando vías para convertir los petroleros clandestinos en embarcaciones legítimas, permitiéndoles transportar crudo que no esté sujeto a sanciones.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "DW Español",
-   "tax": 5,
-   "paises": [
-    "us",
-    "ru"
-   ],
-   "regiones": [
-    "na",
-    "eurasia",
-    "eu"
-   ],
-   "materias": [
-    "wti",
-    "brent"
-   ],
-   "categorias": [
-    "energia"
-   ],
-   "coincidencias": {
-    "wti": "crudo",
-    "brent": "crudo"
-   },
-   "temas": [
-    "sanciones"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     },
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g45e4aabdbf40"
-  },
-  {
-   "id": "8fcc7c4b4375",
-   "fuente": "oilprice",
-   "fuenteNombre": "OilPrice – Energía",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Oil Traders Brace for a Wild Week as Brent Approaches $120",
-   "link": "https://oilprice.com/Energy/Oil-Prices/Oil-Traders-Brace-for-a-Wild-Week-as-Brent-Approaches-120.html",
-   "fecha": "2026-10-30T16:51:00.000Z",
-   "obtenido": "2026-10-30T18:39:37.069Z",
-   "fechaEstimada": false,
-   "extracto": "Fears of renewed U.S.-Iran hostilities are intensifying, with rising Hormuz attacks, reported explosions at Iran's Jask port and military repositioning overshadowing diplomatic efforts. Friday, October 30, 2026 With only several days left until the US midterm elections, oil prices are set for a hefty 13-14%…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OilPrice – Energía",
-   "tax": 5,
-   "paises": [
-    "us",
-    "ir",
-    "pk"
-   ],
-   "regiones": [
-    "na",
-    "me",
-    "as"
-   ],
-   "materias": [
-    "wti",
-    "brent"
-   ],
-   "categorias": [
-    "energia"
-   ],
-   "coincidencias": {
-    "wti": "oil prices",
-    "brent": "brent"
-   },
-   "temas": [
-    "conflicto",
-    "transporte"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     },
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g8fcc7c4b4375"
-  },
-  {
-   "id": "fb4eeae5b207",
-   "fuente": "ecb",
-   "fuenteNombre": "Banco Central Europeo – Prensa y discursos",
-   "tipoFuente": "oficial",
-   "idioma": "en",
-   "titulo": "Philip R. Lane: AI adoption in Europe",
-   "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
-   "fecha": "2026-10-30T16:10:00.000Z",
-   "obtenido": "2026-10-30T18:39:37.936Z",
-   "fechaEstimada": false,
-   "extracto": "",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Banco Central Europeo – Prensa y discursos",
-   "tax": 5,
-   "paises": [
-    "eu"
-   ],
-   "regiones": [
-    "eu"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "politica_monetaria"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "tasas",
-      "nombre": "Tasas de interés",
-      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
-     },
-     {
-      "canal": "dolar",
-      "nombre": "Dólar",
-      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "gfb4eeae5b207"
-  },
-  {
-   "id": "8e622adb553a",
-   "fuente": "oilprice",
-   "fuenteNombre": "OilPrice – Energía",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "America’s LNG Boom Faces Its Biggest Test Yet",
-   "link": "https://oilprice.com/Energy/Energy-General/Americas-LNG-Boom-Faces-Its-Biggest-Test-Yet.html",
-   "fecha": "2026-10-30T16:00:00.000Z",
-   "obtenido": "2026-10-30T18:39:37.070Z",
-   "fechaEstimada": false,
-   "extracto": "A decade ago, the United States was only beginning to emerge from an energy outlook that had once assumed steadily rising dependence on imported natural gas. For years, the prevailing concern was that domestic production would struggle to keep pace with demand, leaving the country increasingly reliant on liquefied…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OilPrice – Energía",
-   "tax": 5,
-   "paises": [
-    "us"
-   ],
-   "regiones": [
-    "na"
-   ],
-   "materias": [
-    "gas_natural"
-   ],
-   "categorias": [
-    "energia"
-   ],
-   "coincidencias": {
-    "gas_natural": "lng"
-   },
-   "temas": [
-    "energia"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
-     },
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g8e622adb553a"
-  },
-  {
-   "id": "4a3e22e2106a",
-   "fuente": "f24_economia",
-   "fuenteNombre": "France 24 Español – Economía",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "Binance sufre el mayor robo de criptomonedas de la historia, que expertos atribuyen a Corea del Norte",
-   "link": "https://www.france24.com/es/econom%C3%ADa-y-tecnolog%C3%ADa/20261030-binance-sufre-el-mayor-robo-de-criptomonedas-de-la-historia-que-expertos-atribuyen-a-corea-del-norte",
-   "fecha": "2026-10-30T15:34:39.000Z",
-   "obtenido": "2026-10-30T18:39:35.662Z",
-   "fechaEstimada": false,
-   "extracto": "La mayor plataforma de intercambio de criptomonedas del mundo denuncia un ataque informático que compromete 6.300 millones de dólares en activos, de los cuales 3.000 millones ya fueron congelados. Firmas de seguridad digital y prevención de delitos financieros acusaron al grupo TraderTraitor, vinculado al Gobierno de…",
-   "imagen": "https://s.france24.com/media/display/ce79d554-d452-11f1-98a4-695cb59fade5/w:1024/p:16x9/Binance-2.jpg",
-   "imagenes": [
-    "https://s.france24.com/media/display/ce79d554-d452-11f1-98a4-695cb59fade5/w:1024/p:16x9/Binance-2.jpg"
-   ],
-   "imagenCredito": "France 24 Español – Economía",
-   "tax": 5,
-   "paises": [
-    "kp"
-   ],
-   "regiones": [
-    "as"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g4a3e22e2106a"
-  },
-  {
-   "id": "eea12b746914",
-   "fuente": "oilprice",
-   "fuenteNombre": "OilPrice – Energía",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Japan to Overtake China As World’s Top LNG Importer This Year",
-   "link": "https://oilprice.com/Latest-Energy-News/World-News/Japan-to-Overtake-China-As-Worlds-Top-LNG-Importer-This-Year.html",
-   "fecha": "2026-10-30T15:30:00.000Z",
-   "obtenido": "2026-10-30T18:39:37.070Z",
-   "fechaEstimada": false,
-   "extracto": "Japan is expected to overtake China as the world’s largest importer of liquefied natural gas (LNG) this year, for the first time since 2022, as high LNG prices and sufficient storage in China limit purchases, analysts at ICIS and Kpler say. Japan’s LNG demand will exceed, albeit slightly, demand in China, according to…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OilPrice – Energía",
-   "tax": 5,
-   "paises": [
-    "cn",
-    "jp"
-   ],
-   "regiones": [
-    "as"
-   ],
-   "materias": [
-    "gas_natural"
-   ],
-   "categorias": [
-    "energia"
-   ],
-   "coincidencias": {
-    "gas_natural": "lng"
-   },
-   "temas": [
-    "comercio",
-    "inventarios"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
-     },
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "geea12b746914"
-  },
-  {
-   "id": "6e5ac8f3b216",
-   "fuente": "aljazeera",
-   "fuenteNombre": "Al Jazeera English",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "‘Need a Plan B’: Yemenis in Aden prepare for another war as missiles fall",
-   "link": "https://www.aljazeera.com/news/2026/10/30/need-a-plan-b-yemenis-in-aden-prepare-for-another-war-as-missiles-fall?traffic_source=rss",
-   "fecha": "2026-10-30T15:26:00.000Z",
-   "obtenido": "2026-10-30T18:39:35.830Z",
-   "fechaEstimada": false,
-   "extracto": "As Houthi missiles strike Aden, residents stockpile food and prepare escape plans, fearing a return to all-out war.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Al Jazeera English",
-   "tax": 5,
-   "paises": [
-    "ye"
-   ],
-   "regiones": [
-    "me"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto",
-    "inventarios"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     },
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     },
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g6e5ac8f3b216"
-  },
-  {
-   "id": "f574e43fd3f1",
-   "fuente": "bbc_mundo",
-   "fuenteNombre": "BBC News Mundo",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "Elecciones en EE.UU.: cómo influye la dura política migratoria de Trump en el bastión latino republicano del sur de Florida",
-   "link": "https://www.bbc.com/mundo/articles/cm78pl5w7qq9o?at_medium=RSS&at_campaign=rss",
-   "fecha": "2026-10-30T15:02:54.000Z",
-   "obtenido": "2026-10-30T18:39:35.720Z",
-   "fechaEstimada": false,
-   "extracto": "De la mano de Donald Trump, los republicanos han ido ganando mayor representación en el sur de Florida durante los últimos 10 años. Sin embargo, la impopularidad de Trump en 2026 arroja dudas sobre la capacidad de los conservadores de mantener estos apoyos.",
-   "imagen": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/6ac1/live/4c0fcf90-d3d7-11f1-9c32-1532a6164171.jpg",
-   "imagenes": [
-    "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/6ac1/live/4c0fcf90-d3d7-11f1-9c32-1532a6164171.jpg"
-   ],
-   "imagenCredito": "BBC News Mundo",
-   "tax": 5,
-   "paises": [
-    "us"
-   ],
-   "regiones": [
-    "na"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "sanciones"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     },
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "gf574e43fd3f1"
-  },
-  {
-   "id": "444f0d4bd42a",
-   "fuente": "aljazeera",
-   "fuenteNombre": "Al Jazeera English",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Senators briefed on Trump’s ‘insane’ plan to restart war on Iran",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/30/senators-briefed-on-trumps-insane-plan-to-restart-war-on-iran-2?traffic_source=rss",
-   "fecha": "2026-10-30T14:40:19.000Z",
-   "obtenido": "2026-10-30T18:39:35.831Z",
-   "fechaEstimada": false,
-   "extracto": "Senator Chris Murphy says he’s been briefed on Trump’s plan to restart the war on Iran.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Al Jazeera English",
-   "tax": 5,
-   "paises": [
-    "us",
-    "ir"
-   ],
-   "regiones": [
-    "na",
-    "me"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g04777c81ba0f"
-  },
-  {
-   "id": "6f4f35052a57",
-   "fuente": "infocampo",
-   "fuenteNombre": "Infocampo – Agro y mercados",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "El mercado de carbono elude las grietas: logró media sanción en el Senado, con apoyo casi unánime",
-   "link": "https://www.infocampo.com.ar/el-mercado-de-carbono-elude-las-grietas-logro-media-sancion-en-el-senado-con-apoyo-casi-unanime/",
-   "fecha": "2026-10-30T14:34:05.000Z",
-   "obtenido": "2026-10-30T18:39:38.519Z",
-   "fechaEstimada": false,
-   "extracto": "El proyecto de ley que impulsa un marco regulatorio para el mercado de carbono en Argentina fue votado por abrumadora mayoría y ahora pasa a Diputados. “Es alentador ver que se pueden generar consensos políticos”, valoró el ministro Federico Sturzenegger.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Infocampo – Agro y mercados",
-   "tax": 5,
-   "paises": [
-    "ar"
-   ],
-   "regiones": [
-    "latam"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "sanciones"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     },
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g6f4f35052a57"
-  },
-  {
-   "id": "627e54d86a36",
-   "fuente": "oilprice",
-   "fuenteNombre": "OilPrice – Energía",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "European Gas Tops 101 Euros for First Time Since 2022",
-   "link": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Tops-101-Euros-for-First-Time-Since-2022.html",
-   "fecha": "2026-10-30T14:30:00.000Z",
-   "obtenido": "2026-10-30T18:39:37.071Z",
-   "fechaEstimada": false,
-   "extracto": "Europe’s benchmark natural gas prices have topped 101 euros per megawatt-hour (MWh) for the first time since the 2022 crisis as winter looms amid historically low European gas storage levels. The front-month price at the Dutch Title Transfer Facility (TTF), the benchmark for Europe’s gas trading, surged by 4% as of 9…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OilPrice – Energía",
-   "tax": 5,
-   "paises": [
-    "nl"
-   ],
-   "regiones": [
-    "eu",
-    "me"
-   ],
-   "materias": [
-    "gas_natural"
-   ],
-   "categorias": [
-    "energia"
-   ],
-   "coincidencias": {
-    "gas_natural": "natural gas"
-   },
-   "temas": [
-    "inventarios",
-    "transporte"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
-     },
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
-     },
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g627e54d86a36"
-  },
-  {
-   "id": "944e61ecc33c",
-   "fuente": "infocampo",
-   "fuenteNombre": "Infocampo – Agro y mercados",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "Precio del maíz en Rosario hoy 30 octubre 2026",
-   "link": "https://www.infocampo.com.ar/precio-del-maiz-hoy-30-octubre-2026/",
-   "fecha": "2026-10-30T14:06:20.000Z",
-   "obtenido": "2026-10-30T18:39:38.519Z",
-   "fechaEstimada": false,
-   "extracto": "Todo sobre la cotización de maíz, precio en tiempo real.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Infocampo – Agro y mercados",
-   "tax": 5,
-   "paises": [],
-   "regiones": [],
-   "materias": [
-    "maiz"
-   ],
-   "categorias": [
-    "granos"
-   ],
-   "coincidencias": {
-    "maiz": "maiz"
-   },
-   "temas": [],
-   "relevante": true,
-   "impacto": null,
-   "grupo": "g33333fe60d3e"
-  },
-  {
-   "id": "f56d4ee174af",
-   "fuente": "infocampo",
-   "fuenteNombre": "Infocampo – Agro y mercados",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "Precio del Trigo en Rosario hoy 30 octubre 2026",
-   "link": "https://www.infocampo.com.ar/precio-del-trigo-hoy-30-octubre-2026/",
-   "fecha": "2026-10-30T14:05:59.000Z",
-   "obtenido": "2026-10-30T18:39:38.519Z",
-   "fechaEstimada": false,
-   "extracto": "Todo sobre la cotización del trigo, precio en tiempo real.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Infocampo – Agro y mercados",
-   "tax": 5,
-   "paises": [],
-   "regiones": [],
-   "materias": [
-    "trigo"
-   ],
-   "categorias": [
-    "granos"
-   ],
-   "coincidencias": {
-    "trigo": "trigo"
-   },
-   "temas": [],
-   "relevante": true,
-   "impacto": null,
-   "grupo": "g33333fe60d3e"
-  },
-  {
-   "id": "49d49bd2b338",
-   "fuente": "infocampo",
-   "fuenteNombre": "Infocampo – Agro y mercados",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "Precio del Girasol en Rosario hoy 30 octubre 2026",
-   "link": "https://www.infocampo.com.ar/precio-del-girasol-hoy-30-octubre-2026/",
-   "fecha": "2026-10-30T14:05:45.000Z",
-   "obtenido": "2026-10-30T18:39:38.519Z",
-   "fechaEstimada": false,
-   "extracto": "Todo sobre la cotización del Girasol, precio en tiempo real.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Infocampo – Agro y mercados",
-   "tax": 5,
-   "paises": [],
-   "regiones": [],
-   "materias": [
-    "aceite_girasol"
-   ],
-   "categorias": [
-    "aceites"
-   ],
-   "coincidencias": {
-    "aceite_girasol": "girasol"
-   },
-   "temas": [],
-   "relevante": true,
-   "impacto": null,
-   "grupo": "g33333fe60d3e"
-  },
-  {
-   "id": "82c5c3d2f0c1",
-   "fuente": "infocampo",
-   "fuenteNombre": "Infocampo – Agro y mercados",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "Precio de la Soja en Rosario hoy 30 octubre 2026",
-   "link": "https://www.infocampo.com.ar/precio-de-la-soja-hoy-30-octubre-2026/",
-   "fecha": "2026-10-30T14:05:28.000Z",
-   "obtenido": "2026-10-30T18:39:38.520Z",
-   "fechaEstimada": false,
-   "extracto": "Todo sobre la cotización de soja, precio en tiempo real. Pizarra Rosario, cotización de cereales",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Infocampo – Agro y mercados",
-   "tax": 5,
-   "paises": [],
-   "regiones": [],
-   "materias": [
-    "soja"
-   ],
-   "categorias": [
-    "granos"
-   ],
-   "coincidencias": {
-    "soja": "soja"
-   },
-   "temas": [],
-   "relevante": true,
-   "impacto": null,
-   "grupo": "g33333fe60d3e"
-  },
-  {
-   "id": "33333fe60d3e",
-   "fuente": "infocampo",
-   "fuenteNombre": "Infocampo – Agro y mercados",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "Precio del Sorgo en Rosario hoy 30 octubre 2026",
-   "link": "https://www.infocampo.com.ar/precio-del-sorgo-hoy-30-octubre-2026/",
-   "fecha": "2026-10-30T14:05:09.000Z",
-   "obtenido": "2026-10-30T18:39:38.520Z",
-   "fechaEstimada": false,
-   "extracto": "Todo sobre la cotización del Sorgo, precio en tiempo real.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Infocampo – Agro y mercados",
-   "tax": 5,
-   "paises": [],
-   "regiones": [],
-   "materias": [
-    "sorgo"
-   ],
-   "categorias": [
-    "granos"
-   ],
-   "coincidencias": {
-    "sorgo": "sorgo"
-   },
-   "temas": [],
-   "relevante": true,
-   "impacto": null,
-   "grupo": "g33333fe60d3e"
-  },
-  {
-   "id": "6437bc7d740f",
-   "fuente": "aljazeera",
-   "fuenteNombre": "Al Jazeera English",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Bhutan hot springs hit by flood from glacial lake burst",
-   "link": "https://www.aljazeera.com/news/2026/10/30/bhutan-hot-springs-hit-by-flood-from-glacial-lake-burst?traffic_source=rss",
-   "fecha": "2026-10-30T14:01:03.000Z",
-   "obtenido": "2026-10-30T18:39:35.831Z",
-   "fechaEstimada": false,
-   "extracto": "No injuries reported after glacial lake burst, causing a flash flood and disrupting Bhutan's Gasa Tshachu hot springs.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Al Jazeera English",
-   "tax": 5,
-   "paises": [],
-   "regiones": [],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "clima"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     },
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g6437bc7d740f"
-  },
-  {
-   "id": "0df70efd4c24",
-   "fuente": "eia_tie",
-   "fuenteNombre": "EIA – Today in Energy",
-   "tipoFuente": "oficial",
-   "idioma": "en",
-   "titulo": "The share of solar generation with co-located battery storage is increasing",
-   "link": "https://www.eia.gov/todayinenergy/detail.php?id=68384",
-   "fecha": "2026-10-30T14:00:00.000Z",
-   "obtenido": "2026-10-30T13:03:50.778Z",
-   "fechaEstimada": false,
-   "extracto": "Utility-scale solar developers are increasingly co-locating battery storage with new solar photovoltaic capacity. As of September 2026, over 16% of new utility-scale solar capacity added this year is co-located with operable battery storage, compared with 2% in 2017, according to data reported to EIA by operators.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "EIA – Today in Energy",
-   "tax": 5,
-   "paises": [],
-   "regiones": [],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "energia",
-    "inventarios"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     },
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g0df70efd4c24"
-  },
-  {
-   "id": "f4932b53e174",
-   "fuente": "oilprice",
-   "fuenteNombre": "OilPrice – Energía",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Trump Considers Lifting Sanctions on Putin’s ‘Slush Fund’",
-   "link": "https://oilprice.com/Geopolitics/Europe/Trump-Considers-Lifting-Sanctions-on-Putins-Slush-Fund.html",
-   "fecha": "2026-10-30T14:00:00.000Z",
-   "obtenido": "2026-10-30T18:39:37.071Z",
-   "fechaEstimada": false,
-   "extracto": "Four days after Russia launched its all-out effort to subjugate Ukraine, the US government and other Western allies fired a broadside of financial sanctions aimed at punishing the Kremlin’s wallet for the assault. The Russian Central Bank was prominent. So was a multibillion-dollar sovereign wealth fund that the…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OilPrice – Energía",
-   "tax": 5,
-   "paises": [
-    "us",
-    "ua",
-    "ru"
-   ],
-   "regiones": [
-    "na",
-    "eu",
-    "eurasia"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "politica_monetaria",
-    "sanciones"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "tasas",
-      "nombre": "Tasas de interés",
-      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
-     },
-     {
-      "canal": "dolar",
-      "nombre": "Dólar",
-      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
-     },
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     },
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "gf4932b53e174"
-  },
-  {
-   "id": "a664ad024dba",
-   "fuente": "ecb",
-   "fuenteNombre": "Banco Central Europeo – Prensa y discursos",
-   "tipoFuente": "oficial",
-   "idioma": "en",
-   "titulo": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
-   "link": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html",
-   "fecha": "2026-10-30T14:00:00.000Z",
-   "obtenido": "2026-10-30T18:39:37.936Z",
-   "fechaEstimada": false,
-   "extracto": "",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Banco Central Europeo – Prensa y discursos",
-   "tax": 5,
-   "paises": [
-    "eu"
-   ],
-   "regiones": [
-    "eu"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "politica_monetaria"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "tasas",
-      "nombre": "Tasas de interés",
-      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
-     },
-     {
-      "canal": "dolar",
-      "nombre": "Dólar",
-      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "ga664ad024dba"
-  },
-  {
-   "id": "182b39eab668",
-   "fuente": "scmp_china",
-   "fuenteNombre": "South China Morning Post – China",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "China and US expand military drone flights near Japan and the South China Sea",
-   "link": "https://www.scmp.com/news/china/military/article/3372782/china-and-us-expand-military-drone-flights-near-japan-and-south-china-sea",
-   "fecha": "2026-10-30T13:54:47.000Z",
-   "obtenido": "2026-10-30T18:39:36.410Z",
-   "fechaEstimada": false,
-   "extracto": "China and America have escalated uncrewed aircraft deployments across sensitive Indo-Pacific waters, with mainland drones patrolling strategic passages near Japan while a US Marine detachment operates near disputed South China Sea islands. In recent days, Japan has detected an uptick in Chinese military aircraft…",
-   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/30/6265dad3-6259-4168-8a01-ed73e17358d0_781bc075.jpg?itok=6LpAv-9V&v=1793368476",
-   "imagenes": [
-    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/30/6265dad3-6259-4168-8a01-ed73e17358d0_781bc075.jpg?itok=6LpAv-9V&v=1793368476"
-   ],
-   "imagenCredito": "South China Morning Post – China",
-   "tax": 5,
-   "paises": [
-    "cn",
-    "jp",
-    "us"
-   ],
-   "regiones": [
-    "as",
-    "na"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g182b39eab668"
-  },
-  {
-   "id": "e56d5752b752",
-   "fuente": "infocampo",
-   "fuenteNombre": "Infocampo – Agro y mercados",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "Una “biofumigación” natural: investigan el potencial de la mostaza india para frenar malezas y hongos",
-   "link": "https://www.infocampo.com.ar/una-biofumigacion-natural-investigan-el-potencial-de-la-mostaza-india-para-frenar-malezas-y-hongos/",
-   "fecha": "2026-10-30T13:41:21.000Z",
-   "obtenido": "2026-10-30T18:39:38.520Z",
-   "fechaEstimada": false,
-   "extracto": "Investigadores de la Facultad de Ciencias Agrarias de Lomas de Zamora evalúan a la mostaza india, tanto en mezclas de cultivos de servicios como en estrategias de control biológico. La casa de altos estudios articula ensayos con el INTA y la UNLP.",
-   "imagen": "https://www.infocampo.com.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-29-at-10.25.17-AM.jpeg",
-   "imagenes": [
-    "https://www.infocampo.com.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-29-at-10.25.17-AM.jpeg",
-    "https://www.infocampo.com.ar/wp-content/uploads/2026/10/862552422_1473977668264705_4479458649903799819_n.jpg",
-    "https://www.infocampo.com.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-29-at-10.25.17-AM-1024x645.jpeg",
-    "https://www.infocampo.com.ar/wp-content/uploads/2026/10/862552422_1473977668264705_4479458649903799819_n-819x1024.jpg",
-    "https://www.infocampo.com.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-29-at-10.25.17-AM-768x484.jpeg"
-   ],
-   "imagenCredito": "Infocampo – Agro y mercados",
-   "tax": 5,
-   "paises": [
-    "in"
-   ],
-   "regiones": [
-    "as"
-   ],
-   "materias": [],
-   "categorias": [
-    "granos"
-   ],
-   "coincidencias": {},
-   "temas": [],
-   "relevante": true,
-   "impacto": null,
-   "grupo": "ge56d5752b752"
-  },
-  {
-   "id": "4bd24d551408",
-   "fuente": "f24_latam",
-   "fuenteNombre": "France 24 Español – América Latina",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "Flávio Bolsonaro se autoproclama \"líder\" de Brasil: ¿otro intento de golpe?",
-   "link": "https://www.france24.com/es/programas/el-debate/20261030-fl%C3%A1vio-bolsonaro-se-autoproclama-l%C3%ADder-de-brasil-otro-intento-de-golpe",
-   "fecha": "2026-10-30T13:33:54.000Z",
-   "obtenido": "2026-10-30T18:39:36.619Z",
-   "fechaEstimada": false,
-   "extracto": "La derrota electoral de Flávio Bolsonaro frente a Luiz Inácio Lula da Silva ha abierto un nuevo frente de tensión política en Brasil. Desde Estados Unidos, el senador ha denunciado un supuesto fraude electoral sin presentar pruebas y se ha autoproclamado «líder» del país, con la promesa de dirigir la oposición desde…",
-   "imagen": "https://s.france24.com/media/display/b9203174-c022-11f1-976d-1ff0321dbbd3/w:1024/p:16x9/2026-10-03T232301Z-477957309-RC2NVNACK7S9-RTRMADP-3-BRAZIL-ELECTION-BOLSONARO.jpg",
-   "imagenes": [
-    "https://s.france24.com/media/display/b9203174-c022-11f1-976d-1ff0321dbbd3/w:1024/p:16x9/2026-10-03T232301Z-477957309-RC2NVNACK7S9-RTRMADP-3-BRAZIL-ELECTION-BOLSONARO.jpg"
-   ],
-   "imagenCredito": "France 24 Español – América Latina",
-   "tax": 5,
-   "paises": [
-    "us",
-    "br",
-    "fr"
-   ],
-   "regiones": [
-    "na",
-    "latam",
-    "eu"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g4bd24d551408"
-  },
-  {
-   "id": "20708b7dcc16",
-   "fuente": "oilprice",
-   "fuenteNombre": "OilPrice – Energía",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Japan to Tap $7 Billion from Government Fund to Subsidize Gasoline Prices",
-   "link": "https://oilprice.com/Latest-Energy-News/World-News/Japan-to-Tap-7-Billion-from-Government-Fund-to-Subsidize-Gasoline-Prices.html",
-   "fecha": "2026-10-30T13:30:00.000Z",
-   "obtenido": "2026-10-30T18:39:37.072Z",
-   "fechaEstimada": false,
-   "extracto": "Japan’s government on Friday decided to tap $7 billion from its contingency reserves to keep subsidies for gasoline and other fuels, even as it plans to gradually scale back the support from December. The Japanese government decided today to allocate about $7 billion (1.1 trillion Japanese yen) from the reserve funds…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OilPrice – Energía",
-   "tax": 5,
-   "paises": [
-    "jp"
-   ],
-   "regiones": [
-    "as",
-    "me"
-   ],
-   "materias": [
-    "gasolina"
-   ],
-   "categorias": [
-    "energia"
-   ],
-   "coincidencias": {
-    "gasolina": "gasoline"
-   },
-   "temas": [
-    "politica_fiscal",
-    "conflicto"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
-     },
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g20708b7dcc16"
-  },
-  {
-   "id": "04777c81ba0f",
-   "fuente": "aljazeera",
-   "fuenteNombre": "Al Jazeera English",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Senators briefed on Trump’s ‘insane’ plan to restart war on Iran",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/30/senators-briefed-on-trumps-insane-plan-to-restart-war-on-iran?traffic_source=rss",
-   "fecha": "2026-10-30T13:01:43.000Z",
-   "obtenido": "2026-10-30T18:39:35.832Z",
-   "fechaEstimada": false,
-   "extracto": "Senator Chris Murphy warns Trump’s reported plan to restart war with Iran could have devastating consequences.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Al Jazeera English",
-   "tax": 5,
-   "paises": [
-    "us",
-    "ir"
-   ],
-   "regiones": [
-    "na",
-    "me"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g04777c81ba0f"
-  },
-  {
-   "id": "86974d18875b",
-   "fuente": "scmp_china",
-   "fuenteNombre": "South China Morning Post – China",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "China poised to restore military presence to top leadership at party congress",
-   "link": "https://www.scmp.com/news/china/military/article/3372773/china-poised-restore-military-presence-top-leadership-party-congress",
-   "fecha": "2026-10-30T12:58:56.000Z",
-   "obtenido": "2026-10-30T13:03:50.526Z",
-   "fechaEstimada": false,
-   "extracto": "Beijing is expected to gradually restore military representation in its top leadership, analysts say, as the Communist Party seeks to strike a delicate balance in its relations with the People’s Liberation Army (PLA) amid an anti-corruption drive that has hit the top ranks. They said the process was expected to be…",
-   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/30/47ca35d1-d728-43e4-944e-76ad2c874676_b8386e50.jpg?itok=z-gEYx8x&v=1793365127",
-   "imagenes": [
-    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/30/47ca35d1-d728-43e4-944e-76ad2c874676_b8386e50.jpg?itok=z-gEYx8x&v=1793365127"
-   ],
-   "imagenCredito": "South China Morning Post – China",
-   "tax": 5,
-   "paises": [
-    "cn"
-   ],
-   "regiones": [
-    "as"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g86974d18875b"
-  },
-  {
-   "id": "65a5ec551a3c",
-   "fuente": "oilprice",
-   "fuenteNombre": "OilPrice – Energía",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Brent Hits $117 as Tanker Catches Fire in Strait of Hormuz",
-   "link": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-117-as-Tanker-Catches-Fire-in-Strait-of-Hormuz.html",
-   "fecha": "2026-10-30T12:30:00.000Z",
-   "obtenido": "2026-10-30T13:03:50.824Z",
-   "fechaEstimada": false,
-   "extracto": "Tensions in the Middle East are escalating again as a tanker was reported on fire after explosive devices were attached to its hull while the vessel was attempting to transit outbound in the Strait of Hormuz. The UK Maritime Trade Operations (UKMTO), which is affiliated with the Royal Navy, said in a warning notice…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OilPrice – Energía",
-   "tax": 5,
-   "paises": [
-    "gb",
-    "ir"
-   ],
-   "regiones": [
-    "eu",
-    "me"
-   ],
-   "materias": [
-    "brent"
-   ],
-   "categorias": [
-    "energia"
-   ],
-   "coincidencias": {
-    "brent": "brent"
-   },
-   "temas": [
-    "transporte"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g65a5ec551a3c"
-  },
-  {
-   "id": "8d02b48bd0e8",
-   "fuente": "aljazeera",
-   "fuenteNombre": "Al Jazeera English",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Qatari officials in Iran in bid to revive ceasefire deal with US",
-   "link": "https://www.aljazeera.com/news/2026/10/30/qatari-officials-in-iran-in-bid-to-revive-ceasefire-deal-with-us?traffic_source=rss",
-   "fecha": "2026-10-30T12:26:56.000Z",
-   "obtenido": "2026-10-30T13:03:49.904Z",
-   "fechaEstimada": false,
-   "extracto": "The mediation mission comes amid speculation about a potential resumption of hostilities.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Al Jazeera English",
-   "tax": 5,
-   "paises": [
-    "ir",
-    "us"
-   ],
-   "regiones": [
-    "me",
-    "na"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g8d02b48bd0e8"
-  },
-  {
-   "id": "be08da38841c",
-   "fuente": "mining_technology",
-   "fuenteNombre": "Mining Technology – Minería",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Allied Gold begins wet commissioning at Kurmuk mine",
-   "link": "https://www.mining-technology.com/news/allied-gold-wet-commissioning-kurmuk-mine/",
-   "fecha": "2026-10-30T12:21:53.000Z",
-   "obtenido": "2026-10-30T13:03:50.715Z",
-   "fechaEstimada": false,
-   "extracto": "Allied Gold has begun wet commissioning at its Kurmuk Mine in Ethiopia and expects to introduce ore into the processing circuit this week. The post Allied Gold begins wet commissioning at Kurmuk mine appeared first on Mining Technology .",
-   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Plant.jpg",
-   "imagenes": [
-    "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Plant.jpg"
-   ],
-   "imagenCredito": "Mining Technology – Minería",
-   "tax": 5,
-   "paises": [
-    "et"
-   ],
-   "regiones": [
-    "af"
-   ],
-   "materias": [
-    "oro"
-   ],
-   "categorias": [
-    "preciosos",
-    "industriales"
-   ],
-   "coincidencias": {
-    "oro": "gold"
-   },
-   "temas": [
-    "mineria"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "gbe08da38841c"
-  },
-  {
-   "id": "2d4cc489da14",
-   "fuente": "infocampo",
-   "fuenteNombre": "Infocampo – Agro y mercados",
-   "tipoFuente": "periodistica",
-   "idioma": "es",
-   "titulo": "Una propuesta de Martín Redrado: bajar retenciones y formalizar el empleo rural pueden ir de la mano",
-   "link": "https://www.infocampo.com.ar/una-propuesta-de-martin-redrado-bajar-retenciones-y-formalizar-el-empleo-rural-pueden-ir-de-la-mano/",
-   "fecha": "2026-10-30T12:18:48.000Z",
-   "obtenido": "2026-10-30T13:03:51.611Z",
-   "fechaEstimada": false,
-   "extracto": "En un encuentro organizado por UATRE y VISEC, el ex presidente del Banco Central presentó un estudio que asegura que la formalización de los trabajadores rurales compensa el costo fiscal de eliminar las retenciones, que representa 0,7% del PIB.",
-   "imagen": "https://www.infocampo.com.ar/wp-content/uploads/2026/10/Captura-de-pantalla-2026-10-30-a-las-12.15.24-a.-m.png",
-   "imagenes": [
-    "https://www.infocampo.com.ar/wp-content/uploads/2026/10/Captura-de-pantalla-2026-10-30-a-las-12.15.24-a.-m.png",
-    "https://www.infocampo.com.ar/wp-content/uploads/2026/10/Retenciones-DEX-en-del-VAB-Agro-y-Tasa-de-Informalidad-.png",
-    "https://www.infocampo.com.ar/wp-content/uploads/2026/10/Martin-Redrado.jpeg",
-    "https://www.infocampo.com.ar/wp-content/uploads/2026/10/Captura-de-pantalla-2026-10-30-a-las-12.15.24-a.-m-1024x795.png",
-    "https://www.infocampo.com.ar/wp-content/uploads/2026/10/Retenciones-DEX-en-del-VAB-Agro-y-Tasa-de-Informalidad--1024x751.png"
-   ],
-   "imagenCredito": "Infocampo – Agro y mercados",
-   "tax": 5,
-   "paises": [],
-   "regiones": [],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "politica_monetaria",
-    "empleo",
-    "actividad",
-    "politica_fiscal"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "tasas",
-      "nombre": "Tasas de interés",
-      "explicacion": "Tasas más altas aumentan el costo de oportunidad de mantener oro y plata (no pagan interés) y pueden enfriar la actividad; tasas más bajas, lo contrario. Importa la diferencia con lo que el mercado ya esperaba."
-     },
-     {
-      "canal": "dolar",
-      "nombre": "Dólar",
-      "explicacion": "Estas materias primas cotizan en dólares: un dólar más fuerte tiende a encarecerlas para compradores de otros países y puede presionar a la baja su precio en USD, aunque esa relación no se cumple siempre."
-     },
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo o las compras de materias primas por parte de empresas y países."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g2d4cc489da14"
-  },
-  {
-   "id": "926703123347",
-   "fuente": "mining_technology",
-   "fuenteNombre": "Mining Technology – Minería",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Rio Tinto inaugurates $985m Argentine lithium operations",
-   "link": "https://www.mining-technology.com/news/rio-tinto-argentine-lithium-operations/",
-   "fecha": "2026-10-30T11:55:27.000Z",
-   "obtenido": "2026-10-30T13:03:50.715Z",
-   "fechaEstimada": false,
-   "extracto": "Rio Tinto has opened two lithium operations in the Argentine province of Catamarca after a joint investment of nearly A$1.4bn ($985m). The post Rio Tinto inaugurates $985m Argentine lithium operations appeared first on Mining Technology .",
-   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Rio-Tinto-shutterstock_2544530559.jpg",
-   "imagenes": [
-    "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Rio-Tinto-shutterstock_2544530559.jpg"
-   ],
-   "imagenCredito": "Mining Technology – Minería",
-   "tax": 5,
-   "paises": [
-    "ar"
-   ],
-   "regiones": [
-    "latam"
-   ],
-   "materias": [
-    "litio"
-   ],
-   "categorias": [
-    "industriales"
-   ],
-   "coincidencias": {
-    "litio": "lithium"
-   },
-   "temas": [
-    "mineria"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría afectar la producción minera o la cantidad de metal disponible para el mercado."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g926703123347"
-  },
-  {
-   "id": "86a7de7189c0",
-   "fuente": "scmp_china",
-   "fuenteNombre": "South China Morning Post – China",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Beijing drills water cannons and drones near disputed South China Sea shoals",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3372764/beijing-drills-water-cannons-and-drones-near-disputed-south-china-sea-shoals",
-   "fecha": "2026-10-30T11:39:56.000Z",
-   "obtenido": "2026-10-30T13:03:50.528Z",
-   "fechaEstimada": false,
-   "extracto": "China’s coastguard has carried out an exercise featuring water cannons and drones near two disputed reefs at the centre of its simmering South China Sea contention with the Philippines to prepare for “foreign infringement”, according to state media. A China Coast Guard flotilla “recently” conducted “comprehensive…",
-   "imagen": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/30/f68e77f0-06af-4685-935a-0984491b5812_bc6b0bfe.jpg?itok=GTh96bnc&v=1793359409",
-   "imagenes": [
-    "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/30/f68e77f0-06af-4685-935a-0984491b5812_bc6b0bfe.jpg?itok=GTh96bnc&v=1793359409"
-   ],
-   "imagenCredito": "South China Morning Post – China",
-   "tax": 5,
-   "paises": [
-    "cn"
-   ],
-   "regiones": [
-    "as"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto",
-    "transporte"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     },
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g86a7de7189c0"
-  },
-  {
-   "id": "ccd7268331fc",
-   "fuente": "oilprice",
-   "fuenteNombre": "OilPrice – Energía",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Oil Markets Caught Between Iran War Risks and Emergency SPR Releases",
-   "link": "https://oilprice.com/Energy/Energy-General/Oil-Markets-Caught-Between-Iran-War-Risks-and-Emergency-SPR-Releases.html",
-   "fecha": "2026-10-30T11:30:00.000Z",
-   "obtenido": "2026-10-30T13:03:50.826Z",
-   "fechaEstimada": false,
-   "extracto": "Crude oil gave back ground on Thursday as traders weighed emergency supply against tentative efforts to reopen talks with Iran. Neither side has taken control. The U.S. Strategic Petroleum Reserve is delivering barrels, but the reserve is near its lowest level since 1982. Peace efforts have resurfaced, but no…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OilPrice – Energía",
-   "tax": 5,
-   "paises": [
-    "us",
-    "sa",
-    "ir"
-   ],
-   "regiones": [
-    "na",
-    "me"
-   ],
-   "materias": [
-    "wti",
-    "brent"
-   ],
-   "categorias": [
-    "energia"
-   ],
-   "coincidencias": {
-    "wti": "oil markets",
-    "brent": "oil markets"
-   },
-   "temas": [
-    "conflicto",
-    "energia",
-    "inventarios",
-    "transporte"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     },
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la cantidad de crudo, gas o combustibles disponible (producción, exportaciones, refinación o instalaciones afectadas)."
-     },
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
-     },
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "gccd7268331fc"
-  },
-  {
-   "id": "f0d13abbfea3",
-   "fuente": "oilprice",
-   "fuenteNombre": "OilPrice – Energía",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Bolsonaro’s Election Defeat Could Complicate U.S. Rare Earth Plans",
-   "link": "https://oilprice.com/Energy/Energy-General/Bolsonaros-Election-Defeat-Could-Complicate-US-Rare-Earth-Plans.html",
-   "fecha": "2026-10-30T11:30:00.000Z",
-   "obtenido": "2026-10-30T13:03:50.827Z",
-   "fechaEstimada": false,
-   "extracto": "Politics, Geopolitics & Conflict Bolsonaro has been secretly flown to Miami on a private jet, three days after losing Brazil’s presidential runoff to Lula and a day after defying a Supreme Court order to surrender his passports in a money-laundering case. The State Department is issuing visas to him and his family.…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OilPrice – Energía",
-   "tax": 5,
-   "paises": [
-    "us",
-    "br"
-   ],
-   "regiones": [
-    "na",
-    "latam"
-   ],
-   "materias": [
-    "tierras_raras"
-   ],
-   "categorias": [
-    "industriales"
-   ],
-   "coincidencias": {
-    "tierras_raras": "rare earth"
-   },
-   "temas": [
-    "conflicto"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "gf0d13abbfea3"
-  },
-  {
-   "id": "84b448631773",
-   "fuente": "oilprice",
-   "fuenteNombre": "OilPrice – Energía",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "BP Quadruples Profit to Record as War Boosts Refining and Trading",
-   "link": "https://oilprice.com/Latest-Energy-News/World-News/BP-Quadruples-Profit-to-Record-as-War-Boosts-Refining-and-Trading.html",
-   "fecha": "2026-10-30T11:30:00.000Z",
-   "obtenido": "2026-10-30T13:03:50.829Z",
-   "fechaEstimada": false,
-   "extracto": "BP easily beat analyst expectations of third-quarter earnings, posting its highest quarterly profit, which nearly quadrupled from a year earlier amid strong refining margins and oil and gas trading. BP’s underlying replacement cost profit, the metric is uses for net profit, soared to $8.6 billion for the third…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OilPrice – Energía",
-   "tax": 5,
-   "paises": [],
-   "regiones": [],
-   "materias": [
-    "wti",
-    "brent"
-   ],
-   "categorias": [
-    "energia"
-   ],
-   "coincidencias": {
-    "wti": "refining margins",
-    "brent": "refining margins"
-   },
-   "temas": [
-    "conflicto"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g84b448631773"
-  },
-  {
-   "id": "f572c97052ee",
-   "fuente": "aljazeera",
-   "fuenteNombre": "Al Jazeera English",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "US weighs new Iran strikes as Vance reaches out: Is war or a deal closer?",
-   "link": "https://www.aljazeera.com/news/2026/10/30/us-weighs-new-iran-strikes-as-vance-reaches-out-is-war-or-a-deal-closer?traffic_source=rss",
-   "fecha": "2026-10-30T10:40:52.000Z",
-   "obtenido": "2026-10-30T13:03:49.907Z",
-   "fechaEstimada": false,
-   "extracto": "As Washington and Tehran send mixed signals, analysts say trust remains a key obstacle to any deal.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Al Jazeera English",
-   "tax": 5,
-   "paises": [
-    "us",
-    "ir"
-   ],
-   "regiones": [
-    "na",
-    "me"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "conflicto"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "riesgo",
-      "nombre": "Riesgo geopolítico",
-      "explicacion": "Aumenta la incertidumbre: suele elevar la demanda de activos refugio como el oro y puede sumar una prima de riesgo al petróleo si involucra zonas productoras o rutas clave."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "gf572c97052ee"
-  },
-  {
-   "id": "4eb422ba8895",
-   "fuente": "mining_technology",
-   "fuenteNombre": "Mining Technology – Minería",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "UNSW and partners unveil NextGenMIN mining research hub",
-   "link": "https://www.mining-technology.com/news/unsw-nextgenmin-mining-research-hub/",
-   "fecha": "2026-10-30T10:16:09.000Z",
-   "obtenido": "2026-10-30T13:03:50.715Z",
-   "fechaEstimada": false,
-   "extracto": "UNSW Sydney and its partners introduced a research hub for new mining methods at the International Mining and Resources Conference (IMARC) 2026 in Australia. The post UNSW and partners unveil NextGenMIN mining research hub appeared first on Mining Technology .",
-   "imagen": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Expo.jpg",
-   "imagenes": [
-    "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Expo.jpg"
-   ],
-   "imagenCredito": "Mining Technology – Minería",
-   "tax": 5,
-   "paises": [
-    "au"
-   ],
-   "regiones": [
-    "as"
-   ],
-   "materias": [],
-   "categorias": [
-    "industriales"
-   ],
-   "coincidencias": {},
-   "temas": [
-    "mineria"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g4eb422ba8895"
-  },
-  {
-   "id": "0b51bff5c548",
-   "fuente": "aljazeera",
-   "fuenteNombre": "Al Jazeera English",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "What can a global strike of dockworkers achieve for Gaza?",
-   "link": "https://www.aljazeera.com/features/2026/10/30/what-can-a-global-strike-of-dockworkers-achieve-for-gaza?traffic_source=rss",
-   "fecha": "2026-10-30T10:04:35.000Z",
-   "obtenido": "2026-10-30T13:03:49.908Z",
-   "fechaEstimada": false,
-   "extracto": "More than 25 dockworkers' trade unions in 110 ports of 22 countries are going on strike on October 30.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Al Jazeera English",
-   "tax": 5,
-   "paises": [
-    "ps"
-   ],
-   "regiones": [
-    "me",
-    "global"
-   ],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "transporte"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "La dirección y la magnitud del efecto son inciertas y dependen de lo que el mercado ya esperaba."
-   },
-   "grupo": "g0b51bff5c548"
-  },
-  {
-   "id": "84e63858361d",
-   "fuente": "oilprice",
-   "fuenteNombre": "OilPrice – Energía",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Wall Street Banks Raise Oil Price Forecasts as Supply Fears Deepen",
-   "link": "https://oilprice.com/Latest-Energy-News/World-News/Wall-Street-Banks-Raise-Oil-Price-Forecasts-as-Supply-Fears-Deepen.html",
-   "fecha": "2026-10-30T10:00:00.000Z",
-   "obtenido": "2026-10-30T13:03:50.830Z",
-   "fechaEstimada": false,
-   "extracto": "Brent Crude oil prices are set to end the year at about $105 per barrel, bank ANZ said on Friday as it hiked its projection by $10 a barrel on the assumption that Middle East oil exports, shipping availability, and fuel supplies will remain constrained through December. “The forecast does not require another…",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "OilPrice – Energía",
-   "tax": 5,
-   "paises": [
-    "us"
-   ],
-   "regiones": [
-    "na",
-    "me"
-   ],
-   "materias": [
-    "wti",
-    "brent"
-   ],
-   "categorias": [
-    "energia"
-   ],
-   "coincidencias": {
-    "wti": "oil price",
-    "brent": "oil price"
-   },
-   "temas": [
-    "comercio",
-    "transporte"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "demanda",
-      "nombre": "Demanda",
-      "explicacion": "Podría cambiar el consumo esperado de energía: más actividad económica suele implicar más demanda de petróleo y gas; menos actividad, lo contrario."
-     },
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g84e63858361d"
-  },
-  {
-   "id": "7f3200980063",
-   "fuente": "aljazeera",
-   "fuenteNombre": "Al Jazeera English",
-   "tipoFuente": "periodistica",
-   "idioma": "en",
-   "titulo": "Bhutan glacial lake outburst triggers flash floods",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/30/30-10-sv-bhutan-glacial-lake-outburst-flash-floods-301026?traffic_source=rss",
-   "fecha": "2026-10-30T09:54:50.000Z",
-   "obtenido": "2026-10-30T13:03:49.908Z",
-   "fechaEstimada": false,
-   "extracto": "A glacial lake outburst in northern Bhutan has triggered flash flooding.",
-   "imagen": null,
-   "imagenes": [],
-   "imagenCredito": "Al Jazeera English",
-   "tax": 5,
-   "paises": [],
-   "regiones": [],
-   "materias": [],
-   "categorias": [],
-   "coincidencias": {},
-   "temas": [
-    "clima"
-   ],
-   "relevante": true,
-   "impacto": {
-    "canales": [
-     {
-      "canal": "oferta",
-      "nombre": "Oferta",
-      "explicacion": "Podría alterar la producción o las exportaciones de bienes primarios."
-     },
-     {
-      "canal": "transporte",
-      "nombre": "Transporte",
-      "explicacion": "Podría encarecer o demorar fletes y seguros, o desviar rutas. Suele afectar el costo y el plazo de entrega más que la producción."
-     }
-    ],
-    "nota": "Hay más de un canal posible y pueden actuar en sentidos opuestos: el efecto neto sobre los precios es incierto."
-   },
-   "grupo": "g7f3200980063"
   }
  ]
 }
