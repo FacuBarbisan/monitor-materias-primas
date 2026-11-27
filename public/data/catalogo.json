@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-27T15:39:41.728Z",
- "ultimoCiclo": "2026-11-27T15:39:41.728Z",
+ "generado": "2026-11-27T23:46:11.250Z",
+ "ultimoCiclo": "2026-11-27T23:46:11.250Z",
  "cadaMin": 360,
  "categorias": {
   "energia": "Energía",
@@ -17,8 +17,8 @@
    "nombre": "FRED (Fed de St. Louis)",
    "url": "https://fred.stlouisfed.org/",
    "licencia": "Datos públicos; las series P…USDM provienen del FMI (Primary Commodity Prices).",
-   "ultimoIntento": "2026-11-27T15:39:06.027Z",
-   "ultimoExito": "2026-11-27T15:39:41.705Z",
+   "ultimoIntento": "2026-11-27T23:45:32.044Z",
+   "ultimoExito": "2026-11-27T23:46:11.186Z",
    "ultimoError": null,
    "seriesOk": 43,
    "seriesError": 0
@@ -27,17 +27,17 @@
    "nombre": "EIA (Administración de Información Energética de EE. UU.)",
    "url": "https://www.eia.gov/opendata/",
    "licencia": "Datos públicos del gobierno de EE. UU.",
-   "ultimoIntento": "2026-11-27T15:38:35.665Z",
-   "ultimoExito": "2026-11-26T14:31:43.433Z",
-   "ultimoError": "The operation was aborted due to timeout",
+   "ultimoIntento": "2026-11-27T23:45:30.596Z",
+   "ultimoExito": "2026-11-27T23:45:31.766Z",
+   "ultimoError": null,
    "usaClaveDemo": true
   },
   "wb": {
    "nombre": "Banco Mundial – Pink Sheet",
    "url": "https://www.worldbank.org/en/research/commodity-markets",
    "licencia": "CC BY 4.0. Fuente: World Bank Commodity Price Data (The Pink Sheet).",
-   "ultimoIntento": "2026-11-27T15:39:05.666Z",
-   "ultimoExito": "2026-11-27T15:39:06.027Z",
+   "ultimoIntento": "2026-11-27T23:45:31.766Z",
+   "ultimoExito": "2026-11-27T23:45:32.044Z",
    "ultimoError": null,
    "archivo": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx"
   }
@@ -78,9 +78,9 @@
      "n": 1246,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.705Z",
-      "ultimoExito": "2026-11-26T14:32:21.930Z",
-      "ultimoError": "The operation was aborted due to timeout",
+      "ultimoIntento": "2026-11-27T23:46:11.186Z",
+      "ultimoExito": "2026-11-27T23:46:11.188Z",
+      "ultimoError": null,
       "verificada": true
      }
     }
@@ -121,9 +121,9 @@
      "n": 1257,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.705Z",
-      "ultimoExito": "2026-11-26T14:32:21.931Z",
-      "ultimoError": "The operation was aborted due to timeout",
+      "ultimoIntento": "2026-11-27T23:46:11.188Z",
+      "ultimoExito": "2026-11-27T23:46:11.190Z",
+      "ultimoError": null,
       "verificada": true
      }
     }
@@ -164,8 +164,8 @@
      "n": 1247,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.705Z",
-      "ultimoExito": "2026-11-27T15:39:41.707Z",
+      "ultimoIntento": "2026-11-27T23:46:11.190Z",
+      "ultimoExito": "2026-11-27T23:46:11.191Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -190,8 +190,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.707Z",
-      "ultimoExito": "2026-11-27T15:39:41.707Z",
+      "ultimoIntento": "2026-11-27T23:46:11.191Z",
+      "ultimoExito": "2026-11-27T23:46:11.193Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -216,8 +216,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.707Z",
-      "ultimoExito": "2026-11-27T15:39:41.708Z",
+      "ultimoIntento": "2026-11-27T23:46:11.193Z",
+      "ultimoExito": "2026-11-27T23:46:11.194Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -253,8 +253,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.708Z",
-      "ultimoExito": "2026-11-27T15:39:41.709Z",
+      "ultimoIntento": "2026-11-27T23:46:11.194Z",
+      "ultimoExito": "2026-11-27T23:46:11.195Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -290,8 +290,8 @@
      "n": 1246,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.709Z",
-      "ultimoExito": "2026-11-27T15:39:41.709Z",
+      "ultimoIntento": "2026-11-27T23:46:11.195Z",
+      "ultimoExito": "2026-11-27T23:46:11.195Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -327,8 +327,8 @@
      "n": 1246,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.709Z",
-      "ultimoExito": "2026-11-27T15:39:41.710Z",
+      "ultimoIntento": "2026-11-27T23:46:11.195Z",
+      "ultimoExito": "2026-11-27T23:46:11.197Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -364,8 +364,8 @@
      "n": 1246,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.710Z",
-      "ultimoExito": "2026-11-27T15:39:41.710Z",
+      "ultimoIntento": "2026-11-27T23:46:11.197Z",
+      "ultimoExito": "2026-11-27T23:46:11.198Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -401,8 +401,8 @@
      "n": 1245,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.710Z",
-      "ultimoExito": "2026-11-27T15:39:41.711Z",
+      "ultimoIntento": "2026-11-27T23:46:11.198Z",
+      "ultimoExito": "2026-11-27T23:46:11.199Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -438,8 +438,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.711Z",
-      "ultimoExito": "2026-11-27T15:39:41.711Z",
+      "ultimoIntento": "2026-11-27T23:46:11.199Z",
+      "ultimoExito": "2026-11-27T23:46:11.200Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -480,8 +480,8 @@
      "n": 359,
      "unidadFuente": "($/troy oz)",
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.712Z",
-      "ultimoExito": "2026-11-27T15:39:41.712Z",
+      "ultimoIntento": "2026-11-27T23:46:11.200Z",
+      "ultimoExito": "2026-11-27T23:46:11.200Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -522,8 +522,8 @@
      "n": 359,
      "unidadFuente": "($/troy oz)",
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.712Z",
-      "ultimoExito": "2026-11-27T15:39:41.712Z",
+      "ultimoIntento": "2026-11-27T23:46:11.200Z",
+      "ultimoExito": "2026-11-27T23:46:11.201Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -564,8 +564,8 @@
      "n": 359,
      "unidadFuente": "($/troy oz)",
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.712Z",
-      "ultimoExito": "2026-11-27T15:39:41.713Z",
+      "ultimoIntento": "2026-11-27T23:46:11.201Z",
+      "ultimoExito": "2026-11-27T23:46:11.202Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -623,8 +623,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.713Z",
-      "ultimoExito": "2026-11-27T15:39:41.713Z",
+      "ultimoIntento": "2026-11-27T23:46:11.202Z",
+      "ultimoExito": "2026-11-27T23:46:11.203Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -660,8 +660,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.713Z",
-      "ultimoExito": "2026-11-27T15:39:41.714Z",
+      "ultimoIntento": "2026-11-27T23:46:11.203Z",
+      "ultimoExito": "2026-11-27T23:46:11.204Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -697,8 +697,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.714Z",
-      "ultimoExito": "2026-11-27T15:39:41.714Z",
+      "ultimoIntento": "2026-11-27T23:46:11.204Z",
+      "ultimoExito": "2026-11-27T23:46:11.204Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -734,8 +734,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.714Z",
-      "ultimoExito": "2026-11-27T15:39:41.715Z",
+      "ultimoIntento": "2026-11-27T23:46:11.204Z",
+      "ultimoExito": "2026-11-27T23:46:11.205Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -771,8 +771,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.715Z",
-      "ultimoExito": "2026-11-27T15:39:41.715Z",
+      "ultimoIntento": "2026-11-27T23:46:11.205Z",
+      "ultimoExito": "2026-11-27T23:46:11.206Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -808,8 +808,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.715Z",
-      "ultimoExito": "2026-11-27T15:39:41.715Z",
+      "ultimoIntento": "2026-11-27T23:46:11.206Z",
+      "ultimoExito": "2026-11-27T23:46:11.207Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -845,8 +845,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.715Z",
-      "ultimoExito": "2026-11-27T15:39:41.716Z",
+      "ultimoIntento": "2026-11-27T23:46:11.207Z",
+      "ultimoExito": "2026-11-27T23:46:11.208Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -918,8 +918,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.716Z",
-      "ultimoExito": "2026-11-27T15:39:41.716Z",
+      "ultimoIntento": "2026-11-27T23:46:11.208Z",
+      "ultimoExito": "2026-11-27T23:46:11.208Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -961,8 +961,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.716Z",
-      "ultimoExito": "2026-11-27T15:39:41.716Z",
+      "ultimoIntento": "2026-11-27T23:46:11.208Z",
+      "ultimoExito": "2026-11-27T23:46:11.209Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1004,8 +1004,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.716Z",
-      "ultimoExito": "2026-11-27T15:39:41.717Z",
+      "ultimoIntento": "2026-11-27T23:46:11.209Z",
+      "ultimoExito": "2026-11-27T23:46:11.210Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1041,8 +1041,8 @@
      "n": 197,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.717Z",
-      "ultimoExito": "2026-11-27T15:39:41.717Z",
+      "ultimoIntento": "2026-11-27T23:46:11.210Z",
+      "ultimoExito": "2026-11-27T23:46:11.210Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1078,8 +1078,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.717Z",
-      "ultimoExito": "2026-11-27T15:39:41.718Z",
+      "ultimoIntento": "2026-11-27T23:46:11.210Z",
+      "ultimoExito": "2026-11-27T23:46:11.211Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1114,8 +1114,8 @@
      "n": 285,
      "unidadFuente": "($/mt)",
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.718Z",
-      "ultimoExito": "2026-11-27T15:39:41.718Z",
+      "ultimoIntento": "2026-11-27T23:46:11.211Z",
+      "ultimoExito": "2026-11-27T23:46:11.212Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1151,8 +1151,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.718Z",
-      "ultimoExito": "2026-11-27T15:39:41.718Z",
+      "ultimoIntento": "2026-11-27T23:46:11.212Z",
+      "ultimoExito": "2026-11-27T23:46:11.213Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1188,8 +1188,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.718Z",
-      "ultimoExito": "2026-11-27T15:39:41.719Z",
+      "ultimoIntento": "2026-11-27T23:46:11.213Z",
+      "ultimoExito": "2026-11-27T23:46:11.213Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1225,8 +1225,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.719Z",
-      "ultimoExito": "2026-11-27T15:39:41.719Z",
+      "ultimoIntento": "2026-11-27T23:46:11.213Z",
+      "ultimoExito": "2026-11-27T23:46:11.214Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1262,8 +1262,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.719Z",
-      "ultimoExito": "2026-11-27T15:39:41.720Z",
+      "ultimoIntento": "2026-11-27T23:46:11.214Z",
+      "ultimoExito": "2026-11-27T23:46:11.215Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1299,8 +1299,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.720Z",
-      "ultimoExito": "2026-11-27T15:39:41.720Z",
+      "ultimoIntento": "2026-11-27T23:46:11.215Z",
+      "ultimoExito": "2026-11-27T23:46:11.216Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1336,8 +1336,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.720Z",
-      "ultimoExito": "2026-11-27T15:39:41.720Z",
+      "ultimoIntento": "2026-11-27T23:46:11.216Z",
+      "ultimoExito": "2026-11-27T23:46:11.216Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1373,8 +1373,8 @@
      "n": 197,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.720Z",
-      "ultimoExito": "2026-11-27T15:39:41.721Z",
+      "ultimoIntento": "2026-11-27T23:46:11.216Z",
+      "ultimoExito": "2026-11-27T23:46:11.217Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1410,8 +1410,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.721Z",
-      "ultimoExito": "2026-11-27T15:39:41.721Z",
+      "ultimoIntento": "2026-11-27T23:46:11.217Z",
+      "ultimoExito": "2026-11-27T23:46:11.218Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1447,8 +1447,8 @@
      "n": 285,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.721Z",
-      "ultimoExito": "2026-11-27T15:39:41.722Z",
+      "ultimoIntento": "2026-11-27T23:46:11.218Z",
+      "ultimoExito": "2026-11-27T23:46:11.218Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1484,8 +1484,8 @@
      "n": 197,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.722Z",
-      "ultimoExito": "2026-11-27T15:39:41.722Z",
+      "ultimoIntento": "2026-11-27T23:46:11.218Z",
+      "ultimoExito": "2026-11-27T23:46:11.219Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1521,8 +1521,8 @@
      "n": 197,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.722Z",
-      "ultimoExito": "2026-11-27T15:39:41.722Z",
+      "ultimoIntento": "2026-11-27T23:46:11.219Z",
+      "ultimoExito": "2026-11-27T23:46:11.220Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1558,8 +1558,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.722Z",
-      "ultimoExito": "2026-11-27T15:39:41.723Z",
+      "ultimoIntento": "2026-11-27T23:46:11.220Z",
+      "ultimoExito": "2026-11-27T23:46:11.221Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1595,8 +1595,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.723Z",
-      "ultimoExito": "2026-11-27T15:39:41.723Z",
+      "ultimoIntento": "2026-11-27T23:46:11.221Z",
+      "ultimoExito": "2026-11-27T23:46:11.221Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1621,8 +1621,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.723Z",
-      "ultimoExito": "2026-11-27T15:39:41.723Z",
+      "ultimoIntento": "2026-11-27T23:46:11.221Z",
+      "ultimoExito": "2026-11-27T23:46:11.222Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1658,8 +1658,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.723Z",
-      "ultimoExito": "2026-11-27T15:39:41.724Z",
+      "ultimoIntento": "2026-11-27T23:46:11.222Z",
+      "ultimoExito": "2026-11-27T23:46:11.223Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1701,8 +1701,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.724Z",
-      "ultimoExito": "2026-11-27T15:39:41.724Z",
+      "ultimoIntento": "2026-11-27T23:46:11.223Z",
+      "ultimoExito": "2026-11-27T23:46:11.224Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1738,8 +1738,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.724Z",
-      "ultimoExito": "2026-11-27T15:39:41.724Z",
+      "ultimoIntento": "2026-11-27T23:46:11.224Z",
+      "ultimoExito": "2026-11-27T23:46:11.225Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1775,8 +1775,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.724Z",
-      "ultimoExito": "2026-11-27T15:39:41.725Z",
+      "ultimoIntento": "2026-11-27T23:46:11.225Z",
+      "ultimoExito": "2026-11-27T23:46:11.225Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1812,8 +1812,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.725Z",
-      "ultimoExito": "2026-11-27T15:39:41.725Z",
+      "ultimoIntento": "2026-11-27T23:46:11.225Z",
+      "ultimoExito": "2026-11-27T23:46:11.226Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1849,8 +1849,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.725Z",
-      "ultimoExito": "2026-11-27T15:39:41.725Z",
+      "ultimoIntento": "2026-11-27T23:46:11.226Z",
+      "ultimoExito": "2026-11-27T23:46:11.227Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1886,8 +1886,8 @@
      "n": 197,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.725Z",
-      "ultimoExito": "2026-11-27T15:39:41.726Z",
+      "ultimoIntento": "2026-11-27T23:46:11.227Z",
+      "ultimoExito": "2026-11-27T23:46:11.231Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1923,8 +1923,8 @@
      "n": 358,
      "unidadFuente": null,
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.726Z",
-      "ultimoExito": "2026-11-27T15:39:41.726Z",
+      "ultimoIntento": "2026-11-27T23:46:11.231Z",
+      "ultimoExito": "2026-11-27T23:46:11.234Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1959,8 +1959,8 @@
      "n": 359,
      "unidadFuente": "($/mt)",
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.726Z",
-      "ultimoExito": "2026-11-27T15:39:41.726Z",
+      "ultimoIntento": "2026-11-27T23:46:11.234Z",
+      "ultimoExito": "2026-11-27T23:46:11.235Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -1995,8 +1995,8 @@
      "n": 359,
      "unidadFuente": "($/mt)",
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.726Z",
-      "ultimoExito": "2026-11-27T15:39:41.727Z",
+      "ultimoIntento": "2026-11-27T23:46:11.235Z",
+      "ultimoExito": "2026-11-27T23:46:11.236Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -2031,8 +2031,8 @@
      "n": 359,
      "unidadFuente": "($/mt)",
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.727Z",
-      "ultimoExito": "2026-11-27T15:39:41.727Z",
+      "ultimoIntento": "2026-11-27T23:46:11.236Z",
+      "ultimoExito": "2026-11-27T23:46:11.248Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -2067,8 +2067,8 @@
      "n": 359,
      "unidadFuente": "($/mt)",
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.727Z",
-      "ultimoExito": "2026-11-27T15:39:41.728Z",
+      "ultimoIntento": "2026-11-27T23:46:11.248Z",
+      "ultimoExito": "2026-11-27T23:46:11.249Z",
       "ultimoError": null,
       "verificada": true
      }
@@ -2103,8 +2103,8 @@
      "n": 359,
      "unidadFuente": "($/mt)",
      "estado": {
-      "ultimoIntento": "2026-11-27T15:39:41.728Z",
-      "ultimoExito": "2026-11-27T15:39:41.728Z",
+      "ultimoIntento": "2026-11-27T23:46:11.249Z",
+      "ultimoExito": "2026-11-27T23:46:11.250Z",
       "ultimoError": null,
       "verificada": true
      }
